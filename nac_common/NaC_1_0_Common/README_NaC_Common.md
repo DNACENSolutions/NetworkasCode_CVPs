@@ -209,22 +209,22 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/roles_and_users.yml'> roles_and_users.yml </a></b></td>
-								<td><code> - This file contains Role-Based Access Control (RBAC) configurations to manage user permissions and roles, which includes : SUPER-ADMIN-ROLE, NETWORK-ADMIN-ROLE, OBSERVER-ROLE and Customized-ROLE.  <br>
+								<td>
+								- This file contains Role-Based Access Control (RBAC) configurations to manage user permissions and roles, which includes : SUPER-ADMIN-ROLE, NETWORK-ADMIN-ROLE, OBSERVER-ROLE and Customized-ROLE.  <br>
 								 - This example creates 3 users: <br>
 									1. one user with NETWORK-ADMIN-ROLE;<br>
 									2. one user with OBSERVER-ROLE;<br> 
 									3. one user with ASSURANCE-ROLE (new customized role). <br> 
-								</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code></td>
+								</td>
+								<td>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/catalyst_center_and_ise_integration.yml'> catalyst_center_and_ise_integrat.yml </a></b></td>
-								<td><code>
+								<td>
 								-  This file contains configurations to integrates ISE with Catalyst Center and adds external AAA servers to Catalyst Center.<br> 
 								-  This example integrates ISE server with Catalyst Center. <br> 
-								</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>catalyst_center_and
-								_ise_integra_playbook</a></code></td>
+								</td>
+								<td>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>catalyst_center_and_ise_integra_playbook</a></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/device_credentials.yml'> device_credentials.yml </a></b></td>
