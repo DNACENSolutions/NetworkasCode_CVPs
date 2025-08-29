@@ -154,7 +154,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 			<tr>
 			    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/usecase_maps/common_day0_design_discovery_deploy.yml'>common_day0_design_discovery_deploy.yml</a></b></td>
                 <td> - This yaml usecase deploys a typical campus fabric. <br> 
-				This usecase consists of 19 operations in below sequence :<br><br>
+				- This usecase consists of 19 operations in below sequence :<br><br>
                 #    Step_01_Global RBAC Management <br>
                 #    Step_02_Global AAA Integration  <br>
                 #    Step_03_Global Device Credetials <br>
@@ -178,9 +178,9 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/usecase_maps/common_cleanup.yml'>common_cleanup.yml</a></b></td>
-                <td><code>
-                -  This yaml usecase completely cleanup all the configurations (global level and site level)  from CatC. <br>
-                This usecase consists of 14 operations in below sequence :<br><br>
+                <td>
+                - This yaml usecase completely cleanup all the configurations (global level and site level)  from CatC. <br>
+                - This usecase consists of 14 operations in below sequence :<br><br>
                 #    Step_01 Cleanup Site Fabric Edge Host on Boarding<br>
                 #    Step_02 Cleanup Site Fabric Devices<br>
                 #    Step_03 Cleanup Site Fabric L2L3 gateways<br>
@@ -195,7 +195,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                 #    Step_12 Cleanup Global Device Credetials<br>
                 #    Step_13 Cleanup Global AAA/ISE Integration <br>
                 #    Step_14 Cleanup Global RBAC Management<br>
-                </code></td>
+                </td>
 			</tr>
 			</table>
 		</blockquote>
