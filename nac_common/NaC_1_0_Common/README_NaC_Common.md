@@ -126,11 +126,11 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/setup.sh'>setup.sh</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/setup.sh'>setup.sh</a></b></td>
 				<td><code>-  Setup script to create your python environment and install Catalyst Center Python SDK (dnacentersdk) and Ansible collection (cisco.dnac)</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/requirements.txt'>requirements.txt</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/requirements.txt'>requirements.txt</a></b></td>
 				<td><code>-  This file contains the required python modules. This file is used by setup.sh script</code></td>
 			</tr>
 			</table>
@@ -141,7 +141,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
 				<td><code>-  This Python tool is to run the Ansible playbooks with Inputs files preprogrammed in the usecase_maps files. The Tools lets you choose option to Validate the input, Execute the playbook or do both. Further it gives option for user to run the Catalyst Center Configuration usecases individually, or in a sub-group of usecase , or all the usecase in the order specified in the input file selected from usecase_maps directory.</code></td>
 			</tr>
 			</table>
@@ -152,7 +152,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 		<blockquote>
 			<table>
 			<tr>
-			    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/usecase_maps/common_day0_design_discovery_deploy.yml'>common_day0_design_discovery_deploy.yml</a></b></td>
+			    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/usecase_maps/common_day0_design_discovery_deploy.yml'>common_day0_design_discovery_deploy.yml</a></b></td>
                 <td> <code> 
                 - This yaml usecase deploys a typical campus fabric. <br> 
                 This usecase consists of 19 operations in below sequence :<br><br>
@@ -178,7 +178,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                 </code> </td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/usecase_maps/common_cleanup.yml'>common_cleanup.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/usecase_maps/common_cleanup.yml'>common_cleanup.yml</a></b></td>
                 <td><code>
                 -  This yaml usecase completely cleanup all the configurations (global level and site level)  from CatC. <br>
                 This usecase consists of 14 operations in below sequence :<br><br>
@@ -209,7 +209,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 						<blockquote>
 							<table>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/global_common/roles_and_users.yml'> roles_and_users.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/roles_and_users.yml'> roles_and_users.yml </a></b></td>
 								<td> <code>
 								 - This file contains Role-Based Access Control (RBAC) configurations to manage user permissions and roles, which includes : SUPER-ADMIN-ROLE, NETWORK-ADMIN-ROLE, OBSERVER-ROLE and Customized-ROLE.  <br>
 								 -  This example creates 3 users: <br>
@@ -220,7 +220,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/global_common/catalyst_center_and_ise_integration.yml'> catalyst_center_and_ise_integrat.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/catalyst_center_and_ise_integration.yml'> catalyst_center_and_ise_integrat.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations to integrates ISE with Catalyst Center and adds external AAA servers to Catalyst Center.<br> 
 								-  This example integrates ISE server with Catalyst Center. <br> 
@@ -228,7 +228,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>catalyst_center_and_ise_integra_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/global_common/device_credentials.yml'> device_credentials.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/device_credentials.yml'> device_credentials.yml </a></b></td>
 								<td><code>
 								-  This file contains  to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance. <br>
 								-  This example configures cli-credential, snmp-v3 credential and https credential(s) for devices. <br> 
@@ -236,7 +236,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/global_common/devices_discovery.yml'> devices_discovery.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/devices_discovery.yml'> devices_discovery.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations required to discover network devices and add them to the inventory.<br> 
 								-  This example discovers devices via ip address range(s) <br> 
@@ -244,7 +244,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_discovery/README.md'>device_discovery_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/global_common/network_hierarchy_design.yml'> network_hierarchy_design.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_hierarchy_design.yml'> network_hierarchy_design.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations to create a network hierarchy that represents network's geographical locations.<br>
 								-  This example creates a network hierachy including areas, buildings and floors. <br> 
@@ -252,7 +252,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchyy/README.md'>site_hierarchy_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/global_common/network_settings_servers.yml'> network_settings_servers.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_settings_servers.yml'> network_settings_servers.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations of global level Network Settings .<br>
 								-  This example configures following servers in network settings:  dns_server, dhcp_server, ntp_server, network_AAA, client_and_endpoint_AAA, snmp_server, syslog_server, netflow_collector, wired_data_collection, and wireless_telemetry. <br>
@@ -260,7 +260,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                                 <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/global_common/network_settings_global_ip_pools.yml'> network_settings_global_ip_pools.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_settings_global_ip_pools.yml'> network_settings_global_ip_pools.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations of global level IP Pools.<br>
 								-  This example configures following global IP Pools: AP_POOL, Extended_Node_POOl, LAN_AUTOMATION_POOL, Multicast_POOL, L3_BORDER_HANDOFF_POOL, WIRED_CLIENT_POOL, and WIRELESS_CLIENT_POOL. <br>
@@ -275,7 +275,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 						<blockquote>
 							<table>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_device_credentials.yml'> site_device_credentials.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_device_credentials.yml'> site_device_credentials.yml </a></b></td>
 								<td><code>
 								-  This file contains configuration to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance. <br>
 								-  This example assigns credentials to the sites.
@@ -283,7 +283,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_servers.yml'> site_network_settings_servers.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_servers.yml'> site_network_settings_servers.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations of Network Settings and IP Pools (GLobal/Sites). <br>
 								-  This example configures site-level network settings. <br>
@@ -291,7 +291,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_ippools.yml'> site_network_settings_ippools.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_ippools.yml'> site_network_settings_ippools.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations of Network Settings and IP Pools (GLobal/Sites). <br>
 								-  This example configures site-level ip pools. <br>
@@ -299,7 +299,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_inventory.yml'> site_inventory.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_inventory.yml'> site_inventory.yml </a></b></td>
 								<td><code>
 								-  This file contains configuration related to various inventory management tasks within your network, such as adding devices, assigning devices to sites, provisioning, updating devices, resyncing  devices, changing device roles, and deleting devices from the inventory. <br>
 								-  This example assigns inventory role to all devices - ACCESS, CORE, DISTRIBUTION, BORDER ROUTER. 
@@ -307,7 +307,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/inventory/README.md'>inventory_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_devices_provision.yml'> site_devices_provision.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_devices_provision.yml'> site_devices_provision.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations related to device provisioning, such as assigning device to sites, provisioning, reprovisioning and deleting provisioned devices in Catalyst Center inventory. <br> 
 								-  This example assigns devices to sites and provision all the devices
@@ -315,7 +315,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>provision_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_sites_zones.yml'> site_sda_fabric_sites_zones.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_sites_zones.yml'> site_sda_fabric_sites_zones.yml </a></b></td>
 								<td><code>
 								-  This file contains configuration required to create fabric sites. <br>
 								-  This example creates one fabric sites and one fabric zone with closed-authetication profile <br> 
@@ -323,7 +323,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_transits.yml'> sda_fabric_transits.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_transits.yml'> sda_fabric_transits.yml </a></b></td>
 								<td><code>
 								-  This file contains configuration required to create fabric transits - IP transit or SDA transit. <br>
 								-  This example creates two IP transits for sda fabric site. br> 
@@ -331,7 +331,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>sda_fabric_transits</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_vns.yml'> site_sda_fabric_vns.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_vns.yml'> site_sda_fabric_vns.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations required to assign VNs (virtual networks) to Fabric sites.<br>
 								-  This example assigns multiple VNs to fabric sites and zones. 
@@ -339,7 +339,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                                 <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_gateways.yml'> site_sda_fabric_gateways.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_gateways.yml'> site_sda_fabric_gateways.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations required to assign L2 and L3 gateways to Fabric sites.<br>
 								-  This example assigns multiple L3 Gateways to fabric sites and zones.
@@ -347,7 +347,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                                 <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_devices.yml'> site_sda_fabric_devices.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_devices.yml'> site_sda_fabric_devices.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations related to fabric device roles, such as assigning and managing device roles (Control Plane Node, Edge Node, Border Node, Wireless Controller) within the SDA fabric.<br>
 								-  This file also contains configuration of border settings for Layer 2 and Layer 3 handoffs. <br> 
@@ -391,7 +391,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_hostonboarding.yml'> site_sda_fabric_hostonboarding.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_hostonboarding.yml'> site_sda_fabric_hostonboarding.yml </a></b></td>
 								<td><code>
 								-  This file contains configurations for host onboarding operations, such as add, update, and delete port assignments and port channels for network devices.<br> 
 								-  This example configures host onboarding on mulitple ports on a fabric edge. <br><br>
@@ -401,7 +401,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_compliance.yml'> site_network_compliance.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_compliance.yml'> site_network_compliance.yml </a></b></td>
 								<td><code>
 								-  This file contains configuration related to management of device compliance within your network. <br>
 								-  This example performs compliance check on multiple fabric devices.  
@@ -424,7 +424,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                 -  These YAML files are used to automate the cleanup and rollback of all Catalyst Center global and site-level configurations, ensuring a clean state for redeployment or decommissioning.
 				</code></tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_hostonboarding.yml'>cleanup_site_sda_fabric_hostonboarding.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_hostonboarding.yml'>cleanup_site_sda_fabric_hostonboarding.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove port and host assignments.<br>
                     -  Deletes all host onboarding configurations for the SDA fabric site.<br><br>
@@ -446,7 +446,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_devices.yml'>cleanup_site_sda_fabric_devices.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_devices.yml'>cleanup_site_sda_fabric_devices.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove fabric device configurations.<br>
                     -  This example deletes all SDA fabric device roles and assignments for the site.<br><br>
@@ -468,7 +468,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_gateways.yml'>cleanup_site_sda_fabric_gateways.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_gateways.yml'>cleanup_site_sda_fabric_gateways.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to clean up gateway assignments.<br>
                     -  This example removes all L2/L3 gateways from the SDA fabric site.<br><br>
@@ -492,7 +492,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_vns.yml'>cleanup_site_sda_fabric_vns.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_vns.yml'>cleanup_site_sda_fabric_vns.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove VN assignments and configurations.<br>
                     -  This example deletes all virtual networks (VNs) from the SDA fabric site.
@@ -500,7 +500,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_transits.yml'>cleanup_site_sda_transits.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_transits.yml'>cleanup_site_sda_transits.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to clean up transit configurations.<br>
                     -  This example removes all SDA fabric transits (IP or SDA) from the site.
@@ -508,7 +508,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>sda_fabric_transits_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_sites_zones.yml'>cleanup_site_sda_fabric_sites_zones.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_sites_zones.yml'>cleanup_site_sda_fabric_sites_zones.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to clean up fabric site and zone definitions.<br>
                     -  This example removes all SDA fabric sites and zones.
@@ -516,7 +516,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_devices_provision.yml'>cleanup_site_devices_provision.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_devices_provision.yml'>cleanup_site_devices_provision.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove all device provisioning data.<br>
                     -  This example deletes device provisioning configurations for the site.
@@ -524,7 +524,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>provision_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_network_settings_ippools.yml'>cleanup_site_network_settings_ippools.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_network_settings_ippools.yml'>cleanup_site_network_settings_ippools.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove IP address allocations at the site level.<br>
                     -  This example deletes all site-level IP pools.
@@ -532,7 +532,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_settings_global_ip_pools.yml'>cleanup_global_network_settings_global_ip_pools.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_settings_global_ip_pools.yml'>cleanup_global_network_settings_global_ip_pools.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove global IP address allocations.<br>
                     -  This example deletes all global IP pools configured in Catalyst Center.
@@ -540,7 +540,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_settings_servers.yml'>cleanup_global_network_settings_servers.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_settings_servers.yml'>cleanup_global_network_settings_servers.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to clean up global server settings.<br>
                     -  This example removes all global network servers (DNS, DHCP, NTP, etc.) from Catalyst Center.
@@ -548,7 +548,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_hierarchy_design.yml'>cleanup_global_network_hierarchy_design.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_hierarchy_design.yml'>cleanup_global_network_hierarchy_design.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove all site and location definitions.<br>
                     -  This example cleans up the global network site hierarchy.
@@ -556,7 +556,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchy/README.md'>site_hierarchy_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_device_credentials.yml'>cleanup_global_device_credentials.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_device_credentials.yml'>cleanup_global_device_credentials.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to remove all global device authentication data.<br>
                     -  This example deletes global device credentials from Catalyst Center.
@@ -564,7 +564,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_catalyst_center_and_ise_integration.yml'>cleanup_global_catalyst_center_and_ise_integration.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_catalyst_center_and_ise_integration.yml'>cleanup_global_catalyst_center_and_ise_integration.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to clean up global AAA/ISE integration settings.<br>
                     -  This example removes ISE integration and external AAA servers from Catalyst Center.
@@ -572,7 +572,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
                     <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>ise_radius_integration_playbook</a></code></td>
                 </tr>
                 <tr>
-                    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_roles_and_users.yml'>cleanup_global_roles_and_users.yml</a></b></td>
+                    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_roles_and_users.yml'>cleanup_global_roles_and_users.yml</a></b></td>
                     <td><code>
                     -  This file contains configurations to reset RBAC to default.<br>
                     -  This example deletes all custom roles and users from Catalyst Center.
