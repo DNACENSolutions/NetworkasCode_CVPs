@@ -1,0 +1,20 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+swim_details:
+  # List of images and sub packages to be imported to the Cisco Catalyst Center
+  import_images:
+    - import_image_details:
+        type: CCO
+        cco_image_details:
+          image_name:
+            - cat9k_iosxe.17.12.04.SPA.bin
+            - cat9k_iosxe.17.15.02.SPA.bin
+            - cat9k_iosxe.17.16.01.SPA.bin
+            - C9800-SW-iosxe-wlc.17.12.04.SPA.bin
+            - C9800-SW-iosxe-wlc.17.15.02.SPA.bin
+            - C9800-SW-iosxe-wlc.17.16.01.SPA.bin
+            - C9800-40-universalk9_wlc.17.09.06.SPA.bin
+            - C9800-40-universalk9_wlc.17.12.04.SPA.bin
+            - C9800-40-universalk9_wlc.17.16.01.SPA.bin
+

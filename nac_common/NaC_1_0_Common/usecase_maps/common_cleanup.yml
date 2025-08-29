@@ -1,0 +1,101 @@
+# Cleanup Usecase includes : 
+#  Site Configurations :   
+#    01 Cleanup Site Fabric Edge Host on Boarding
+#    02 Cleanup Site Fabric Devices
+#    03 Cleanup Site Fabric L2L3 gateways
+#    04 Cleanup Site Fabric Virtual Networks
+#    05 Cleanup Site Fabric Transits
+#    06 Cleanup Site Fabric Sites and Zones
+#    07 Cleanup Site Provisioned Devices
+#    08 Cleanup Site IP Pool reservation
+#  Global Configurations :
+#    09 Cleanup Global IP Address Pool allocation
+#    10 Cleanup Global Network Settings (ISE, DHCP, DNS, NTP etc) 
+#    11 Cleanup Global Network Site Hierachy 
+#    12 Cleanup Global Device Credetials
+#    13 Cleanup Global AAA/ISE Integration 
+#    14 Cleanup Global RBAC Management
+#
+# Cleanup Site Fabric Edge Host on Boarding
+01_Cleanup_Site_SdaFabricDevicesHostOnboarding:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/delete_sda_host_onboarding_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_hostonboarding.yml"
+
+# Cleanup Site Fabric Devices
+02_Cleanup_Site_SdaFabricDevicesRoles:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/delete_sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_devices.yml"
+
+# Cleanup Site Fabric L2L3 gateways
+03_Cleanup_Site_SdaFabricGateways:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/delete_sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_gateways.yml"
+
+# Cleanup Site Fabric Virtual Networks
+04_Cleanup_Site_SdaFabricVirtualNetworks:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/delete_sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_vns.yml"
+
+# Cleanup Site Fabric Transits (IP, SDA)
+05_Cleanup_Site_SdaFabricTransits:
+  schema_file: "sda_fabric_transits/schema/sda_fabric_transits_workflow_schema.yml"
+  playbook: "sda_fabric_transits/playbook/delete_sda_fabric_transits_workflow_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_sda_transits.yml"
+
+# Cleanup Site Fabric Site and Fabric Zones
+06_Cleanup_Site_SdaFabricSitesZones:
+  schema_file: "sda_fabric_sites_zones/schema/sda_fabric_sites_zones_schema.yml"
+  playbook: "sda_fabric_sites_zones/playbook/delete_sda_fabric_sites_zones_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_sites_zones.yml"
+
+# Cleanup Site Provisioned Devices 
+07_Cleanup_Site_DevicesProvision:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/delete_provision_workflow_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_devices_provision.yml"
+
+# Cleanup Site IP Pool reservation
+08_Cleanup_Site_NetworkSettingsIPPools:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/delete_network_settings_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_site_network_settings_ippools.yml"
+
+# Cleanup Global IP Address Pool allocation
+09_Cleanup_Global_NetworkSettingsGlobalIPPools:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/delete_network_settings_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_global_network_settings_global_ip_pools.yml"
+
+# Cleanup Global Network Settings servers (Network Settings (ISE, DHCP, DNS, NTP etc))
+10_Cleanup_Global_NetworkSettingsServers:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/delete_network_settings_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_global_network_settings_servers.yml"
+
+# Cleanup Global Site Hierarchy 
+11_Cleanup_Global_NetworkHierarchyDesign:
+  schema_file: "site_hierarchy/schema/sites_schema.yml"
+  playbook: "site_hierarchy/playbook/delete_site_hierarchy_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_global_network_hierarchy_design.yml"
+
+# Cleanup global device credentials  
+12_Cleanup_Global_Credentials:
+  schema_file: "device_credentials/schema/device_credentials_schema.yml"
+  playbook: "device_credentials/playbook/delete_device_credentials_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_global_device_credentials.yml"
+
+# Cleanup AAA and ISE Integration with Catalyst Center 
+13_Cleanup_Global_ISEIntegration:
+  schema_file: "ise_radius_integration/schema/ise_radius_integration_workflow_schema.yml"
+  playbook: "ise_radius_integration/playbook/delete_ise_radius_integration_workflow_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_global_catalyst_center_and_ise_integration.yml"
+
+# Cleanup Global RBAC Management (Roles and Users)
+14_Cleanup_Global_RolesAndUsers:
+  schema_file: "users_and_roles/schema/users_and_roles_workflow_schema.yml"
+  playbook: "users_and_roles/playbook/delete_users_and_roles_workflow_playbook.yml"
+  data_file: "catc_delete_configs/common_cleanup/cleanup_global_roles_and_users.yml"

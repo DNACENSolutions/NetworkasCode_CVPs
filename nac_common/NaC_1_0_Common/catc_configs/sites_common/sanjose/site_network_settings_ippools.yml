@@ -1,0 +1,199 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Network Settings an IP Pools design.
+network_settings_details: 
+  - reserve_pool_details:
+
+    # Overlay Wired reserved pools
+
+    - name: 101-1-1
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.1.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24 
+      ipv4_subnet: 101.1.1.0
+      ipv4_gateway: 101.1.1.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-1-2
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.1.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 101.1.2.0
+      ipv4_gateway: 101.1.2.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-1-3
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.1.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24 
+      ipv4_subnet: 101.1.3.0
+      ipv4_gateway: 101.1.3.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-1-4
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.1.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24 
+      ipv4_subnet: 101.1.4.0
+      ipv4_gateway: 101.1.4.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-1-5
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.1.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24 
+      ipv4_subnet: 101.1.5.0
+      ipv4_gateway: 101.1.5.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+
+    # Overlay Wireless reserved pools
+
+    - name: 101-11-1
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.11.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 101.11.1.0
+      ipv4_gateway: 101.11.1.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-11-2
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.11.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 101.11.2.0
+      ipv4_gateway: 101.11.2.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-11-3
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.11.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 101.11.3.0
+      ipv4_gateway: 101.11.3.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-11-4
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.11.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 101.11.4.0
+      ipv4_gateway: 101.11.4.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+    - name: 101-11-5
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.11.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 101.11.5.0
+      ipv4_gateway: 101.11.5.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+
+    # L3 hand-off reserved pools
+    - name: 101-101-1
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 101.101.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 101.101.1.0
+      ipv4_gateway: 101.101.1.254
+      slaac_support: False
+      pool_type: Generic
+
+    # INFRA AP reserved pools
+
+    - name: 100-1
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 100.1.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 16
+      ipv4_subnet: 100.1.0.0
+      ipv4_gateway: 100.1.255.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+
+    # INFRA Extended Node (EXT)  reserved pools
+
+    - name: 100-11
+      site_name: Global/USA/California/SAN JOSE
+      ipv6_address_space: False
+      ipv4_global_pool: 100.11.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 16
+      ipv4_subnet: 100.11.0.0
+      ipv4_gateway: 100.11.255.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 100.0.0.5
+      ipv4_dns_servers:
+        - 100.0.0.7
+

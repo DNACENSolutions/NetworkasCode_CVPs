@@ -1,0 +1,56 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+swim_details:
+  # List of images to be distributed to the devices
+  distribute_images:
+    - image_distribution_details:
+        #image_name: cat9k_iosxe.17.16.01.SPA.bin
+        image_name: cat9k_iosxe.17.12.04.SPA.bin
+        device_hostname: null
+        device_mac_address: null
+        device_ip_address: null
+        device_role: ALL
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+        site_name: Global/USA/SAN JOSE/BLD23
+    - image_distribution_details:
+        #image_name: C9800-SW-iosxe-wlc.17.16.01.SPA.bin
+        image_name: C9800-SW-iosxe-wlc.17.12.04.SPA.bin
+        device_hostname: Edge-1.dna-scale.com
+        device_mac_address: null
+        device_ip_address: 20.30.1.247
+        device_role: ALL
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+        site_name: Global/USA/SAN JOSE/BLD23
+    - image_distribution_details:
+          #image_name: C9800-SW-iosxe-wlc.17.16.01.SPA.bin
+          image_name: C9800-SW-iosxe-wlc.17.12.04.SPA.bin
+          device_hostname: Edge-2.dna-scale.com
+          device_mac_address: null
+          device_ip_address: 20.30.1.236
+          device_role: ALL
+          device_family_name: Switches and Hubs
+          device_serial_number: null
+          site_name: Global/USA/SAN JOSE/BLD23
+    - image_distribution_details:
+        #image_name: cat9k_iosxe.17.16.01.SPA.bin
+        image_name: cat9k_iosxe.17.12.04.SPA.bin
+        device_hostname: null
+        device_mac_address: null
+        device_ip_address: null
+        device_role: ALL
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+        site_name: Global/USA/SAN JOSE/BLD26
+    - image_distribution_details:
+        #image_name: C9800-40-universalk9_wlc.17.16.01.SPA.bin
+        image_name: C9800-40-universalk9_wlc.17.12.04.SPA.bin
+        device_hostname: null
+        device_mac_address: null
+        device_ip_address: null
+        device_role: ALL
+        device_family_name: Wireless Controller
+        device_serial_number: null
+        site_name: Global/USA/SAN JOSE/BLD23

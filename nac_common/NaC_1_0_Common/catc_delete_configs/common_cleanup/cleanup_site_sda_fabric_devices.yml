@@ -1,0 +1,16 @@
+---
+catalyst_center_version: 2.3.7.9
+fabric_devices_details:
+  # Delete Fabric Devices:
+  # First, delete fabric edges from fabric zone 
+  # Then,  delete fabric edges, borders and CPs from parent fabric site  
+  
+  - fabric_devices:
+      fabric_name: Global/USA/California/SAN JOSE/BLD23
+      device_config:
+        - device_ip: 100.0.2.4  # Edge in Fabric Zone
+  - fabric_devices:
+      fabric_name: Global/USA/California/SAN JOSE
+      device_config:
+        - device_ip: 100.0.2.2 # Border/CP in Fabric Site
+        - device_ip: 100.0.2.3 # Edge in Fabric Site

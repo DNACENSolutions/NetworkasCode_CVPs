@@ -1,0 +1,20 @@
+#Minimum supported version of the Cisco Catalyst Center
+catalyst_center_version: 2.3.7.9
+# Fabric Sites and Zones design.
+# /dna/intent/api/v1/sda/fabricZones : The maximum number of objects supported in a single request is 20.
+# /dna/intent/api/v1/sda/fabricSites : The maximum number of objects supported in a single request is 1.
+fabric_sites_and_zones:
+    - fabric_sites:
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/USA/California/SAN JOSE
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/USA/California/SAN FRANCISCO
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false
+#    - fabric_sites:
+        - fabric_type: fabric_zone
+          site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+          authentication_profile: Closed Authentication
+

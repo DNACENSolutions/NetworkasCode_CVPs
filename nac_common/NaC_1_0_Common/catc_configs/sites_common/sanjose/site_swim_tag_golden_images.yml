@@ -1,0 +1,63 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+swim_details:
+  # List of images to be tagged as golden images
+  golden_tag_images:
+    - tagging_details:
+        image_name: cat9k_iosxe.17.12.04.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/USA/SAN JOSE/BLD23
+        tagging: true
+        #tagging: false
+    - tagging_details:
+        image_name: cat9k_iosxe.17.12.04.SPA.bin
+        device_role: ALL
+        device_image_family_name:  Cisco Catalyst 9300L Switch Stack
+        site_name: Global/USA/SAN JOSE/BLD23
+        tagging: true
+        #tagging: false
+    - tagging_details:
+        image_name: cat9k_iosxe.17.12.04.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/USA/SAN JOSE/BLD26
+        tagging: true
+        #tagging: false
+    - tagging_details:
+        image_name: C9800-40-universalk9_wlc.17.12.04.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9800-40 Wireless Controller
+        site_name: Global/USA/SAN JOSE/BLD23
+        tagging: true
+        #tagging: false
+    - tagging_details:
+        image_name: cat9k_iosxe.17.16.01.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/USA/SAN JOSE/BLD23
+        tagging: false
+        #tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.16.01.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300L Switch Stack
+        site_name: Global/USA/SAN JOSE/BLD23
+        tagging: false
+        #tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.16.01.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/USA/SAN JOSE/BLD26
+        tagging: false
+        #tagging: true
+    - tagging_details:
+        image_name: C9800-40-universalk9_wlc.17.16.01.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9800-40 Wireless Controller
+        site_name: Global/USA/SAN JOSE/BLD23
+        tagging: false
+        #tagging: true
+

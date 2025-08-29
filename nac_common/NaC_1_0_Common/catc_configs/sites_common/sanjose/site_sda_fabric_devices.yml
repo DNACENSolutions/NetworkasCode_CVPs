@@ -1,0 +1,64 @@
+---
+catalyst_center_version: 2.3.7.9
+fabric_devices_details:
+  - fabric_devices:
+      # if you have multiple fabric devices in the same fabric site or fabric zone, putting all fabric devices as a list under the same fabric_name
+      # will generate one single fabric task for all devices in the same fabric site or fabric zone. This will speed up the fabric creation process.
+      # example:
+      # fabric_name:
+      # device_config:
+      #   - device_ip: <border_router_ip>
+      #     device_roles:
+      #   - device_ip: <control_plane_node_ip>
+      #     device_roles:
+      #   - device_ip: <edge_node_ip>
+      #     device_roles:
+      fabric_name: Global/USA/California/SAN JOSE
+      device_config:
+        - device_ip: 100.0.2.2 
+          device_roles: 
+            - CONTROL_PLANE_NODE
+            - BORDER_NODE
+          borders_settings:
+            layer3_settings:
+              local_autonomous_system_number: 65002
+              is_default_exit: true 
+              import_external_routes: true 
+            layer3_handoff_ip_transit:
+              - transit_network_name: IP-TRANSIT-SJ
+                interface_name: TenGigabitEthernet1/0/1
+                external_connectivity_ip_pool_name: 101-101-1
+                virtual_network_name: Customer_VN_1
+                vlan_id: 3001
+              - transit_network_name: IP-TRANSIT-SJ
+                interface_name: TenGigabitEthernet1/0/1
+                external_connectivity_ip_pool_name: 101-101-1
+                virtual_network_name: Customer_VN_2
+                vlan_id: 3002
+              - transit_network_name: IP-TRANSIT-SJ
+                interface_name: TenGigabitEthernet1/0/1
+                external_connectivity_ip_pool_name: 101-101-1
+                virtual_network_name: Customer_VN_3
+                vlan_id: 3003
+              - transit_network_name: IP-TRANSIT-SJ
+                interface_name: TenGigabitEthernet1/0/1
+                external_connectivity_ip_pool_name: 101-101-1
+                virtual_network_name: Customer_VN_4
+                vlan_id: 3004
+              - transit_network_name: IP-TRANSIT-SJ
+                interface_name: TenGigabitEthernet1/0/1
+                external_connectivity_ip_pool_name: 101-101-1
+                virtual_network_name: Customer_VN_5
+                vlan_id: 3005
+#            layer3_handoff_sda_transit:
+#              transit_network_name: HC-SDA-TRANSIT
+        - device_ip: 100.0.2.3
+          device_roles: 
+            - EDGE_NODE
+  - fabric_devices:
+      #fabric_name: Global/USA/California/SAN JOSE
+      fabric_name: Global/USA/California/SAN JOSE/BLD23
+      device_config:
+        - device_ip: 100.0.2.4
+          device_roles: 
+            - EDGE_NODE

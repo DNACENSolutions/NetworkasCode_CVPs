@@ -1,0 +1,30 @@
+#catalyst_center_version: 2.3.7.9
+discovery_details:
+  multi_range:
+    - ip_address_list:
+        - 100.0.2.2-100.0.2.4
+      discovery_type: MULTI RANGE
+      protocol_order: ssh,telnet
+      preferred_mgmt_ip_method: UseLoopBack
+      discovery_name: Discovery - simple 
+#      global_credentials:
+#        cli_credentials_list:
+#          - description: cli_switch
+#            username: "lab"
+#        snmp_v3_credential_list: #Assign SNMPv3 credentials to sites
+#          - description: snmpv3
+#            username: v3Public
+#        http_read_credential_list: #Assign HTTPS Read credentials to sites
+#          - username: lab
+#            description: https_read
+#        http_write_credential_list: #Assign HTTPS Write credentials to sites
+#          - username: lab
+#            description: https_write
+#        snmp_v2_read_credential_list:
+#          - description: snmpv2c_read
+#        snmp_v2_write_credential_list:
+#          - description: snmpv2c_write
+#      discovery_specific_credentials:
+#        net_conf_port: "830"
+      timeout: 30
+      retry: 2

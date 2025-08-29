@@ -1,0 +1,60 @@
+└── CatC_Network_as_Code.git/
+    ├── ansible.cfg
+    ├── ansible_inventory
+    │   └── catalystcenter_inventory
+    ├── catc_configs
+    │   └── global_common
+    |        └── YAML Input files for global level Catalyst Center Configurations, i.e. ISE Integrations, Global Credentials, Global IP Pools etc.
+    |        |── catalyst_center_and_ise_integration.yml
+    |        |── device_credentials.yml
+    |        |── devices_discovery.yml
+    |        |── network_hierarchy_design.yml
+    |        |── network_settings_global_ip_pools.yml
+    |        |── network_settings_servers.yml
+    |        └── roles_and_users.yml
+    │   └── sites_common
+    |        └── YAML Input files for site level configuration
+    |        |── site_device_credentials.yml
+    |        |── site_devices_provision.yml
+    |        |── site_inventory.yml
+    |        |── site_network_compliance.yml
+    |        |── site_network_settings_ippools.yml
+    |        |── site_network_settings_servers.yml
+    |        |── site_sda_fabric_devices.yml
+    |        |── site_sda_fabric_gateways.yml
+    |        |── site_sda_fabric_hostonboarding.yml
+    |        |── site_sda_fabric_sites_zones.yml
+    | 	     |── site_sda_fabric_vns.yml
+    | 	     └── site_sda_transits.yml
+    ├── catc_delete_configs
+    │   └── common_cleanup
+    |        └── YAML Input files for cleaning up  Catalyst Center global and site level configurations
+    |        |── cleanup_global_catalyst_center_and_ise_integration.yml
+    |        |── cleanup_global_device_credentials.yml
+    |        |── cleanup_global_network_hierarchy_design.yml
+    |        |── cleanup_global_network_settings_global_ip_pools.yml
+    |        |── cleanup_global_network_settings_servers.yml
+    |        |── cleanup_global_roles_and_users.yml
+    |        |── cleanup_site_device_credentials.yml
+    |        |── cleanup_site_devices_provision.yml
+    |        |── cleanup_site_inventory.yml
+    |        |── cleanup_site_network_compliance.yml
+    |        |── cleanup_site_network_settings_ippools.yml
+    |        |── cleanup_site_network_settings_servers.yml
+    |        |── cleanup_site_sda_fabric_devices.yml
+    |        |── cleanup_site_sda_fabric_gateways.yml
+    |        |── cleanup_site_sda_fabric_hostonboarding.yml
+    |        |── cleanup_site_sda_fabric_sites_zones.yml
+    | 	     |── cleanup_site_sda_fabric_vns.yml
+    | 	     └── cleanup_site_sda_transits.yml
+    ├── requirements.txt
+    ├── scripts
+    │   └── run_playbooks.py
+    ├── setup.sh
+    └── usecase_maps
+        ├── common_day0_design_discovery_deploy.yml
+        |     └── YAML usecase map for green-field day-0 bring up of a common sd-access fabric deployment managed by CatC.
+    	└── common_cleanup.yml
+              └── YAML usecase map to completely cleanup all the configurations from CatC. 
+
+

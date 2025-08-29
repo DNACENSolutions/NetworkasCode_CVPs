@@ -1,0 +1,12 @@
+#Minimum supported version of the Cisco Catalyst Center
+catalyst_center_version: 2.3.7.9
+# Fabric Sites and Zones design.
+fabric_sites_and_zones:
+    - fabric_sites:
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/USA/California/SAN JOSE
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/USA/California/SAN FRANCISCO
+        - fabric_type: fabric_zone
+          site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+

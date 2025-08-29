@@ -1,0 +1,23 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Network Settings an IP Pools design.
+network_settings_details: 
+- network_management_details:
+  - site_name: Global
+    settings:
+      dns_server: {}      # Define domain and DNS Address
+      dhcp_server: []     # Define DHCP Server address
+      ntp_server: []      # Define NTP Sever Address:
+      network_aaa: {}    # Define AAA Server Address for Network 	
+      client_and_endpoint_aaa: {}       # Define AAA Server Address for endpoints
+      message_of_the_day: {}
+      netflow_collector: {}
+      snmp_server: {}
+      syslog_server: {}
+      timezone: America/Los_Angeles
+      wired_data_collection:
+        enable_wired_data_collection: false
+      wireless_telemetry:
+        enable_wireless_telemetry: false
+

@@ -1,0 +1,155 @@
+---
+catalyst_center_version: "2.3.7.9"
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  # Adding Virtual Networks and Anycast Gateways on Fabric Site and Fabric Zone:
+  # First, add VN or Gateways on Fabric Site
+  # Then,  add VN or Gateways on the child Fabric Zone
+  - anycast_gateways:
+    # APPOOL_INFRA_VN
+    - vn_name: "INFRA_VN"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "100-1"
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      pool_type: "FABRIC_AP"
+    # EXTPOOL_INFRA_VN
+    - vn_name: "INFRA_VN"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "100-11"
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      pool_type: "EXTENDED_NODE"
+    # APPOOL_INFRA_VN Fabric Zone
+    - vn_name: "INFRA_VN"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+        fabric_type: "fabric_zone"
+      ip_pool_name: "100-1"
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      pool_type: "FABRIC_AP"
+    # EXTPOOL_INFRA_VN Fabric Zone
+    - vn_name: "INFRA_VN"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+        fabric_type: "fabric_zone"
+      ip_pool_name: "100-11"
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      pool_type: "EXTENDED_NODE"
+
+    #customer_VN_1 Pools Fabric Site
+    - vn_name: "Customer_VN_1"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "101-1-1"   # Wired clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "Customer_VN_1"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "101-11-1"   # Wireless clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+    #Customer_VN_1 Pools Zone
+    - vn_name: "Customer_VN_1"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+        fabric_type: "fabric_zone"
+      ip_pool_name: "101-1-1"   # Wired clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "Customer_VN_1"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+        fabric_type: "fabric_zone"
+      ip_pool_name: "101-11-1"   # Wireless clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+    #customer_VN_2 Pools Fabric Site
+    - vn_name: "Customer_VN_2"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "101-1-2"   # Wired clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "Customer_VN_2"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "101-11-2"   # Wireless clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+    #customer_VN_3 Pools Fabric Site
+    - vn_name: "Customer_VN_3"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "101-1-3"   # Wired clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "Customer_VN_3"
+      fabric_site_location:
+        site_name_hierarchy: Global/USA/California/SAN JOSE
+        fabric_type: "fabric_site"
+      ip_pool_name: "101-11-3"   # Wireless clients SJ
+      auto_generate_vlan_name: true
+      tcp_mss_adjustment: 1400
+      traffic_type: "DATA"
+      is_critical_pool: false
+      security_group_name: "Employees"
+      layer2_flooding_enabled: true
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true

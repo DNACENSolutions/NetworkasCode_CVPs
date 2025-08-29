@@ -1,0 +1,118 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+#catalyst_center_version: 2.3.7.9
+catalyst_center_verify: false
+design_sites:
+  - site:
+      area:
+        name: USA
+        parent_name: Global
+    type: area
+  - site:
+      area:
+        name: California
+        parent_name: Global/USA
+    type: area
+  - site:
+      area:
+        name: SAN FRANCISCO
+        parent_name: Global/USA/California
+    type: area
+  - site:
+      area:
+        name: SAN JOSE
+        parent_name: Global/USA/California
+    type: area
+  - site:
+      building:
+        name: BLD23
+        parent_name: Global/USA/California/SAN JOSE
+        address: 560 McCarthy Blvd, San Jose, California 95035, United States
+        latitude: 37.398188
+        longitude: -121.912974
+        country: United States
+    type: building
+  - site:
+      building:
+        name: BLD20
+        parent_name: Global/USA/California/SAN JOSE
+        address: 725 Alder Drive, Milpitas, California 95035, United States
+        latitude: 37.416179  
+        longitude: -121.916407
+        country: United States
+    type: building
+  - site:
+      building:
+        name: BLD_SF
+        parent_name: Global/USA/California/SAN FRANCISCO
+        address: 500 Terry A Francois Blvd, San Francisco, CA 94158
+        latitude: 37.784894 
+        longitude: -122.384473
+        country: United States
+    type: building
+  - site:
+      floor:
+        name: BLD23_F1
+        floor_number: 1
+        parent_name: Global/USA/California/SAN JOSE/BLD23
+        rfModel: Cubes And Walled Offices
+        width: 100.00
+        length: 100.00
+        height: 10.00
+        units_of_measure: feet
+    type: floor
+  - site:
+      floor:
+        name: BLD23_F2
+        floor_number: 2
+        parent_name: Global/USA/California/SAN JOSE/BLD23
+        rfModel: Cubes And Walled Offices
+        width: 100.00
+        length: 100.00
+        height: 10.00
+        units_of_measure: feet
+    type: floor
+  - site:
+      floor:
+        name: BLD20_F1
+        floor_number: 1
+        parent_name: Global/USA/California/SAN JOSE/BLD20
+        rfModel: Indoor High Ceiling
+        width: 100.00
+        length: 100.00
+        height: 10.00
+        units_of_measure: feet
+    type: floor
+  - site:
+      floor:
+        name: BLD20_F2
+        floor_number: 2
+        parent_name: Global/USA/California/SAN JOSE/BLD20
+        rfModel: Cubes And Walled Offices
+        width: 100.00
+        length: 100.00
+        height: 10.00
+        units_of_measure: feet
+    type: floor
+  - site:
+      floor:
+        name: BLD_SF_FLOOR1
+        floor_number: 1
+        parent_name: Global/USA/California/SAN FRANCISCO/BLD_SF
+        rfModel: Drywall Office Only
+        width: 5.00
+        length: 5.00
+        height: 3.00
+        units_of_measure: meters
+    type: floor
+  - site:
+      floor:
+        name: BLD_SF_FLOOR2
+        floor_number: 2
+        parent_name: Global/USA/California/SAN FRANCISCO/BLD_SF
+        rfModel: Drywall Office Only
+        width: 10.00
+        length: 12.00
+        height: 8.00
+        units_of_measure: feet
+    type: floor

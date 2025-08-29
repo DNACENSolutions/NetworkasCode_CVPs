@@ -1,0 +1,18 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# This file contains the variables for the inventory workflow
+inventory_details:
+  network_devices:
+    - ip_address_list: ["100.0.2.2"] 
+      role: BORDER ROUTER
+      device_resync: True
+#      site_name: "Global/USA/California/SAN JOSE/BLD20"
+    - ip_address_list: ["100.0.2.3"] 
+      role: ACCESS
+      device_resync: True
+#      site_name: "Global/USA/California/SAN JOSE/BLD20"
+    - ip_address_list: ["100.0.2.4"] 
+      role: ACCESS
+      device_resync: True
+#      site_name: "Global/USA/California/SAN JOSE/BLD23"

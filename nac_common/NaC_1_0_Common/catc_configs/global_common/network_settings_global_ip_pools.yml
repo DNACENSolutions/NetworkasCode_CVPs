@@ -1,0 +1,100 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Network Settings an IP Pools design.
+network_settings_details: 
+  - global_pool_details:
+      settings:
+        ip_pool:
+        - name:  AP-POOL-1
+          gateway: 100.1.255.254
+          ip_address_space: IPv4
+          cidr: 100.1.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+        - name:  AP-POOL-2
+          gateway: 100.2.255.254
+          ip_address_space: IPv4
+          cidr: 100.2.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+        - name:  EXT-POOL-1
+          gateway: 100.11.255.254
+          ip_address_space: IPv4
+          cidr: 100.11.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+        - name:  EXT-POOL-2
+          gateway: 100.12.255.254
+          ip_address_space: IPv4
+          cidr: 100.12.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+        - name:  LANAUTO-POOL-1
+          gateway: 100.21.255.254
+          ip_address_space: IPv4
+          cidr: 100.21.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+        - name:  LANAUTO-POOL-2
+          gateway: 100.22.255.254
+          ip_address_space: IPv4
+          cidr: 100.22.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+        - name:  WIRED-CLIENT-POOL-1
+          gateway: 101.1.255.254
+          ip_address_space: IPv4
+          cidr: 101.1.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+          dns_server_ips:
+            - 100.0.0.7
+        - name:  WIRED-CLIENT-POOL-2
+          gateway: 101.2.255.254
+          ip_address_space: IPv4
+          cidr: 101.2.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+          dns_server_ips:
+            - 100.0.0.7
+        - name:  WIRELESS-CLIENT-POOL-1
+          gateway: 101.11.255.254
+          ip_address_space: IPv4
+          cidr: 101.11.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+          dns_server_ips:
+            - 100.0.0.7
+        - name:  WIRELESS-CLIENT-POOL-2
+          gateway: 101.12.255.254
+          ip_address_space: IPv4
+          cidr: 101.12.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+          dns_server_ips:
+            - 100.0.0.7
+        - name:  L3HANDOFF-POOL
+          gateway: 101.101.255.254
+          ip_address_space: IPv4
+          cidr: 101.101.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5
+        - name:  MULTICAST-POOL
+          gateway: 101.102.255.254
+          ip_address_space: IPv4
+          cidr: 101.102.0.0/16
+          pool_type: Generic
+          dhcp_server_ips:
+            - 100.0.0.5

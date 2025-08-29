@@ -1,0 +1,142 @@
+
+# Usecase for Day 0 Design and Discover includes :  
+#   Global Configurations :  
+#    01_Global RBAC Management
+#    02_Global AAA Integration 
+#    03_Global Device Credetials
+#    04_Global Devices Discovery
+#    05_Global Network Site Hierachy 
+#    06_Global Network Settings (ISE, DHCP, DNS, NTP etc) 
+#    07_Global IP Address Pool allocation
+#  Site Configurations :  
+#    08_site Device Credetials
+#    09_site Network Settings 
+#    10_site IP Pool reservation
+#    11_site Device invenotry roles
+#    12_site Device provision to site
+#    13_site Fabric Sites and Zones
+#    14_site Fabric Transits
+#    15_site Fabric VNs
+#    16_site Fabric L2L3 gateways
+#    17_site Fabric Device Deploy - B, C, E
+#    18_site Fabric Edge Host on Boarding
+#    19_site Network Compliance
+#
+# Create users ROLES, Users and assign users to roles (RBAC) functionallity
+01_Global_RolesAndUsers:
+  schema_file: "users_and_roles/schema/users_and_roles_workflow_schema.yml"
+  playbook: "users_and_roles/playbook/users_and_roles_workflow_playbook.yml"
+  data_file: "catc_configs/global_common/roles_and_users.yml"
+
+# Integrate Catalyst Center with ISE for Radius Authentication, and Add AAA Servers.
+02_Global_ISEIntegration:
+  schema_file: "ise_radius_integration/schema/ise_radius_integration_workflow_schema.yml"
+  playbook: "ise_radius_integration/playbook/ise_radius_integration_workflow_playbook.yml"
+  data_file: "catc_configs/global_common/catalyst_center_and_ise_integration.yml"
+
+# Create global device credentials can be used across sites
+03_Global_Credentials:
+  schema_file: "device_credentials/schema/device_credentials_schema.yml"
+  playbook: "device_credentials/playbook/device_credentials_playbook.yml"
+  data_file: "catc_configs/global_common/device_credentials.yml"
+
+# Devices discovery for the site
+04_Global_DevicesDiscovery:
+  schema_file: "device_discovery/schema/device_discovery_schema.yml"
+  playbook: "device_discovery/playbook/device_discovery_playbook.yml"
+  data_file: "catc_configs/global_common/devices_discovery.yml"
+
+# Global network Design area, building and floors
+05_Global_NetworkHierarchyDesign:
+  schema_file: "site_hierarchy/schema/sites_schema.yml"
+  playbook: "site_hierarchy/playbook/site_hierarchy_playbook.yml"
+  data_file: "catc_configs/global_common/network_hierarchy_design.yml"
+
+# Add Global Network Settings servers
+06_Global_NetworkSettingsServers:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/global_common/network_settings_servers.yml"
+
+# Add Global Network Settings Global IP Pools
+07_Global_NetworkSettingsGlobalIPPools:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/global_common/network_settings_global_ip_pools.yml"
+
+
+# Site level DeviceCredentials 
+08_Site_DeviceCredentials:
+  schema_file: "device_credentials/schema/device_credentials_schema.yml"
+  playbook: "device_credentials/playbook/device_credentials_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_device_credentials.yml"
+
+#  Design and customize network settings for the site.
+09_Site_NetworkSettingsServers:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_network_settings_servers.yml"
+
+# Design and reserve the IP Pools for the site
+10_Site_NetworkSettingsIPPools:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_network_settings_ippools.yml"
+
+########################
+# provision and deploy 
+########################
+
+# Inventory Assign devices roles (Access, Core, Distribution, Border Router)
+11_Site_DevicesInventory:
+  schema_file: "inventory/schema/inventory_schema.yml"
+  playbook: "inventory/playbook/inventory_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_inventory.yml"
+
+# Provision the devices on sites
+12_Site_DevicesProvision:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_devices_provision.yml"
+
+# Create SDA Fabric Site and Fabric Zones
+13_Site_SdaFabricSitesZones:
+  schema_file: "sda_fabric_sites_zones/schema/sda_fabric_sites_zones_schema.yml"
+  playbook: "sda_fabric_sites_zones/playbook/sda_fabric_sites_zones_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_sda_fabric_sites_zones.yml"
+
+# Create Fabric Transits (IP, SDA)
+14_Site_SdaFabricTransits:
+  schema_file: "sda_fabric_transits/schema/sda_fabric_transits_workflow_schema.yml"
+  playbook: "sda_fabric_transits/playbook/sda_fabric_transits_workflow_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_sda_transits.yml"
+
+# Create Virtual Networks and assign to Fabric sites 
+15_Site_SdaFabricVirtualNetworks:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_sda_fabric_vns.yml"
+
+# Create L2 L3 gateways and assign to Virtual Networks on the site
+16_Site_SdaFabricGateways:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_sda_fabric_gateways.yml"
+
+# Add Devices to Fabric site with Transits 
+17_Site_SdaFabricDevicesRoles:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_sda_fabric_devices.yml"
+
+# Enable host port onboarding in Fabric Edge Devices
+18_Site_SdaFabricDevicesHostOnboarding:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/sda_host_onboarding_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_sda_fabric_hostonboarding.yml"
+
+# Execute the Network compliance on Site and fix configuration mismatches.
+19_Site_NetworkCompliance:
+  schema_file: "network_compliance/schema/network_compliance_workflow_schema.yml"
+  playbook: "network_compliance/playbook/network_compliance_workflow_playbook.yml"
+  data_file: "catc_configs/sites_common/sanjose/site_network_compliance.yml"

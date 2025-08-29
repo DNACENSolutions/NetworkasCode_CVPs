@@ -1,0 +1,49 @@
+---
+catalyst_center_version: "2.3.7.9"
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  - virtual_networks:
+    # The maximum number of objects supported in a single request is 20.
+    # Virtual Networks cannot be assigned to more than 200 unique fabric sites or zones in a single request.
+    # The maximum number of anchor creation supported in a single request is 10.
+    - vn_name: "INFRA_VN"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/USA/California/SAN JOSE
+          fabric_type: "fabric_site"
+        - site_name_hierarchy: "Global/USA/California/SAN FRANCISCO"
+          fabric_type: "fabric_site"
+        - site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+          fabric_type: "fabric_zone"
+    # Add Virtual Network DEFAULT_VN for sites
+    - vn_name: "DEFAULT_VN"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/USA/California/SAN JOSE
+          fabric_type: "fabric_site"
+        - site_name_hierarchy: "Global/USA/California/SAN FRANCISCO"
+          fabric_type: "fabric_site"
+        - site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+          fabric_type: "fabric_zone"
+
+    # Add Customerized Virtual Network for sites
+    - vn_name: "Customer_VN_1"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/USA/California/SAN JOSE
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+          fabric_type: "fabric_zone" 
+    - vn_name: "Customer_VN_2"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/USA/California/SAN JOSE
+          fabric_type: "fabric_site" 
+    - vn_name: "Customer_VN_3"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/USA/California/SAN JOSE
+          fabric_type: "fabric_site" 
+    - vn_name: "Customer_VN_4"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/USA/California/SAN JOSE
+          fabric_type: "fabric_site" 
+    - vn_name: "Customer_VN_5"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/USA/California/SAN JOSE
+          fabric_type: "fabric_site" 

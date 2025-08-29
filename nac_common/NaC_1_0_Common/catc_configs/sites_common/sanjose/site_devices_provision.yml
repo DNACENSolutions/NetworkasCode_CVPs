@@ -1,0 +1,20 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Provision the devices on the sites:
+# POST /dna/intent/api/v1/sda/provisionDevices: The maximum number of objects supported in a single request is 100.
+provision_details:
+# Define the devices for assigning devices on sites and provisioning
+  #Switches and Hubs provisioning
+  - site_name_hierarchy: Global/USA/California/SAN JOSE/BLD20
+    management_ip_address: 100.0.2.2
+    provisioning: true
+    #force_provisioning: true
+  - site_name_hierarchy: Global/USA/California/SAN JOSE/BLD20
+    management_ip_address: 100.0.2.3
+    provisioning: true
+    #force_provisioning: true
+  - site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23
+    management_ip_address: 100.0.2.4
+    provisioning: true
+    #force_provisioning: true

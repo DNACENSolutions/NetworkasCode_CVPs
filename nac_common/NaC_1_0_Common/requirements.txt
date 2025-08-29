@@ -1,0 +1,9 @@
+ansible
+ansible-runner
+ciscoisesdk
+dnacentersdk
+requests
+jinja2
+yamale
+pytest
+pytest-check

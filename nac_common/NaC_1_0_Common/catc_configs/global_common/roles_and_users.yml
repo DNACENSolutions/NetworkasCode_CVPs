@@ -1,0 +1,36 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+roles_users_details:
+  # Define roles and users to be created or updated, and their permissions
+  # Assign users with customed roles
+  role_details:
+    - role_name: ASSURANCE-ROLE
+      description: With write access overall
+      assurance:
+        - overall: write
+          monitoring_and_troubleshooting: read
+  user_details:
+    - username: observer1
+      first_name: Observer1
+      #Password Restrictions: Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character, no white spaces, no more than 2 identical characters in a row, no more than 3 consecutive characters,
+      password: "Lablab#!13579"
+      password_update: false
+      role_list: 
+        - OBSERVER-ROLE
+    - username: nwadmin1
+      first_name: NetworkAadmin1
+      email: nwadmin1@example.com
+      #Password Restrictions: Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character, no white spaces, no more than 2 identical characters in a row, no more than 3 consecutive characters,
+      password: "Lablab#@13579"
+      password_update: false
+      role_list: 
+        - NETWORK-ADMIN-ROLE
+    - username: assurance1
+      first_name: Assurance1
+      email: assurance1@example.com
+      #Password Restrictions: Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character, no white spaces, no more than 2 identical characters in a row, no more than 3 consecutive characters,
+      password: "Lablab#%13579"
+      password_update: false
+      role_list: 
+        - ASSURANCE-ROLE

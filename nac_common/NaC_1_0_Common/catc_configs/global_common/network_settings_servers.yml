@@ -1,0 +1,50 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Network Settings an IP Pools design.
+network_settings_details: 
+- network_management_details:
+  - site_name: Global
+    settings:
+      dns_server:       # Define domain and DNS Address
+        domain_name: fabric.com
+        primary_ip_address: "100.0.0.7"
+      dhcp_server:      # Define DHCP Server address
+          - "100.0.0.5"
+      ntp_server:       # Define NTP Sever Address:
+        - "100.0.0.9"
+      network_aaa:	# Define AAA Server Address for Network 	
+        server_type: ISE
+        shared_secret: cisco
+        pan_address: "10.195.194.102"
+        primary_server_address: "100.0.0.3"
+        protocol: TACACS
+      client_and_endpoint_aaa:       # Define AAA Server Address for endpoints
+        server_type: ISE
+        shared_secret: cisco
+        pan_address: "10.195.194.102"
+        primary_server_address: "100.0.0.3"
+        protocol: RADIUS
+      message_of_the_day:
+        banner_message: This Device belongs to En Solutions
+        retain_existing_banner: false
+        #retain_existing_banner: true
+      netflow_collector:
+        enable_on_wired_access_devices: true
+        collector_type: Telemetry_broker_or_UDP_director  # [Builtin, Telemetry_broker_or_UDP_director]
+        ip_address: 100.5.5.5
+        port: 443
+      snmp_server:
+        configure_dnac_ip: false
+        ip_addresses: 
+          - 100.5.5.5
+      syslog_server:
+        configure_dnac_ip: false
+        ip_addresses: 
+          - 100.5.5.5
+      timezone: America/Los_Angeles
+      wired_data_collection:
+        enable_wired_data_collection: true
+      wireless_telemetry:
+        enable_wireless_telemetry: true
+
