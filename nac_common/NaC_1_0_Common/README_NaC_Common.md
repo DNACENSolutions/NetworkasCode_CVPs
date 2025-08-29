@@ -213,12 +213,12 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								- This file contains Role-Based Access Control (RBAC) configurations to manage user permissions and roles, which includes : SUPER-ADMIN-ROLE, NETWORK-ADMIN-ROLE, OBSERVER-ROLE and Customized-ROLE.  <br>
 								- This example creates 3 users: <br>
 								<ul>
-									<li>  1. one user with NETWORK-ADMIN-ROLE;<br>
-									<li>  2. one user with OBSERVER-ROLE;<br> 
-									<li>  3. one user with ASSURANCE-ROLE (new customized role). <br> 
+									<li>  one user with NETWORK-ADMIN-ROLE;<br>
+									<li>  one user with OBSERVER-ROLE;<br> 
+									<li>  one user with ASSURANCE-ROLE (new customized role). <br> 
 								</ul>
 								</td>
-								<td>-  <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>Related Playbook</a></td>
+								<td><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>Related Playbook</a></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/catalyst_center_and_ise_integration.yml'> catalyst_center_and_ise_integrat.yml </a></b></td>
@@ -226,23 +226,23 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								-  This file contains configurations to integrates ISE with Catalyst Center and adds external AAA servers to Catalyst Center.<br> 
 								-  This example integrates ISE server with Catalyst Center. <br> 
 								</td>
-								<td>-  <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>Related Playbook</a></td>
+								<td><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>Related Playbook</a></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/device_credentials.yml'> device_credentials.yml </a></b></td>
-								<td><code>
+								<td>
 								-  This file contains  to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance. <br>
 								-  This example configures cli-credential, snmp-v3 credential and https credential(s) for devices. <br> 
-								</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code></td>
+								</td>
+								<td><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>Related Playbook</a></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/devices_discovery.yml'> devices_discovery.yml </a></b></td>
-								<td><code>
+								<td>
 								-  This file contains configurations required to discover network devices and add them to the inventory.<br> 
 								-  This example discovers devices via ip address range(s) <br> 
-								</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_discovery/README.md'>device_discovery_playbook</a></code></td>
+								</td>
+								<td><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_discovery/README.md'>Related Playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_hierarchy_design.yml'> network_hierarchy_design.yml </a></b></td>
