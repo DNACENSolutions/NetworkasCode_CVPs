@@ -153,8 +153,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 			<table>
 			<tr>
 			    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/usecase_maps/common_day0_design_discovery_deploy.yml'>common_day0_design_discovery_deploy.yml</a></b></td>
-                <td> <code> 
-                - This yaml usecase deploys a typical campus fabric. <br> 
+                <td> <code> - This yaml usecase deploys a typical campus fabric. <br> 
                 This usecase consists of 19 operations in below sequence :<br><br>
                 #    Step_01_Global RBAC Management <br>
                 #    Step_02_Global AAA Integration  <br>
