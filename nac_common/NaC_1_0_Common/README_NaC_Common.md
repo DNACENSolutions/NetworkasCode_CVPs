@@ -211,8 +211,8 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/roles_and_users.yml'> roles_and_users.yml </a></b></td>
 								<td>
 								<code>- This file contains Role-Based Access Control (RBAC) configurations to manage user permissions and roles, which includes : SUPER-ADMIN-ROLE, NETWORK-ADMIN-ROLE, OBSERVER-ROLE and Customized-ROLE.</code><br>
-								<code>- This example creates 3 users: <br>
-								<ul>
+								<code>- This example creates 3 users: </code><br>
+								<code><ul>
 									<li>  one user with NETWORK-ADMIN-ROLE;<br>
 									<li>  one user with OBSERVER-ROLE;<br> 
 									<li>  one user with ASSURANCE-ROLE (new customized role). <br> 
