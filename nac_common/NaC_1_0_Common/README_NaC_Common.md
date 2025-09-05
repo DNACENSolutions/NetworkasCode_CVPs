@@ -212,11 +212,10 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td>
 								<code>- This file contains Role-Based Access Control (RBAC) configurations to manage user permissions and roles, which includes : SUPER-ADMIN-ROLE, NETWORK-ADMIN-ROLE, OBSERVER-ROLE and Customized-ROLE.</code><br>
 								<code>- This example creates 3 users: </code><br>
-								<code><ul>
-									<li>  one user with NETWORK-ADMIN-ROLE;<br>
-									<li>  one user with OBSERVER-ROLE;<br> 
-									<li>  one user with ASSURANCE-ROLE (new customized role). <br> 
-								</ul></code>
+									one user with NETWORK-ADMIN-ROLE;<br>
+									one user with OBSERVER-ROLE;<br> 
+									one user with ASSURANCE-ROLE (new customized role). <br> 
+								</code>
 								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code>
 								</td>
 							</tr>
