@@ -217,16 +217,16 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 									<li>  one user with OBSERVER-ROLE;<br> 
 									<li>  one user with ASSURANCE-ROLE (new customized role). <br> 
 								</ul>
+								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code>
 								</td>
-								<td><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>Related Playbook</a></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/catalyst_center_and_ise_integration.yml'> catalyst_center_and_ise_integrat.yml </a></b></td>
 								<td>
 								-  This file contains configurations to integrates ISE with Catalyst Center and adds external AAA servers to Catalyst Center.<br> 
 								-  This example integrates ISE server with Catalyst Center. <br> 
+								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>catalyst_center_and_ise_integra_playbook</a></code>
 								</td>
-								<td><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>Related Playbook</a></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/device_credentials.yml'> device_credentials.yml </a></b></td>
