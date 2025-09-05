@@ -247,8 +247,8 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_hierarchy_design.yml'> network_hierarchy_design.yml </a></b></td>
 								<td>
-								<code>-  This file contains configurations to create a network hierarchy that represents network's geographical locations.</code>
-								<code>-  This example creates a network hierachy including areas, buildings and floors.  </code>
+								<code>-  This file contains configurations to create a network hierarchy that represents network's geographical locations.</code><br>
+								<code>-  This example creates a network hierachy including areas, buildings and floors.  </code><br>
 								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchyy/README.md'>site_hierarchy_playbook</a></code>
 								</td>
 							</tr>
