@@ -422,71 +422,71 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 				</code></tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_hostonboarding.yml'>cleanup_site_sda_fabric_hostonboarding.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove port and host assignments.<br>
-                    -  Deletes all host onboarding configurations for the SDA fabric site.<br><br>
-					⚠️ Configuration Tips: <br> 
-					- Remove all port assignments on a device <br>
-					&emsp; This will delete all port assignments on the device via a single RAPI request<br>
-  					&emsp;  ✏️  Example Yaml: <br> 
-					&emsp;  - ip_address: 100.0.2.3<br>
-  					&emsp; &emsp;  fabric_site_name_hierarchy: Global/USA/California/SAN JOSE<br>
-  					- Remove specific port assignment(s) on a device <br>
-					  &emsp; This will delete  port assignments one port at a time via multiple RAPI requests<br>
-  					  &emsp;  ✏️  Example Yaml: <br> 
-					  &emsp;   - ip_address: 100.0.2.3<br>
-					  &emsp; &emsp;        fabric_site_name_hierarchy: Global/USA/California/SAN JOSE<br>
-					  &emsp; &emsp;        port_assignments:<br>
-					  &emsp; &emsp;         - interface_name: "TenGigabitEthernet1/0/1"<br>
-					  &emsp; &emsp;         - interface_name: "TenGigabitEthernet1/0/2"<br>
+                    <td>
+					<code>- This file contains configurations to remove port and host assignments.</code><br>
+                    <code>- Deletes all host onboarding configurations for the SDA fabric site.</code><br><br>
+					<code>⚠️ Configuration Tips:</code><br>
+					<code>- Remove all port assignments on a device</code><br>
+					<code>&nbsp;&nbsp;This will delete all port assignments on the device via a single RAPI request</code><br>
+  					<code>&nbsp;&nbsp;✏️ Example Yaml:</code><br>
+					<code>&nbsp;&nbsp;- ip_address: 100.0.2.3</code><br>
+  					<code>&nbsp;&nbsp;&nbsp;&nbsp;fabric_site_name_hierarchy: Global/USA/California/SAN JOSE</code><br>
+  					<code>- Remove specific port assignment(s) on a device</code><br>
+					<code>&nbsp;&nbsp;This will delete port assignments one port at a time via multiple RAPI requests</code><br>
+  					<code>&nbsp;&nbsp;✏️ Example Yaml:</code><br>
+					<code>&nbsp;&nbsp;- ip_address: 100.0.2.3</code><br>
+					<code>&nbsp;&nbsp;&nbsp;&nbsp;fabric_site_name_hierarchy: Global/USA/California/SAN JOSE</code><br>
+					<code>&nbsp;&nbsp;&nbsp;&nbsp;port_assignments:</code><br>
+					<code>&nbsp;&nbsp;&nbsp;&nbsp;- interface_name: "TenGigabitEthernet1/0/1"</code><br>
+					<code>&nbsp;&nbsp;&nbsp;&nbsp;- interface_name: "TenGigabitEthernet1/0/2"</code><br>
 					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code><br>
-                    </code></td>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_devices.yml'>cleanup_site_sda_fabric_devices.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove fabric device configurations.<br>
-                    -  This example deletes all SDA fabric device roles and assignments for the site.<br><br>
-					⚠️ Configuration Tips: <br> 
-					- If deployments contains both fabric sites and zones:<br>
-					 &emsp; First, delete fabric edges from fabric zone <br>
-					 &emsp; Then, delete fabric edges, borders and CPs from parent fabric site  <br>
-  					 &emsp;  ✏️  Example Yaml: <br>
-					 &emsp;  - fabric_devices:<br>
-      				 &emsp;  &emsp; fabric_name: Global/USA/California/SAN JOSE/BLD23 # Fabric zone<br>
-      				 &emsp;  &emsp; device_config:<br>
-			         &emsp;  &emsp; - device_ip:  100.0.2.4 # Edge in Fabric Zone<br>
-					 &emsp;  - fabric_devices:<br>
-      				 &emsp;  &emsp; fabric_name: Global/USA/California/SAN JOSE        # Fabric sie<br>
-      				 &emsp;  &emsp; device_config:<br>
-			         &emsp;  &emsp; - device_ip: 100.0.2.3 # Edge in Fabric Site<br>
-			         &emsp;  &emsp; - device_ip: 100.0.2.2 # Border/CP in Fabric Site <br>
+                    <td>
+					<code>- This file contains configurations to remove fabric device configurations.</code><br>
+                    <code>- This example deletes all SDA fabric device roles and assignments for the site.</code><br><br>
+					<code>⚠️ Configuration Tips:</code><br>
+					<code>- If deployments contains both fabric sites and zones:</code><br>
+					<code>&nbsp;&nbsp;First, delete fabric edges from fabric zone</code><br>
+					<code>&nbsp;&nbsp;Then, delete fabric edges, borders and CPs from parent fabric site</code><br>
+  					<code>&nbsp;&nbsp;✏️ Example Yaml:</code><br>
+					<code>&nbsp;&nbsp;- fabric_devices:</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;fabric_name: Global/USA/California/SAN JOSE/BLD23 # Fabric zone</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;device_config:</code><br>
+			        <code>&nbsp;&nbsp;&nbsp;&nbsp;- device_ip: 100.0.2.4 # Edge in Fabric Zone</code><br>
+					<code>&nbsp;&nbsp;- fabric_devices:</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;fabric_name: Global/USA/California/SAN JOSE # Fabric site</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;device_config:</code><br>
+			        <code>&nbsp;&nbsp;&nbsp;&nbsp;- device_ip: 100.0.2.3 # Edge in Fabric Site</code><br>
+			        <code>&nbsp;&nbsp;&nbsp;&nbsp;- device_ip: 100.0.2.2 # Border/CP in Fabric Site</code><br>
 					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code><br>
-                    </code></td>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_gateways.yml'>cleanup_site_sda_fabric_gateways.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to clean up gateway assignments.<br>
-                    -  This example removes all L2/L3 gateways from the SDA fabric site.<br><br>
-					⚠️ Configuration Tips: <br> 
-					- If deployments contains both fabric sites and zones:<br>
-					 &emsp; First, delete anycast gateways from fabric zone <br>
-					 &emsp; Then, delete anycast gateways from parent fabric site  <br>
-  					 &emsp;  ✏️  Example Yaml: <br>
-					 &emsp;   - anycast_gateways:<br>
-      				 &emsp;  &emsp; - vn_name: "Customer_VN_1"<br>
-      				 &emsp;  &emsp; &emsp;  ip_pool_name: "Wired_Clients" <br>
-      				 &emsp;  &emsp; &emsp; fabric_site_location:<br>
-			         &emsp;  &emsp; &emsp; - site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23<br>
-			         &emsp;  &emsp; &emsp; - fabric_type: "fabric_zone"<br>
-      				 &emsp;  &emsp; - vn_name: "Customer_VN_1"<br>
-      				 &emsp;  &emsp; &emsp; ip_pool_name: "Wired_Clients" <br>
-      				 &emsp;  &emsp; &emsp; fabric_site_location:<br>
-			         &emsp;  &emsp; &emsp; - site_name_hierarchy: Global/USA/California/SAN JOSE<br>
-			         &emsp;  &emsp; &emsp; - fabric_type: "fabric_site"<br>
+                    <td>
+					<code>- This file contains configurations to clean up gateway assignments.</code><br>
+                    <code>- This example removes all L2/L3 gateways from the SDA fabric site.</code><br><br>
+					<code>⚠️ Configuration Tips:</code><br>
+					<code>- If deployments contains both fabric sites and zones:</code><br>
+					<code>&nbsp;&nbsp;First, delete anycast gateways from fabric zone</code><br>
+					<code>&nbsp;&nbsp;Then, delete anycast gateways from parent fabric site</code><br>
+  					<code>&nbsp;&nbsp;✏️ Example Yaml:</code><br>
+					<code>&nbsp;&nbsp;- anycast_gateways:</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;- vn_name: "Customer_VN_1"</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ip_pool_name: "Wired_Clients"</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fabric_site_location:</code><br>
+			        <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- site_name_hierarchy: Global/USA/California/SAN JOSE/BLD23</code><br>
+			        <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- fabric_type: "fabric_zone"</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;- vn_name: "Customer_VN_1"</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ip_pool_name: "Wired_Clients"</code><br>
+      				<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fabric_site_location:</code><br>
+			        <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- site_name_hierarchy: Global/USA/California/SAN JOSE</code><br>
+			        <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- fabric_type: "fabric_site"</code><br>
 					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code><br>
-                    </code></td>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_vns.yml'>cleanup_site_sda_fabric_vns.yml</a></b></td>
