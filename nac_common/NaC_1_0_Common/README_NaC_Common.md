@@ -439,8 +439,8 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 					  &emsp; &emsp;        port_assignments:<br>
 					  &emsp; &emsp;         - interface_name: "TenGigabitEthernet1/0/1"<br>
 					  &emsp; &emsp;         - interface_name: "TenGigabitEthernet1/0/2"<br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code><br>
                     </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code></td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_devices.yml'>cleanup_site_sda_fabric_devices.yml</a></b></td>
@@ -461,8 +461,8 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
       				 &emsp;  &emsp; device_config:<br>
 			         &emsp;  &emsp; - device_ip: 100.0.2.3 # Edge in Fabric Site<br>
 			         &emsp;  &emsp; - device_ip: 100.0.2.2 # Border/CP in Fabric Site <br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code><br>
                     </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code></td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_gateways.yml'>cleanup_site_sda_fabric_gateways.yml</a></b></td>
@@ -485,96 +485,96 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
       				 &emsp;  &emsp; &emsp; fabric_site_location:<br>
 			         &emsp;  &emsp; &emsp; - site_name_hierarchy: Global/USA/California/SAN JOSE<br>
 			         &emsp;  &emsp; &emsp; - fabric_type: "fabric_site"<br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code><br>
                     </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_vns.yml'>cleanup_site_sda_fabric_vns.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove VN assignments and configurations.<br>
-                    -  This example deletes all virtual networks (VNs) from the SDA fabric site.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to remove VN assignments and configurations.</code><br>
+                    <code>- This example deletes all virtual networks (VNs) from the SDA fabric site.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_transits.yml'>cleanup_site_sda_transits.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to clean up transit configurations.<br>
-                    -  This example removes all SDA fabric transits (IP or SDA) from the site.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>sda_fabric_transits_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to clean up transit configurations.</code><br>
+                    <code>- This example removes all SDA fabric transits (IP or SDA) from the site.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>sda_fabric_transits_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_sites_zones.yml'>cleanup_site_sda_fabric_sites_zones.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to clean up fabric site and zone definitions.<br>
-                    -  This example removes all SDA fabric sites and zones.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to clean up fabric site and zone definitions.</code><br>
+                    <code>- This example removes all SDA fabric sites and zones.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_devices_provision.yml'>cleanup_site_devices_provision.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove all device provisioning data.<br>
-                    -  This example deletes device provisioning configurations for the site.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>provision_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to remove all device provisioning data.</code><br>
+                    <code>- This example deletes device provisioning configurations for the site.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>provision_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_network_settings_ippools.yml'>cleanup_site_network_settings_ippools.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove IP address allocations at the site level.<br>
-                    -  This example deletes all site-level IP pools.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to remove IP address allocations at the site level.</code><br>
+                    <code>- This example deletes all site-level IP pools.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_settings_global_ip_pools.yml'>cleanup_global_network_settings_global_ip_pools.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove global IP address allocations.<br>
-                    -  This example deletes all global IP pools configured in Catalyst Center.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to remove global IP address allocations.</code><br>
+                    <code>- This example deletes all global IP pools configured in Catalyst Center.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_settings_servers.yml'>cleanup_global_network_settings_servers.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to clean up global server settings.<br>
-                    -  This example removes all global network servers (DNS, DHCP, NTP, etc.) from Catalyst Center.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to clean up global server settings.</code><br>
+                    <code>- This example removes all global network servers (DNS, DHCP, NTP, etc.) from Catalyst Center.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_network_hierarchy_design.yml'>cleanup_global_network_hierarchy_design.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove all site and location definitions.<br>
-                    -  This example cleans up the global network site hierarchy.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchy/README.md'>site_hierarchy_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to remove all site and location definitions.</code><br>
+                    <code>- This example cleans up the global network site hierarchy.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchy/README.md'>site_hierarchy_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_device_credentials.yml'>cleanup_global_device_credentials.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to remove all global device authentication data.<br>
-                    -  This example deletes global device credentials from Catalyst Center.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to remove all global device authentication data.</code><br>
+                    <code>- This example deletes global device credentials from Catalyst Center.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_catalyst_center_and_ise_integration.yml'>cleanup_global_catalyst_center_and_ise_integration.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to clean up global AAA/ISE integration settings.<br>
-                    -  This example removes ISE integration and external AAA servers from Catalyst Center.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>ise_radius_integration_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to clean up global AAA/ISE integration settings.</code><br>
+                    <code>- This example removes ISE integration and external AAA servers from Catalyst Center.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>ise_radius_integration_playbook</a></code><br>
+                    </td>
                 </tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_global_roles_and_users.yml'>cleanup_global_roles_and_users.yml</a></b></td>
-                    <td><code>
-                    -  This file contains configurations to reset RBAC to default.<br>
-                    -  This example deletes all custom roles and users from Catalyst Center.
-                    </code></td>
-                    <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code></td>
+                    <td>
+					<code>- This file contains configurations to reset RBAC to default.</code><br>
+                    <code>- This example deletes all custom roles and users from Catalyst Center.</code><br>
+					<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code><br>
+                    </td>
                 </tr>
                 </table>
             </blockquote>
