@@ -276,8 +276,8 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td>
 								<code>- This file contains configuration to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance.</code><br>
 								<code>- This example assigns credentials to the sites.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_servers.yml'> site_network_settings_servers.yml </a></b></td>
