@@ -215,7 +215,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<code> • one user with NETWORK-ADMIN-ROLE</code><br> 
 								<code> • one user with OBSERVER-ROLE</code> <br>
 								<code> • one user with ASSURANCE-ROLE (new customized role)</code><br> 
-								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/users_and_roles/README.md'>users_and_roles_playbook</a></code>
 								</td>
 							</tr>
 							<tr>
@@ -223,7 +223,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td>
 								<code>- This file contains configurations to integrates ISE with Catalyst Center and adds external AAA servers to Catalyst Center.</code><br> 
 								<code>- This example integrates ISE server with Catalyst Center. </code><br> 
-								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>catalyst_center_and_ise_integra_playbook</a></code>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>catalyst_center_and_ise_integra_playbook</a></code>
 								</td>
 							</tr>
 							<tr>
@@ -231,7 +231,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td>
 								<code>- This file contains to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance. </code><br>
 								<code>- This example configures cli-credential, snmp-v3 credential and https credential(s) for devices. </code><br>
-								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code>
 								</td>
 							</tr>
 							<tr>
@@ -239,32 +239,30 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td>
 								<code>- This file contains configurations required to discover network devices and add them to the inventory.</code><br> 
 								<code>- This example discovers devices via ip address range(s) </code><br> 
-								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code>
 								</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_hierarchy_design.yml'> network_hierarchy_design.yml </a></b></td>
 								<td>
-								<code>-  This file contains configurations to create a network hierarchy that represents network's geographical locations.</code><br>
-								<code>-  This example creates a network hierachy including areas, buildings and floors.  </code><br>
-								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchyy/README.md'>site_hierarchy_playbook</a></code>
+								<code>- This file contains configurations to create a network hierarchy that represents network's geographical locations.</code><br>
+								<code>- This example creates a network hierachy including areas, buildings and floors.  </code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchyy/README.md'>site_hierarchy_playbook</a></code>
 								</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_settings_servers.yml'> network_settings_servers.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations of global level Network Settings .<br>
-								-  This example configures following servers in network settings:  dns_server, dhcp_server, ntp_server, network_AAA, client_and_endpoint_AAA, snmp_server, syslog_server, netflow_collector, wired_data_collection, and wireless_telemetry. <br>
-								</code>
-                                <code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
+								<td>
+								<code>- This file contains configurations of global level Network Settings.</code><br>
+								<code>- This example configures following servers in network settings:  dns_server, dhcp_server, ntp_server, network_AAA, client_and_endpoint_AAA, snmp_server, syslog_server, netflow_collector, wired_data_collection, and wireless_telemetry. </code><br>
+                                <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/network_settings_global_ip_pools.yml'> network_settings_global_ip_pools.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations of global level IP Pools.<br>
-								-  This example configures following global IP Pools: AP_POOL, Extended_Node_POOl, LAN_AUTOMATION_POOL, Multicast_POOL, L3_BORDER_HANDOFF_POOL, WIRED_CLIENT_POOL, and WIRELESS_CLIENT_POOL. <br>
-								</code>
-                                <code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
+								<td>
+								<code>- This file contains configurations of global level IP Pools.</code><br>
+								<code>- This example configures following global IP Pools: AP_POOL, Extended_Node_POOl, LAN_AUTOMATION_POOL, Multicast_POOL, L3_BORDER_HANDOFF_POOL, WIRED_CLIENT_POOL, and WIRELESS_CLIENT_POOL. </code><br>
+                                <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							</table>
 						</blockquote>
