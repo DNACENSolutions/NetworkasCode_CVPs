@@ -221,16 +221,16 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/catalyst_center_and_ise_integration.yml'> catalyst_center_and_ise_integrat.yml </a></b></td>
 								<td>
-								-  This file contains configurations to integrates ISE with Catalyst Center and adds external AAA servers to Catalyst Center.<br> 
-								-  This example integrates ISE server with Catalyst Center. <br> 
+								<code>-  This file contains configurations to integrates ISE with Catalyst Center and adds external AAA servers to Catalyst Center.</code><br> 
+								<code>-  This example integrates ISE server with Catalyst Center. </code><br> 
 								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>catalyst_center_and_ise_integra_playbook</a></code>
 								</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/global_common/device_credentials.yml'> device_credentials.yml </a></b></td>
 								<td>
-								-  This file contains  to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance. <br>
-								-  This example configures cli-credential, snmp-v3 credential and https credential(s) for devices. <br> 
+								<code>-  This file contains  to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance. <br></code>
+								<code>-  This example configures cli-credential, snmp-v3 credential and https credential(s) for devices. <br> </code>
 								<code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code>
 								</td>
 							</tr>
