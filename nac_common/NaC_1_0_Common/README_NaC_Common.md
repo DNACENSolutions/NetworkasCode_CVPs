@@ -417,7 +417,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
             <summary><b>common_cleanup</b></summary>
             <blockquote>
                 <table>
-				<tr><code> - These YAML files are used to automate the cleanup and rollback of all Catalyst Center global and site-level configurations, ensuring a clean state for redeployment or decommissioning. </code>
+				<tr><code>These YAML files are used to automate the cleanup and rollback of all Catalyst Center global and site-level configurations, ensuring a clean state for redeployment or decommissioning. </code><br>
 				</tr>
                 <tr>
                     <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_delete_configs/common_cleanup/cleanup_site_sda_fabric_hostonboarding.yml'>cleanup_site_sda_fabric_hostonboarding.yml</a></b></td>
