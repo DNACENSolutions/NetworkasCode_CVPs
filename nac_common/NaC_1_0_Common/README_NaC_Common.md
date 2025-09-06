@@ -622,7 +622,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 
 ###  Prerequisites
 
-Before getting started with CatC_SD_Access_campus.git, ensure your runtime environment meets the following requirements:
+Before getting started with NetworkasCode_CVPs.git, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** Shell
 - **Package Manager:** Pip
@@ -630,18 +630,18 @@ Before getting started with CatC_SD_Access_campus.git, ensure your runtime envir
 
 ###  Installation
 
-Install CatC_SD_Access_campus using one of the following methods:
+Install NetworkasCode_CVPs using one of the following methods:
 
 **Build from source:**
 
-1. Clone the CatC_SD_Access_campus.git repository:
+1. Clone the NetworkasCode_CVPs.git repository:
 ```sh
--  git clone https://github.com/DNACENSolutions/CatC_SD_Access_campus.git
+-  git clone https://github.com/DNACENSolutions/NetworkasCode_CVPs.git
 ```
 
 2. Navigate to the project directory:
 ```sh
--  cd CatC_SD_Access_campus
+-  cd NetworkasCode_CVPs
 ```
 
 3. Install the project dependencies:
@@ -654,7 +654,7 @@ Install CatC_SD_Access_campus using one of the following methods:
 ```
 
 ###  Usage
-Run CatC_SD_Access_campus using the following command:
+Run NetworkasCode_CVPs using the following command:
 **Using `Python3`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
@@ -664,9 +664,9 @@ Run CatC_SD_Access_campus using the following command:
 
 ##  Contributing
 
-- **💬 [Join the Discussions](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/issues)**: Submit bugs found or log feature requests for the `CatC_SD_Access_campus.git` project.
-- **💡 [Submit Pull Requests](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/issues)**: Submit bugs found or log feature requests for the `CatC_SD_Access_campus.git` project.
+- **💡 [Submit Pull Requests](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -674,7 +674,7 @@ Run CatC_SD_Access_campus using the following command:
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/DNACENSolutions/CatC_SD_Access_campus.git
+   git clone https://github.com/DNACENSolutions/NetworkasCode_CVPs.git
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -697,8 +697,8 @@ Run CatC_SD_Access_campus using the following command:
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/DNACENSolutions/CatC_SD_Access_campus.git/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=DNACENSolutions/CatC_SD_Access_campus.git">
+   <a href="https://github.com{/DNACENSolutions/NetworkasCode_CVPs.git/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=DNACENSolutions/NetworkasCode_CVPs.git">
    </a>
 </p>
 </details>
