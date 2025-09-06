@@ -284,64 +284,64 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<td>
 								<code>- This file contains configurations of Network Settings and IP Pools (GLobal/Sites).</code><br>
 								<code>- This example configures site-level network settings.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_ippools.yml'> site_network_settings_ippools.yml </a></b></td>
 								<td>
 								<code>- This file contains configurations of Network Settings and IP Pools (GLobal/Sites).</code><br>
 								<code>- This example configures site-level ip pools.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_inventory.yml'> site_inventory.yml </a></b></td>
 								<td>
 								<code>- This file contains configuration related to various inventory management tasks within your network, such as adding devices, assigning devices to sites, provisioning, updating devices, resyncing devices, changing device roles, and deleting devices from the inventory.</code><br>
 								<code>- This example assigns inventory role to all devices - ACCESS, CORE, DISTRIBUTION, BORDER ROUTER.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/inventory/README.md'>inventory_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/inventory/README.md'>inventory_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_devices_provision.yml'> site_devices_provision.yml </a></b></td>
 								<td>
 								<code>- This file contains configurations related to device provisioning, such as assigning device to sites, provisioning, reprovisioning and deleting provisioned devices in Catalyst Center inventory.</code><br>
 								<code>- This example assigns devices to sites and provision all the devices</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>provision_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>provision_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_sites_zones.yml'> site_sda_fabric_sites_zones.yml </a></b></td>
 								<td>
 								<code>- This file contains configuration required to create fabric sites.</code><br>
 								<code>- This example creates one fabric sites and one fabric zone with closed-authetication profile</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_transits.yml'> sda_fabric_transits.yml </a></b></td>
 								<td>
 								<code>- This file contains configuration required to create fabric transits - IP transit or SDA transit.</code><br>
 								<code>- This example creates two IP transits for sda fabric site.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>sda_fabric_transits</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>sda_fabric_transits</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_vns.yml'> site_sda_fabric_vns.yml </a></b></td>
 								<td>
 								<code>- This file contains configurations required to assign VNs (virtual networks) to Fabric sites.</code><br>
 								<code>- This example assigns multiple VNs to fabric sites and zones.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code><br>
 								</td>
-                                <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_gateways.yml'> site_sda_fabric_gateways.yml </a></b></td>
 								<td>
 								<code>- This file contains configurations required to assign L2 and L3 gateways to Fabric sites.</code><br>
 								<code>- This example assigns multiple L3 Gateways to fabric sites and zones.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code><br>
 								</td>
-                                <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_devices.yml'> site_sda_fabric_devices.yml </a></b></td>
@@ -384,8 +384,8 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<code>&nbsp;&nbsp;- device_ip:</code><br>
 								<code>&nbsp;&nbsp;&nbsp;&nbsp;device_roles: [EDGE_NODE]</code><br>
 								<code>&nbsp;&nbsp;&nbsp;&nbsp;.....</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_hostonboarding.yml'> site_sda_fabric_hostonboarding.yml </a></b></td>
@@ -394,16 +394,16 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 								<code>- This example configures host onboarding on mulitple ports on a fabric edge.</code><br><br>
 								<code>⚠️ Scale Consideration:</code><br>
 								<code>CatC 2.3.7.9 RAPI for host onboarding supports max 400 ports per payload. Yaml needs to be constructed in blocks where each block contains up to 400 ports.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_compliance.yml'> site_network_compliance.yml </a></b></td>
 								<td>
 								<code>- This file contains configuration related to management of device compliance within your network.</code><br>
 								<code>- This example performs compliance check on multiple fabric devices.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_compliance/README.md'>network_compliance_playbook</a></code><br>
 								</td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_compliance/README.md'>network_compliance_playbook</a></code></td>
 							</tr>
 							</table>
 						</blockquote>
