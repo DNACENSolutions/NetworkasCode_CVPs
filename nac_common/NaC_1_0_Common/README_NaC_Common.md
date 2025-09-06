@@ -273,136 +273,136 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_device_credentials.yml'> site_device_credentials.yml </a></b></td>
-								<td><code>
-								-  This file contains configuration to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance. <br>
-								-  This example assigns credentials to the sites.
-								</code></td>
+								<td>
+								<code>- This file contains configuration to organize and manage network device credentials, including creating, applying, and updating them during deployment or maintenance.</code><br>
+								<code>- This example assigns credentials to the sites.</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>device_credentials_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_servers.yml'> site_network_settings_servers.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations of Network Settings and IP Pools (GLobal/Sites). <br>
-								-  This example configures site-level network settings. <br>
-								</code></td>
+								<td>
+								<code>- This file contains configurations of Network Settings and IP Pools (GLobal/Sites).</code><br>
+								<code>- This example configures site-level network settings.</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_settings_ippools.yml'> site_network_settings_ippools.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations of Network Settings and IP Pools (GLobal/Sites). <br>
-								-  This example configures site-level ip pools. <br>
-								</code></td>
+								<td>
+								<code>- This file contains configurations of Network Settings and IP Pools (GLobal/Sites).</code><br>
+								<code>- This example configures site-level ip pools.</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_inventory.yml'> site_inventory.yml </a></b></td>
-								<td><code>
-								-  This file contains configuration related to various inventory management tasks within your network, such as adding devices, assigning devices to sites, provisioning, updating devices, resyncing  devices, changing device roles, and deleting devices from the inventory. <br>
-								-  This example assigns inventory role to all devices - ACCESS, CORE, DISTRIBUTION, BORDER ROUTER. 
-								</code></td>
+								<td>
+								<code>- This file contains configuration related to various inventory management tasks within your network, such as adding devices, assigning devices to sites, provisioning, updating devices, resyncing devices, changing device roles, and deleting devices from the inventory.</code><br>
+								<code>- This example assigns inventory role to all devices - ACCESS, CORE, DISTRIBUTION, BORDER ROUTER.</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/inventory/README.md'>inventory_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_devices_provision.yml'> site_devices_provision.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations related to device provisioning, such as assigning device to sites, provisioning, reprovisioning and deleting provisioned devices in Catalyst Center inventory. <br> 
-								-  This example assigns devices to sites and provision all the devices
-								</code></td>
+								<td>
+								<code>- This file contains configurations related to device provisioning, such as assigning device to sites, provisioning, reprovisioning and deleting provisioned devices in Catalyst Center inventory.</code><br>
+								<code>- This example assigns devices to sites and provision all the devices</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>provision_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_sites_zones.yml'> site_sda_fabric_sites_zones.yml </a></b></td>
-								<td><code>
-								-  This file contains configuration required to create fabric sites. <br>
-								-  This example creates one fabric sites and one fabric zone with closed-authetication profile <br> 
-								</code></td>
+								<td>
+								<code>- This file contains configuration required to create fabric sites.</code><br>
+								<code>- This example creates one fabric sites and one fabric zone with closed-authetication profile</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_transits.yml'> sda_fabric_transits.yml </a></b></td>
-								<td><code>
-								-  This file contains configuration required to create fabric transits - IP transit or SDA transit. <br>
-								-  This example creates two IP transits for sda fabric site. br> 
-								</code></td>
+								<td>
+								<code>- This file contains configuration required to create fabric transits - IP transit or SDA transit.</code><br>
+								<code>- This example creates two IP transits for sda fabric site.</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>sda_fabric_transits</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_vns.yml'> site_sda_fabric_vns.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations required to assign VNs (virtual networks) to Fabric sites.<br>
-								-  This example assigns multiple VNs to fabric sites and zones. 
-								</code></td>
+								<td>
+								<code>- This file contains configurations required to assign VNs (virtual networks) to Fabric sites.</code><br>
+								<code>- This example assigns multiple VNs to fabric sites and zones.</code><br>
+								</td>
                                 <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_gateways.yml'> site_sda_fabric_gateways.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations required to assign L2 and L3 gateways to Fabric sites.<br>
-								-  This example assigns multiple L3 Gateways to fabric sites and zones.
-								</code></td>
+								<td>
+								<code>- This file contains configurations required to assign L2 and L3 gateways to Fabric sites.</code><br>
+								<code>- This example assigns multiple L3 Gateways to fabric sites and zones.</code><br>
+								</td>
                                 <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2_l3_gateways/README.md'>sda_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_devices.yml'> site_sda_fabric_devices.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations related to fabric device roles, such as assigning and managing device roles (Control Plane Node, Edge Node, Border Node, Wireless Controller) within the SDA fabric.<br>
-								-  This file also contains configuration of border settings for Layer 2 and Layer 3 handoffs. <br> 
-								-  This example assigns one collocated BORDER/CP with IP Transit to the fabric. It also assign one EDGE to a fabric site, and assigns the other EDGE to a fabric zone. <br><br>
-								⚠️ Performance Consideration:<br>
-								-  If deployments contains multiple fabric sites, when constructing Yaml, putting all devices as one list under the same fabric site or zone  will generate one single fabric task for all devices in the same fabric. This will speed up the fabric deployment processes. <br>
-								✏️ Example Yaml ( 2 fabric sites )<br>
-								fabric_devices_details::<br>
-								# Add all devices as one list under first fabric site  <br>
-								- fabric_devices: <br>
-								 &emsp; &emsp; fabric_name: "scale_fabric_1"<br> 
-								 &emsp; &emsp;   device_config: <br> 
-								 &emsp; &emsp;  - device_ip: <br>
-								 &emsp; &emsp; &emsp;  device_roles: [CONTROL_PLANE_NODE, BORDER_NODE] <br>
-								 &emsp;  &emsp; - device_ip: <br>
-								 &emsp; &emsp;  &emsp; device_roles: [EDGE_NODE]<br>
-								 &emsp; &emsp;  &emsp; ..... <br>
-								 &emsp;  &emsp; - device_ip: <br>
-								 &emsp; &emsp;  &emsp; device_roles: [EDGE_NODE]<br><br> 
-								⚠️ Dependancy Consideration:<br>
-								-  If deployments contains fabric sites which have fabric zones enabled, when constructing Yaml, construct fabric site with Border and CP before constructing fabric zone.  <br>
-								✏️ Example Yaml ( 1 fabric sites with 1 child fabric zone )<br>
-								fabric_devices_details::<br>
-								# First Fabric site  <br>
-								- fabric_devices: <br>
-								 &emsp; &emsp; fabric_name: "fabric_site"<br> 
-								 &emsp; &emsp;   device_config: <br> 
-								 &emsp; &emsp;  - device_ip: <br>
-								 &emsp; &emsp; &emsp;  device_roles: [CONTROL_PLANE_NODE, BORDER_NODE] <br>
-								 &emsp;  &emsp; - device_ip: <br>
-								 &emsp; &emsp;  &emsp; device_roles: [EDGE_NODE]<br>
-								 &emsp; &emsp;  &emsp; ..... <br>
-								# Second Fabric zone  <br>
-								- fabric_devices: <br>
-								 &emsp; fabric_name: "fabric_zone"<br> 
-								 &emsp; device_config: <br> 
-								 &emsp; - device_ip: <br>
-								 &emsp; &emsp; device_roles: [EDGE_NODE]<br>
-								 &emsp; &emsp;   &emsp; ..... <br> 
-								</code></td>
+								<td>
+								<code>- This file contains configurations related to fabric device roles, such as assigning and managing device roles (Control Plane Node, Edge Node, Border Node, Wireless Controller) within the SDA fabric.</code><br>
+								<code>- This file also contains configuration of border settings for Layer 2 and Layer 3 handoffs.</code><br>
+								<code>- This example assigns one collocated BORDER/CP with IP Transit to the fabric. It also assign one EDGE to a fabric site, and assigns the other EDGE to a fabric zone.</code><br><br>
+								<code>⚠️ Performance Consideration:</code><br>
+								<code>- If deployments contains multiple fabric sites, when constructing Yaml, putting all devices as one list under the same fabric site or zone will generate one single fabric task for all devices in the same fabric. This will speed up the fabric deployment processes.</code><br>
+								<code>✏️ Example Yaml ( 2 fabric sites )</code><br>
+								<code>fabric_devices_details::</code><br>
+								<code># Add all devices as one list under first fabric site</code><br>
+								<code>- fabric_devices:</code><br>
+								<code>&nbsp;&nbsp;fabric_name: "scale_fabric_1"</code><br>
+								<code>&nbsp;&nbsp;device_config:</code><br>
+								<code>&nbsp;&nbsp;- device_ip:</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;device_roles: [CONTROL_PLANE_NODE, BORDER_NODE]</code><br>
+								<code>&nbsp;&nbsp;- device_ip:</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;device_roles: [EDGE_NODE]</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;.....</code><br>
+								<code>&nbsp;&nbsp;- device_ip:</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;device_roles: [EDGE_NODE]</code><br><br>
+								<code>⚠️ Dependancy Consideration:</code><br>
+								<code>- If deployments contains fabric sites which have fabric zones enabled, when constructing Yaml, construct fabric site with Border and CP before constructing fabric zone.</code><br>
+								<code>✏️ Example Yaml ( 1 fabric sites with 1 child fabric zone )</code><br>
+								<code>fabric_devices_details::</code><br>
+								<code># First Fabric site</code><br>
+								<code>- fabric_devices:</code><br>
+								<code>&nbsp;&nbsp;fabric_name: "fabric_site"</code><br>
+								<code>&nbsp;&nbsp;device_config:</code><br>
+								<code>&nbsp;&nbsp;- device_ip:</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;device_roles: [CONTROL_PLANE_NODE, BORDER_NODE]</code><br>
+								<code>&nbsp;&nbsp;- device_ip:</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;device_roles: [EDGE_NODE]</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;.....</code><br>
+								<code># Second Fabric zone</code><br>
+								<code>- fabric_devices:</code><br>
+								<code>&nbsp;&nbsp;fabric_name: "fabric_zone"</code><br>
+								<code>&nbsp;&nbsp;device_config:</code><br>
+								<code>&nbsp;&nbsp;- device_ip:</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;device_roles: [EDGE_NODE]</code><br>
+								<code>&nbsp;&nbsp;&nbsp;&nbsp;.....</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>sda_fabric_device_roles_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_sda_fabric_hostonboarding.yml'> site_sda_fabric_hostonboarding.yml </a></b></td>
-								<td><code>
-								-  This file contains configurations for host onboarding operations, such as add, update, and delete port assignments and port channels for network devices.<br> 
-								-  This example configures host onboarding on mulitple ports on a fabric edge. <br><br>
-								⚠️ Scale Consideration:<br>
-								CatC 2.3.7.9 RAPI for host onboarding supports max 400 ports per payload. Yaml needs to be constructed in blocks where each block contains up to 400 ports.<br><br>
-								</code></td>
+								<td>
+								<code>- This file contains configurations for host onboarding operations, such as add, update, and delete port assignments and port channels for network devices.</code><br>
+								<code>- This example configures host onboarding on mulitple ports on a fabric edge.</code><br><br>
+								<code>⚠️ Scale Consideration:</code><br>
+								<code>CatC 2.3.7.9 RAPI for host onboarding supports max 400 ports per payload. Yaml needs to be constructed in blocks where each block contains up to 400 ports.</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>sda_hostonboarding_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_common/NaC_1_0_Common/catc_configs/sites_common/sanjose/site_network_compliance.yml'> site_network_compliance.yml </a></b></td>
-								<td><code>
-								-  This file contains configuration related to management of device compliance within your network. <br>
-								-  This example performs compliance check on multiple fabric devices.  
-								</code></td>
+								<td>
+								<code>- This file contains configuration related to management of device compliance within your network.</code><br>
+								<code>- This example performs compliance check on multiple fabric devices.</code><br>
+								</td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_compliance/README.md'>network_compliance_playbook</a></code></td>
 							</tr>
 							</table>
