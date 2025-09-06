@@ -642,6 +642,7 @@ Install NetworkasCode_CVPs using one of the following methods:
 2. Navigate to the project directory:
 ```sh
 -  cd NetworkasCode_CVPs
+-  cd nac_common/NaC_1_0_Common
 ```
 
 3. Install the project dependencies:
@@ -665,7 +666,7 @@ Run NetworkasCode_CVPs using the following command:
 ##  Contributing
 
 - **💬 [Join the Discussions](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/issues)**: Submit bugs found or log feature requests for the `CatC_SD_Access_campus.git` project.
+- **🐛 [Report Issues](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/issues)**: Submit bugs found or log feature requests for the `NetworkasCode_CVPs.git` project.
 - **💡 [Submit Pull Requests](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
