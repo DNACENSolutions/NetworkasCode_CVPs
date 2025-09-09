@@ -1,0 +1,1258 @@
+---
+catalyst_center_version: "2.3.7.9"
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  - anycast_gateways: 
+    # CLINIC_B0001
+    - vn_name: "miniscale_VN_1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0001"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_1"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0001"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_1"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0002
+    - vn_name: "miniscale_VN_2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0002"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_2"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0002"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_2"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0003
+    - vn_name: "miniscale_VN_3"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0003"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_3"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_3"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0003"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_3"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0004
+    - vn_name: "miniscale_VN_4"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0004"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_4"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_4"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0004"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_4"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0005
+    - vn_name: "miniscale_VN_5"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0005"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_5"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_5"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0005"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_5"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0006
+    - vn_name: "miniscale_VN_6"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0006"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_6"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_6"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0006"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_6"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0007
+    - vn_name: "miniscale_VN_7"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0007"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_7"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_7"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0007"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_7"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0008
+    - vn_name: "miniscale_VN_8"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0008"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_8"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_8"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0008"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_8"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0009
+    - vn_name: "miniscale_VN_9"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0009"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_9"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_9"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0009"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_9"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0010
+    - vn_name: "miniscale_VN_10"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0010"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_10"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_10"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0010"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_10"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+  - anycast_gateways: 
+    # CLINIC_B0011
+    - vn_name: "miniscale_VN_11"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0011"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_11"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_11"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0011"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_11"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0012
+    - vn_name: "miniscale_VN_12"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0012"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_12"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_12"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0012"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_12"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0013
+    - vn_name: "miniscale_VN_13"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0013"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_13"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_13"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0013"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_13"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0014
+    - vn_name: "miniscale_VN_14"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0014"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_14"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_14"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0014"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_14"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0015
+    - vn_name: "miniscale_VN_15"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0015"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_15"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_15"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0015"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_15"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0016
+    - vn_name: "miniscale_VN_16"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0016"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_16"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_16"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0016"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_16"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0017
+    - vn_name: "miniscale_VN_17"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0017"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_17"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_17"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0017"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_17"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0018
+    - vn_name: "miniscale_VN_18"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0018"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_18"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_18"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0018"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_18"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0019
+    - vn_name: "miniscale_VN_19"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0019"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_19"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_19"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0019"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_19"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0020
+    - vn_name: "miniscale_VN_20"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0020"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_20"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_20"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0020"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_20"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+  - anycast_gateways: 
+    # CLINIC_B0021
+    - vn_name: "miniscale_VN_21"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0021"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_21"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_21"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0021"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_21"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0022
+    - vn_name: "miniscale_VN_22"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0022"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_22"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_22"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0022"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_22"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0023
+    - vn_name: "miniscale_VN_23"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0023"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_23"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_23"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0023"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_23"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0024
+    - vn_name: "miniscale_VN_24"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0024"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_24"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_24"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0024"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_24"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0025
+    - vn_name: "miniscale_VN_25"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0025"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_25"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_25"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0025"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_25"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0026
+    - vn_name: "miniscale_VN_26"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0026"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_26"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_26"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0026"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_26"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0027
+    - vn_name: "miniscale_VN_27"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0027"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_27"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_27"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0027"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_27"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0028
+    - vn_name: "miniscale_VN_28"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0028"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_28"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_28"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0028"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_28"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0029
+    - vn_name: "miniscale_VN_29"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0029"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_29"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_29"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0029"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_29"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0030
+    - vn_name: "miniscale_VN_30"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0030"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_30"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_30"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0030"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_30"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+  - anycast_gateways: 
+    # CLINIC_B0031
+    - vn_name: "miniscale_VN_31"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0031"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_31"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_31"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0031"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_31"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0032
+    - vn_name: "miniscale_VN_32"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0032"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_32"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_32"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0032"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_32"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0033
+    - vn_name: "miniscale_VN_33"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0033"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_33"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_33"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0033"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_33"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0034
+    - vn_name: "miniscale_VN_34"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0034"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_34"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_34"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0034"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_34"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0035
+    - vn_name: "miniscale_VN_35"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0035"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_35"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_35"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0035"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_35"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0036
+    - vn_name: "miniscale_VN_36"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0036"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_36"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_36"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0036"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_36"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0037
+    - vn_name: "miniscale_VN_37"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0037"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_37"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_37"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0037"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_37"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0038
+    - vn_name: "miniscale_VN_38"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0038"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_38"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_38"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0038"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_38"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0039
+    - vn_name: "miniscale_VN_39"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0039"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_39"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_39"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0039"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_39"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0040
+    - vn_name: "miniscale_VN_40"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0040"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_40"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_40"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0040"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_40"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+  - anycast_gateways: 
+    # CLINIC_B0041
+    - vn_name: "miniscale_VN_41"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0041"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_41"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_41"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0041"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_41"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0042
+    - vn_name: "miniscale_VN_42"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0042"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_42"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_42"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0042"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_42"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0043
+    - vn_name: "miniscale_VN_43"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0043"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_43"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_43"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0043"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_43"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0044
+    - vn_name: "miniscale_VN_44"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0044"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_44"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_44"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0044"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_44"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0045
+    - vn_name: "miniscale_VN_45"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0045"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_45"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_45"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0045"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_45"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0046
+    - vn_name: "miniscale_VN_46"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0046"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_46"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_46"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0046"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_46"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0047
+    - vn_name: "miniscale_VN_47"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0047"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_47"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_47"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0047"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_47"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0048
+    - vn_name: "miniscale_VN_48"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0048"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_48"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_48"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0048"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_48"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0049
+    - vn_name: "miniscale_VN_49"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0049"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_49"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_49"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0049"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_49"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+
+
+    # CLINIC_B0050
+    - vn_name: "miniscale_VN_50"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0050"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_16_resv_50"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "miniscale_VN_50"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0050"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Scale_Pool_18_resv_50"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: true
+

@@ -1,0 +1,34 @@
+The NaC deployment workflow is driven by two key customizable inputs: a usercase_map YAML and a data_file YAML, as illustrated in the example below.
+
+usecase_maps   # Customizable input for a set of operations to achieve the desired network state.
+ |__healthcare_usecase01_day1_campus_branch_bringup.yml
+    # A usercase_map consists of multiple blocks or steps
+    # Each block contains three constructs:
+
+    # Step1: Campus Site Devices discovery
+    01_Campus_Devices_Discovery:
+      # Playbook-specific schema used for data validation , sourced from github
+      schema_file: "device_discovery/schema/device_discovery_schema.yml”
+      # Task-specific Ansible playbook for network deployment and operations, sourced from github
+      playbook: "device_discovery/playbook/device_discovery_playbook.yml”
+      # Customizable input describing the target network topology and configuration)
+      data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_discovery.yml” 
+
+catc_config  
+  |_sites_healthcare
+	 |_main_campus_healthcare
+		|_campus_devices_discovery.yml
+
+		discovery_details:
+  		range:
+			- ip_address_list:
+			  - 137.1.23.1-137.1.23.100
+			  discovery_type: RANGE
+			  use_global_credentials: false
+			  protocol_order: ssh
+			  discovery_name: Campus_Discovery
+			  net_conf_port: "830"
+			  discovery_specific_credentials:
+				cli_credentspecificials_list:
+				snmp_v2_read_credential:
+				snmp_v2_write_credential:

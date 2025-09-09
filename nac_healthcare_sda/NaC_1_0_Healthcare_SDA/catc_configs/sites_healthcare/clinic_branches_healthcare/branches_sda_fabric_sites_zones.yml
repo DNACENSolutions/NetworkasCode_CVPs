@@ -1,0 +1,254 @@
+#Minimum supported version of the Cisco Catalyst Center
+catalyst_center_version: 2.3.7.6
+# Fabric Sites and Zones design.
+fabric_sites_and_zones:
+    - fabric_sites:
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0001
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0002
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0003
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0004
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0005
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0006
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0007
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0008
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0009
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0010
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0011
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0012
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0013
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0014
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0015
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0016
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0017
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0018
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0019
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0020
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0021
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0022
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0023
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0024
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0025
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0026
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0027
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0028
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0029
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0030
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0031
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0032
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0033
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0034
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0035
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0036
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0037
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0038
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0039
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0040
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0041
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0042
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0043
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0044
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0045
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0046
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0047
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0048
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0049
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 
+
+        - fabric_type: fabric_site
+          site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0050
+          authentication_profile: Closed Authentication
+          is_pub_sub_enabled: false 

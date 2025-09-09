@@ -1,0 +1,41 @@
+#Step1: SWIM Upgrade the devices on sites - CCO Download
+01_Campus_SWIMDevicesUpgrade_ImageDownload:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_cco_download.yml"
+
+#Step2: SWIM Upgrade the devices on sites - Tagging Golden Images
+02_Campus_SWIMDevicesUpgrade_ImageTagGolden:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_tag_golden_images.yml"
+
+#Step3: SWIM Upgrade the devices on sites - Image distribution
+03_Campus_SWIMDevicesUpgrade_ImageDistribution:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_distribution.yml"
+
+#Step4: SWIM Upgrade the devices on sites -  Image activation on Edge nodes
+04_Campus_SWIMDevicesUpgrade_ImageActivation_Edge:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_edges.yml"
+
+#Step5: SWIM Upgrade the devices on sites - Image activation on Intermedia-nodes
+05_Campus_SWIMDevicesUpgrade_ImageActivation_Intermediate:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_im.yml"
+
+#Step6: SWIM Upgrade the devices on sites - Image activation on Border-CP-nodes
+06_Campus_SWIMDevicesUpgrade_ImageActivation_BorderCP:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_border_cp.yml"
+
+#Step7: Check NetworkDevice Compliance
+07_Campus_NetworkCompliance:
+  schema_file: "network_compliance/schema/network_compliance_workflow_schema.yml"
+  playbook: "network_compliance/playbook/network_compliance_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_compliance.yml"

@@ -1,0 +1,756 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# This file contains the variables for the inventory workflow
+inventory_details:
+  network_devices:
+    - ip_address_list: ["137.1.21.1"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0001" 
+    - ip_address_list: ["137.1.21.2"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0002" 
+    - ip_address_list: ["137.1.21.3"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0003" 
+    - ip_address_list: ["137.1.21.4"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0004" 
+    - ip_address_list: ["137.1.21.5"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0005" 
+    - ip_address_list: ["137.1.21.6"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0006" 
+    - ip_address_list: ["137.1.21.7"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0007" 
+    - ip_address_list: ["137.1.21.8"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0008" 
+    - ip_address_list: ["137.1.21.9"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0009" 
+    - ip_address_list: ["137.1.21.10"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0010" 
+    - ip_address_list: ["137.1.21.11"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0011" 
+    - ip_address_list: ["137.1.21.12"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0012" 
+    - ip_address_list: ["137.1.21.13"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0013" 
+    - ip_address_list: ["137.1.21.14"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0014" 
+    - ip_address_list: ["137.1.21.15"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0015" 
+    - ip_address_list: ["137.1.21.16"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0016" 
+    - ip_address_list: ["137.1.21.17"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0017" 
+    - ip_address_list: ["137.1.21.18"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0018" 
+    - ip_address_list: ["137.1.21.19"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0019" 
+    - ip_address_list: ["137.1.21.20"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0020" 
+    - ip_address_list: ["137.1.21.21"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0021" 
+    - ip_address_list: ["137.1.21.22"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0022" 
+    - ip_address_list: ["137.1.21.23"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0023" 
+    - ip_address_list: ["137.1.21.24"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0024" 
+    - ip_address_list: ["137.1.21.25"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0025" 
+    - ip_address_list: ["137.1.21.26"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0026" 
+    - ip_address_list: ["137.1.21.27"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0027" 
+    - ip_address_list: ["137.1.21.28"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0028" 
+    - ip_address_list: ["137.1.21.29"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0029" 
+    - ip_address_list: ["137.1.21.30"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0030" 
+    - ip_address_list: ["137.1.21.31"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0031" 
+    - ip_address_list: ["137.1.21.32"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0032" 
+    - ip_address_list: ["137.1.21.33"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0033" 
+    - ip_address_list: ["137.1.21.34"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0034" 
+    - ip_address_list: ["137.1.21.35"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0035" 
+    - ip_address_list: ["137.1.21.36"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0036" 
+    - ip_address_list: ["137.1.21.37"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0037" 
+    - ip_address_list: ["137.1.21.38"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0038" 
+    - ip_address_list: ["137.1.21.39"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0039" 
+    - ip_address_list: ["137.1.21.40"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0040" 
+    - ip_address_list: ["137.1.21.41"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0041" 
+    - ip_address_list: ["137.1.21.42"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0042" 
+    - ip_address_list: ["137.1.21.43"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0043" 
+    - ip_address_list: ["137.1.21.44"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0044" 
+    - ip_address_list: ["137.1.21.45"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0045" 
+    - ip_address_list: ["137.1.21.46"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0046" 
+    - ip_address_list: ["137.1.21.47"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0047" 
+    - ip_address_list: ["137.1.21.48"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0048" 
+    - ip_address_list: ["137.1.21.49"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0049" 
+    - ip_address_list: ["137.1.21.50"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0050" 
+#    - ip_address_list: ["137.1.21.51"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0051" 
+#    - ip_address_list: ["137.1.21.52"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0052" 
+#    - ip_address_list: ["137.1.21.53"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0053" 
+#    - ip_address_list: ["137.1.21.54"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0054" 
+#    - ip_address_list: ["137.1.21.55"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0055" 
+#    - ip_address_list: ["137.1.21.56"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0056" 
+#    - ip_address_list: ["137.1.21.57"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0057" 
+#    - ip_address_list: ["137.1.21.58"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0058" 
+#    - ip_address_list: ["137.1.21.59"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0059" 
+#    - ip_address_list: ["137.1.21.60"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0060" 
+#    - ip_address_list: ["137.1.21.61"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0061" 
+#    - ip_address_list: ["137.1.21.62"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0062" 
+#    - ip_address_list: ["137.1.21.63"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0063" 
+#    - ip_address_list: ["137.1.21.64"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0064" 
+#    - ip_address_list: ["137.1.21.65"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0065" 
+#    - ip_address_list: ["137.1.21.66"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0066" 
+#    - ip_address_list: ["137.1.21.67"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0067" 
+#    - ip_address_list: ["137.1.21.68"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0068" 
+#    - ip_address_list: ["137.1.21.69"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0069" 
+#    - ip_address_list: ["137.1.21.70"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0070" 
+#    - ip_address_list: ["137.1.21.71"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0071" 
+#    - ip_address_list: ["137.1.21.72"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0072" 
+#    - ip_address_list: ["137.1.21.73"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0073" 
+#    - ip_address_list: ["137.1.21.74"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0074" 
+#    - ip_address_list: ["137.1.21.75"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0075" 
+#    - ip_address_list: ["137.1.21.76"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0076" 
+#    - ip_address_list: ["137.1.21.77"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0077" 
+#    - ip_address_list: ["137.1.21.78"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0078" 
+#    - ip_address_list: ["137.1.21.79"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0079" 
+#    - ip_address_list: ["137.1.21.80"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0080" 
+#    - ip_address_list: ["137.1.21.81"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0081" 
+#    - ip_address_list: ["137.1.21.82"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0082" 
+#    - ip_address_list: ["137.1.21.83"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0083" 
+#    - ip_address_list: ["137.1.21.84"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0084" 
+#    - ip_address_list: ["137.1.21.85"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0085" 
+#    - ip_address_list: ["137.1.21.86"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0086" 
+#    - ip_address_list: ["137.1.21.87"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0087" 
+#    - ip_address_list: ["137.1.21.88"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0088" 
+#    - ip_address_list: ["137.1.21.89"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0089" 
+#    - ip_address_list: ["137.1.21.90"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0090" 
+#    - ip_address_list: ["137.1.21.91"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0091" 
+#    - ip_address_list: ["137.1.21.92"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0092" 
+#    - ip_address_list: ["137.1.21.93"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0093" 
+#    - ip_address_list: ["137.1.21.94"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0094" 
+#    - ip_address_list: ["137.1.21.95"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0095" 
+#    - ip_address_list: ["137.1.21.96"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0096" 
+#    - ip_address_list: ["137.1.21.97"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0097" 
+#    - ip_address_list: ["137.1.21.98"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0098" 
+#    - ip_address_list: ["137.1.21.99"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0099" 
+#    - ip_address_list: ["137.1.21.100"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0100" 
+#    - ip_address_list: ["137.1.21.101"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0101" 
+#    - ip_address_list: ["137.1.21.102"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0102" 
+#    - ip_address_list: ["137.1.21.103"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0103" 
+#    - ip_address_list: ["137.1.21.104"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0104" 
+#    - ip_address_list: ["137.1.21.105"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0105" 
+#    - ip_address_list: ["137.1.21.106"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0106" 
+#    - ip_address_list: ["137.1.21.107"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0107" 
+#    - ip_address_list: ["137.1.21.108"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0108" 
+#    - ip_address_list: ["137.1.21.109"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0109" 
+#    - ip_address_list: ["137.1.21.110"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0110" 
+#    - ip_address_list: ["137.1.21.111"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0111" 
+#    - ip_address_list: ["137.1.21.112"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0112" 
+#    - ip_address_list: ["137.1.21.113"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0113" 
+#    - ip_address_list: ["137.1.21.114"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0114" 
+#    - ip_address_list: ["137.1.21.115"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0115" 
+#    - ip_address_list: ["137.1.21.116"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0116" 
+#    - ip_address_list: ["137.1.21.117"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0117" 
+#    - ip_address_list: ["137.1.21.118"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0118" 
+#    - ip_address_list: ["137.1.21.119"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0119" 
+#    - ip_address_list: ["137.1.21.120"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0120" 
+#    - ip_address_list: ["137.1.21.121"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0121" 
+#    - ip_address_list: ["137.1.21.122"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0122" 
+#    - ip_address_list: ["137.1.21.123"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0123" 
+#    - ip_address_list: ["137.1.21.124"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0124" 
+#    - ip_address_list: ["137.1.21.125"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0125" 
+#    - ip_address_list: ["137.1.21.126"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0126" 
+#    - ip_address_list: ["137.1.21.127"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0127" 
+#    - ip_address_list: ["137.1.21.128"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0128" 
+#    - ip_address_list: ["137.1.21.129"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0129" 
+#    - ip_address_list: ["137.1.21.130"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0130" 
+#    - ip_address_list: ["137.1.21.131"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0131" 
+#    - ip_address_list: ["137.1.21.132"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0132" 
+#    - ip_address_list: ["137.1.21.133"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0133" 
+#    - ip_address_list: ["137.1.21.134"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0134" 
+#    - ip_address_list: ["137.1.21.135"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0135" 
+#    - ip_address_list: ["137.1.21.136"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0136" 
+#    - ip_address_list: ["137.1.21.137"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0137" 
+#    - ip_address_list: ["137.1.21.138"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0138" 
+#    - ip_address_list: ["137.1.21.139"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0139" 
+#    - ip_address_list: ["137.1.21.140"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0140" 
+#    - ip_address_list: ["137.1.21.141"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0141" 
+#    - ip_address_list: ["137.1.21.142"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0142" 
+#    - ip_address_list: ["137.1.21.143"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0143" 
+#    - ip_address_list: ["137.1.21.144"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0144" 
+#    - ip_address_list: ["137.1.21.145"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0145" 
+#    - ip_address_list: ["137.1.21.146"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0146" 
+#    - ip_address_list: ["137.1.21.147"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0147" 
+#    - ip_address_list: ["137.1.21.148"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0148" 
+#    - ip_address_list: ["137.1.21.149"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0149" 
+#    - ip_address_list: ["137.1.21.150"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0150" 
+#    - ip_address_list: ["137.1.21.151"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0151" 
+#    - ip_address_list: ["137.1.21.152"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0152" 
+#    - ip_address_list: ["137.1.21.153"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0153" 
+#    - ip_address_list: ["137.1.21.154"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0154" 
+#    - ip_address_list: ["137.1.21.155"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0155" 
+#    - ip_address_list: ["137.1.21.156"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0156" 
+#    - ip_address_list: ["137.1.21.157"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0157" 
+#    - ip_address_list: ["137.1.21.158"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0158" 
+#    - ip_address_list: ["137.1.21.159"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0159" 
+#    - ip_address_list: ["137.1.21.160"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0160" 
+#    - ip_address_list: ["137.1.21.161"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0161" 
+#    - ip_address_list: ["137.1.21.162"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0162" 
+#    - ip_address_list: ["137.1.21.163"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0163" 
+#    - ip_address_list: ["137.1.21.164"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0164" 
+#    - ip_address_list: ["137.1.21.165"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0165" 
+#    - ip_address_list: ["137.1.21.166"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0166" 
+#    - ip_address_list: ["137.1.21.167"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0167" 
+#    - ip_address_list: ["137.1.21.168"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0168" 
+#    - ip_address_list: ["137.1.21.169"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0169" 
+#    - ip_address_list: ["137.1.21.170"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0170" 
+#    - ip_address_list: ["137.1.21.171"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0171" 
+#    - ip_address_list: ["137.1.21.172"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0172" 
+#    - ip_address_list: ["137.1.21.173"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0173" 
+#    - ip_address_list: ["137.1.21.174"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0174" 
+#    - ip_address_list: ["137.1.21.175"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0175" 
+#    - ip_address_list: ["137.1.21.176"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0176" 
+#    - ip_address_list: ["137.1.21.177"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0177" 
+#    - ip_address_list: ["137.1.21.178"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0178" 
+#    - ip_address_list: ["137.1.21.179"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0179" 
+#    - ip_address_list: ["137.1.21.180"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0180" 
+#    - ip_address_list: ["137.1.21.181"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0181" 
+#    - ip_address_list: ["137.1.21.182"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0182" 
+#    - ip_address_list: ["137.1.21.183"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0183" 
+#    - ip_address_list: ["137.1.21.184"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0184" 
+#    - ip_address_list: ["137.1.21.185"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0185" 
+#    - ip_address_list: ["137.1.21.186"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0186" 
+#    - ip_address_list: ["137.1.21.187"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0187" 
+#    - ip_address_list: ["137.1.21.188"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0188" 
+#    - ip_address_list: ["137.1.21.189"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0189" 
+#    - ip_address_list: ["137.1.21.190"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0190" 
+#    - ip_address_list: ["137.1.21.191"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0191" 
+#    - ip_address_list: ["137.1.21.192"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0192" 
+#    - ip_address_list: ["137.1.21.193"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0193" 
+#    - ip_address_list: ["137.1.21.194"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0194" 
+#    - ip_address_list: ["137.1.21.195"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0195" 
+#    - ip_address_list: ["137.1.21.196"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0196" 
+#    - ip_address_list: ["137.1.21.197"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0197" 
+#    - ip_address_list: ["137.1.21.198"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0198" 
+#    - ip_address_list: ["137.1.21.199"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0199" 
+#    - ip_address_list: ["137.1.21.200"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0200" 
+#    - ip_address_list: ["137.1.21.201"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0201" 
+#    - ip_address_list: ["137.1.21.202"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0202" 
+#    - ip_address_list: ["137.1.21.203"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0203" 
+#    - ip_address_list: ["137.1.21.204"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0204" 
+#    - ip_address_list: ["137.1.21.205"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0205" 
+#    - ip_address_list: ["137.1.21.206"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0206" 
+#    - ip_address_list: ["137.1.21.207"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0207" 
+#    - ip_address_list: ["137.1.21.208"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0208" 
+#    - ip_address_list: ["137.1.21.209"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0209" 
+#    - ip_address_list: ["137.1.21.210"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0210" 
+#    - ip_address_list: ["137.1.21.211"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0211" 
+#    - ip_address_list: ["137.1.21.212"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0212" 
+#    - ip_address_list: ["137.1.21.213"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0213" 
+#    - ip_address_list: ["137.1.21.214"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0214" 
+#    - ip_address_list: ["137.1.21.215"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0215" 
+#    - ip_address_list: ["137.1.21.216"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0216" 
+#    - ip_address_list: ["137.1.21.217"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0217" 
+#    - ip_address_list: ["137.1.21.218"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0218" 
+#    - ip_address_list: ["137.1.21.219"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0219" 
+#    - ip_address_list: ["137.1.21.220"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0220" 
+#    - ip_address_list: ["137.1.21.221"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0221" 
+#    - ip_address_list: ["137.1.21.222"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0222" 
+#    - ip_address_list: ["137.1.21.223"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0223" 
+#    - ip_address_list: ["137.1.21.224"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0224" 
+#    - ip_address_list: ["137.1.21.225"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0225" 
+#    - ip_address_list: ["137.1.21.226"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0226" 
+#    - ip_address_list: ["137.1.21.227"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0227" 
+#    - ip_address_list: ["137.1.21.228"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0228" 
+#    - ip_address_list: ["137.1.21.229"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0229" 
+#    - ip_address_list: ["137.1.21.230"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0230" 
+#    - ip_address_list: ["137.1.21.231"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0231" 
+#    - ip_address_list: ["137.1.21.232"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0232" 
+#    - ip_address_list: ["137.1.21.233"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0233" 
+#    - ip_address_list: ["137.1.21.234"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0234" 
+#    - ip_address_list: ["137.1.21.235"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0235" 
+#    - ip_address_list: ["137.1.21.236"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0236" 
+#    - ip_address_list: ["137.1.21.237"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0237" 
+#    - ip_address_list: ["137.1.21.238"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0238" 
+#    - ip_address_list: ["137.1.21.239"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0239" 
+#    - ip_address_list: ["137.1.21.240"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0240" 
+#    - ip_address_list: ["137.1.21.241"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0241" 
+#    - ip_address_list: ["137.1.21.242"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0242" 
+#    - ip_address_list: ["137.1.21.243"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0243" 
+#    - ip_address_list: ["137.1.21.244"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0244" 
+#    - ip_address_list: ["137.1.21.245"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0245" 
+#    - ip_address_list: ["137.1.21.246"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0246" 
+#    - ip_address_list: ["137.1.21.247"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0247" 
+#    - ip_address_list: ["137.1.21.248"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0248" 
+#    - ip_address_list: ["137.1.21.249"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0249" 
+#    - ip_address_list: ["137.1.21.250"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Cyberjaya/CLINIC_B0250" 

@@ -1,0 +1,760 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+provision_details:
+# Define the devices for provisioning
+#TCP2
+  - site_name_hierarchy: Global/Malaysia/Presint 3/3G3
+    management_ip_address: 21.0.0.102
+    provisioning: true
+  #Branch Site Borders - FIAB
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0001 
+    management_ip_address: 137.1.21.1
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0002 
+    management_ip_address: 137.1.21.2
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0003 
+    management_ip_address: 137.1.21.3
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0004 
+    management_ip_address: 137.1.21.4
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0005 
+    management_ip_address: 137.1.21.5
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0006 
+    management_ip_address: 137.1.21.6
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0007 
+    management_ip_address: 137.1.21.7
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0008 
+    management_ip_address: 137.1.21.8
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0009 
+    management_ip_address: 137.1.21.9
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0010 
+    management_ip_address: 137.1.21.10
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0011 
+    management_ip_address: 137.1.21.11
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0012 
+    management_ip_address: 137.1.21.12
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0013 
+    management_ip_address: 137.1.21.13
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0014 
+    management_ip_address: 137.1.21.14
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0015 
+    management_ip_address: 137.1.21.15
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0016 
+    management_ip_address: 137.1.21.16
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0017 
+    management_ip_address: 137.1.21.17
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0018 
+    management_ip_address: 137.1.21.18
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0019 
+    management_ip_address: 137.1.21.19
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0020 
+    management_ip_address: 137.1.21.20
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0021 
+    management_ip_address: 137.1.21.21
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0022 
+    management_ip_address: 137.1.21.22
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0023 
+    management_ip_address: 137.1.21.23
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0024 
+    management_ip_address: 137.1.21.24
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0025 
+    management_ip_address: 137.1.21.25
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0026 
+    management_ip_address: 137.1.21.26
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0027 
+    management_ip_address: 137.1.21.27
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0028 
+    management_ip_address: 137.1.21.28
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0029 
+    management_ip_address: 137.1.21.29
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0030 
+    management_ip_address: 137.1.21.30
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0031 
+    management_ip_address: 137.1.21.31
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0032 
+    management_ip_address: 137.1.21.32
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0033 
+    management_ip_address: 137.1.21.33
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0034 
+    management_ip_address: 137.1.21.34
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0035 
+    management_ip_address: 137.1.21.35
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0036 
+    management_ip_address: 137.1.21.36
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0037 
+    management_ip_address: 137.1.21.37
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0038 
+    management_ip_address: 137.1.21.38
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0039 
+    management_ip_address: 137.1.21.39
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0040 
+    management_ip_address: 137.1.21.40
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0041 
+    management_ip_address: 137.1.21.41
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0042 
+    management_ip_address: 137.1.21.42
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0043 
+    management_ip_address: 137.1.21.43
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0044 
+    management_ip_address: 137.1.21.44
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0045 
+    management_ip_address: 137.1.21.45
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0046 
+    management_ip_address: 137.1.21.46
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0047 
+    management_ip_address: 137.1.21.47
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0048 
+    management_ip_address: 137.1.21.48
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0049 
+    management_ip_address: 137.1.21.49
+    provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0050 
+    management_ip_address: 137.1.21.50
+    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0051 
+#    management_ip_address: 137.1.21.51
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0052 
+#    management_ip_address: 137.1.21.52
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0053 
+#    management_ip_address: 137.1.21.53
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0054 
+#    management_ip_address: 137.1.21.54
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0055 
+#    management_ip_address: 137.1.21.55
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0056 
+#    management_ip_address: 137.1.21.56
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0057 
+#    management_ip_address: 137.1.21.57
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0058 
+#    management_ip_address: 137.1.21.58
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0059 
+#    management_ip_address: 137.1.21.59
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0060 
+#    management_ip_address: 137.1.21.60
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0061 
+#    management_ip_address: 137.1.21.61
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0062 
+#    management_ip_address: 137.1.21.62
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0063 
+#    management_ip_address: 137.1.21.63
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0064 
+#    management_ip_address: 137.1.21.64
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0065 
+#    management_ip_address: 137.1.21.65
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0066 
+#    management_ip_address: 137.1.21.66
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0067 
+#    management_ip_address: 137.1.21.67
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0068 
+#    management_ip_address: 137.1.21.68
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0069 
+#    management_ip_address: 137.1.21.69
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0070 
+#    management_ip_address: 137.1.21.70
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0071 
+#    management_ip_address: 137.1.21.71
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0072 
+#    management_ip_address: 137.1.21.72
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0073 
+#    management_ip_address: 137.1.21.73
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0074 
+#    management_ip_address: 137.1.21.74
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0075 
+#    management_ip_address: 137.1.21.75
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0076 
+#    management_ip_address: 137.1.21.76
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0077 
+#    management_ip_address: 137.1.21.77
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0078 
+#    management_ip_address: 137.1.21.78
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0079 
+#    management_ip_address: 137.1.21.79
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0080 
+#    management_ip_address: 137.1.21.80
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0081 
+#    management_ip_address: 137.1.21.81
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0082 
+#    management_ip_address: 137.1.21.82
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0083 
+#    management_ip_address: 137.1.21.83
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0084 
+#    management_ip_address: 137.1.21.84
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0085 
+#    management_ip_address: 137.1.21.85
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0086 
+#    management_ip_address: 137.1.21.86
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0087 
+#    management_ip_address: 137.1.21.87
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0088 
+#    management_ip_address: 137.1.21.88
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0089 
+#    management_ip_address: 137.1.21.89
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0090 
+#    management_ip_address: 137.1.21.90
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0091 
+#    management_ip_address: 137.1.21.91
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0092 
+#    management_ip_address: 137.1.21.92
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0093 
+#    management_ip_address: 137.1.21.93
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0094 
+#    management_ip_address: 137.1.21.94
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0095 
+#    management_ip_address: 137.1.21.95
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0096 
+#    management_ip_address: 137.1.21.96
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0097 
+#    management_ip_address: 137.1.21.97
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0098 
+#    management_ip_address: 137.1.21.98
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0099 
+#    management_ip_address: 137.1.21.99
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0100 
+#    management_ip_address: 137.1.21.100
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0101 
+#    management_ip_address: 137.1.21.101
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0102 
+#    management_ip_address: 137.1.21.102
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0103 
+#    management_ip_address: 137.1.21.103
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0104 
+#    management_ip_address: 137.1.21.104
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0105 
+#    management_ip_address: 137.1.21.105
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0106 
+#    management_ip_address: 137.1.21.106
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0107 
+#    management_ip_address: 137.1.21.107
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0108 
+#    management_ip_address: 137.1.21.108
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0109 
+#    management_ip_address: 137.1.21.109
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0110 
+#    management_ip_address: 137.1.21.110
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0111 
+#    management_ip_address: 137.1.21.111
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0112 
+#    management_ip_address: 137.1.21.112
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0113 
+#    management_ip_address: 137.1.21.113
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0114 
+#    management_ip_address: 137.1.21.114
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0115 
+#    management_ip_address: 137.1.21.115
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0116 
+#    management_ip_address: 137.1.21.116
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0117 
+#    management_ip_address: 137.1.21.117
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0118 
+#    management_ip_address: 137.1.21.118
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0119 
+#    management_ip_address: 137.1.21.119
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0120 
+#    management_ip_address: 137.1.21.120
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0121 
+#    management_ip_address: 137.1.21.121
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0122 
+#    management_ip_address: 137.1.21.122
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0123 
+#    management_ip_address: 137.1.21.123
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0124 
+#    management_ip_address: 137.1.21.124
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0125 
+#    management_ip_address: 137.1.21.125
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0126 
+#    management_ip_address: 137.1.21.126
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0127 
+#    management_ip_address: 137.1.21.127
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0128 
+#    management_ip_address: 137.1.21.128
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0129 
+#    management_ip_address: 137.1.21.129
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0130 
+#    management_ip_address: 137.1.21.130
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0131 
+#    management_ip_address: 137.1.21.131
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0132 
+#    management_ip_address: 137.1.21.132
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0133 
+#    management_ip_address: 137.1.21.133
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0134 
+#    management_ip_address: 137.1.21.134
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0135 
+#    management_ip_address: 137.1.21.135
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0136 
+#    management_ip_address: 137.1.21.136
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0137 
+#    management_ip_address: 137.1.21.137
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0138 
+#    management_ip_address: 137.1.21.138
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0139 
+#    management_ip_address: 137.1.21.139
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0140 
+#    management_ip_address: 137.1.21.140
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0141 
+#    management_ip_address: 137.1.21.141
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0142 
+#    management_ip_address: 137.1.21.142
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0143 
+#    management_ip_address: 137.1.21.143
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0144 
+#    management_ip_address: 137.1.21.144
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0145 
+#    management_ip_address: 137.1.21.145
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0146 
+#    management_ip_address: 137.1.21.146
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0147 
+#    management_ip_address: 137.1.21.147
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0148 
+#    management_ip_address: 137.1.21.148
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0149 
+#    management_ip_address: 137.1.21.149
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0150 
+#    management_ip_address: 137.1.21.150
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0151 
+#    management_ip_address: 137.1.21.151
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0152 
+#    management_ip_address: 137.1.21.152
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0153 
+#    management_ip_address: 137.1.21.153
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0154 
+#    management_ip_address: 137.1.21.154
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0155 
+#    management_ip_address: 137.1.21.155
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0156 
+#    management_ip_address: 137.1.21.156
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0157 
+#    management_ip_address: 137.1.21.157
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0158 
+#    management_ip_address: 137.1.21.158
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0159 
+#    management_ip_address: 137.1.21.159
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0160 
+#    management_ip_address: 137.1.21.160
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0161 
+#    management_ip_address: 137.1.21.161
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0162 
+#    management_ip_address: 137.1.21.162
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0163 
+#    management_ip_address: 137.1.21.163
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0164 
+#    management_ip_address: 137.1.21.164
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0165 
+#    management_ip_address: 137.1.21.165
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0166 
+#    management_ip_address: 137.1.21.166
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0167 
+#    management_ip_address: 137.1.21.167
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0168 
+#    management_ip_address: 137.1.21.168
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0169 
+#    management_ip_address: 137.1.21.169
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0170 
+#    management_ip_address: 137.1.21.170
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0171 
+#    management_ip_address: 137.1.21.171
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0172 
+#    management_ip_address: 137.1.21.172
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0173 
+#    management_ip_address: 137.1.21.173
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0174 
+#    management_ip_address: 137.1.21.174
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0175 
+#    management_ip_address: 137.1.21.175
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0176 
+#    management_ip_address: 137.1.21.176
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0177 
+#    management_ip_address: 137.1.21.177
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0178 
+#    management_ip_address: 137.1.21.178
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0179 
+#    management_ip_address: 137.1.21.179
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0180 
+#    management_ip_address: 137.1.21.180
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0181 
+#    management_ip_address: 137.1.21.181
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0182 
+#    management_ip_address: 137.1.21.182
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0183 
+#    management_ip_address: 137.1.21.183
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0184 
+#    management_ip_address: 137.1.21.184
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0185 
+#    management_ip_address: 137.1.21.185
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0186 
+#    management_ip_address: 137.1.21.186
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0187 
+#    management_ip_address: 137.1.21.187
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0188 
+#    management_ip_address: 137.1.21.188
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0189 
+#    management_ip_address: 137.1.21.189
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0190 
+#    management_ip_address: 137.1.21.190
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0191 
+#    management_ip_address: 137.1.21.191
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0192 
+#    management_ip_address: 137.1.21.192
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0193 
+#    management_ip_address: 137.1.21.193
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0194 
+#    management_ip_address: 137.1.21.194
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0195 
+#    management_ip_address: 137.1.21.195
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0196 
+#    management_ip_address: 137.1.21.196
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0197 
+#    management_ip_address: 137.1.21.197
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0198 
+#    management_ip_address: 137.1.21.198
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0199 
+#    management_ip_address: 137.1.21.199
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0200 
+#    management_ip_address: 137.1.21.200
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0201 
+#    management_ip_address: 137.1.21.201
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0202 
+#    management_ip_address: 137.1.21.202
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0203 
+#    management_ip_address: 137.1.21.203
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0204 
+#    management_ip_address: 137.1.21.204
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0205 
+#    management_ip_address: 137.1.21.205
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0206 
+#    management_ip_address: 137.1.21.206
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0207 
+#    management_ip_address: 137.1.21.207
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0208 
+#    management_ip_address: 137.1.21.208
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0209 
+#    management_ip_address: 137.1.21.209
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0210 
+#    management_ip_address: 137.1.21.210
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0211 
+#    management_ip_address: 137.1.21.211
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0212 
+#    management_ip_address: 137.1.21.212
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0213 
+#    management_ip_address: 137.1.21.213
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0214 
+#    management_ip_address: 137.1.21.214
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0215 
+#    management_ip_address: 137.1.21.215
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0216 
+#    management_ip_address: 137.1.21.216
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0217 
+#    management_ip_address: 137.1.21.217
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0218 
+#    management_ip_address: 137.1.21.218
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0219 
+#    management_ip_address: 137.1.21.219
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0220 
+#    management_ip_address: 137.1.21.220
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0221 
+#    management_ip_address: 137.1.21.221
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0222 
+#    management_ip_address: 137.1.21.222
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0223 
+#    management_ip_address: 137.1.21.223
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0224 
+#    management_ip_address: 137.1.21.224
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0225 
+#    management_ip_address: 137.1.21.225
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0226 
+#    management_ip_address: 137.1.21.226
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0227 
+#    management_ip_address: 137.1.21.227
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0228 
+#    management_ip_address: 137.1.21.228
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0229 
+#    management_ip_address: 137.1.21.229
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0230 
+#    management_ip_address: 137.1.21.230
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0231 
+#    management_ip_address: 137.1.21.231
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0232 
+#    management_ip_address: 137.1.21.232
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0233 
+#    management_ip_address: 137.1.21.233
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0234 
+#    management_ip_address: 137.1.21.234
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0235 
+#    management_ip_address: 137.1.21.235
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0236 
+#    management_ip_address: 137.1.21.236
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0237 
+#    management_ip_address: 137.1.21.237
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0238 
+#    management_ip_address: 137.1.21.238
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0239 
+#    management_ip_address: 137.1.21.239
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0240 
+#    management_ip_address: 137.1.21.240
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0241 
+#    management_ip_address: 137.1.21.241
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0242 
+#    management_ip_address: 137.1.21.242
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0243 
+#    management_ip_address: 137.1.21.243
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0244 
+#    management_ip_address: 137.1.21.244
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0245 
+#    management_ip_address: 137.1.21.245
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0246 
+#    management_ip_address: 137.1.21.246
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0247 
+#    management_ip_address: 137.1.21.247
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0248 
+#    management_ip_address: 137.1.21.248
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0249 
+#    management_ip_address: 137.1.21.249
+#    provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Cyberjaya/CLINIC_B0250 
+#    management_ip_address: 137.1.21.250
+#    provisioning: true

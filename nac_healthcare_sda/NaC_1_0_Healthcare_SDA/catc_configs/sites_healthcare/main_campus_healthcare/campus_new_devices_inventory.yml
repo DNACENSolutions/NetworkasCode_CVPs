@@ -1,0 +1,11 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# This file contains the variables for the inventory workflow
+inventory_details:
+  network_devices:
+  # List of network devices with their roles and site names
+  # ACCESS SWITCHES
+    - ip_address_list: ["21.100.2.20"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"

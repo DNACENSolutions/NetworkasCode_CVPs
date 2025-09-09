@@ -1,0 +1,36 @@
+#usecase_data.yaml
+#Step1 : Discover New Devices for the site
+01_Campus_New_Device_Discovery:
+  schema_file: "device_discovery/schema/device_discovery_schema.yml"
+  playbook: "device_discovery/playbook/device_discovery_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_discovery.yml"
+
+#Step2 : Assign New Devices Inventory Properties
+02_Campus_New_Device_Inventory:
+  schema_file: "inventory/schema/inventory_schema.yml"
+  playbook: "inventory/playbook/inventory_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_inventory.yml"
+
+#Step3 : Assign New Devices to sites and Provision the devices
+03_Campus_New_Device_Provision:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_provision.yml"
+
+#Step4 : Add New Devices to Fabric as edge(s)
+04_Campus_New_Device_To_Fabric:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_sda_fabric.yml"
+
+#Step5 : Manage host port onboarding on new Edge Devices
+05_Campus_HostOnboarding:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/sda_host_onboarding_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_sda_fabric_hostonboarding.yml"
+
+#Step6 : Execute the Network compliance on new devices
+06_Campus_New_Device_NetworkCompliance:
+  schema_file: "network_compliance/schema/network_compliance_workflow_schema.yml"
+  playbook: "network_compliance/playbook/network_compliance_workflow_playbook.yml"
+  data_file: "catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_compliance.yml"

@@ -1,0 +1,3034 @@
+---
+catalyst_center_version: "2.3.7.9"
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  - anycast_gateways: 
+    # Limit 20 gateways per task payload 
+    # Campus West_64
+    - vn_name: "West_64"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-63"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_64"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-127"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_64"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-191"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_64"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-255"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+    # Campus West_63
+    - vn_name: "West_63"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-62"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_63"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-126"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_63"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-190"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_63"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-254"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+    # Campus West_62
+    - vn_name: "West_62"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-61"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_62"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-125"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_62"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-189"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_62"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-253"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+    # Campus West_61
+    - vn_name: "West_61"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-60"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_61"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-124"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_61"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-188"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_61"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-252"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+    # Campus West_60
+    - vn_name: "West_60"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-59"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_60"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-123"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_60"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-187"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_60"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-251"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+  - anycast_gateways: 
+    # Limit 20 gateways per task payload 
+    # Campus West_59
+    - vn_name: "West_59"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-58"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_59"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-122"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_59"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-186"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_59"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-250"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_58
+    - vn_name: "West_58"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-57"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_58"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-121"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_58"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-185"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_58"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-249"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_57
+    - vn_name: "West_57"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-56"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_57"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-120"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_57"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-184"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_57"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-248"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_56
+    - vn_name: "West_56"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-55"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_56"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-119"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_56"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-183"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_56"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-247"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_55
+    - vn_name: "West_55"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-54"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_55"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-118"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_55"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-182"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_55"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-246"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+  - anycast_gateways: 
+    # Limit 20 gateways per task payload 
+    # Campus West_54
+    - vn_name: "West_54"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-53"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_54"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-117"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_54"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-181"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_54"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-245"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_53
+    - vn_name: "West_53"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-52"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_53"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-116"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_53"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-180"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_53"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-244"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_52
+    - vn_name: "West_52"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-51"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_52"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-115"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_52"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-179"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_52"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-243"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_51
+    - vn_name: "West_51"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-50"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_51"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-114"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_51"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-178"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_51"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-242"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_50
+    - vn_name: "West_50"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-49"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_50"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-113"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_50"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-177"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_50"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-241"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+  - anycast_gateways: 
+    # Limit 20 gateways per task payload 
+    # Campus West_49
+    - vn_name: "West_49"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-48"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_49"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-112"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_49"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-176"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_49"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-240"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_48
+    - vn_name: "West_48"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-47"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_48"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-111"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_48"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-175"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_48"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-239"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_47
+    - vn_name: "West_47"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-46"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_47"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-110"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_47"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-174"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_47"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-238"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_46
+    - vn_name: "West_46"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-45"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_46"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-109"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_46"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-173"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_46"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-237"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_45
+    - vn_name: "West_45"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-44"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_45"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-108"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_45"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-172"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_45"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-236"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+  - anycast_gateways: 
+    # Limit 20 gateways per task payload 
+    # Campus West_44
+    - vn_name: "West_44"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-43"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_44"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-107"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_44"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-171"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_44"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-235"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_43
+    - vn_name: "West_43"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-42"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_43"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-106"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_43"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-170"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_43"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-234"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_42
+    - vn_name: "West_42"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-41"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_42"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-105"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_42"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-169"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_42"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-233"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_41
+    - vn_name: "West_41"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-40"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_41"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-104"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_41"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-168"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_41"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-232"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+
+    # Campus West_40
+    - vn_name: "West_40"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-39"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_40"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-103"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_40"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-167"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_40"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-231"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+# Limit 100
+  - anycast_gateways: 
+    # Limit 20 gateways per task payload 
+    # Campus West_39
+    - vn_name: "West_39"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-38"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_39"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-102"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_39"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-166"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+    - vn_name: "West_39"
+      fabric_site_location:
+        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+        fabric_type: "fabric_site"
+      ip_pool_name: "22-7-230"
+      auto_generate_vlan_name: true
+      traffic_type: "DATA"
+      is_critical_pool: false
+      layer2_flooding_enabled: false
+      ip_directed_broadcast: false
+      fabric_enabled_wireless: false
+
+#
+#    # Campus West_38
+#    - vn_name: "West_38"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-37"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_38"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-101"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_38"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-165"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_38"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-229"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_37
+#    - vn_name: "West_37"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-36"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_37"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-100"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_37"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-164"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_37"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-228"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_36
+#    - vn_name: "West_36"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-35"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_36"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-99"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_36"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-163"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_36"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-227"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_35
+#    - vn_name: "West_35"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-34"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_35"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-98"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_35"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-162"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_35"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-226"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#  - anycast_gateways: 
+#    # Limit 20 gateways per task payload 
+#    # Campus West_34
+#    - vn_name: "West_34"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-33"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_34"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-97"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_34"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-161"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_34"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-225"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_33
+#    - vn_name: "West_33"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-32"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_33"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-96"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_33"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-160"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_33"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-224"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_32
+#    - vn_name: "West_32"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-31"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_32"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-95"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_32"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-159"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_32"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-223"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_31
+#    - vn_name: "West_31"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-30"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_31"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-94"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_31"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-158"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_31"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-222"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_30
+#    - vn_name: "West_30"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-29"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_30"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-93"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_30"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-157"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_30"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-221"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#  - anycast_gateways: 
+#    # Limit 20 gateways per task payload 
+#    # Campus West_29
+#    - vn_name: "West_29"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-28"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_29"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-92"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_29"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-156"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_29"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-220"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_28
+#    - vn_name: "West_28"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-27"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_28"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-91"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_28"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-155"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_28"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-219"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_27
+#    - vn_name: "West_27"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-26"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_27"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-90"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_27"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-154"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_27"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-218"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_26
+#    - vn_name: "West_26"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-25"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_26"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-89"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_26"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-153"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_26"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-217"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_25
+#    - vn_name: "West_25"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-24"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_25"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-88"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_25"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-152"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_25"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-216"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#  - anycast_gateways: 
+#    # Limit 20 gateways per task payload 
+#    # Campus West_24
+#    - vn_name: "West_24"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-23"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_24"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-87"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_24"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-151"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_24"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-215"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_23
+#    - vn_name: "West_23"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-22"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_23"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-86"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_23"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-150"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_23"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-214"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_22
+#    - vn_name: "West_22"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-21"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_22"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-85"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_22"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-149"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_22"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-213"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_21
+#    - vn_name: "West_21"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-20"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_21"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-84"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_21"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-148"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_21"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-212"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_20
+#    - vn_name: "West_20"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-19"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_20"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-83"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_20"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-147"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_20"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-211"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#  - anycast_gateways: 
+#    # Limit 20 gateways per task payload 
+#    # Campus West_19
+#    - vn_name: "West_19"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-18"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_19"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-82"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_19"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-146"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_19"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-210"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_18
+#    - vn_name: "West_18"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-17"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_18"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-81"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_18"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-145"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_18"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-209"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_17
+#    - vn_name: "West_17"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-16"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_17"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-80"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_17"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-144"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_17"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-208"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_16
+#    - vn_name: "West_16"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-15"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_16"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-79"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_16"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-143"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_16"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-207"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_15
+#    - vn_name: "West_15"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-14"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_15"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-78"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_15"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-142"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_15"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-206"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+# 
+# Limit 100
+#  - anycast_gateways: 
+#    # Limit 20 gateways per task payload 
+#    # Campus West_14
+#    - vn_name: "West_14"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-13"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_14"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-77"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_14"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-141"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_14"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-205"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_13
+#    - vn_name: "West_13"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-12"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_13"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-76"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_13"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-140"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_13"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-204"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_12
+#    - vn_name: "West_12"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-11"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_12"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-75"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_12"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-139"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_12"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-203"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_11
+#    - vn_name: "West_11"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-10"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_11"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-74"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_11"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-138"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_11"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-202"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_10
+#    - vn_name: "West_10"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-9"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_10"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-73"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_10"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-137"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_10"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-201"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#  - anycast_gateways: 
+#    # Limit 20 gateways per task payload 
+#    # Campus West_9
+#    - vn_name: "West_9"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-8"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_9"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-72"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_9"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-136"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_9"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-200"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_8
+#    - vn_name: "West_8"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-7"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_8"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-71"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_8"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-135"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_8"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-199"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_7
+#    - vn_name: "West_7"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-6"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_7"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-70"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_7"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-134"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_7"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-198"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_6
+#    - vn_name: "West_6"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-5"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_6"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-69"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_6"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-133"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_6"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-197"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#  - anycast_gateways: 
+#    # Limit 20 gateways per task payload 
+#    # Campus West_5
+#    - vn_name: "West_5"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-4"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_5"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-68"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_5"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-132"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_5"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-196"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_4
+#    - vn_name: "West_4"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-3"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_4"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-67"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_4"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-131"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_4"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-195"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_3
+#    - vn_name: "West_3"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-2"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_3"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-66"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_3"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-130"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_3"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-194"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_2
+#    - vn_name: "West_2"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-1"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_2"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-65"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_2"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-129"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_2"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-193"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#
+#    # Campus West_1
+#    - vn_name: "West_1"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-0"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_1"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-64"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_1"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-128"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#    - vn_name: "West_1"
+#      fabric_site_location:
+#        site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#        fabric_type: "fabric_site"
+#      ip_pool_name: "22-7-192"
+#      auto_generate_vlan_name: true
+#      traffic_type: "DATA"
+#      is_critical_pool: false
+#      layer2_flooding_enabled: false
+#      ip_directed_broadcast: false
+#      fabric_enabled_wireless: false
+#
+#

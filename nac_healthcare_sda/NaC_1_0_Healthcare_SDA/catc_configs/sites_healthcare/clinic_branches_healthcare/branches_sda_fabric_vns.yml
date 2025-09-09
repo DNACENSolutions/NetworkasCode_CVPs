@@ -1,0 +1,466 @@
+---
+catalyst_center_version: "2.3.7.9"
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  # Add Scaled VN miniscale_VN_1 to miniscale_VN_10
+  - virtual_networks:
+
+    - vn_name: "miniscale_VN_1"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0001"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_2"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0002"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_3"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0003"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_4"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0004"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_5"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0005"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_6"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0006"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_7"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0007"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_8"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0008"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_9"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0009"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_10"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0010"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_11"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0011"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_12"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0012"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_13"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0013"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_14"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0014"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_15"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0015"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_16"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0016"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_17"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0017"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_18"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0018"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_19"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0019"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_20"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0020"
+          fabric_type: "fabric_site" 
+
+  - virtual_networks:
+    - vn_name: "miniscale_VN_21"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0021"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_22"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0022"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_23"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0023"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_24"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0024"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_25"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0025"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_26"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0026"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_27"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0027"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_28"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0028"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_29"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0029"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_30"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0030"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_31"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0031"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_32"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0032"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_33"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0033"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_34"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0034"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_35"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0035"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_36"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0036"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_37"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0037"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_38"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0038"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_39"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0039"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_40"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0040"
+          fabric_type: "fabric_site" 
+
+  - virtual_networks:
+    - vn_name: "miniscale_VN_41"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0041"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_42"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0042"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_43"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0043"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_44"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0044"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_45"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0045"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_46"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0046"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_47"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0047"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_48"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0048"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_49"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0049"
+          fabric_type: "fabric_site" 
+
+    - vn_name: "miniscale_VN_50"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0050"
+          fabric_type: "fabric_site" 
+
+
+  - virtual_networks:
+    - vn_name: "INFRA_VN"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0001"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0002"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0003"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0004"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0005"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0006"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0007"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0008"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0009"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0010"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0011"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0012"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0013"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0014"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0015"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0016"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0017"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0018"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0019"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0020"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0021"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0022"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0023"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0024"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0025"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0026"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0027"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0028"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0029"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0030"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0031"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0032"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0033"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0034"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0035"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0036"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0037"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0038"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0039"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0040"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0041"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0042"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0043"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0044"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0045"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0046"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0047"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0048"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0049"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0050"
+          fabric_type: "fabric_site" 
+  - virtual_networks:
+    - vn_name: "DEFAULT_VN"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0001"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0002"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0003"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0004"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0005"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0006"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0007"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0008"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0009"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0010"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0011"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0012"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0013"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0014"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0015"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0016"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0017"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0018"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0019"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0020"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0021"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0022"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0023"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0024"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0025"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0026"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0027"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0028"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0029"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0030"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0031"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0032"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0033"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0034"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0035"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0036"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0037"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0038"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0039"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0040"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0041"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0042"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0043"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0044"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0045"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0046"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0047"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0048"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0049"
+          fabric_type: "fabric_site" 
+        - site_name_hierarchy: "Global/Malaysia/Cyberjaya/CLINIC_B0050"
+          fabric_type: "fabric_site" 

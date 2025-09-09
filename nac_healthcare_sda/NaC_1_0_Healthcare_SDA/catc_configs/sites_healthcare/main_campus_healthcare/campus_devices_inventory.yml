@@ -1,0 +1,769 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# This file contains the variables for the inventory workflow
+inventory_details:
+  network_devices:
+  # List of network devices with their roles and site names
+  # BORDER ROUTER
+    - ip_address_list: ["21.0.0.3"]
+      role: BORDER ROUTER	
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["21.0.0.4"]
+      role: BORDER ROUTER	
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+  # DISTRIBUTION SWITCHES
+    - ip_address_list: ["21.100.2.253"]
+      role: DISTRIBUTION
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+  # ACCESS SWITCHES
+    - ip_address_list: ["137.1.23.1"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.2"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.3"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.4"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.5"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.6"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.7"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.8"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.9"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.10"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.11"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.12"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.13"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.14"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.15"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.16"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.17"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.18"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.19"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.20"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.21"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.22"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.23"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.24"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.25"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.26"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.27"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.28"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.29"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.30"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.31"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.32"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.33"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.34"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.35"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.36"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.37"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.38"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.39"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.40"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.41"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.42"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.43"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.44"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.45"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.46"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.47"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.48"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.49"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.50"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.51"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.52"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.53"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.54"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.55"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.56"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.57"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.58"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.59"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.60"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.61"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.62"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.63"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.64"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.65"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.66"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.67"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.68"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.69"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.70"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.71"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.72"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.73"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.74"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.75"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.76"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.77"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.78"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.79"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.80"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.81"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.82"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.83"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.84"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.85"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.86"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.87"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.88"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.89"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.90"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.91"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.92"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.93"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.94"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.95"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.96"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.97"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.98"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.99"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+    - ip_address_list: ["137.1.23.100"]
+      role: ACCESS
+      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.101"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.102"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.103"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.104"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.105"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.106"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.107"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.108"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.109"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.110"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.111"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.112"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.113"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.114"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.115"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.116"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.117"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.118"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.119"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.120"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.121"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.122"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.123"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.124"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.125"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.126"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.127"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.128"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.129"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.130"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.131"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.132"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.133"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.134"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.135"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.136"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.137"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.138"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.139"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.140"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.141"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.142"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.143"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.144"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.145"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.146"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.147"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.148"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.149"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.150"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.151"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.152"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.153"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.154"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.155"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.156"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.157"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.158"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.159"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.160"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.161"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.162"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.163"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.164"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.165"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.166"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.167"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.168"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.169"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.170"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.171"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.172"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.173"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.174"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.175"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.176"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.177"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.178"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.179"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.180"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.181"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.182"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.183"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.184"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.185"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.186"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.187"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.188"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.189"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.190"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.191"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.192"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.193"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.194"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.195"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.196"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.197"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.198"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.199"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.200"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.201"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.202"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.203"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.204"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.205"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.206"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.207"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.208"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.209"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.210"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.211"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.212"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.213"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.214"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.215"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.216"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.217"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.218"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.219"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.220"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.221"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.222"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.223"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.224"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.225"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.226"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.227"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.228"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.229"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.230"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.231"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.232"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.233"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.234"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.235"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.236"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.237"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.238"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.239"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.240"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.241"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.242"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.243"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.244"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.245"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.246"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.247"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.248"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.249"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"
+#    - ip_address_list: ["137.1.23.250"]
+#      role: ACCESS
+#      site_name: "Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main"

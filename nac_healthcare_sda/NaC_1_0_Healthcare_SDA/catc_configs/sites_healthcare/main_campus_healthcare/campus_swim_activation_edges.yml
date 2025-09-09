@@ -1,0 +1,118 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+swim_details:
+  # List of images to be activated on the devices
+  activate_images:
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE1-21-100-2-1.fabric.com
+        device_ip_address: 21.100.2.1
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE2-21-100-2-2.fabric.com
+        device_ip_address: 21.100.2.2
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE3-21-100-2-3.fabric.com
+        device_ip_address: 21.100.2.3
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE4-21-100-2-4.fabric.com
+        device_ip_address: 21.100.2.4
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE5-21-100-2-5.fabric.com
+        device_ip_address: 21.100.2.5
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE6-21-100-2-6.fabric.com
+        device_ip_address: 21.100.2.6
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE7-21-100-2-7.fabric.com
+        device_ip_address: 21.100.2.7
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE8-21-100-2-8.fabric.com
+        device_ip_address: 21.100.2.8
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE9-21-100-2-9.fabric.com
+        device_ip_address: 21.100.2.9
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    - image_activation_details:
+        device_family_name: Switches and Hubs
+        device_hostname: FE10-21-100-2-10.fabric.com
+        device_ip_address: 21.100.2.10
+        device_role: ACCESS
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: true
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    - image_activation_details:
+#        device_family_name: Switches and Hubs
+#        device_hostname: FE1-21-100-2-10.fabric.com
+#        device_ip_address: 21.100.2.10
+#        device_role: ACCESS
+#        device_upgrade_mode: currentlyExists
+#        distribute_if_needed: true
+#        image_name: cat9k_iosxe.17.15.03.SPA.bin
+#        #sub_package_images:
+#        #   - cat9k_iosxe.17.12.05.CSCwn98779.SPA.smu.bin
+#        schedule_validate: false
+#        site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main

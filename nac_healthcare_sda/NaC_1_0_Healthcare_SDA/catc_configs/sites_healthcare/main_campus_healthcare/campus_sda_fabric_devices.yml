@@ -1,0 +1,803 @@
+---
+catalyst_center_version: 2.3.7.9
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      # Border/Control Plane Node with IP and SDA Transit Enabled
+      device_config:
+        - device_ip: 21.0.0.3
+          device_roles: 
+            - CONTROL_PLANE_NODE
+            - BORDER_NODE
+          borders_settings:
+            layer3_settings:
+              local_autonomous_system_number: 64005
+              is_default_exit: true 
+              import_external_routes: true 
+            layer3_handoff_ip_transit:
+              - transit_network_name: HC-IP-TRANSIT
+                interface_name: TwentyFiveGigE1/0/24
+                external_connectivity_ip_pool_name: Handoff-Campus-22-1-1
+                virtual_network_name: West_1
+                vlan_id: 3001
+              - transit_network_name: HC-IP-TRANSIT
+                interface_name: TwentyFiveGigE1/0/24
+                external_connectivity_ip_pool_name: Handoff-Campus-22-1-1
+                virtual_network_name: West_2
+                vlan_id: 3002
+              - transit_network_name: HC-IP-TRANSIT
+                interface_name: TwentyFiveGigE1/0/24
+                external_connectivity_ip_pool_name: Handoff-Campus-22-1-1
+                virtual_network_name: West_3
+                vlan_id: 3003
+              - transit_network_name: HC-IP-TRANSIT
+                interface_name: TwentyFiveGigE1/0/24
+                external_connectivity_ip_pool_name: Handoff-Campus-22-1-1
+                virtual_network_name: West_4
+                vlan_id: 3004
+              - transit_network_name: HC-IP-TRANSIT
+                interface_name: TwentyFiveGigE1/0/24
+                external_connectivity_ip_pool_name: Handoff-Campus-22-1-1
+                virtual_network_name: West_5
+                vlan_id: 3005
+            layer3_handoff_sda_transit:
+              transit_network_name: HC-SDA-TRANSIT
+              connected_to_internet: true
+
+  - fabric_devices:
+      fabric_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      # 100 devices , 3 fabric tasks 
+      # Task1 : 40
+      # Task2 : 40
+      # Task3 : 20
+      device_config: 
+        - device_ip: 137.1.23.1
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.2
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.3
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.4
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.5
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.6
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.7
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.8
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.9
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.10
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.11
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.12
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.13
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.14
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.15
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.16
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.17
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.18
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.19
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.20
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.21
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.22
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.23
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.24
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.25
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.26
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.27
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.28
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.29
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.30
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.31
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.32
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.33
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.34
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.35
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.36
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.37
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.38
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.39
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.40
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.41
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.42
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.43
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.44
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.45
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.46
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.47
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.48
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.49
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.50
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.51
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.52
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.53
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.54
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.55
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.56
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.57
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.58
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.59
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.60
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.61
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.62
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.63
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.64
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.65
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.66
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.67
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.68
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.69
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.70
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.71
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.72
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.73
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.74
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.75
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.76
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.77
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.78
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.79
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.80
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.81
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.82
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.83
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.84
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.85
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.86
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.87
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.88
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.89
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.90
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.91
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.92
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.93
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.94
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.95
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.96
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.97
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.98
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.99
+          device_roles: 
+            - EDGE_NODE 
+        - device_ip: 137.1.23.100
+          device_roles: 
+            - EDGE_NODE 
+#        - device_ip: 137.1.23.101
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.102
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.103
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.104
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.105
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.106
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.107
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.108
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.109
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.110
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.111
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.112
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.113
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.114
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.115
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.116
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.117
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.118
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.119
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.120
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.121
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.122
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.123
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.124
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.125
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.126
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.127
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.128
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.129
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.130
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.131
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.132
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.133
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.134
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.135
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.136
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.137
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.138
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.139
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.140
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.141
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.142
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.143
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.144
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.145
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.146
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.147
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.148
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.149
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.150
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.151
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.152
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.153
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.154
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.155
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.156
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.157
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.158
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.159
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.160
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.161
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.162
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.163
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.164
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.165
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.166
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.167
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.168
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.169
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.170
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.171
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.172
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.173
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.174
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.175
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.176
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.177
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.178
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.179
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.180
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.181
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.182
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.183
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.184
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.185
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.186
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.187
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.188
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.189
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.190
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.191
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.192
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.193
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.194
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.195
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.196
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.197
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.198
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.199
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.200
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.201
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.202
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.203
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.204
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.205
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.206
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.207
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.208
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.209
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.210
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.211
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.212
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.213
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.214
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.215
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.216
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.217
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.218
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.219
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.220
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.221
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.222
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.223
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.224
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.225
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.226
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.227
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.228
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.229
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.230
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.231
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.232
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.233
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.234
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.235
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.236
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.237
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.238
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.239
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.240
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.241
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.242
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.243
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.244
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.245
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.246
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.247
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.248
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.249
+#          device_roles: 
+#            - EDGE_NODE 
+#        - device_ip: 137.1.23.250
+#          device_roles: 
+#            - EDGE_NODE 

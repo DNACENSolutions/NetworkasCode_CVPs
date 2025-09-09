@@ -1,0 +1,21 @@
+catalyst_center_version: 2.3.7.9
+discovery_details:
+  range:
+    - ip_address_list:
+      - 21.100.2.20-21.100.2.20
+      discovery_type: RANGE
+      protocol_order: ssh 
+      discovery_name: FE20_Discovery 
+      discovery_specific_credentials:
+        cli_credentials_list:
+            - username: cisco123
+              password: cisco123
+              enable_password: cisco123
+        snmp_v2_read_credential:
+            description: read
+            community: public
+        snmp_v2_write_credential:
+            description: write
+            community: public
+        net_conf_port: '830'
+      retry: 2

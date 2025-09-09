@@ -1,0 +1,269 @@
+---
+catalyst_center_version: "2.3.7.9"
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  # Add Scaled VN miniscale_VN_1 to miniscale_VN_10
+  - virtual_networks:
+    - vn_name: "West_64"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_63"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_62"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_61"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_60"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_59"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_58"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_57"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_56"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_55"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_54"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_53"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_52"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_51"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_50"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_49"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_48"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_47"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_46"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_45"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+
+  - virtual_networks:
+    - vn_name: "West_44"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_43"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_42"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_41"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_40"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_39"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_38"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_37"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_36"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_35"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_34"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_33"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_32"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_31"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_30"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_29"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_28"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_27"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_26"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_25"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+
+  - virtual_networks:
+    - vn_name: "West_24"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_23"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_22"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_21"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_20"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_19"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_18"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_17"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_16"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+    - vn_name: "West_15"
+      fabric_site_locations:
+        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+          fabric_type: "fabric_site" 
+#    - vn_name: "West_14"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_13"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_12"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_11"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_10"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_9"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_8"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_7"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_6"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_5"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#
+#  - virtual_networks:
+#    - vn_name: "West_4"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_3"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_2"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#    - vn_name: "West_1"
+#      fabric_site_locations:
+#        - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#          fabric_type: "fabric_site" 
+#

@@ -1,0 +1,63 @@
+└── CatC_Network_as_Code.git/
+    ├── ansible.cfg
+    ├── ansible_inventory
+    │   └── catalystcenter_inventory
+    ├── catc_configs
+    │   └── sites_healthcare
+    |        |── main_campus_healthcare
+    |        |    └── YAML Input files for configuration for Main Campus Site
+    |        |    |── campus_devices_compliance.yml
+    |        |    |── campus_devices_credentials.yml
+    |        |    |── campus_devices_discovery.yml
+    |        |    |── campus_devices_inventory.yml
+    |        |    |── campus_devices_provision.yml
+    |        |    |── campus_nw_settings_ippools.yml
+    |        |    |── campus_sda_fabric_devices.yml
+    |        |    |── campus_sda_fabric_gateways.yml
+    |        |    |── campus_sda_fabric_hostonboarding.yml
+    |        |    |── campus_sda_fabric_sites_zones.yml
+    |        |    |── campus_sda_fabric_vns.yml
+    |        |    |── campus_swim_activation_border_cp.yml
+    |        |    |── campus_swim_activation_edges.yml
+    |        |    |── campus_swim_activation_im.yml
+    |        |    |── campus_swim_cco_download.yml
+    |        |    |── campus_swim_distribution.yml
+    |        |    |── campus_swim_tag_golden_images.yml
+    |        |    |── campus_new_devices_compliance.yml
+    |        |    |── campus_new_devices_discovery.yml
+    |        |    |── campus_new_devices_inventory.yml
+    |        |    |── campus_new_devices_provision.yml
+    |        |    |── campus_new_devices_sda_fabric_devices.yml
+    |        |    |── campus_new_devices_sda_fabric_hostonboarding.yml
+    |        |    
+    |        └── clinic_branches_healthcare
+    |        |    └── YAML Input files for configuration for all the brnaches sites 
+    |        |    |── branches_devices_compliance.yml
+    |        |    |── branches_devices_credentials.yml
+    |        |    |── branches_devices_discovery.yml
+    |        |    |── branches_devices_inventory.yml
+    |        |    |── branches_devices_provision.yml
+    |        |    |── branches_nw_settings_ippools.yml
+    |        |    |── branches_sda_fabric_devices.yml
+    |        |    |── branches_sda_fabric_gateways.yml
+    |        |    |── branches_sda_fabric_hostonboarding.yml
+    |        |    |── branches_sda_fabric_sites_zones.yml
+    |        |    |── branches_sda_fabric_vns.yml
+    |        |    |── branches_swim_activation_fiabs.yml
+    |        |    |── branches_swim_cco_download.yml
+    |        |    |── branches_swim_distribution.yml
+    |        |    |── branches_swim_tag_golden_images.yml
+    |        |    
+    |        └── <Other Sites> 
+    ├── requirements.txt
+    ├── scripts
+    │   └── run_playbooks.py
+    ├── setup.sh
+    └── usecase_maps
+        ├── healthcare_usecase01_day1_campus_branch_bringup.yml
+        ├── healthcare_usecase02_day1_clinic_branch_bringup.yml
+        ├── healthcare_usecase03_dayN_campus_main_network_upgrade.yml
+        ├── healthcare_usecase04_dayN_clinic_branch_network_upgrade.yml
+        └── healthcare_usecase05_dayN_campus_fabric_edge_onboarding.yml
+
+

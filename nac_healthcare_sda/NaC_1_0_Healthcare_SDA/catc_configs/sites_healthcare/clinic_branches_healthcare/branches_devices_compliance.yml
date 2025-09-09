@@ -1,0 +1,60 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+network_compliance_details:
+# Define the device details for Network Compliance run and fix
+  - ip_address_list: 
+      - 137.1.21.1
+    site_name: Global/Malaysia/Cyberjaya/CLINIC_B0001
+    run_compliance: true
+    # 'INTENT'(mapped to compliance types: NETWORK_SETTINGS,NETWORK_PROFILE,WORKFLOW,FABRIC,APPLICATION_VISIBILITY), 'RUNNING_CONFIG' , 'IMAGE' , 'PSIRT' , 'EOX' , 'NETWORK_SETTINGS'
+    run_compliance_categories: 
+      - INTENT
+      - RUNNING_CONFIG
+      - IMAGE
+      - PSIRT
+    sync_device_config: true
+  - ip_address_list: 
+      - 137.1.21.2
+    site_name: Global/Malaysia/Cyberjaya/CLINIC_B0002
+    run_compliance: true
+    # 'INTENT'(mapped to compliance types: NETWORK_SETTINGS,NETWORK_PROFILE,WORKFLOW,FABRIC,APPLICATION_VISIBILITY), 'RUNNING_CONFIG' , 'IMAGE' , 'PSIRT' , 'EOX' , 'NETWORK_SETTINGS'
+    run_compliance_categories: 
+      - INTENT
+      - RUNNING_CONFIG
+      - IMAGE
+      - PSIRT
+    sync_device_config: true
+  - ip_address_list: 
+      - 137.1.21.3
+    site_name: Global/Malaysia/Cyberjaya/CLINIC_B0003
+    run_compliance: true
+    # 'INTENT'(mapped to compliance types: NETWORK_SETTINGS,NETWORK_PROFILE,WORKFLOW,FABRIC,APPLICATION_VISIBILITY), 'RUNNING_CONFIG' , 'IMAGE' , 'PSIRT' , 'EOX' , 'NETWORK_SETTINGS'
+    run_compliance_categories: 
+      - INTENT
+      - RUNNING_CONFIG
+      - IMAGE
+      - PSIRT
+    sync_device_config: true
+  - ip_address_list: 
+      - 137.1.21.4
+    site_name: Global/Malaysia/Cyberjaya/CLINIC_B0004
+    run_compliance: true
+    # 'INTENT'(mapped to compliance types: NETWORK_SETTINGS,NETWORK_PROFILE,WORKFLOW,FABRIC,APPLICATION_VISIBILITY), 'RUNNING_CONFIG' , 'IMAGE' , 'PSIRT' , 'EOX' , 'NETWORK_SETTINGS'
+    run_compliance_categories: 
+      - INTENT
+      - RUNNING_CONFIG
+      - IMAGE
+      - PSIRT
+    sync_device_config: true
+  - ip_address_list: 
+      - 137.1.21.5
+    site_name: Global/Malaysia/Cyberjaya/CLINIC_B0005
+    run_compliance: true
+    # 'INTENT'(mapped to compliance types: NETWORK_SETTINGS,NETWORK_PROFILE,WORKFLOW,FABRIC,APPLICATION_VISIBILITY), 'RUNNING_CONFIG' , 'IMAGE' , 'PSIRT' , 'EOX' , 'NETWORK_SETTINGS'
+    run_compliance_categories: 
+      - INTENT
+      - RUNNING_CONFIG
+      - IMAGE
+      - PSIRT
+    sync_device_config: true

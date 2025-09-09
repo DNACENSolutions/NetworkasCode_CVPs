@@ -1,0 +1,66 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+swim_details:
+  # List of images to be tagged as golden images
+  golden_tag_images:
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0001 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0002 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0003 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0004 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0005 
+        tagging: false
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.CSCwo95396.SPA.smu.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0001 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.CSCwo95396.SPA.smu.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0002 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.CSCwo95396.SPA.smu.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0003 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.CSCwo95396.SPA.smu.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0004 
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.CSCwo95396.SPA.smu.bin
+        device_role: ALL
+        device_image_family_name: Cisco Catalyst 9300 Switch
+        site_name: Global/Malaysia/Cyberjaya/CLINIC_B0005 
+        tagging: false

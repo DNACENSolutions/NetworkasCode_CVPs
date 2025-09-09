@@ -1,0 +1,29 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+catalyst_center_verify: false
+design_sites:
+  - site:
+      area:
+        name: Malaysia
+        parent_name: Global
+    type: area
+  - site:
+      area:
+        name: Presint 1
+        parent_name: Global/Malaysia
+    type: area
+  - site:
+      area:
+        name: Parcel A
+        parent_name: Global/Malaysia/Presint 1
+    type: area
+  - site:
+      building:
+        name: AE_Campus_Main
+        parent_name: Global/Malaysia/Presint 1/Parcel A/
+        address: Bangunan Perdana Putra, Level G, Persiaran Sultan Salahuddin Abdul Aziz Shah, Presint 1, 62502 Putrajaya, Wilayah Persekutuan Putrajaya
+        latitude: 2.939008
+        longitude: 101.691585
+        country: United States
+    type: building

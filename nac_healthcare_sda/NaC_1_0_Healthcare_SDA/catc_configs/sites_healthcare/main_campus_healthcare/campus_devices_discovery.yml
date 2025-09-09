@@ -1,0 +1,39 @@
+catalyst_center_version: 2.3.7.9
+discovery_details:
+  range:
+    - ip_address_list:
+      - 137.1.23.1-137.1.23.100
+      discovery_type: RANGE
+      use_global_credentials: false
+      protocol_order: telnet
+      discovery_name: Campus_Sapro_Discovery 
+      discovery_specific_credentials:
+        cli_credentials_list:
+            - username: cisco
+              password: Cisco#123
+              enable_password: Cisco#123
+        snmp_v2_read_credential:
+            description: read
+            community: public
+        snmp_v2_write_credential:
+            description: write
+            community: public
+      retry: 2
+#    - ip_address_list:
+#      - 21.100.2.12-21.100.2.12
+#      discovery_type: RANGE
+#      protocol_order: ssh 
+#      discovery_name: FE12_Discovery 
+#      discovery_specific_credentials:
+#        cli_credentials_list:
+#            - username: cisco123
+#              password: cisco123
+#              enable_password: cisco123
+#        snmp_v2_read_credential:
+#            description: read
+#            community: public
+#        snmp_v2_write_credential:
+#            description: write
+#            community: public
+#        net_conf_port: '830'
+#      retry: 2

@@ -1,0 +1,763 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+provision_details:
+# Define the devices reprovisioning
+  #Wireless controller provisioning
+  #Switches and Hubs provisioning
+  #TCP2
+  - site_name_hierarchy: Global/Malaysia/Presint 3/3G3
+    management_ip_address: 21.0.0.102
+    force_provisioning: true
+
+  #Campus Site  - EDGES ( SAPRO) 
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.1
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.2
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.3
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.4
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.5
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.6
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.7
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.8
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.9
+    force_provisioning: true
+  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+    management_ip_address: 137.1.23.10
+    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.11
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.12
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.13
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.14
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.15
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.16
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.17
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.18
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.19
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.20
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.21
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.22
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.23
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.24
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.25
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.26
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.27
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.28
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.29
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.30
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.31
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.32
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.33
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.34
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.35
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.36
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.37
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.38
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.39
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.40
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.41
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.42
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.43
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.44
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.45
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.46
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.47
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.48
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.49
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.50
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.51
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.52
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.53
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.54
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.55
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.56
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.57
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.58
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.59
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.60
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.61
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.62
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.63
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.64
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.65
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.66
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.67
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.68
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.69
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.70
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.71
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.72
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.73
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.74
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.75
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.76
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.77
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.78
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.79
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.80
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.81
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.82
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.83
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.84
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.85
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.86
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.87
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.88
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.89
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.90
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.91
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.92
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.93
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.94
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.95
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.96
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.97
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.98
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.99
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.100
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.101
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.102
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.103
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.104
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.105
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.106
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.107
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.108
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.109
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.110
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.111
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.112
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.113
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.114
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.115
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.116
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.117
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.118
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.119
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.120
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.121
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.122
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.123
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.124
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.125
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.126
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.127
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.128
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.129
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.130
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.131
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.132
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.133
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.134
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.135
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.136
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.137
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.138
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.139
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.140
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.141
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.142
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.143
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.144
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.145
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.146
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.147
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.148
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.149
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.150
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.151
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.152
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.153
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.154
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.155
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.156
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.157
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.158
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.159
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.160
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.161
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.162
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.163
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.164
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.165
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.166
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.167
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.168
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.169
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.170
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.171
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.172
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.173
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.174
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.175
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.176
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.177
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.178
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.179
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.180
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.181
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.182
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.183
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.184
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.185
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.186
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.187
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.188
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.189
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.190
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.191
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.192
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.193
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.194
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.195
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.196
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.197
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.198
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.199
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.200
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.201
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.202
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.203
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.204
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.205
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.206
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.207
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.208
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.209
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.210
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.211
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.212
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.213
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.214
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.215
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.216
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.217
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.218
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.219
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.220
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.221
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.222
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.223
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.224
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.225
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.226
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.227
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.228
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.229
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.230
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.231
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.232
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.233
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.234
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.235
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.236
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.237
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.238
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.239
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.240
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.241
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.242
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.243
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.244
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.245
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.246
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.247
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.248
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.249
+#    force_provisioning: true
+#  - site_name_hierarchy: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+#    management_ip_address: 137.1.23.250
+#    force_provisioning: true

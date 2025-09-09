@@ -1,0 +1,4090 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Network Settings an IP Pools design.
+network_settings_details: 
+  - reserve_pool_details: 
+    - name: 22-7-0
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_global_pool_name: HC-Wireless-22-7 
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.0.0
+      ipv4_gateway: 22.7.0.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: 22-7-1
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.1.0
+      ipv4_gateway: 22.7.1.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: 22-7-2
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.2.0
+      ipv4_gateway: 22.7.2.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: 22-7-3
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.3.0
+      ipv4_gateway: 22.7.3.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: 22-7-4
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.4.0
+      ipv4_gateway: 22.7.4.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: 22-7-5
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.5.0
+      ipv4_gateway: 22.7.5.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+    - name: 22-7-6
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.6.0
+      ipv4_gateway: 22.7.6.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-7
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.7.0
+      ipv4_gateway: 22.7.7.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-8
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.8.0
+      ipv4_gateway: 22.7.8.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-9
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.9.0
+      ipv4_gateway: 22.7.9.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-10
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.10.0
+      ipv4_gateway: 22.7.10.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-11
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.11.0
+      ipv4_gateway: 22.7.11.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-12
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.12.0
+      ipv4_gateway: 22.7.12.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-13
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.13.0
+      ipv4_gateway: 22.7.13.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-14
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.14.0
+      ipv4_gateway: 22.7.14.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-15
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.15.0
+      ipv4_gateway: 22.7.15.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-16
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.16.0
+      ipv4_gateway: 22.7.16.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-17
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.17.0
+      ipv4_gateway: 22.7.17.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-18
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.18.0
+      ipv4_gateway: 22.7.18.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-19
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.19.0
+      ipv4_gateway: 22.7.19.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-20
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.20.0
+      ipv4_gateway: 22.7.20.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-21
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.21.0
+      ipv4_gateway: 22.7.21.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-22
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.22.0
+      ipv4_gateway: 22.7.22.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-23
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.23.0
+      ipv4_gateway: 22.7.23.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-24
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.24.0
+      ipv4_gateway: 22.7.24.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-25
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.25.0
+      ipv4_gateway: 22.7.25.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-26
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.26.0
+      ipv4_gateway: 22.7.26.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-27
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.27.0
+      ipv4_gateway: 22.7.27.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-28
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.28.0
+      ipv4_gateway: 22.7.28.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-29
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.29.0
+      ipv4_gateway: 22.7.29.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-30
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.30.0
+      ipv4_gateway: 22.7.30.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-31
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.31.0
+      ipv4_gateway: 22.7.31.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-32
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.32.0
+      ipv4_gateway: 22.7.32.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-33
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.33.0
+      ipv4_gateway: 22.7.33.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-34
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.34.0
+      ipv4_gateway: 22.7.34.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-35
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.35.0
+      ipv4_gateway: 22.7.35.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-36
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.36.0
+      ipv4_gateway: 22.7.36.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-37
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.37.0
+      ipv4_gateway: 22.7.37.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-38
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.38.0
+      ipv4_gateway: 22.7.38.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-39
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.39.0
+      ipv4_gateway: 22.7.39.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-40
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.40.0
+      ipv4_gateway: 22.7.40.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-41
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.41.0
+      ipv4_gateway: 22.7.41.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-42
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.42.0
+      ipv4_gateway: 22.7.42.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-43
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.43.0
+      ipv4_gateway: 22.7.43.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-44
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.44.0
+      ipv4_gateway: 22.7.44.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-45
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.45.0
+      ipv4_gateway: 22.7.45.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-46
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.46.0
+      ipv4_gateway: 22.7.46.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-47
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.47.0
+      ipv4_gateway: 22.7.47.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-48
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.48.0
+      ipv4_gateway: 22.7.48.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-49
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.49.0
+      ipv4_gateway: 22.7.49.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-50
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.50.0
+      ipv4_gateway: 22.7.50.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-51
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.51.0
+      ipv4_gateway: 22.7.51.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-52
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.52.0
+      ipv4_gateway: 22.7.52.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-53
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.53.0
+      ipv4_gateway: 22.7.53.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-54
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.54.0
+      ipv4_gateway: 22.7.54.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-55
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.55.0
+      ipv4_gateway: 22.7.55.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-56
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.56.0
+      ipv4_gateway: 22.7.56.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-57
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.57.0
+      ipv4_gateway: 22.7.57.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-58
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.58.0
+      ipv4_gateway: 22.7.58.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-59
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.59.0
+      ipv4_gateway: 22.7.59.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-60
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.60.0
+      ipv4_gateway: 22.7.60.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-61
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.61.0
+      ipv4_gateway: 22.7.61.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-62
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.62.0
+      ipv4_gateway: 22.7.62.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-63
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.63.0
+      ipv4_gateway: 22.7.63.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-64
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.64.0
+      ipv4_gateway: 22.7.64.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-65
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.65.0
+      ipv4_gateway: 22.7.65.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-66
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.66.0
+      ipv4_gateway: 22.7.66.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-67
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.67.0
+      ipv4_gateway: 22.7.67.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-68
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.68.0
+      ipv4_gateway: 22.7.68.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-69
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.69.0
+      ipv4_gateway: 22.7.69.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-70
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.70.0
+      ipv4_gateway: 22.7.70.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-71
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.71.0
+      ipv4_gateway: 22.7.71.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-72
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.72.0
+      ipv4_gateway: 22.7.72.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-73
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.73.0
+      ipv4_gateway: 22.7.73.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-74
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.74.0
+      ipv4_gateway: 22.7.74.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-75
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.75.0
+      ipv4_gateway: 22.7.75.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-76
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.76.0
+      ipv4_gateway: 22.7.76.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-77
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.77.0
+      ipv4_gateway: 22.7.77.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-78
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.78.0
+      ipv4_gateway: 22.7.78.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-79
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.79.0
+      ipv4_gateway: 22.7.79.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-80
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.80.0
+      ipv4_gateway: 22.7.80.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-81
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.81.0
+      ipv4_gateway: 22.7.81.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-82
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.82.0
+      ipv4_gateway: 22.7.82.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-83
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.83.0
+      ipv4_gateway: 22.7.83.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-84
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.84.0
+      ipv4_gateway: 22.7.84.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-85
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.85.0
+      ipv4_gateway: 22.7.85.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-86
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.86.0
+      ipv4_gateway: 22.7.86.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-87
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.87.0
+      ipv4_gateway: 22.7.87.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-88
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.88.0
+      ipv4_gateway: 22.7.88.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-89
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.89.0
+      ipv4_gateway: 22.7.89.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-90
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.90.0
+      ipv4_gateway: 22.7.90.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-91
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.91.0
+      ipv4_gateway: 22.7.91.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-92
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.92.0
+      ipv4_gateway: 22.7.92.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-93
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.93.0
+      ipv4_gateway: 22.7.93.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-94
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.94.0
+      ipv4_gateway: 22.7.94.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-95
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.95.0
+      ipv4_gateway: 22.7.95.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-96
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.96.0
+      ipv4_gateway: 22.7.96.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-97
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.97.0
+      ipv4_gateway: 22.7.97.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-98
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.98.0
+      ipv4_gateway: 22.7.98.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-99
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.99.0
+      ipv4_gateway: 22.7.99.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-100
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.100.0
+      ipv4_gateway: 22.7.100.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-101
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.101.0
+      ipv4_gateway: 22.7.101.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-102
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.102.0
+      ipv4_gateway: 22.7.102.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-103
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.103.0
+      ipv4_gateway: 22.7.103.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-104
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.104.0
+      ipv4_gateway: 22.7.104.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-105
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.105.0
+      ipv4_gateway: 22.7.105.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-106
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.106.0
+      ipv4_gateway: 22.7.106.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-107
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.107.0
+      ipv4_gateway: 22.7.107.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-108
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.108.0
+      ipv4_gateway: 22.7.108.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-109
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.109.0
+      ipv4_gateway: 22.7.109.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-110
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.110.0
+      ipv4_gateway: 22.7.110.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-111
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.111.0
+      ipv4_gateway: 22.7.111.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-112
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.112.0
+      ipv4_gateway: 22.7.112.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-113
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.113.0
+      ipv4_gateway: 22.7.113.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-114
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.114.0
+      ipv4_gateway: 22.7.114.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-115
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.115.0
+      ipv4_gateway: 22.7.115.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-116
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.116.0
+      ipv4_gateway: 22.7.116.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-117
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.117.0
+      ipv4_gateway: 22.7.117.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-118
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.118.0
+      ipv4_gateway: 22.7.118.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-119
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.119.0
+      ipv4_gateway: 22.7.119.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-120
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.120.0
+      ipv4_gateway: 22.7.120.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-121
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.121.0
+      ipv4_gateway: 22.7.121.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-122
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.122.0
+      ipv4_gateway: 22.7.122.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-123
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.123.0
+      ipv4_gateway: 22.7.123.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-124
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.124.0
+      ipv4_gateway: 22.7.124.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-125
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.125.0
+      ipv4_gateway: 22.7.125.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-126
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.126.0
+      ipv4_gateway: 22.7.126.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-127
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.127.0
+      ipv4_gateway: 22.7.127.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-128
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.128.0
+      ipv4_gateway: 22.7.128.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-129
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.129.0
+      ipv4_gateway: 22.7.129.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-130
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.130.0
+      ipv4_gateway: 22.7.130.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-131
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.131.0
+      ipv4_gateway: 22.7.131.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-132
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.132.0
+      ipv4_gateway: 22.7.132.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-133
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.133.0
+      ipv4_gateway: 22.7.133.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-134
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.134.0
+      ipv4_gateway: 22.7.134.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-135
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.135.0
+      ipv4_gateway: 22.7.135.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-136
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.136.0
+      ipv4_gateway: 22.7.136.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-137
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.137.0
+      ipv4_gateway: 22.7.137.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-138
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.138.0
+      ipv4_gateway: 22.7.138.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-139
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.139.0
+      ipv4_gateway: 22.7.139.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-140
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.140.0
+      ipv4_gateway: 22.7.140.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-141
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.141.0
+      ipv4_gateway: 22.7.141.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-142
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.142.0
+      ipv4_gateway: 22.7.142.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-143
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.143.0
+      ipv4_gateway: 22.7.143.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-144
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.144.0
+      ipv4_gateway: 22.7.144.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-145
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.145.0
+      ipv4_gateway: 22.7.145.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-146
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.146.0
+      ipv4_gateway: 22.7.146.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-147
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.147.0
+      ipv4_gateway: 22.7.147.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-148
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.148.0
+      ipv4_gateway: 22.7.148.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-149
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.149.0
+      ipv4_gateway: 22.7.149.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-150
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.150.0
+      ipv4_gateway: 22.7.150.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-151
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.151.0
+      ipv4_gateway: 22.7.151.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-152
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.152.0
+      ipv4_gateway: 22.7.152.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-153
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.153.0
+      ipv4_gateway: 22.7.153.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-154
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.154.0
+      ipv4_gateway: 22.7.154.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-155
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.155.0
+      ipv4_gateway: 22.7.155.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-156
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.156.0
+      ipv4_gateway: 22.7.156.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-157
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.157.0
+      ipv4_gateway: 22.7.157.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-158
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.158.0
+      ipv4_gateway: 22.7.158.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-159
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.159.0
+      ipv4_gateway: 22.7.159.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-160
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.160.0
+      ipv4_gateway: 22.7.160.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-161
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.161.0
+      ipv4_gateway: 22.7.161.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-162
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.162.0
+      ipv4_gateway: 22.7.162.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-163
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.163.0
+      ipv4_gateway: 22.7.163.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-164
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.164.0
+      ipv4_gateway: 22.7.164.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-165
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.165.0
+      ipv4_gateway: 22.7.165.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-166
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.166.0
+      ipv4_gateway: 22.7.166.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-167
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.167.0
+      ipv4_gateway: 22.7.167.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-168
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.168.0
+      ipv4_gateway: 22.7.168.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-169
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.169.0
+      ipv4_gateway: 22.7.169.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-170
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.170.0
+      ipv4_gateway: 22.7.170.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-171
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.171.0
+      ipv4_gateway: 22.7.171.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-172
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.172.0
+      ipv4_gateway: 22.7.172.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-173
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.173.0
+      ipv4_gateway: 22.7.173.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-174
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.174.0
+      ipv4_gateway: 22.7.174.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-175
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.175.0
+      ipv4_gateway: 22.7.175.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-176
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.176.0
+      ipv4_gateway: 22.7.176.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-177
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.177.0
+      ipv4_gateway: 22.7.177.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-178
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.178.0
+      ipv4_gateway: 22.7.178.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-179
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.179.0
+      ipv4_gateway: 22.7.179.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-180
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.180.0
+      ipv4_gateway: 22.7.180.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-181
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.181.0
+      ipv4_gateway: 22.7.181.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-182
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.182.0
+      ipv4_gateway: 22.7.182.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-183
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.183.0
+      ipv4_gateway: 22.7.183.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-184
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.184.0
+      ipv4_gateway: 22.7.184.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-185
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.185.0
+      ipv4_gateway: 22.7.185.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-186
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.186.0
+      ipv4_gateway: 22.7.186.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-187
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.187.0
+      ipv4_gateway: 22.7.187.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-188
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.188.0
+      ipv4_gateway: 22.7.188.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-189
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.189.0
+      ipv4_gateway: 22.7.189.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-190
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.190.0
+      ipv4_gateway: 22.7.190.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-191
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.191.0
+      ipv4_gateway: 22.7.191.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-192
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.192.0
+      ipv4_gateway: 22.7.192.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-193
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.193.0
+      ipv4_gateway: 22.7.193.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-194
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.194.0
+      ipv4_gateway: 22.7.194.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-195
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.195.0
+      ipv4_gateway: 22.7.195.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-196
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.196.0
+      ipv4_gateway: 22.7.196.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-197
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.197.0
+      ipv4_gateway: 22.7.197.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-198
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.198.0
+      ipv4_gateway: 22.7.198.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-199
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.199.0
+      ipv4_gateway: 22.7.199.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-200
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.200.0
+      ipv4_gateway: 22.7.200.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-201
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.201.0
+      ipv4_gateway: 22.7.201.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-202
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.202.0
+      ipv4_gateway: 22.7.202.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-203
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.203.0
+      ipv4_gateway: 22.7.203.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-204
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.204.0
+      ipv4_gateway: 22.7.204.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-205
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.205.0
+      ipv4_gateway: 22.7.205.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-206
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.206.0
+      ipv4_gateway: 22.7.206.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-207
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.207.0
+      ipv4_gateway: 22.7.207.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-208
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.208.0
+      ipv4_gateway: 22.7.208.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-209
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.209.0
+      ipv4_gateway: 22.7.209.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-210
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.210.0
+      ipv4_gateway: 22.7.210.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-211
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.211.0
+      ipv4_gateway: 22.7.211.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-212
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.212.0
+      ipv4_gateway: 22.7.212.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-213
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.213.0
+      ipv4_gateway: 22.7.213.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-214
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.214.0
+      ipv4_gateway: 22.7.214.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-215
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.215.0
+      ipv4_gateway: 22.7.215.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-216
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.216.0
+      ipv4_gateway: 22.7.216.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-217
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.217.0
+      ipv4_gateway: 22.7.217.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-218
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.218.0
+      ipv4_gateway: 22.7.218.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-219
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.219.0
+      ipv4_gateway: 22.7.219.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-220
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.220.0
+      ipv4_gateway: 22.7.220.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-221
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.221.0
+      ipv4_gateway: 22.7.221.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-222
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.222.0
+      ipv4_gateway: 22.7.222.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-223
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.223.0
+      ipv4_gateway: 22.7.223.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-224
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.224.0
+      ipv4_gateway: 22.7.224.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-225
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.225.0
+      ipv4_gateway: 22.7.225.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-226
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.226.0
+      ipv4_gateway: 22.7.226.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-227
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.227.0
+      ipv4_gateway: 22.7.227.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-228
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.228.0
+      ipv4_gateway: 22.7.228.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-229
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.229.0
+      ipv4_gateway: 22.7.229.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-230
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.230.0
+      ipv4_gateway: 22.7.230.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-231
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.231.0
+      ipv4_gateway: 22.7.231.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-232
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.232.0
+      ipv4_gateway: 22.7.232.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-233
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.233.0
+      ipv4_gateway: 22.7.233.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-234
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.234.0
+      ipv4_gateway: 22.7.234.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-235
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.235.0
+      ipv4_gateway: 22.7.235.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-236
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.236.0
+      ipv4_gateway: 22.7.236.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-237
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.237.0
+      ipv4_gateway: 22.7.237.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-238
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.238.0
+      ipv4_gateway: 22.7.238.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-239
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.239.0
+      ipv4_gateway: 22.7.239.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-240
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.240.0
+      ipv4_gateway: 22.7.240.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-241
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.241.0
+      ipv4_gateway: 22.7.241.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-242
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.242.0
+      ipv4_gateway: 22.7.242.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-243
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.243.0
+      ipv4_gateway: 22.7.243.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-244
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.244.0
+      ipv4_gateway: 22.7.244.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-245
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.245.0
+      ipv4_gateway: 22.7.245.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-246
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.246.0
+      ipv4_gateway: 22.7.246.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-247
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.247.0
+      ipv4_gateway: 22.7.247.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-248
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.248.0
+      ipv4_gateway: 22.7.248.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-249
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.249.0
+      ipv4_gateway: 22.7.249.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-250
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.250.0
+      ipv4_gateway: 22.7.250.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-251
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.251.0
+      ipv4_gateway: 22.7.251.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-252
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.252.0
+      ipv4_gateway: 22.7.252.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-253
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.253.0
+      ipv4_gateway: 22.7.253.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-254
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.254.0
+      ipv4_gateway: 22.7.254.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: 22-7-255
+      site_name: Global/Malaysia/Presint 1/Parcel A/AE_Campus_Main
+      ipv6_address_space: False
+      ipv4_global_pool: 22.7.0.0/16
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 22.7.255.0
+      ipv4_gateway: 22.7.255.254
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183

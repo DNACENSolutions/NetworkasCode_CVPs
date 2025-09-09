@@ -1,0 +1,2212 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Network Settings an IP Pools design.
+network_settings_details: 
+    # CLINICB0001 to CLINICB0250 : 
+    # Overlay BORDERHandoff Pool, 14.0.0.0-14.0.249.0 /24
+    # AP and ExtendedNode Pool 14.5.1.0 - 14.5.250.0 /24
+    # Wired Endpoint Pool, 16.0.1.0-16.0.250.0 /24
+    # Wired Multicast Pool, 16.5.1.0 - 16.5.250.0 /24
+    # Wireless Endpoint Pool, 18.0.1.0 - 18.0.250.0 /24
+    # Wireless Guest Pool,    18.5.1.0 - 18.5.250.0 /24
+  - reserve_pool_details: 
+    - name: Scale_Pool_14_resv_1
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0001 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.0.0
+      ipv4_gateway: 14.0.0.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_1
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0001 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.0.0
+      ipv4_gateway: 16.0.0.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_1
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0001 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.0.0
+      ipv4_gateway: 18.0.0.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_2
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0002 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.1.0
+      ipv4_gateway: 14.0.1.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_2
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0002 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.1.0
+      ipv4_gateway: 16.0.1.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_2
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0002 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.1.0
+      ipv4_gateway: 18.0.1.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_3
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0003 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.2.0
+      ipv4_gateway: 14.0.2.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_3
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0003 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.2.0
+      ipv4_gateway: 16.0.2.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_3
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0003 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.2.0
+      ipv4_gateway: 18.0.2.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_4
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0004 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.3.0
+      ipv4_gateway: 14.0.3.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_4
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0004 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.3.0
+      ipv4_gateway: 16.0.3.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_4
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0004 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.3.0
+      ipv4_gateway: 18.0.3.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_5
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0005 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.4.0
+      ipv4_gateway: 14.0.4.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_5
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0005 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.4.0
+      ipv4_gateway: 16.0.4.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_5
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0005 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.4.0
+      ipv4_gateway: 18.0.4.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_6
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0006 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.5.0
+      ipv4_gateway: 14.0.5.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_6
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0006 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.5.0
+      ipv4_gateway: 16.0.5.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_6
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0006 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.5.0
+      ipv4_gateway: 18.0.5.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_7
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0007 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.6.0
+      ipv4_gateway: 14.0.6.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_7
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0007 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.6.0
+      ipv4_gateway: 16.0.6.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_7
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0007 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.6.0
+      ipv4_gateway: 18.0.6.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_8
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0008 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.7.0
+      ipv4_gateway: 14.0.7.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_8
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0008 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.7.0
+      ipv4_gateway: 16.0.7.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_8
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0008 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.7.0
+      ipv4_gateway: 18.0.7.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_9
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0009 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.8.0
+      ipv4_gateway: 14.0.8.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_9
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0009 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.8.0
+      ipv4_gateway: 16.0.8.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_9
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0009 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.8.0
+      ipv4_gateway: 18.0.8.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_10
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0010 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.9.0
+      ipv4_gateway: 14.0.9.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_10
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0010 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.9.0
+      ipv4_gateway: 16.0.9.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_10
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0010 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.9.0
+      ipv4_gateway: 18.0.9.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_11
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0011 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.10.0
+      ipv4_gateway: 14.0.10.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_11
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0011 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.10.0
+      ipv4_gateway: 16.0.10.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_11
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0011 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.10.0
+      ipv4_gateway: 18.0.10.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_12
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0012 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.11.0
+      ipv4_gateway: 14.0.11.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_12
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0012 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.11.0
+      ipv4_gateway: 16.0.11.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_12
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0012 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.11.0
+      ipv4_gateway: 18.0.11.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_13
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0013 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.12.0
+      ipv4_gateway: 14.0.12.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_13
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0013 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.12.0
+      ipv4_gateway: 16.0.12.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_13
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0013 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.12.0
+      ipv4_gateway: 18.0.12.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_14
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0014 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.13.0
+      ipv4_gateway: 14.0.13.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_14
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0014 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.13.0
+      ipv4_gateway: 16.0.13.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_14
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0014 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.13.0
+      ipv4_gateway: 18.0.13.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_15
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0015 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.14.0
+      ipv4_gateway: 14.0.14.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_15
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0015 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.14.0
+      ipv4_gateway: 16.0.14.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_15
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0015 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.14.0
+      ipv4_gateway: 18.0.14.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_16
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0016 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.15.0
+      ipv4_gateway: 14.0.15.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_16
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0016 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.15.0
+      ipv4_gateway: 16.0.15.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_16
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0016 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.15.0
+      ipv4_gateway: 18.0.15.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_17
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0017 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.16.0
+      ipv4_gateway: 14.0.16.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_17
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0017 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.16.0
+      ipv4_gateway: 16.0.16.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_17
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0017 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.16.0
+      ipv4_gateway: 18.0.16.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_18
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0018 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.17.0
+      ipv4_gateway: 14.0.17.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_18
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0018 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.17.0
+      ipv4_gateway: 16.0.17.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_18
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0018 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.17.0
+      ipv4_gateway: 18.0.17.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_19
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0019 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.18.0
+      ipv4_gateway: 14.0.18.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_19
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0019 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.18.0
+      ipv4_gateway: 16.0.18.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_19
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0019 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.18.0
+      ipv4_gateway: 18.0.18.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_20
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0020 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.19.0
+      ipv4_gateway: 14.0.19.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_20
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0020 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.19.0
+      ipv4_gateway: 16.0.19.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_20
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0020 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.19.0
+      ipv4_gateway: 18.0.19.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_21
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0021 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.20.0
+      ipv4_gateway: 14.0.20.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_21
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0021 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.20.0
+      ipv4_gateway: 16.0.20.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_21
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0021 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.20.0
+      ipv4_gateway: 18.0.20.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_22
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0022 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.21.0
+      ipv4_gateway: 14.0.21.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_22
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0022 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.21.0
+      ipv4_gateway: 16.0.21.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_22
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0022 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.21.0
+      ipv4_gateway: 18.0.21.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_23
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0023 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.22.0
+      ipv4_gateway: 14.0.22.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_23
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0023 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.22.0
+      ipv4_gateway: 16.0.22.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_23
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0023 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.22.0
+      ipv4_gateway: 18.0.22.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_24
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0024 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.23.0
+      ipv4_gateway: 14.0.23.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_24
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0024 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.23.0
+      ipv4_gateway: 16.0.23.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_24
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0024 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.23.0
+      ipv4_gateway: 18.0.23.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_25
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0025 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.24.0
+      ipv4_gateway: 14.0.24.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_25
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0025 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.24.0
+      ipv4_gateway: 16.0.24.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_25
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0025 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.24.0
+      ipv4_gateway: 18.0.24.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_26
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0026 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.25.0
+      ipv4_gateway: 14.0.25.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_26
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0026 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.25.0
+      ipv4_gateway: 16.0.25.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_26
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0026 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.25.0
+      ipv4_gateway: 18.0.25.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_27
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0027 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.26.0
+      ipv4_gateway: 14.0.26.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_27
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0027 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.26.0
+      ipv4_gateway: 16.0.26.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_27
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0027 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.26.0
+      ipv4_gateway: 18.0.26.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_28
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0028 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.27.0
+      ipv4_gateway: 14.0.27.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_28
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0028 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.27.0
+      ipv4_gateway: 16.0.27.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_28
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0028 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.27.0
+      ipv4_gateway: 18.0.27.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_29
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0029 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.28.0
+      ipv4_gateway: 14.0.28.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_29
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0029 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.28.0
+      ipv4_gateway: 16.0.28.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_29
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0029 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.28.0
+      ipv4_gateway: 18.0.28.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_30
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0030 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.29.0
+      ipv4_gateway: 14.0.29.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_30
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0030 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.29.0
+      ipv4_gateway: 16.0.29.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_30
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0030 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.29.0
+      ipv4_gateway: 18.0.29.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_31
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0031 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.30.0
+      ipv4_gateway: 14.0.30.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_31
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0031 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.30.0
+      ipv4_gateway: 16.0.30.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_31
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0031 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.30.0
+      ipv4_gateway: 18.0.30.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_32
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0032 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.31.0
+      ipv4_gateway: 14.0.31.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_32
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0032 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.31.0
+      ipv4_gateway: 16.0.31.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_32
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0032 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.31.0
+      ipv4_gateway: 18.0.31.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_33
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0033 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.32.0
+      ipv4_gateway: 14.0.32.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_33
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0033 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.32.0
+      ipv4_gateway: 16.0.32.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_33
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0033 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.32.0
+      ipv4_gateway: 18.0.32.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_34
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0034 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.33.0
+      ipv4_gateway: 14.0.33.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_34
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0034 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.33.0
+      ipv4_gateway: 16.0.33.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_34
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0034 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.33.0
+      ipv4_gateway: 18.0.33.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_35
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0035 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.34.0
+      ipv4_gateway: 14.0.34.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_35
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0035 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.34.0
+      ipv4_gateway: 16.0.34.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_35
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0035 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.34.0
+      ipv4_gateway: 18.0.34.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_36
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0036 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.35.0
+      ipv4_gateway: 14.0.35.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_36
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0036 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.35.0
+      ipv4_gateway: 16.0.35.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_36
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0036 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.35.0
+      ipv4_gateway: 18.0.35.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_37
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0037 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.36.0
+      ipv4_gateway: 14.0.36.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_37
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0037 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.36.0
+      ipv4_gateway: 16.0.36.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_37
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0037 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.36.0
+      ipv4_gateway: 18.0.36.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_38
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0038 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.37.0
+      ipv4_gateway: 14.0.37.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_38
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0038 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.37.0
+      ipv4_gateway: 16.0.37.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_38
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0038 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.37.0
+      ipv4_gateway: 18.0.37.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_39
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0039 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.38.0
+      ipv4_gateway: 14.0.38.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_39
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0039 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.38.0
+      ipv4_gateway: 16.0.38.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_39
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0039 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.38.0
+      ipv4_gateway: 18.0.38.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_40
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0040 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.39.0
+      ipv4_gateway: 14.0.39.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_40
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0040 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.39.0
+      ipv4_gateway: 16.0.39.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_40
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0040 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.39.0
+      ipv4_gateway: 18.0.39.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_41
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0041 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.40.0
+      ipv4_gateway: 14.0.40.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_41
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0041 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.40.0
+      ipv4_gateway: 16.0.40.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_41
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0041 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.40.0
+      ipv4_gateway: 18.0.40.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_42
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0042 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.41.0
+      ipv4_gateway: 14.0.41.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_42
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0042 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.41.0
+      ipv4_gateway: 16.0.41.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_42
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0042 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.41.0
+      ipv4_gateway: 18.0.41.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_43
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0043 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.42.0
+      ipv4_gateway: 14.0.42.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_43
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0043 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.42.0
+      ipv4_gateway: 16.0.42.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_43
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0043 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.42.0
+      ipv4_gateway: 18.0.42.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_44
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0044 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.43.0
+      ipv4_gateway: 14.0.43.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_44
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0044 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.43.0
+      ipv4_gateway: 16.0.43.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_44
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0044 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.43.0
+      ipv4_gateway: 18.0.43.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_45
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0045 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.44.0
+      ipv4_gateway: 14.0.44.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_45
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0045 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.44.0
+      ipv4_gateway: 16.0.44.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_45
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0045 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.44.0
+      ipv4_gateway: 18.0.44.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_46
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0046 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.45.0
+      ipv4_gateway: 14.0.45.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_46
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0046 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.45.0
+      ipv4_gateway: 16.0.45.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_46
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0046 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.45.0
+      ipv4_gateway: 18.0.45.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_47
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0047 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.46.0
+      ipv4_gateway: 14.0.46.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_47
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0047 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.46.0
+      ipv4_gateway: 16.0.46.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_47
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0047 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.46.0
+      ipv4_gateway: 18.0.46.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_48
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0048 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.47.0
+      ipv4_gateway: 14.0.47.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_48
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0048 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.47.0
+      ipv4_gateway: 16.0.47.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_48
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0048 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.47.0
+      ipv4_gateway: 18.0.47.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_49
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0049 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.48.0
+      ipv4_gateway: 14.0.48.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_49
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0049 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.48.0
+      ipv4_gateway: 16.0.48.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_49
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0049 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.48.0
+      ipv4_gateway: 18.0.48.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
+
+    - name: Scale_Pool_14_resv_50
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0050 
+      ipv6_address_space: False
+      ipv4_global_pool: 14.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 14.0.49.0
+      ipv4_gateway: 14.0.49.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_16_resv_50
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0050 
+      ipv6_address_space: False
+      ipv4_global_pool: 16.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 16.0.49.0
+      ipv4_gateway: 16.0.49.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+    - name: Scale_Pool_18_resv_50
+      site_name: Global/Malaysia/Cyberjaya/CLINIC_B0050 
+      ipv6_address_space: False
+      ipv4_global_pool: 18.0.0.0/8
+      ipv4_prefix: true
+      ipv4_prefix_length: 24
+      ipv4_subnet: 18.0.49.0
+      ipv4_gateway: 18.0.49.1
+      slaac_support: False
+      pool_type: Generic
+      ipv4_dhcp_servers:
+        - 205.1.1.66
+      ipv4_dns_servers:
+        - 171.70.168.183
+
