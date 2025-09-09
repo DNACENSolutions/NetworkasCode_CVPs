@@ -1,0 +1,32 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# This file contains the variables for the LAN Automation workflow
+# redistribute_isis_to_bgp is misleading but this actually is Advertise LAN automation pool via BGP
+# launch_and_wait should be set to True if there is another task, such as provision is done after this
+# lan automated devices shows credential status failure - CSCwn50614
+lan_automation_details:
+  lan_automation_session:
+    - lan_automation:
+        discovered_device_site_name_hierarchy: "Global/US/California/San Jose/SJC20" #This address must be superset of discovering devices address
+        peer_device_management_ip_address: "12.12.12.243"
+        primary_device_management_ip_address: "12.12.12.206"
+        primary_device_interface_names:
+          - "FortyGigabitEthernet1/0/8"
+          - "FortyGigabitEthernet2/0/8"
+        ip_pools:
+          - ip_pool_name: "12_4_5_0_lan_auto"
+            ip_pool_role: "MAIN_POOL"
+        multicast_enabled: true
+        redistribute_isis_to_bgp: true
+        host_name_prefix: "dna-poc"
+        isis_domain_pwd: "cisco"
+        discovery_level: 5
+        discovery_timeout: 40
+        discovery_devices:
+        - device_serial_number: "FOC2327L0SQ"
+          device_host_name: "dna-poc-9300L-1"
+          device_management_ip_address: "12.4.5.68"
+          device_site_name_hierarchy: "Global/US/California/San Jose/SJC20"
+        launch_and_wait: true
+        pnp_authorization: false

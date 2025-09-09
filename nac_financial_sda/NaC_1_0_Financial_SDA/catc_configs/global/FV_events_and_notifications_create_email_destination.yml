@@ -1,0 +1,12 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+events_notifications_destination_and_subscription_details:
+  - email_destination:
+      sender_email: "cchan@cisco.com"
+      recipient_email: "cchan@cisco.com"
+      subject: "From Financial Vertical"
+      primary_smtp_config:
+        server_address: "outbound.cisco.com"
+        port: "25"
+        smtp_type: "DEFAULT"

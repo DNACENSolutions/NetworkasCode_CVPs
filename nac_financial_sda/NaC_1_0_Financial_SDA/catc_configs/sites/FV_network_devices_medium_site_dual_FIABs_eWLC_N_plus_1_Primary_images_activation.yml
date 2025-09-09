@@ -1,0 +1,20 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+swim_details:
+  # for N+1 Primary, the image distribution and activation have to done 
+  # after the secondary(s) are upgraded to golden image
+  activate_images:  
+    - image_activation_details:
+        activate_lower_image_version: false
+        device_family_name: Switches and Hubs
+        device_hostname: dna-poc-9300-24.myfabric.com
+        device_ip_address: null
+        device_mac_address: null
+        device_role: ACCESS
+        device_serial_number: null
+        device_upgrade_mode: currentlyExists
+        distribute_if_needed: false
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        schedule_validate: false
+        site_name: Global/US/California/San Jose/SJC4

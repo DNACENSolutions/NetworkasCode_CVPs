@@ -1,0 +1,51 @@
+
+# usecase_data.yaml
+#
+# SWIM for image distribution on the all the devices except N+1 Primary
+FV_GlobalSWIMDevicesDistribution:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/global/FV_network_devices_CCO_download_tag_golden_images_distribution.yml"
+
+# SWIM for image Activation on the main hub1
+FV_MainHub1SWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_network_devices_main_hub1_images_activation.yml"
+
+# SWIM for image Activation on the main hub2 with SVL and 9800 HA
+FV_MainHub2SWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_network_devices_main_hub2_SVL_9800HA_images_activation.yml"
+
+# SWIM for image Activation on the small site
+FV_SmallSiteSWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_network_devices_small_site_single_FIAB_eWLC_images_activation.yml"
+
+# SWIM for image Activation on the medium site (N+1) Secondary
+FV_MediumSites_N_plus_1_Secondary_SWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Secondary_images_activation.yml"
+
+# SWIM for image distribution and activation on the medium site (N+1) Primary
+FV_MediumSites_N_plus_1_Primary_SWIMDevicesDistribution:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_distribution.yml"
+
+# SWIM for image distribution and activation on the medium site (N+1) Primary
+FV_MediumSites_N_plus_1_Primary_SWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_activation.yml"
+
+# SWIM for image Distribution and Actvationon the medium site (N+1) Primary
+FV_AnchorSites_CP_and_Border_SWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_network_devices_anchor_site_single_cp_and_border_image_activation.yml"
+

@@ -1,0 +1,39 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+provision_details:
+# main hub2 which has 2 pair of SVL switches with CP+FB co-located and 9800 HA
+# provision focus page -> Provisioning status column, see details
+# For device in Fabric site, provision status is in Provision-> Fabric Sites -> show task Status
+  #CP+FB on SVLs, 9200 as FEs, IM, 9800 HA
+  - site_name_hierarchy: Global/US/California/San Jose/SJC20
+    management_ip_address: 12.12.12.247
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC20
+    management_ip_address: 12.4.5.68
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC20
+    management_ip_address: 12.12.12.218
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC20
+    management_ip_address: 12.12.12.206
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC20
+    management_ip_address: 12.12.12.243
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC20
+    management_ip_address: 12.11.201.227
+    #provisioning: true
+    force_provisioning: true
+    managed_ap_locations:
+      - Global/US/California/San Jose/SJC20/SJC20-1
+      - Global/US/California/San Jose/SJC20/SJC20-2
+      - Global/US/California/San Jose/SJC20/SJC20-3
+      - Global/US/California/San Jose/SJC20/SJC20-4
+      - Global/US/California/San Jose/SJC20/SJC20-5
+  

@@ -1,0 +1,9 @@
+---
+catalyst_center_version: 2.3.7.9
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: Global/US/California/San Jose/SJC20
+      device_config:
+        - device_ip: 12.4.5.68
+          device_roles: 
+            - EDGE_NODE

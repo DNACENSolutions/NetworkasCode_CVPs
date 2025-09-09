@@ -1,0 +1,11 @@
+#Performing the lan automation 
+FV_FQDN_only_Lan_Automation:
+  schema_file: "lan_automation/schema/lan_automation_workflow_schema.yml"
+  playbook: "lan_automation/playbook/lan_automation_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_FQDN_only_main_hub2_expand_sites_using_LAN_automation.yml"
+
+#Provision the discovered devices after lan automation
+FV_Provision_LAN_automated_Devices:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_FQDN_only_main_hub2_provision_LAN_automated_devices.yml" 

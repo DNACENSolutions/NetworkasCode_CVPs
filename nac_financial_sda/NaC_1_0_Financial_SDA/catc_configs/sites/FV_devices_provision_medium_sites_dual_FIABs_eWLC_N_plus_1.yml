@@ -1,0 +1,17 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+provision_details:
+# Medium site which has dual FIAB with eWLC in N+1
+# wlc info is not in provision workflow
+# provision focus page -> Provisioning status column, see details
+# For device in Fabric site, provision status is in Provision-> Fabric Sites -> show task Status
+  #Dual FIAB eWLC N+1
+  - site_name_hierarchy: Global/US/California/San Jose/SJC4
+    management_ip_address: 12.12.12.214
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC4
+    management_ip_address: 12.12.12.215
+    #provisioning: true
+    force_provisioning: true

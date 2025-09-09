@@ -1,0 +1,19 @@
+
+# usecase_data.yaml
+# provision is a pre-req before adding the device into as fabric site
+FV_site_devices_provision:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_site_devices_provision.yml"
+
+# Assign site devices as Fabric Edge in Fabric Site
+FV_deploy_site_devices_as_fabric_edges:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_configs/sites/FV_assign_sites_devices_as_fabric_edges.yml"
+
+# de-commission site devices as Fabric Edge in Fabric Site
+FV_remove_fabric_edges:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/delete_sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_delete_configs/sites/FV_remove_fabric_edges.yml"

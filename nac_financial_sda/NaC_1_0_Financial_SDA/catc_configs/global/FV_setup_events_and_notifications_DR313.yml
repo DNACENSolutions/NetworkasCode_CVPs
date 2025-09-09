@@ -1,0 +1,39 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+events_notifications_destination_and_subscription_details:
+  - email_event_notification:
+      name: Financial Vertical Notification
+      description: Notification description of email subscription creation for Financial Vertical
+      sites:
+        - Global
+      events:
+        - Wireless clients excluded - IP Theft Issue
+        - Device in error state
+        - Radius server is not responding
+        - AP disconnected from WLC
+        - AP Memory High Utilization
+        - WLC Memory High Utilization
+        - Device Reboot Crash
+        - WLC Power Supply Failure
+        - Switch Power Failure
+        - Switch Unreachable
+        - AP Reboot Crash
+        - AP License Exhausted on WLC
+        - Wireless Clients failed to connect - DHCP Server timeout
+        - AP Coverage Hole
+        - Network Device HA Switchover
+        - WLC Unreachable
+        - Wireless clients failed to connect - AAA Server Timeout
+        - PoE port in error state
+        - Power denied for PoE powered device
+        - AP Flap
+        - AP CPU High Utilization
+        - WLC Reboot Unexpectedly
+        - AP(s) disconnected from WLC on Switch
+      sender_email: cchan@cisco.com
+      recipient_emails:
+        - cchan@cisco.com
+      subject: Financial Vertical DR 3-1-3
+      instance: Financial Vertical Email instance
+      instance_description: Financial Vertical Email Instance for DR

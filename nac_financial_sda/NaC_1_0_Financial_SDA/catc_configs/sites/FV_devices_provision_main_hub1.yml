@@ -1,0 +1,48 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+provision_details:
+# main hub1 with each fabric role is running on different node
+# provision focus page -> Provisioning status column, see details
+# For device in Fabric site, provision status is in Provision-> Fabric Sites -> show task Status
+  # FEs, FBs, CPs, non-fabric 9800
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.209
+    #provisioning: true
+    force_provisioning: true   
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.210
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.211
+    #provisioning: true
+    force_provisioning: true  
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.207
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.208
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.203
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.204
+    #provisioning: true
+    force_provisioning: true
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.12.12.205
+    #provisioning: true
+    force_provisioning: true  
+  - site_name_hierarchy: Global/US/California/San Jose/SJC10
+    management_ip_address: 12.5.0.127
+    #provisioning: true
+    force_provisioning: true
+    managed_ap_locations:
+      - Global/US/California/San Jose/SJC23/SJC23-2
+      - Global/US/California/San Jose/SJC23/SJC23-3
+  

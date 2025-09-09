@@ -1,0 +1,26 @@
+
+# usecase_data.yaml
+
+# re-provision the devices in hub1
+FVDevicesProvision_main_hub1:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_devices_provision_main_hub1.yml"
+
+# re-provision the devices in hub2
+FVDevicesProvision_main_hub2:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_devices_provision_main_hub2_SVL_9800HA.yml"
+
+# re-provision with devices in medium site
+FVDevicesProvision_medium_sites:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_devices_provision_medium_sites_dual_FIABs_eWLC_N_plus_1.yml"
+
+# re-provision with devices in small site
+FVDevicesProvision_small_sites:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/sites/FV_devices_provision_small_sites_single_FIAB_eWLC.yml"

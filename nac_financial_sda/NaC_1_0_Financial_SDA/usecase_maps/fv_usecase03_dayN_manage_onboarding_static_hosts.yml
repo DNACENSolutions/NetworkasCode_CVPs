@@ -1,0 +1,12 @@
+
+# usecase_data.yaml
+# Manage host port onboarding in SD-Access Fabric Edge Devices
+
+Site_setup_HostOnboarding_static_hosts:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/sda_host_onboarding_playbook.yml"
+  data_file: "catc_configs/sites/FV_site_sda_fabric_setup_hostonboarding_static_hosts.yml"
+Site_clear_HostOnboarding_static_hosts:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/delete_sda_host_onboarding_playbook.yml"
+  data_file: "catc_delete_configs/sites/FV_site_sda_fabric_clear_hostonboarding_static_hosts.yml"
