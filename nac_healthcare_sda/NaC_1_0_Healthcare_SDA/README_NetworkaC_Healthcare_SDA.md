@@ -129,11 +129,11 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/setup.sh'>setup.sh</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/setup.sh'>setup.sh</a></b></td>
 				<td><code>-  Setup script to create your python environment and install catalyst center python sdk (dnacentersdk) and ansible collection (cisco.dnac)</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/requirements.txt'>requirements.txt</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/requirements.txt'>requirements.txt</a></b></td>
 				<td><code>-  This file contains the required python modules. this file is used by setup.sh script</code></td>
 			</tr>
 			</table>
@@ -144,7 +144,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
 				<td><code>-  This python tool is to run the ansible playbooks with inputs files preprogrammed in the usecase_maps files. the tool lets you choose option to validate the input, execute the playbook or do both. further it gives option for user to run the catalyst center configuration use cases individually, or in a sub-group of use case, or all the use case in the order specified in the input file selected from usecase_maps directory.</code></td>
 			</tr>
 			</table>
@@ -155,7 +155,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 		<blockquote>
 			<table>
 			<tr>
-			    <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase01_day1_campus_branch_bringup.yml'>healthcare_usecase01_day1_campus_branch_bringup.yml</a></b><br><br>
+			    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase01_day1_campus_branch_bringup.yml'>healthcare_usecase01_day1_campus_branch_bringup.yml</a></b><br><br>
 				 <img src="images_healthcare_sda/Campus_small.jpg" style="width: 40px; height: auto;">
 				</td>
 			<td><br><br><code> -  This yaml usecase deploys a large main campus fabric with below scale : <br> 
@@ -174,7 +174,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
                 #step9: campus site enable host onboarding in fabric edge devices <br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase02_day1_clinic_branch_bringup.yml'>healthcare_usecase02_day1_clinic_branch_bringup.yml</a></b><br><br>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase02_day1_clinic_branch_bringup.yml'>healthcare_usecase02_day1_clinic_branch_bringup.yml</a></b><br><br>
 				 <img src="images_healthcare_sda/Branch_small.jpg" style="width: 40px; height: auto;">
 				</td>
                 <td><br><br><code>-  This yaml usecase deploys 50 remote branch fiab sites, each with ip transit and sda transit enabled. <br>
@@ -189,7 +189,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
                 #step8: branch sites add devices to fabric site as fiab (border|cp|edge) with ip transit and sda transit <br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase03_dayN_campus_main_network_upgrade.yml'>healthcare_usecase03_dayn_campus_main_network_upgrade.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase03_dayN_campus_main_network_upgrade.yml'>healthcare_usecase03_dayn_campus_main_network_upgrade.yml</a></b></td>
                 <td><code>-  This yaml usecase performs network upgrade at main campus site: <br>
 				- 2 co-located border/cps;<br>
 				- 1 intermediate node; <br>
@@ -204,7 +204,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
                 #step7: post swim network devices compliance check<br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase04_dayN_clinic_branch_network_upgrade.yml'>healthcare_usecase04_dayn_clinic_branch_network_upgrade.ym</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase04_dayN_clinic_branch_network_upgrade.yml'>healthcare_usecase04_dayn_clinic_branch_network_upgrade.ym</a></b></td>
                 <td><code>-  This yaml usecase performs network ugrade at 5 remote branches, each with fiab.<br>
                 This usecase consists of 5 operations in below sequence : <br><br>
                 #step1: swim upgrade the devices on sites - cco download<br>
@@ -214,7 +214,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
                 #step5: post swim network devices compliance check <br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase05_dayN_campus_fabric_edge_onboarding.yml'>healthcare_usecase05_dayn_campus_fabric_edge_onboarding.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase05_dayN_campus_fabric_edge_onboarding.yml'>healthcare_usecase05_dayn_campus_fabric_edge_onboarding.yml</a></b></td>
                 <td><code>-  This yaml usecase performs network expansion via onboarding a new fabric edge and onboarding all ports on this edge device for wired and wireless applications. <br>
                 This usecase consists of 6 operations in below sequence:<br><br>
                 #step1 : discover new devices for the site<br>
@@ -238,7 +238,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 						<blockquote>
 							<table>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_discovery.yml'> campus_devices_discovery.yml </a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_discovery.yml'> campus_devices_discovery.yml </a></b></td>
 								<td>
 								<code>- This file contains configurations required to discover network devices and add them to the inventory.</code><br> 
 								<code>- This example discovers devices via ip address range(s) </code><br> 
@@ -246,7 +246,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_sites_zones.yml'>campus_sda_fabric_sites_zones.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_sites_zones.yml'>campus_sda_fabric_sites_zones.yml</a></b></td>
 								<td>
 								<code>- This file contains configuration required to create fabric sites. </code><br> 
 								<code>- This example create a single fabric site. </code><br>
@@ -254,7 +254,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_nw_settings_ippools.yml'>campus_nw_settings_ippools.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_nw_settings_ippools.yml'>campus_nw_settings_ippools.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations required to design and reserve the IP pools for the site.</code><br>
 									<code>- This example reserves 256 IP pools for the campus site.</code><br>
@@ -262,7 +262,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_vns.yml'>campus_sda_fabric_vns.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_vns.yml'>campus_sda_fabric_vns.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations required to assign VNs (virtual networks) to fabric sites.</code><br>
 									<code>- This example assigns a total of 64 VNs to a single fabric.</code><br><br>
@@ -288,7 +288,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_gateways.yml'>campus_sda_fabric_gateways.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_gateways.yml'>campus_sda_fabric_gateways.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations required to assign L2 and L3 (anycast) gateways to fabric sites.</code><br>
 									<code>- This example assigns a total of 256 L3 anycast gateways (4 gateways per VN × 64 VNs).</code><br><br>
@@ -318,7 +318,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_inventory.yml'>campus_devices_inventory.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_inventory.yml'>campus_devices_inventory.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for inventory operations: add, assign to site, provision, update, resync, role change, delete.</code><br>
 									<code>- This example assigns roles (access, distribution, core, border) to all devices.</code><br>
@@ -326,7 +326,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_provision.yml'>campus_devices_provision.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_provision.yml'>campus_devices_provision.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for provisioning operations (assign, provision, reprovision, unprovision).</code><br>
 									<code>- This example assigns devices to the site and provisions them.</code><br>
@@ -334,7 +334,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_devices.yml'>campus_sda_fabric_devices.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_devices.yml'>campus_sda_fabric_devices.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for fabric device roles (control plane, border, edge, wireless controller) and border L2/L3 handoff settings.</code><br>
 									<code>- This example assigns 2 border/CP nodes and 100 edge nodes in a single fabric site.</code><br><br>
@@ -391,7 +391,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_hostonboarding.yml'>campus_sda_fabric_hostonboarding.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_sda_fabric_hostonboarding.yml'>campus_sda_fabric_hostonboarding.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for host (port) onboarding: add/update/delete port assignments and port channels.</code><br>
 									<code>- This example onboards 150+ ports on a 3-member stack edge.</code><br>
@@ -400,7 +400,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_cco_download.yml'>campus_swim_cco_download.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_cco_download.yml'>campus_swim_cco_download.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for image lifecycle: CCO download, tagging, distribution, activation.</code><br>
 									<code>- This example downloads Catalyst images from CCO into the repository.</code><br>
@@ -408,7 +408,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_tag_golden_images.yml'>campus_swim_tag_golden_images.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_tag_golden_images.yml'>campus_swim_tag_golden_images.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for golden image tagging and management.</code><br>
 									<code>- This example tags golden images for target devices.</code><br>
@@ -416,7 +416,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_distribution.yml'>campus_swim_distribution.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_distribution.yml'>campus_swim_distribution.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for image distribution to devices.</code><br>
 									<code>- This example distributes staged images to targets.</code><br>
@@ -424,7 +424,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_edges.yml'>campus_swim_activation_edges.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_edges.yml'>campus_swim_activation_edges.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for image activation on edge devices.</code><br>
 									<code>- This example activates images on edge nodes.</code><br>
@@ -432,7 +432,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_im.yml'>campus_swim_activation_im.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_im.yml'>campus_swim_activation_im.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for image activation on intermediate devices.</code><br>
 									<code>- This example activates images on intermediate nodes.</code><br>
@@ -440,7 +440,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_border_cp.yml'>campus_swim_activation_border_cp.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_swim_activation_border_cp.yml'>campus_swim_activation_border_cp.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for image activation on border and control-plane devices.</code><br>
 									<code>- This example activates images on border/CP nodes.</code><br>
@@ -448,7 +448,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_compliance.yml'>campus_devices_compliance.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_devices_compliance.yml'>campus_devices_compliance.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for device compliance assessment.</code><br>
 									<code>- This example runs compliance checks on multiple fabric devices.</code><br>
@@ -456,7 +456,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_discovery.yml'>campus_new_devices_discovery.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_discovery.yml'>campus_new_devices_discovery.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations required to discover new network devices and add them to the inventory.</code><br>
 									<code>- This example discovers a single new device.</code><br>
@@ -464,7 +464,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>							
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_inventory.yml'>campus_new_devices_inventory.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_inventory.yml'>campus_new_devices_inventory.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations for inventory operations for a newly discovered device.</code><br>
 									<code>- This example assigns the access role to the new device.</code><br>
@@ -472,7 +472,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_provision.yml'>campus_new_devices_provision.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_provision.yml'>campus_new_devices_provision.yml</a></b></td>
 								<td>
 									<code>- This file contains provisioning configurations for the newly discovered device.</code><br>
 									<code>- This example assigns the new device to the site and provisions it.</code><br>
@@ -480,7 +480,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_sda_fabric_devices.yml'>campus_new_devices_sda_fabric_devices.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_sda_fabric_devices.yml'>campus_new_devices_sda_fabric_devices.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations to add the new device to the fabric as an edge node.</code><br>
 									<code>- This example assigns fabric edge role to the new device.</code><br>
@@ -488,7 +488,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>							
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_compliance.yml'>campus_new_devices_compliance.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_compliance.yml'>campus_new_devices_compliance.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations to perform compliance check on the new device.</code><br>
 									<code>- This example runs compliance for a single device.</code><br>
@@ -503,7 +503,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 						<blockquote>
 							<table>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_device_discovery.yml'>branches_device_discovery.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_device_discovery.yml'>branches_device_discovery.yml</a></b></td>
 								<td>
 								<code>- This file contains configurations required to discover network devices and add them to the inventory. </code><br>
 								<code>- This example discovers devices via ip address range(s)</code><br>
@@ -511,7 +511,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_sites_zones.yml'>branches_sda_fabric_sites_zones.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_sites_zones.yml'>branches_sda_fabric_sites_zones.yml</a></b></td>
 								<td>
 								<code>- This file contains configuration required to create fabric sites. </code><br>
 								<code>- This example creates 50 remote branch sites with closed-authetication profile </code><br> 
@@ -519,7 +519,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_nw_settings_ippools.yml'>branches_nw_settings_ippools.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_nw_settings_ippools.yml'>branches_nw_settings_ippools.yml</a></b></td>
 								<td>
 								<code>- This file contains configurations required to design and reserve the ip pools for the site.</code> <br>
 								<code>- This example reserves 150 ip pools across 50 branch sites. </code><br>
@@ -527,7 +527,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_vns.yml'>branches_sda_fabric_vns.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_vns.yml'>branches_sda_fabric_vns.yml</a></b></td>
 								<td>
 								<code>- This file contains configurations required to assign vns (virtual networks) to fabric sites.</code><br>
 								<code>- This example assign 50 vns across 50 fabric sites (1 vns per fabric x 50 fabric sites), and assign infra_vn to all 50 fabric sites </code><br>
@@ -574,7 +574,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_gateways.yml'>branches_sda_fabric_gateways.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_gateways.yml'>branches_sda_fabric_gateways.yml</a></b></td>
 								</td>
 								<td>
 								<code>-  This file contains configurations required to assign l2 gateways and l3 gateways to fabric sites.</code><br>
@@ -606,7 +606,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_inventory.yml'>branches_inventory.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_inventory.yml'>branches_inventory.yml</a></b></td>
 								<td>
 								<code>- This file contains configuration related to various inventory management tasks within your network, such as adding devices, assigning devices to sites, provisioning, updating devices, resyncing  devices, changing device roles, and deleting devices from the inventory. </code><br>
 								<code>- This example assigns inventory role - Access - to all 50 devices accorss 50 sites. </code><br>
@@ -614,7 +614,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_devices_provision.yml'>branches_devices_provision.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_devices_provision.yml'>branches_devices_provision.yml</a></b></td>
 								<td>
 								<code>- This file contains configurations related to device provisioning, such as assigning device to sites, provisioning, reprovisioning and deleting provisioned devices in catalyst center inventory. </code><br> 
 								<code>- This example assigns devices to sites and provision devices in all 50 sites. </code><br>
@@ -622,7 +622,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_devices.yml'>branches_sda_fabric_devices.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_sda_fabric_devices.yml'>branches_sda_fabric_devices.yml</a></b></td>
 								<td>
 								<code>- This file contains configurations related to fabric device roles, such as assigning and managing device roles (control plane node, edge node, border node, wireless controller) within the sda fabric. this file also contains configuration of border settings for layer 2 and layer 3 handoffs. </code><br> 
 								<code>- This example assigns all 50 fiab (border/cp/edge) across 50 fabric sites (1 fiab per fabric_site x 50 fabric sites) </code><br>
@@ -630,7 +630,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_cco_download.yml'>branches_swim_cco_download.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_cco_download.yml'>branches_swim_cco_download.yml</a></b></td>
 								<td>
 								<code>- This file contains configuration related to manage and upgrade software images on cisco devices, such as image download, golden image tagging, image distribution and image activation </code><br>
 								<code>- This example download catalyst switch software image from cco to catalyst center image repository . </code><br>
@@ -638,7 +638,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_tag_golden_images.yml'>branches_swim_tag_golden_images.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_tag_golden_images.yml'>branches_swim_tag_golden_images.yml</a></b></td>
 								<td>
 								<code>- This file contains configuration related to manage and upgrade software images on cisco devices, such as image download, golden image tagging, image distribution and image activation </code><br>
 								<code>- This example tags golden images for devices . </code><br>
@@ -646,7 +646,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_distribution.yml'>branches_swim_distribution.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_distribution.yml'>branches_swim_distribution.yml</a></b></td>
 								<td>
 								<code>-  This file contains configuration related to manage and upgrade software images on cisco devices, such as image downloading, golden image tagging, image distribution and image activation. </code><br>
 								<code>-  This example distribute images to the targeted devices. </code><br>
@@ -654,7 +654,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_activation_fiabs.yml'>branches_swim_activation_fiabs.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_swim_activation_fiabs.yml'>branches_swim_activation_fiabs.yml</a></b></td>
 								<td>
 								<code>- This file contains configuration related to management of device compliances. </code><br>
 								<code>- This example performs compliance check on all the newly upgraded devices. </code><br>
@@ -662,7 +662,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_devices_compliance.yml'>branches_network_compliance.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/clinic_branches_healthcare/branches_devices_compliance.yml'>branches_network_compliance.yml</a></b></td>
 								<td>
 								<code>- This file contains configuration related to management of device compliance within your network. </code><br>
 								<code>- This example performs compliance check on multiple fabric devices. </code><br> 
@@ -684,7 +684,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 				<blockquote>
 					<table>
 					<tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/ansible_inventory/catalystcenter_inventory/hosts.yml'>hosts.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/ansible_inventory/catalystcenter_inventory/hosts.yml'>hosts.yml</a></b></td>
 						<td><code>
 						-  This is a sample host file to be created for your catalyst center to be able to run the existing playbooks.<br>
 						✏️ sample inventory file <br>
