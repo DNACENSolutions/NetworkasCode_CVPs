@@ -209,14 +209,15 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>FV_network_devices_CCO_download_tag_golden_images_distribution.yml</a></b></td>
-						<td><code>- These files contain configurations required to download CCO images names, tag images name as golden image at global level and image distribution at site level, inherited the marking of golden image from global level</code></td>
-						<td><code><br>- Device Software Image Management <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Catalyst Center Device Software Image Management Playbook</a></code></td>
+						<td><code>- These files contain configurations required to download CCO images names, tag images name as golden image at global level and image distribution at site level, inherited the marking of golden image from global level</code><br>
+						<code>>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Catalyst Center Device Software Image Management Playbook</a></code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_events_and_notifications_create_email_destination.yml'>FV_events_and_notifications_create_email_destination.yml</a></b><br>
 						<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_setup_events_and_notifications_DR313.yml'>FV_setup_events_and_notifications_DR313.yml</a></b></td>
-						<td><code>- These files contain configurations required to create email destination and events notifications</code></td>
-						<td><code><br>- Events and Notifications <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/events_and_notifications/README.md'>Catalyst Center Events and Notification Destination and Subscriptsion Manager Playbook</a></code></td>
+						<td>
+						<code>- These files contain configurations required to create email destination and events notifications</code><br>
+						<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/events_and_notifications/README.md'>Catalyst Center Events and Notification Destination and Subscriptsion Manager Playbook</a></code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -236,33 +237,40 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_distribution.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_distribution.yml</a></b><br>
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_activation.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_activation.yml</a></b><br>							
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_anchor_site_single_cp_and_border_image_activation.yml'>FV_network_devices_anchor_site_single_cp_and_border_image_activation.yml</a></b></td>
-								<td><code><br>- These files contain configurations required to activate image on devices in hub1, hub2, medium, small and anchor sites.</code></td>
-								<td><code><br>- Device Software Image Management<br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Catalyst Center Device Software Image Management Playbook</a></code></td>
+								<td>
+								<code>- These files contain configurations required to activate image on devices in hub1, hub2, medium, small and anchor sites.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Catalyst Center Device Software Image Management Playbook</a></code>
+								</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_main_hub1.yml'>FV_devices_provision_main_hub1.yml</a></b><br>
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_main_hub2_SVL_9800HA.yml'>FV_devices_provision_main_hub2_SVL_9800HA.yml</a></b><br>
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_medium_sites_dual_FIABs_eWLC_N_plus_1.yml'>FV_devices_provision_medium_sites_dual_FIABs_eWLC_N_plus_1.yml</a></b><br>
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_small_sites_single_FIAB_eWLC.yml'>FV_devices_provision_small_sites_single_FIAB_eWLC.yml</a></b></td>
-								<td><code><br>- These files contain configurations required to re-provision devices in hub1, hub2, medium and small snotes.</code></td>
-								<td><code><br>- Provision <br> - Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>Provision Workflow Playbook</a></code></td>
+								<td>
+								<code>- These files contain configurations required to re-provision devices in hub1, hub2, medium and small snotes.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>Provision Workflow Playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_site_sda_fabric_setup_hostonboarding_static_hosts.yml'>FV_site_sda_fabric_setup_hostonboarding_static_hosts.yml</a></b></td>
-								<td><code><br>- This file contains configurations required to static hosts onboarding on Fabric Edge.</code></td>
-								<td><code><br>- SNA Host Onboarding <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>SDA Host Onboarding Workflow Manager</a></code></td>
+								<td>
+								<code>- This file contains configurations required to static hosts onboarding on Fabric Edge.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>SDA Host Onboarding Workflow Manager</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_FQDN_only_main_hub2_expand_sites_using_LAN_automation.yml'>FV_FQDN_only_main_hub2_expand_sites_using_LAN_automation.yml</a></b><br>
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_FQDN_only_main_hub2_provision_LAN_automated_devices.yml'>FV_FQDN_only_main_hub2_provision_LAN_automated_devices.yml</a></b></td>
-								<td><code><br>- These files contain configurations required to expand site using LAN automation and then provision the pnp device.</code></td>
-                                <td><code><br>- SD-Access LAN Automation <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/lan_automation/README.md'>Cisco Catalyst Center SD-Access LAN Automation</a></code></td>
+								<td>
+								<code>- These files contain configurations required to expand site using LAN automation and then provision the pnp device.</code><br>
+                                <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/lan_automation/README.md'>Cisco Catalyst Center SD-Access LAN Automation</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_site_devices_provision.yml'>FV_site_devices_provision.yml</a></b><br>
 								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_assign_sites_devices_as_fabric_edges.yml'>FV_assign_sites_devices_as_fabric_edges.yml</a></b></td>
-								<td><code><br>- These files contain configurations required to provision device follow-by Fabric Edge onboarding.</code></td>
-								<td><code><br>- SDA Fabric Sites <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code></td>
+								<td>
+								<code>- These files contain configurations required to provision device follow-by Fabric Edge onboarding.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code>
+								</td>
 							</tr>
 							</table>
 						</blockquote>
