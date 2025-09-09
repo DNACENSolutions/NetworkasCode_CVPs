@@ -109,11 +109,11 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/setup.sh'>setup.sh</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/setup.sh'>setup.sh</a></b></td>
 				<td><code>- Setup script to create your python environment and install Catalyst Center Python SDK (dnacentersdk) and Ansible collection (cisco.dnac)</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/requirements.txt'>requirements.txt</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/requirements.txt'>requirements.txt</a></b></td>
 				<td><code>- This file contains the required python modules. This file is used by setup.sh script</code></td>
 			</tr>
 			</table>
@@ -124,7 +124,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
 				<td><code>- This Python tool is to run the Ansible playbooks with Inputs files preprogrammed in the usecase_maps files. The Tools lets you choose option to Validate the input, Execute the playbook or do both. Further it gives option for user to run the Catalyst Center Configuration usecases individually, or in a sub-group of usecase , or all the usecase in the order specified in the input file selected from usecase_maps directory.</code></td>
 			</tr>
 			</table>
@@ -135,7 +135,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase01_dayN_campus_network_devices_upgrade.yml'>fv_usecase01_dayN_campus_network_devices_upgrade.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase01_dayN_campus_network_devices_upgrade.yml'>fv_usecase01_dayN_campus_network_devices_upgrade.yml</a></b></td>
             <td> <code>- This yaml usecase upgrades campus fabric sites with different size, devices models, devices roles and eWLC. <br>This usecase consists of 4 operations, CCO images download, images tagging as golden image, image distribution and image activation. Due to flexiable of IAC, the first 3 operations could be executed using one step, some operations are in parallel and some sequential :<br><br>#Step1: Images download from CCO in parallel<br>#Step2: Tag golden images one by one according to device family<br>#Step3: Image distribution for all the devices, some in sequential and some in parallel, except N+1 primary<br>#Step4: <br>a. Image activation for hub1<br>b. Image activation for hub2<br>c. Image activation for small sites<br>d. Image activation for medium Sites N+1 Secondary<<br><br>
 			 ⚠️ Image download Consideration: Image download from CCO has a pre-req that the entry for that image has to be in CatC before initiating network devices upgrade use case. To check, go to the device family (Design->Image Repository->click on the device family). If the image entry is not there, initiate the Sync Updates (Design->Image Repository->Sync Updates) and check in Show Tasks to confirm the task completion and recheck in the device family<br>
 			 ⚠️ Image activation Consideration on SDAccess: Image activation execution starts with fabric Edges and then, fabric borders/control plane nodes. Druing imagee activation, the fabric node would be unavailable, if there is no redundancy, such as multiple fabric border nodes or fabric control plane nodes and impact is a concern, execute image activation on the node during maintenance window<br>
@@ -143,23 +143,23 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase02_dayN_fabric_devices_reprovisioning.yml'>fv_usecase02_dayN_fabric_devices_reprovisioning.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase02_dayN_fabric_devices_reprovisioning.yml'>fv_usecase02_dayN_fabric_devices_reprovisioning.yml</a></b></td>
                 <td><code>- This yaml usecase reprovision devices on different sites. <br>This usecase consists of single operation :<br><br># Step1: device re-provision for the site<br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase03_dayN_manage_onboarding_static_hosts.yml'>fv_usecase03_dayN_manage_onboarding_static_hosts.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase03_dayN_manage_onboarding_static_hosts.yml'>fv_usecase03_dayN_manage_onboarding_static_hosts.yml</a></b></td>
                 <td><code>- This yaml usecase performs static host onboarding<br>This usecase consists of single operation :<br><br>#Step1: static host onboarding on Fabric Edge<br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase04_dayN_manage_events_and_notifications_via_email.yml'>fv_usecase04_dayN_manage_events_and_notifications_via_email.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase04_dayN_manage_events_and_notifications_via_email.yml'>fv_usecase04_dayN_manage_events_and_notifications_via_email.yml</a></b></td>
                 <td><code>- This yaml usecase performs email destination creation and event notification via email creation.<br>This usecase consists of 2 operations in below sequence : <br><br>#Step1:email destination creation<br>#Step2: event notification via email creation<br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase05_dayN_expand_sites_using_LAN_automation.yml'>fv_usecase05_dayN_expand_sites_using_LAN_automation.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase05_dayN_expand_sites_using_LAN_automation.yml'>fv_usecase05_dayN_expand_sites_using_LAN_automation.yml</a></b></td>
                 <td><code>- This yaml usecase performs LAN automation and provision to ready device for fabric operations<br>This usecase consists of 2 operations in below sequence:<br><br>#Step1 : LAN automation<br>#Step2 : provision pnp device to ready for fabric operations<br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase06_dayN_manage_campus_fabric_edge_onboarding.yml'>fv_usecase06_dayN_manage_campus_fabric_edge_onboarding.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase06_dayN_manage_campus_fabric_edge_onboarding.yml'>fv_usecase06_dayN_manage_campus_fabric_edge_onboarding.yml</a></b></td>
                 <td><code>- This yaml usecase performs fabric edge onboarding. <br>This usecase consists of 2 operations in below sequence:<br><br>#Step1 : provision device prior to adding into fabric<br>#Step2 : Assign device to a site and add to fabric site as Fabric Edge<br></code></td>
 			</tr>			
 			</table>
@@ -173,13 +173,13 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 				<blockquote>
 					<table>
 					<tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>FV_network_devices_CCO_download_tag_golden_images_distribution.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>FV_network_devices_CCO_download_tag_golden_images_distribution.yml</a></b></td>
 						<td><code>- These files contain configurations required to download CCO images names, tag images name as golden image at global level and image distribution at site level, inherited the marking of golden image from global level</code></td>
 						<td><code><br>- Device Software Image Management <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Catalyst Center Device Software Image Management Playbook</a></code></td>
 					</tr>
 					<tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_events_and_notifications_create_email_destination.yml'>FV_events_and_notifications_create_email_destination.yml</a></b><br>
-						<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_setup_events_and_notifications_DR313.yml'>FV_setup_events_and_notifications_DR313.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_events_and_notifications_create_email_destination.yml'>FV_events_and_notifications_create_email_destination.yml</a></b><br>
+						<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/global/FV_setup_events_and_notifications_DR313.yml'>FV_setup_events_and_notifications_DR313.yml</a></b></td>
 						<td><code>- These files contain configurations required to create email destination and events notifications</code></td>
 						<td><code><br>- Events and Notifications <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/events_and_notifications/README.md'>Catalyst Center Events and Notification Destination and Subscriptsion Manager Playbook</a></code></td>
 					</tr>
@@ -194,38 +194,38 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 						<blockquote>
 							<table>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_main_hub1_images_activation.yml'>FV_network_devices_main_hub1_images_activation.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_main_hub2_SVL_9800HA_images_activation.yml'>FV_network_devices_main_hub2_SVL_9800HA_images_activation.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_small_site_single_FIAB_eWLC_images_activation.yml'>FV_network_devices_small_site_single_FIAB_eWLC_images_activation.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Secondary_images_activation.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Secondary_images_activation.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_distribution.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_distribution.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_activation.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_activation.yml</a></b><br>							
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_anchor_site_single_cp_and_border_image_activation.yml'>FV_network_devices_anchor_site_single_cp_and_border_image_activation.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_main_hub1_images_activation.yml'>FV_network_devices_main_hub1_images_activation.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_main_hub2_SVL_9800HA_images_activation.yml'>FV_network_devices_main_hub2_SVL_9800HA_images_activation.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_small_site_single_FIAB_eWLC_images_activation.yml'>FV_network_devices_small_site_single_FIAB_eWLC_images_activation.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Secondary_images_activation.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Secondary_images_activation.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_distribution.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_distribution.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_activation.yml'>FV_network_devices_medium_site_dual_FIABs_eWLC_N_plus_1_Primary_images_activation.yml</a></b><br>							
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_network_devices_anchor_site_single_cp_and_border_image_activation.yml'>FV_network_devices_anchor_site_single_cp_and_border_image_activation.yml</a></b></td>
 								<td><code><br>- These files contain configurations required to activate image on devices in hub1, hub2, medium, small and anchor sites.</code></td>
 								<td><code><br>- Device Software Image Management<br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Catalyst Center Device Software Image Management Playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_main_hub1.yml'>FV_devices_provision_main_hub1.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_main_hub2_SVL_9800HA.yml'>FV_devices_provision_main_hub2_SVL_9800HA.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_medium_sites_dual_FIABs_eWLC_N_plus_1.yml'>FV_devices_provision_medium_sites_dual_FIABs_eWLC_N_plus_1.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_small_sites_single_FIAB_eWLC.yml'>FV_devices_provision_small_sites_single_FIAB_eWLC.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_main_hub1.yml'>FV_devices_provision_main_hub1.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_main_hub2_SVL_9800HA.yml'>FV_devices_provision_main_hub2_SVL_9800HA.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_medium_sites_dual_FIABs_eWLC_N_plus_1.yml'>FV_devices_provision_medium_sites_dual_FIABs_eWLC_N_plus_1.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_devices_provision_small_sites_single_FIAB_eWLC.yml'>FV_devices_provision_small_sites_single_FIAB_eWLC.yml</a></b></td>
 								<td><code><br>- These files contain configurations required to re-provision devices in hub1, hub2, medium and small snotes.</code></td>
 								<td><code><br>- Provision <br> - Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>Provision Workflow Playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_site_sda_fabric_setup_hostonboarding_static_hosts.yml'>FV_site_sda_fabric_setup_hostonboarding_static_hosts.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_site_sda_fabric_setup_hostonboarding_static_hosts.yml'>FV_site_sda_fabric_setup_hostonboarding_static_hosts.yml</a></b></td>
 								<td><code><br>- This file contains configurations required to static hosts onboarding on Fabric Edge.</code></td>
 								<td><code><br>- SNA Host Onboarding <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>SDA Host Onboarding Workflow Manager</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_FQDN_only_main_hub2_expand_sites_using_LAN_automation.yml'>FV_FQDN_only_main_hub2_expand_sites_using_LAN_automation.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_FQDN_only_main_hub2_provision_LAN_automated_devices.yml'>FV_FQDN_only_main_hub2_provision_LAN_automated_devices.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_FQDN_only_main_hub2_expand_sites_using_LAN_automation.yml'>FV_FQDN_only_main_hub2_expand_sites_using_LAN_automation.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_FQDN_only_main_hub2_provision_LAN_automated_devices.yml'>FV_FQDN_only_main_hub2_provision_LAN_automated_devices.yml</a></b></td>
 								<td><code><br>- These files contain configurations required to expand site using LAN automation and then provision the pnp device.</code></td>
                                 <td><code><br>- SD-Access LAN Automation <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/lan_automation/README.md'>Cisco Catalyst Center SD-Access LAN Automation</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_site_devices_provision.yml'>FV_site_devices_provision.yml</a></b><br>
-								<b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_networkac/browse/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_assign_sites_devices_as_fabric_edges.yml'>FV_assign_sites_devices_as_fabric_edges.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_site_devices_provision.yml'>FV_site_devices_provision.yml</a></b><br>
+								<b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/catc_configs/sites/FV_assign_sites_devices_as_fabric_edges.yml'>FV_assign_sites_devices_as_fabric_edges.yml</a></b></td>
 								<td><code><br>- These files contain configurations required to provision device follow-by Fabric Edge onboarding.</code></td>
 								<td><code><br>- SDA Fabric Sites <br>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>sda_fabric_sites_zones_playbook</a></code></td>
 							</tr>
