@@ -135,11 +135,11 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_financial_sda/CVPaC_1_0_Financial_SDA/setup.sh'>setup.sh</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/setup.sh'>setup.sh</a></b></td>
 				<td><code>❯ Setup script to create your python environment and install Catalyst Center Python SDK (dnacentersdk) and Ansible collection (cisco.dnac)</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_financial_sda/CVPaC_1_0_Financial_SDA/requirements.txt'>requirements.txt</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/requirements.txt'>requirements.txt</a></b></td>
 				<td><code>❯ This file contains the required python modules. This file is used by setup.sh script</code></td>
 			</tr>
 			</table>
@@ -150,7 +150,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_financial_sda/CVPaC_1_0_Financial_SDA/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/scripts/run_playbooks.py'>run_playbooks.py</a></b></td>
 				<td><code>❯ This Python tool is to run the Ansible playbooks with Inputs files preprogrammed in the usecase_maps files. The Tools lets you choose option to Validate the input, Execute the playbook or do both. Further it gives option for user to run the Catalyst Center Configuration usecases individually, or in a sub-group of usecase , or all the usecase in the order specified in the input file selected from usecase_maps directory.</code></td>
 			</tr>
 			</table>
@@ -161,7 +161,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/day0_settings_and_integration.yml'>day0_settings_and_integration.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_settings_and_integration.yml'>day0_settings_and_integration.yml</a></b></td>
             <td> <code>❯ This usecase performs essential Day0 configurations to prepare the infrastructure for SDA automation by integrating ISE with DNAC, creating the site hierarchy, setting up global device credentials, network settings, and assigning them to the target site (e.g., Karnataka).<br><br>
             This usecase consists of 8 operations in the following sequence:<br><br>
             #Step1: Integrate Cisco ISE with Catalyst Center for RADIUS services and TrustSec policies<br>
@@ -174,27 +174,27 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
             #Step8: Apply global network settings to the Karnataka site<br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
                 <td><code>❯ This use case handles the initial bring-up of a fabric site by automating the discovery and provisioning of seed and downstream devices. It simplifies onboarding by using LAN Automation to detect connected fabric edge nodes.<br><br> It includes the following 4 operations:<br><br> #Step1: Discover seed devices in the network using CLI/SNMP-based discovery methods.<br> #Step2: Provision the discovered seed devices to prepare them for acting as LAN Automation controllers.<br> #Step3: Run LAN Automation to dynamically discover access switches connected to the seed devices.<br> #Step4: Provision the newly discovered downstream devices with appropriate management IPs and configuration.<br><br> ⚠️ <b>Note:</b> Ensure that management IPs are assigned during LAN Automation if immediate provisioning of discovered devices is planned.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/day1_settings_and_integration.yml'>day1_settings_and_integration.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_settings_and_integration.yml'>day1_settings_and_integration.yml</a></b></td>
                 <td><code>❯ This use case configures foundational Day 1 settings for onboarding a newly added site into the fabric domain. It involves site addition, IP pool design, and essential network configurations specific to the new site.<br><br> It performs the following 5 operations:<br><br> #Step1: Create a new hierarchical site under the DNAC site tree structure.<br> #Step2: Assign pre-defined device credentials (CLI, SNMP, etc.) to the new site for future provisioning and management.<br> #Step3: Create global IP pools to be consumed by various sites and services.<br> #Step4: Allocate and assign the relevant IP pool slices to the newly added site.<br> #Step5: Configure site-specific network settings such as DNS, DHCP, NTP, and syslog to enable baseline device communication and service resolution.</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Brownfield.yml'>day1_lan_automation_Brownfield.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Brownfield.yml'>day1_lan_automation_Brownfield.yml</a></b></td>
                 <td><code>❯ This use case supports Brownfield site expansion by integrating newly added switches into an already operational SDA fabric. It automates the discovery of new devices via LAN Automation and provisions them to extend the fabric topology.<br><br> It consists of the following 2 operations:<br><br> #Step1: Run LAN Automation to discover additional devices connected to existing fabric infrastructure.<br> #Step2: Provision the discovered devices by assigning management IPs, applying configurations, and registering them to the fabric.<br><br> ⚠️ <b>Note:</b> Ensure management IPs are assigned during LAN Automation to allow seamless provisioning. This is especially critical for executing both steps in a single run without manual intervention.</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Greenfield.yml'>day1_lan_automation_Greenfield.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Greenfield.yml'>day1_lan_automation_Greenfield.yml</a></b></td>
                 <td><code>❯ This use case brings up a completely new SDA fabric site (Greenfield deployment). It covers the end-to-end flow from discovering seed devices, provisioning them, running LAN Automation to onboard downstream devices, and finally provisioning the newly discovered nodes.<br><br> It consists of the following 4 operations:<br><br> #Step1: Discover seed devices that serve as anchors for LAN Automation.<br> #Step2: Provision the discovered seed devices with required configurations and credentials.<br> #Step3: Run LAN Automation to discover downstream connected fabric nodes (e.g., Edge or Intermediate nodes).<br> #Step4: Provision and onboard the newly discovered fabric devices into the fabric site topology.<br><br> ⚠️ <b>Note:</b> Assigning management IPs during LAN Automation is crucial for enabling seamless provisioning in the same run.</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda_fabric_provision.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda_fabric_provision.yml</a></b></td>
                 <td><code>❯ This use case provisions a newly added site as a Cisco SDA Fabric site. It involves setting up the fabric structure, configuring Layer 3 IP transit for external connectivity, defining virtual networks with Anycast Gateways, and assigning appropriate device roles.<br><br> It includes the following 4 key operations:<br><br> #Step1: Designate the site as an SDA Fabric site to enable fabric-based operations.<br> #Step2: Configure Layer 3 IP Transit for external handoff to upstream networks (e.g., WAN, Data Center).<br> #Step3: Create Layer 2 and Layer 3 Virtual Networks along with Anycast Gateways for host communication.<br> #Step4: Assign fabric roles such as Border, Control Plane, and Edge to the devices within the site.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/day1_sda_fabric_provision.yml'>day1_sda_fabric_provision.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_sda_fabric_provision.yml'>day1_sda_fabric_provision.yml</a></b></td>
                 <td><code>❯ This use case is focused on enabling **SDA Fabric provisioning for an already existing site** on Day 1. Unlike the <b>day1_new_site_sda_fabric_provision.yml</b> flow (which adds a new site and makes it fabric-ready), this workflow assumes that the site has already been onboarded earlier and is now being transitioned into the SDA fabric domain.<br><br>
                 The workflow performs the following key operations:<br><br>
                 #Step1: Convert the existing site into a Fabric Site, establishing SDA fabric boundaries.<br>
@@ -204,7 +204,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 This use case is typically triggered after Day 0 onboarding or LAN automation is complete and is part of formalizing the site’s transition into an SDA-enabled environment.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_Image_Upgrade_Across_Campus.yml'>dayn_Image_Upgrade_Across_Campus.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_Image_Upgrade_Across_Campus.yml'>dayn_Image_Upgrade_Across_Campus.yml</a></b></td>
                 <td><code>❯ This Day-N use case handles **network-wide software image upgrades** across the entire SDA campus using **SWIM (Software Image Management)** via DNAC. It ensures consistent image compliance and eliminates version drifts across fabric devices.<br><br>
                 The process is divided into three steps:<br><br>
                 #Step1: <b>Global Image Distribution</b>
@@ -216,7 +216,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 This ensures all fabric and non-fabric devices across the enterprise operate on validated, secure, and consistent image versions — a critical Day-N activity for lifecycle management and compliance.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_&_dedicated_firewall.yml'>dayn_C2S_gateway_inside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_&_dedicated_firewall.yml'>dayn_C2S_gateway_inside_&_dedicated_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case provisions **Client-to-Site (C2S) VPN access** via an **inside gateway with a dedicated firewall**. It facilitates secure, isolated remote access to enterprise resources, with dedicated segmentation at the network and security layer.<br>
                 Key Steps:<br><br>
                 #Step1: <b>IP Pool Reservation</b><br>
@@ -234,7 +234,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 Ideal for high-security organizations (e.g., financial institutions, government) requiring strict separation of VPN access paths without overlap across clients or business units.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_%26_shared_firewall.yml'>dayn_C2S_gateway_inside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_%26_shared_firewall.yml'>dayn_C2S_gateway_inside_&_shared_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case enables Client-to-Site (C2S) VPN access via an internal gateway using a shared firewall.<br>
                 It provisions shared infrastructure to allow remote users, such as support executives or delivery agents,<br>
                 to securely connect to ITES systems without requiring isolated security appliances per client.<br><br>
@@ -260,7 +260,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 instead of physical firewalls.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_dedicated_firewall.yml'>dayn_C2S_gateway_outside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_dedicated_firewall.yml'>dayn_C2S_gateway_outside_&_dedicated_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric,<br>
                 leveraging a dedicated firewall for strict traffic segmentation. The external firewall terminates the VPN,<br>
                 and the traffic is handed off to the SDA fabric via a single L2 VLAN extending to the Border node.<br><br>
@@ -285,7 +285,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 and single VLAN to onboard remote employees via C2S VPN, ensuring exclusive resource access.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_shared_firewall.yml'>dayn_C2S_gateway_outside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_shared_firewall.yml'>dayn_C2S_gateway_outside_&_shared_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric,<br>
                 utilizing a shared firewall to support multiple client contexts. VPN tunnels terminate at the firewall,<br>
                 and client traffic enters the SDA fabric through dedicated Layer 2 VLANs mapped to different services.<br><br>
@@ -313,7 +313,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 </code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_dedicated_firewall.yml'>dayn_S2S_gateway_inside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_dedicated_firewall.yml'>dayn_S2S_gateway_inside_&_dedicated_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the fabric<br>
                 along with a dedicated firewall. It is designed to establish a permanent, secure VPN tunnel between the ITES site<br>
                 and an external client or remote office.<br><br>
@@ -338,7 +338,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 security isolation and compliance requirements.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_shared_firewall.yml'>ddayn_S2S_gateway_inside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_shared_firewall.yml'>ddayn_S2S_gateway_inside_&_shared_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the SDA fabric<br>
                 along with a shared firewall. The setup enables multiple ITES customer locations to establish encrypted tunnels<br>
                 into a central data center using logically isolated paths through a common firewall infrastructure.<br><br>
@@ -363,7 +363,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 into logically separated VRFs inside the fabric, securely connecting remote offices to hosted platforms.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_dedicated_firewall.yml'>dayn_S2S_gateway_outside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_dedicated_firewall.yml'>dayn_S2S_gateway_outside_&_dedicated_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a dedicated firewall<br>
                 placed outside the fabric. The decrypted traffic is handed off to the SDA fabric via L2 VLANs extending<br>
                 to the Border node. This setup is ideal for ITES clients needing high security and full tunnel isolation.<br><br>
@@ -388,7 +388,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 into the hosted back-office CRM application, ensuring full tunnel isolation.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_shared_firewall.yml'>dayn_S2S_gateway_outside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_shared_firewall.yml'>dayn_S2S_gateway_outside_&_shared_firewall.yml</a></b></td>
                 <td><code>❯ This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a shared firewall<br>
                 located outside the SDA fabric. Multiple branch tunnels terminate on a single firewall, and their traffic<br>
                 is logically separated using different VLANs and VRFs before entering the fabric.<br><br>
@@ -413,7 +413,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 extended to the Border node to segregate traffic while optimizing infrastructure reuse.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_site_to_site_roaming_VN.yml'>dayn_site_to_site_roaming_VN.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_site_to_site_roaming_VN.yml'>dayn_site_to_site_roaming_VN.yml</a></b></td>
                 <td><code>❯ This Day-N use case enables Site-to-Site (S2S) roaming by provisioning a location-agnostic L3 VN,<br>
                 allowing ODC users in ITES to operate securely from any site while enforcing strict access boundaries.<br><br>
                 #Step1: IP Pool Reservation<br>
@@ -438,7 +438,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 (RTO) strategies and distributed ODC models within the ITES sector.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_restricted_ODC.yml'>dayn_S2S_restricted_ODC.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_restricted_ODC.yml'>dayn_S2S_restricted_ODC.yml</a></b></td>
                 <td><code>❯ This Day-N use case provisions a Site-to-Site (S2S) ODC with a dedicated firewall acting<br>
                 as a gateway and directly connected to the fabric edge, ensuring tight traffic control<br>
                 and isolation within the ITES environment.<br><br>
@@ -477,32 +477,32 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<blockquote>
 					<table>
                     <tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_global/catc_and_ise_integration.yml'>catc_and_ise_integration.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/catc_and_ise_integration.yml'>catc_and_ise_integration.yml</a></b></td>
 						<td><code>❯ Integrate Catalyst Center with ISE for Radius Authentication, and Add AAA Servers</code></td>
                         <td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>ise_radius_integration_playbook</a></code></td>
 					</tr>
                     <tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_global/day0_site_creation.yml'>day0_site_creation.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_site_creation.yml'>day0_site_creation.yml</a></b></td>
 						<td><code>❯ Creating Sites which includes areas, buildings and floors with floor images.</code></td>
                         <td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchy/README.md'>Network_design_site_hierarchy_playbook</a></code></td>
 					</tr>
 					<tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_global/day0_network_settings.yml'>day0_network_settings.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_network_settings.yml'>day0_network_settings.yml</a></b></td>
 						<td><code>❯ These configurations are network setting for Servers like AAA, NTP etc and also telemetry configuration to be configuration at global level.</code></td>
                         <td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>Network_settings_playbook</a></code></td>
 					</tr>
 					<tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_global/day0_device_credentials.yml'>day0_device_credentials.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_device_credentials.yml'>day0_device_credentials.yml</a></b></td>
 						<td><code>❯ Create global device credentials can be used across sites</code></td>
                         <td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>Device_credentials_playbook</a></code></td>
 					</tr>
 					<tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_global/day0_ip_pool.yml'>day0_ip_pool.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_ip_pool.yml'>day0_ip_pool.yml</a></b></td>
 						<td><code>❯ Add  Network Settings Global IP Pools</code></td>
                         <td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>IP_pool_reservation_playbook</a></code></td>
 					</tr>
                     <tr>
-						<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_global/dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml</a></b></td>
 						<td><code>❯ SWIM Upgrade the devices on sites - Tagging Golden Images</code></td>
                         <td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 					</tr>
@@ -517,57 +517,57 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 						<blockquote>
 							<table>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/device_discovery.yml'>device_discovery.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/device_discovery.yml'>device_discovery.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to discover your network  devices and add them to the inventory.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_discovery/README.md'>Device_discovery_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/device_provision.yml'>device_provision.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/device_provision.yml'>device_provision.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to provision your network  devices.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>Device_provision_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to perform lan automation.This is Greenfield deployement in which we are adding new site and devices and discovering/provisioning devices via lan automation.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/lan_automation/README.md'>LAN_automation_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_lan_automation.yml'>day1_lan_automation.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_lan_automation.yml'>day1_lan_automation.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to perform lan automation.This is Brownfield deployement in which we are adding new devices in the existing site and discovering/provisioning devices via lan automation.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/lan_automation/README.md'>LAN_automation_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day0_ip_pool.yml'>day0_ip_pool.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day0_ip_pool.yml'>day0_ip_pool.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to design and reserve the IP Pools for the site.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>Network_settings_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_fabric_site.yml'>day1_sda_fabric_site.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_fabric_site.yml'>day1_sda_fabric_site.yml</a></b></td>
 								<td><code>❯ Creating Fabric Site and Zones.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>SDA_fabric_sites_zones_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_l2l3_VN.yml'>day1_sda_l2l3_VN.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_l2l3_VN.yml'>day1_sda_l2l3_VN.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to assign VNs (virtual networks), L2 gateways and L3 gateways to Fabric sites.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_transits.yml'>day1_sda_transits.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_transits.yml'>day1_sda_transits.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to create Fabric Transits.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>SDA_fabric transits_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_device_role.yml'>day1_sda_device_role.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/day1_sda_device_role.yml'>day1_sda_device_role.yml</a></b></td>
 								<td><code>❯ This files contains configurations required for creating L3/L2 handoffs and assigning device roles.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_FV_network_devices_primary_site_images_activation.yml'>dayn_FV_network_devices_primary_site_images_activation.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_FV_network_devices_primary_site_images_activation.yml'>dayn_FV_network_devices_primary_site_images_activation.yml</a></b></td>
 								<td><code>❯ This files contains configurations required for activation of images on the devices.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_shared_firewall'>dayn_C2S_gateway_outside_&_shared_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_shared_firewall'>dayn_C2S_gateway_outside_&_shared_firewall</a></b></td>
 								<td><code>❯ This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithasharedfirewallandgatewayoutsideofthefabric'> Refer here for more info on the usecase</a></code></td>
 								<td><code>❯ Related Playbooks<br>
@@ -577,7 +577,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                                 </code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_dedicated_firewall'>dayn_C2S_gateway_outside_&_dedicated_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_dedicated_firewall'>dayn_C2S_gateway_outside_&_dedicated_firewall</a></b></td>
 								<td><code>❯ This folder contains configurations required for bringing Client to Site ODC with gateway outside and dedicated firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithadedicatedfirewallandgatewayoutsidethefabric'> Refer here for more info on the usecase</a></code></td>
 								<td><code>❯ Related Playbooks<br>
@@ -587,7 +587,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                                 </code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_roaming_VN'>dayn_roaming_VN</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_roaming_VN'>dayn_roaming_VN</a></b></td>
 								<td><code>❯ This folder contains configurations required for bringing Site to Site roaming VN with shared/dedicated firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#LocationagnosticaccessforsitetositeODCwithdedicatedfirewallandanycastgateway'> Refer here for more info on the usecase</a></code></td>
 								<td><code>❯ Related Playbooks<br>
@@ -604,47 +604,47 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 						<blockquote>
 							<table>
                             <tr>
-                                <td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_network_settings.yml'>day0_ip_pool.yml</a></b></td>
+                                <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_network_settings.yml'>day0_ip_pool.yml</a></b></td>
                                 <td><code>❯ This files contains configurations required to design and reserve the IP Pools for the site.</code></td>
                                 <td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>Network_settings_playbook</a></code></td>
                             </tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_device_discovery.yml'>day1_device_discovery.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_device_discovery.yml'>day1_device_discovery.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to discover your network  devices and add them to the inventory.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_discovery/README.md'>Device_discovery_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_device_provision.yml'>day1_device_provision.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_device_provision.yml'>day1_device_provision.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to provision your network  devices.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>Device_provision_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_fabric_site.yml'>day1_new_site_sda_fabric_site.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_fabric_site.yml'>day1_new_site_sda_fabric_site.yml</a></b></td>
 								<td><code>❯ Creating Fabric Site and Zones.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>SDA_fabric_sites_zones_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_l2l3_VN.yml'>day1_new_site_sda_l2l3_VN.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_l2l3_VN.yml'>day1_new_site_sda_l2l3_VN.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to assign VNs (virtual networks), L2 gateways and L3 gateways to Fabric sites.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_transits.yml'>day1_new_site_sda_transits.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_transits.yml'>day1_new_site_sda_transits.yml</a></b></td>
 								<td><code>❯ This files contains configurations required to create Fabric Transits.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>SDA_fabric transits_playbook</a></code></td>
 							</tr>
 							<tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_device_role.yml'>day1_new_site_sda_device_role.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_device_role.yml'>day1_new_site_sda_device_role.yml</a></b></td>
 								<td><code>❯ This files contains configurations required for creating L3/L2 handoffs and assigning device roles.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_FV_network_devices_secondary_site_images_activation.yml'>dayn_FV_network_devices_secondary_site_images_activation.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_FV_network_devices_secondary_site_images_activation.yml'>dayn_FV_network_devices_secondary_site_images_activation.yml</a></b></td>
 								<td><code>❯ This files contains configurations required for activation of images on the devices.</code></td>
 								<td><code>❯ Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_dedicated_firewall'>dayn_C2S_gateway_inside_&_dedicated_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_dedicated_firewall'>dayn_C2S_gateway_inside_&_dedicated_firewall</a></b></td>
 								<td><code>❯ This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttoSiteODCwithasharedfirewallandanycastgateway'> Refer here for more info on the usecase</a></code></td>
 								<td><code>❯ Related Playbooks<br>
@@ -655,7 +655,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                                 </code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_shared_firewall'>dayn_C2S_gateway_inside_&_shared_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_shared_firewall'>dayn_C2S_gateway_inside_&_shared_firewall</a></b></td>
 								<td><code>❯ This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithadedicatedfirewallconnectedtotheedgeandactingasgateway'> Refer here for more info on the usecase</a></code></td>
 								<td><code>❯ Related Playbooks<br>
@@ -666,9 +666,9 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                                 </code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://bitbucket-eng-sjc1.cisco.com/bitbucket/users/yubsong/repos/sol_cvpac/browse/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_S2S_restricted_ODC'>dayn_S2S_restricted_ODC</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_S2S_restricted_ODC'>dayn_S2S_restricted_ODC</a></b></td>
 								<td><code>❯ This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
-                                <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithadedicatedfirewallconnectedtotheedgeandactingasgateway'> Refer here for more info on the usecase</a></code></td>
+                                <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validted-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithadedicatedfirewallconnectedtotheedgeandactingasgateway'> Refer here for more info on the usecase</a></code></td>
 								<td><code>❯ Related Playbooks<br>
                                 <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a><br>
                                 <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a><br>
