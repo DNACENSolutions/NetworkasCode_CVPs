@@ -139,7 +139,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			</td>
             <td> 
 			<code>- This yaml usecase upgrades campus fabric sites with different size, devices models, devices roles and eWLC. </code><br>
-			<code>- This usecase consists of 4 operations, CCO images download, images tagging as golden image, image distribution and image activation. Due to flexiable of IAC, the first 3 operations could be executed using one step, some operations are in parallel and some sequential :</code><br><br>
+			<code>- This usecase consists of 4 operations, CCO images download, images tagging as golden image, image distribution and image activation. Due to flexiable of IAC, the first 3 operations could be executed using one step, some operations are in parallel and some sequential :</code><br>
 			<code> #Step1: Images download from CCO in parallel</code><br>
 			<code> #Step2: Tag golden images one by one according to device family</code><br>
 			<code> #Step3: Image distribution for all the devices, some in sequential and some in parallel, except N+1 primary </code><br>
@@ -147,7 +147,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			<code> a. Image activation for hub1 </code><br>
 			<code> b. Image activation for hub2 </code><br>
 			<code> c. Image activation for small sites </code><br>
-			<code> d. Image activation for medium Sites N+1 Secondary </code><br><br>
+			<code> d. Image activation for medium Sites N+1 Secondary </code><br>
 			 <code>⚠️ Image download Consideration: Image download from CCO has a pre-req that the entry for that image has to be in CatC before initiating network devices upgrade use case. To check, go to the device family (Design->Image Repository->click on the device family). If the image entry is not there, initiate the Sync Updates (Design->Image Repository->Sync Updates) and check in Show Tasks to confirm the task completion and recheck in the device family </code><br>
 			 <code> ⚠️ Image activation Consideration on SDAccess: Image activation execution starts with fabric Edges and then, fabric borders/control plane nodes. Druing imagee activation, the fabric node would be unavailable, if there is no redundancy, such as multiple fabric border nodes or fabric control plane nodes and impact is a concern, execute image activation on the node during maintenance window</code><br>
 			 <code> ⚠️ N+1 Consideration:</code><br>
@@ -160,7 +160,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 				</td>
                 <td>
 				<code>- This yaml usecase reprovision devices on different sites. </code><br>
-				<code>- This usecase consists of single operation :</code><br><br>
+				<code>- This usecase consists of single operation :</code><br>
 				<code>  # Step1: device re-provision for the site</code>
 				</td>
 			</tr>
@@ -174,15 +174,28 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase04_dayN_manage_events_and_notifications_via_email.yml'>fv_usecase04_dayN_manage_events_and_notifications_via_email.yml</a></b></td>
-                <td><code>- This yaml usecase performs email destination creation and event notification via email creation.<br>This usecase consists of 2 operations in below sequence : <br><br>#Step1:email destination creation<br>#Step2: event notification via email creation<br></code></td>
+                <td>
+				<code>- This yaml usecase performs email destination creation and event notification via email creation.</code><br>
+				<code>- This usecase consists of 2 operations in below sequence : </code><br>
+				<code>#Step1:email destination creation</code><br>
+				<code>#Step2: event notification via email creation</code>
+				</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase05_dayN_expand_sites_using_LAN_automation.yml'>fv_usecase05_dayN_expand_sites_using_LAN_automation.yml</a></b></td>
-                <td><code>- This yaml usecase performs LAN automation and provision to ready device for fabric operations<br>This usecase consists of 2 operations in below sequence:<br><br>#Step1 : LAN automation<br>#Step2 : provision pnp device to ready for fabric operations<br></code></td>
+                <td>
+				<code>- This yaml usecase performs LAN automation and provision to ready device for fabric operations</code><br>
+				<code>- This usecase consists of 2 operations in below sequence:</code><br>
+				<code>  #Step1 : LAN automation </code><br>
+				<code>  #Step2 : provision pnp device to ready for fabric operations</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_financial_sda/NaC_1_0_Financial_SDA/usecase_maps/fv_usecase06_dayN_manage_campus_fabric_edge_onboarding.yml'>fv_usecase06_dayN_manage_campus_fabric_edge_onboarding.yml</a></b></td>
-                <td><code>- This yaml usecase performs fabric edge onboarding. <br>This usecase consists of 2 operations in below sequence:<br><br>#Step1 : provision device prior to adding into fabric<br>#Step2 : Assign device to a site and add to fabric site as Fabric Edge<br></code></td>
+                <td><code>- This yaml usecase performs fabric edge onboarding. </code><br>
+				<code>- This usecase consists of 2 operations in below sequence:</code><br>
+				<code>  #Step1 : provision device prior to adding into fabric</code><br>
+				<code>  #Step2 : Assign device to a site and add to fabric site as Fabric Edge</code>
+				</td>
 			</tr>			
 			</table>
 		</blockquote>
