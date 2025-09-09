@@ -1,0 +1,22 @@
+---
+#catalyst_center_version: 2.3.7.9
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: Global/Site_India/Karnataka/Bangalore
+      device_config:
+        - device_ip: 205.1.1.10
+          device_roles: 
+            - CONTROL_PLANE_NODE
+            - BORDER_NODE
+          route_distribution_protocol: LISP_PUB_SUB 
+          borders_settings:
+            layer3_settings:
+              local_autonomous_system_number: 1001
+              is_default_exit: true
+              import_external_routes: true
+            layer3_handoff_ip_transit:
+              - transit_network_name: BGL-IP-TRANSIT
+                interface_name: Port-channel112
+                external_connectivity_ip_pool_name: Bgl-IP-Transit-Pool
+                virtual_network_name: Roaming_VN
+                vlan_id: 1043

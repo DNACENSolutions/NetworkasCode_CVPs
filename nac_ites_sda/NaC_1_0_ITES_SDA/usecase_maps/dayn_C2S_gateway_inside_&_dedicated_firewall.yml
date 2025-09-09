@@ -1,0 +1,86 @@
+#1-Reserving the IP Pools to the Site for the new L3 VN and Anycast Gateway
+Dayn_IP_Pool_Assignment_To_Sites:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_&_dedicated_firewall/dayn_Ip_Pool_Assignment_to_Site.yml"
+#2-Creating L3 Virtual Networks and Anycast Gateways
+Creating_L3_Virtual_Networks:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_&_dedicated_firewall/dayn_L3VN_Anycast_Gateway.yml"
+#3-Assigning the Device Roles
+Assignment_Device_Roles:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_&_dedicated_firewall/dayn_device_role.yml"
+#4-Onboarding the wired clients
+SDA_Wired_Host_Onboarding:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/sda_host_onboarding_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_&_dedicated_firewall/dayn_wired_host_onboarding.yml"
+
+# ==============================================================================
+# Difference Between C2S_gateway_inside_&_shared_firewall 
+# and C2S_gateway_inside_&_dedicated_firewall
+# ==============================================================================
+
+# In the shared firewall scenario:
+# - Multiple IP pools can be used.
+# - Devices belonging to different IP pools (typically different clients or services)
+#   pass through the same firewall.
+# - Logical separation is enforced via VRFs, ACLs, or security policies.
+
+# In the dedicated firewall scenario:
+# - Typically, only one IP pool is configured.
+# - All devices going through the firewall belong to that single IP pool.
+# - This setup ensures strict isolation and is exclusive to a specific client or context.
+
+# ------------------------------------------------------------------------------
+
+# Example Use Cases:
+
+# ✅ Shared Firewall:
+# - A Managed Service Provider (MSP) hosting multiple clients.
+# - All clients’ remote users connect via VPN to a shared firewall.
+# - IP pools are logically separated per client via policies or VRFs.
+
+# ✅ Dedicated Firewall:
+# - A high-security enterprise (e.g., a bank or government agency).
+# - Remote users connect via VPN through a dedicated firewall.
+# - Only one IP pool is configured; full traffic isolation is maintained.
+
+# ==============================================================================
+
+
+# ==============================================================================
+# Difference Between Client-to-Site (C2S) and Site-to-Site (S2S) ODC
+# ==============================================================================
+
+# ✅ Client-to-Site (C2S) ODC:
+# - Remote users (clients) initiate a VPN connection from their individual devices.
+# - The VPN tunnel terminates at the organization's firewall or VPN gateway.
+# - From there, traffic is forwarded internally to the destination servers.
+# - Typically used for enabling secure access to internal resources by remote employees.
+
+# Traffic Flow (Simplified):
+# [Client Device] ---> [Internet] ---> [Firewall/VPN Gateway] ---> [Server]
+
+# ✅ Site-to-Site (S2S) ODC:
+# - A permanent VPN tunnel is established between two network sites (e.g., branch office ↔ HQ).
+# - Devices in either site can communicate directly over the VPN without manual connection setup.
+# - Typically used for secure, continuous communication between two offices or data centers.
+
+# Traffic Flow (Simplified):
+# [Branch Router] ===Encrypted Tunnel=== [HQ Router] ---> [Server]
+
+# ------------------------------------------------------------------------------
+
+# Summary:
+# - C2S is session-based, user-initiated VPN for individual clients.
+# - S2S is a network-based, always-on VPN between two sites.
+
+# Example Use Cases:
+# - C2S: Remote worker accessing internal tools.
+# - S2S: Company HQ and branch office syncing resources securely.
+
+# ==============================================================================

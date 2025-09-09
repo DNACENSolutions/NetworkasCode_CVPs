@@ -1,0 +1,14 @@
+---
+catalyst_center_version: 2.3.7.9
+provision_details:
+# Define the devices for assigning devices on sites and provisioning
+#Wireless controller provisioning
+  #Switches and Hubs provisioning
+  - site_name_hierarchy: Global/Site_India/Karnataka/Bangalore/BLD_1/Floor_1
+    management_ip_address: 205.1.1.10
+    provisioning: true
+    #force_provisioning: true
+  - site_name_hierarchy: Global/Site_India/Karnataka/Bangalore/BLD_2/Floor_1
+    management_ip_address: 205.1.1.12
+    provisioning: true
+    #force_provisioning: true

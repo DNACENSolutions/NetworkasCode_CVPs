@@ -1,0 +1,54 @@
+---
+catalyst_center_version: 2.3.7.9
+discovery_details:
+  single:
+    - ip_address_list:
+      - 206.1.2.1
+      devices_list: []
+      discovery_type: SINGLE
+      protocol_order: ssh
+      discovery_name: Border_Node
+      global_credentials:
+        cli_credentials_list:
+            - description: WLC
+              username: netadmin
+        http_read_credential_list:
+            - description: http_read
+              username: wlcaccess
+        http_write_credential_list:
+            - description: http_write
+              username: wlcaccess
+        snmp_v3_credential_list:
+            - description: SNMPv3-credentials
+              username: v3Public
+      discovery_specific_credentials:
+        net_conf_port: "830"
+      timeout: 30
+      retry: 2
+    - ip_address_list:
+      - 206.1.2.3 - 206.1.2.4
+      devices_list: []
+      discovery_type: RANGE
+      protocol_order: ssh
+      discovery_name: Edge_Devices
+      global_credentials:
+        cli_credentials_list:
+            - description: WLC
+              username: netadmin
+        http_read_credential_list:
+            - description: http_read
+              username: wlcaccess
+        http_write_credential_list:
+            - description: http_write
+              username: wlcaccess
+        snmp_v3_credential_list:
+            - description: SNMPv3-credentials
+              username: v3Public
+      discovery_specific_credentials:
+        net_conf_port: "830"
+      timeout: 30
+      retry: 2
+
+                            ####################################################
+      # Different ways to discover devices which include single,cdp,range,multi range discovery #
+                            ####################################################

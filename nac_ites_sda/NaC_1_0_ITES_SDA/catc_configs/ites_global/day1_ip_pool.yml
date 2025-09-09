@@ -1,0 +1,13 @@
+---
+catalyst_center_version: 2.3.7.9
+network_settings_details: 
+  - global_pool_details:
+      settings:
+        ip_pool:
+        - name: Global_Pool_2
+          pool_type: Generic
+          ip_address_space: IPv4 #required when we are creating
+          cidr: 206.0.0.0/8  #required when we are creating
+          gateway: '206.0.0.1' #use this for updating
+          dhcp_server_ips: [100.1.1.10] #use this for updating
+          dns_server_ips: [100.1.1.10] #use this for updating

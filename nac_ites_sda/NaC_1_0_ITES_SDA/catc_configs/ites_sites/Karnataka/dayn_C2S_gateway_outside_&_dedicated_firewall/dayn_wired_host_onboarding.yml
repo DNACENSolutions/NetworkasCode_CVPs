@@ -1,0 +1,13 @@
+---
+#Select Catalyst Center version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+catalyst_center_log_level: INFO
+sda_host_onboarding_details: 
+  - ip_address: 205.1.2.67
+    fabric_site_name_hierarchy: Global/Site_India/Karnataka/Bangalore
+    port_assignments:
+      - interface_name: "GigabitEthernet1/0/13"
+        connected_device_type: "ACCESS_POINT"
+        data_vlan_name: "BGL-VLAN101"
+        authentication_template_name: "Closed Authentication"
+        interface_description: "ap_port_closed_auth"

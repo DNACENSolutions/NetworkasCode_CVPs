@@ -1,0 +1,44 @@
+---
+#catalyst_center_version: 2.3.7.9
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:      
+  # Add Layer 3 Virtual Networks for sites INFRA_VN
+  - virtual_networks:
+    - vn_name: "VN1_C2S_gateway_inside_&_shared_firewall"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "VN2_C2S_gateway_inside_&_shared_firewall"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "VN3_C2S_gateway_inside_&_shared_firewall"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+
+  #Add Anycast Gateways
+  - anycast_gateways:
+    # APPOOL_SJC_INFRA_VN
+    - vn_name: "VN1_C2S_gateway_inside_&_shared_firewall"
+      vlan_name: "VN1_C2S_gateway_inside_&_shared_firewall_vlan1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "VN1_C2S_gateway_inside_&_shared_firewall_Pool1"
+      traffic_type: "DATA"
+    - vn_name: "VN2_C2S_gateway_inside_&_shared_firewall"
+      vlan_name: "VN2_C2S_gateway_inside_&_shared_firewall_vlan2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "VN2_C2S_gateway_inside_&_shared_firewall_Pool2"
+      traffic_type: "DATA"
+    - vn_name: "VN3_C2S_gateway_inside_&_shared_firewall"
+      vlan_name: "VN3_C2S_gateway_inside_&_shared_firewall_vlan3"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "VN3_C2S_gateway_inside_&_shared_firewall_Pool3"
+      traffic_type: "DATA"
+      

@@ -1,0 +1,58 @@
+#1-Create the Fabric Site 
+Fabric_Site_Creation:
+  schema_file: "sda_fabric_sites_zones/schema/sda_fabric_sites_zones_schema.yml"
+  playbook: "sda_fabric_sites_zones/playbook/sda_fabric_sites_zones_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day1_sda_fabric_site.yml"
+#2-Create Multiple L2 VN's
+Creating_L2_Virtual_Networks:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_&_shared_firewall/dayn_L2_Vlan.yml"
+#3-Assigning the Device Roles
+Assignment_Device_Roles:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_&_shared_firewall/dayn_device_role.yml"
+#4-Onboarding the wired clients
+SDA_Wired_Host_Onboarding:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/sda_host_onboarding_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_&_shared_firewall/dayn_wired_host_onboarding.yml"
+
+# Difference: Site-to-Site VPN with Gateway Outside Fabric — Dedicated vs Shared Firewall
+
+# ➤ Overview:
+# In S2S VPN, two branch sites are connected securely via a tunnel (IPSec/GRE).
+# The firewall gateway at the hub (data center) terminates the tunnel outside the fabric.
+# Post decryption, traffic is forwarded into the SDA fabric via Border handoff (usually L2 VLANs).
+
+# -----------------------------------------------
+# 1. Dedicated Firewall:
+# -----------------------------------------------
+# - Each branch site has a unique firewall (or a unique tunnel on a shared firewall).
+# - Only one IP pool and one VLAN is used per tunnel (e.g., VLAN 300 for Branch A).
+# - Offers isolation per site — fewer shared resources.
+# - Easier to monitor and control access per branch.
+
+# Example:
+# - Branch A Router → IPSec Tunnel → Dedicated Firewall → VLAN 300 → Border → Fabric → App Server.
+
+# -----------------------------------------------
+# 2. Shared Firewall:
+# -----------------------------------------------
+# - Multiple branch sites terminate tunnels on the same firewall.
+# - Each branch's decrypted traffic is mapped to a **different VLAN** (e.g., VLAN 300, 301, 302...).
+# - Logical isolation is done via policies or VRFs on the fabric side.
+# - Efficient and scalable for deployments like MSPs managing many branch clients.
+
+# Example:
+# - Branch A → Tunnel → Shared Firewall → VLAN 300 → Border → VRF-A → App-A
+# - Branch B → Tunnel → Shared Firewall → VLAN 301 → Border → VRF-B → App-B
+
+# ➤ Key Difference:
+# - Dedicated: One VLAN and tunnel per site, higher security, isolated flows.
+# - Shared: Multiple VLANs, tunnels, and IP pools coexist — separation is logical.
+
+# ➤ Design Note:
+# - Just like C2S, here too L2 VLAN(s) are handed off to Border devices.
+# - From Border onward, traffic is routed inside fabric based on VRF/IP pool.

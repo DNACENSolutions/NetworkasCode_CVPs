@@ -1,0 +1,15 @@
+---
+catalyst_center_version: 2.3.7.9
+
+network_settings_details: 
+  - reserve_pool_details:
+    - site_name: Global/Site_India/Tamil_Nadu/Chennai
+      name:  VN1_C2S_gateway_inside_&_dedicated_firewall_Pool1
+      pool_type: Generic
+      ipv4_global_pool: 206.0.0.0/8
+      ipv4_global_pool_name:  Global_Pool_2
+      ipv4_prefix: True
+      ipv4_prefix_length: 24
+      ipv4_subnet: 206.1.25.0
+      ipv4_gateway: 206.1.25.1
+

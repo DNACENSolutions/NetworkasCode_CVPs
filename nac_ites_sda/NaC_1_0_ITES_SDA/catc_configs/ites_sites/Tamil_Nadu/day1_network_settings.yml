@@ -1,0 +1,25 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+# Network Settings an IP Pools design.
+network_settings_details: 
+- network_management_details:
+  - site_name: Global/Site_India/Tamil_Nadu
+    settings: 
+      # Define AAA Server (RADIUS/TACACS) for specific site:
+      network_aaa:
+        server_type: ISE
+        protocol: TACACS
+        pan_address: 10.197.156.78
+        primary_server_address: 100.1.1.55
+        # If needed, enable 'Single Connection' from the UI.
+
+      client_and_endpoint_aaa:
+        server_type: ISE
+        protocol: RADIUS
+        pan_address: 10.197.156.78
+        primary_server_address: 100.1.1.55
+
+      message_of_the_day:
+        retain_existing_banner: False
+        banner_message: Unauthorised access to this device is prohibited!

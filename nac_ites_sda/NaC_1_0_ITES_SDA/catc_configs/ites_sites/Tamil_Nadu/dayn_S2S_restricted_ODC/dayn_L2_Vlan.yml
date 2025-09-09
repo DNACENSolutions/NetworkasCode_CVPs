@@ -1,0 +1,12 @@
+---
+#catalyst_center_version: 2.3.7.9
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  - fabric_vlan:
+    # Add Layer 2 Data Fabric VLANs for sites
+    - vlan_name: "Restricted_ODC_VLAN101"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_zone"
+      vlan_id: 105
+      traffic_type: "DATA" # Traffic type can be [DATA,VOICE]

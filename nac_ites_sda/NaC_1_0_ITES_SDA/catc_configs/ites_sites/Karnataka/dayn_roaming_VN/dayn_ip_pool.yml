@@ -1,0 +1,18 @@
+---
+catalyst_center_version: 2.3.7.9
+
+network_settings_details: 
+  - reserve_pool_details:
+    - site_name: Global/Site_India/Tamil_Nadu/Chennai
+      name:  Roaming_VN_Pool_1
+      pool_type: Generic
+      ipv4_global_pool: 206.0.0.0/8
+      ipv4_global_pool_name:  Global_Pool_1
+      ipv4_prefix: True
+      ipv4_prefix_length: 24
+      ipv4_subnet: 205.1.25.0
+      ipv4_gateway: 205.1.25.1
+      ipv4_dhcp_servers:             
+        - 100.1.1.10
+      ipv4_dns_servers:
+        - 100.1.1.10

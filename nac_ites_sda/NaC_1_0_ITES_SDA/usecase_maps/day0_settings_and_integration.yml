@@ -1,0 +1,48 @@
+#1-ISE and DNAC Integration
+Day0_ISE_DNAC_Integration:
+  schema_file: "ise_radius_integration/schema/ise_radius_integration_workflow_schema.yml"
+  playbook: "ise_radius_integration/playbook/ise_radius_integration_workflow_playbook.yml"
+  data_file: "catc_configs/ites_global/catc_and_ise_integration.yml"
+
+#2-Site Creation
+Day0_Site_Hierarchy:
+  schema_file: "site_hierarchy/schema/sites_schema.yml"
+  playbook: "site_hierarchy/playbook/site_hierarchy_playbook.yml"
+  data_file: "catc_configs/ites_global/day0_site_creation.yml"
+
+#3-Assigning device credentials
+Day0_Device_Credentials:
+  schema_file: "device_credentials/schema/device_credentials_schema.yml"
+  playbook: "device_credentials/playbook/device_credentials_playbook.yml"
+  data_file: "catc_configs/ites_global/day0_device_credentials.yml"
+
+#4-Assigning credentials to site(Karnataka)
+Day0_Device_Credentials_Assignment_to_sites:
+  schema_file: "device_credentials/schema/device_credentials_schema.yml"
+  playbook: "device_credentials/playbook/device_credentials_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day0_device_credentials.yml"
+
+
+#5-Creation of Global ip pool
+Day0_IP_Pool_Creation:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_global/day0_ip_pool.yml"
+
+#6-Creation of Global network settings
+Day0_Network_Settings:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_global/day0_network_settings.yml"
+
+#7-Assignment of Global Pool to Site Karnataka
+Day0_IP_Pool_Assignment_To_Sites:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day0_ip_pool.yml"
+
+#8-Assignment of network settings to site Karnataka
+Day0_Network_Settings_to_sites:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day0_network_settings.yml"

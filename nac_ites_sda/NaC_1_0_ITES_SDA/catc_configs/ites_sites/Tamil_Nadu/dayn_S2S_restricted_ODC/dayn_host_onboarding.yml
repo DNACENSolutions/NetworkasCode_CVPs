@@ -1,0 +1,23 @@
+---
+#Select Catalyst Center version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+catalyst_center_log_level: INFO
+sda_host_onboarding_details: 
+  - ip_address: 206.1.2.4
+    fabric_site_name_hierarchy: Global/Site_India/Tamil_Nadu/Chennai
+    port_assignments:
+      - interface_name: "GigabitEthernet1/0/13"
+        connected_device_type: "ACCESS_POINT"
+        data_vlan_name: "VN1_C2S_gateway_inside_&_shared_firewall_vlan1"
+        authentication_template_name: "Closed Authentication"
+        interface_description: "ap_port_closed_auth"
+      - interface_name: "GigabitEthernet1/0/15"
+        connected_device_type: "ACCESS_POINT"
+        data_vlan_name: "VN2_C2S_gateway_inside_&_shared_firewall_vlan1"
+        authentication_template_name: "Closed Authentication"
+        interface_description: "ap_port_closed_auth"
+      - interface_name: "GigabitEthernet1/0/17"
+        connected_device_type: "ACCESS_POINT"
+        data_vlan_name: "VN3_C2S_gateway_inside_&_shared_firewall_vlan1"
+        authentication_template_name: "Closed Authentication"
+        interface_description: "ap_port_closed_auth"

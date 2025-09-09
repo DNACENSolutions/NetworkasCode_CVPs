@@ -1,0 +1,131 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.9
+swim_details:
+  # List of images and sub packages to be imported to the Cisco Catalyst Center
+  import_images:
+    - import_image_details:
+        type: CCO
+        cco_image_details:
+          image_name: 
+            - cat9k_lite_iosxe.17.15.03.SPA.bin
+            - cat9k_iosxe.17.15.03.SPA.bin
+            - C9800-SW-iosxe-wlc.17.15.03.SPA.bin
+            - C9800-40-universalk9_wlc.17.15.03.SPA.bin
+            - C9800-CL-universalk9.17.15.03.SPA.bin
+            - asr1000-universalk9.17.15.02a.SPA.bin
+    # List of images to be tagged as golden images
+  golden_tag_images:
+    - tagging_details:
+        image_name: cat9k_lite_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco Catalyst 9200 Switch Stack
+        site_name: Global
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco Catalyst 9300 Switch
+        site_name: Global
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco Catalyst 9300L Switch Stack
+        site_name: Global
+        tagging: true    
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco Catalyst 9500 Switch
+        site_name: Global
+        tagging: true
+    - tagging_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco Catalyst C9500-24Y4C Switch
+        site_name: Global
+        tagging: true 
+    - tagging_details:
+        image_name: C9800-40-universalk9_wlc.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco Catalyst 9800-40 Wireless Controller
+        site_name: Global
+        tagging: true
+    - tagging_details:
+        image_name: C9800-CL-universalk9.17.15.03.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco Catalyst 9800-CL Wireless Controller for Cloud
+        site_name: Global
+        tagging: true
+    - tagging_details:
+        image_name: asr1000-universalk9.17.15.02a.SPA.bin
+        device_role: ALL
+        device_image_family_name : Cisco ASR 1001-HX Router
+        site_name: Global
+        tagging: true
+  # List of images to be distributed to the devices
+  distribute_images:
+    - image_distribution_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_hostname: TB3-BGL-EDGE1.autoagni1.com
+        device_mac_address: null
+        device_ip_address: null
+        device_role: ACCESS
+        site_name: Global/Site_India/Karnataka/Bangalore/BLD_1/Floor_1
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+    - image_distribution_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_hostname: TB3-BGL-EDGE2.autoagni1.com
+        device_mac_address: null
+        device_ip_address: null
+        device_role: ACCESS
+        site_name: Global/Site_India/Karnataka/Bangalore/BLD_2/Floor_1
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+    - image_distribution_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_hostname: TB3-BGL-BORDER-01.autoagni1.com
+        device_mac_address: null
+        device_ip_address: null
+        device_role: BORDER ROUTER
+        site_name: Global/Site_India/Karnataka/Bangalore/BLD_1/Floor_1
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+    - image_distribution_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_hostname: TB3-BGL-BORDER-02.autoagni1.com
+        device_mac_address: null
+        device_ip_address: null
+        device_role: BORDER ROUTER
+        site_name: Global/Site_India/Karnataka/Bangalore/BLD_2/Floor_1
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+    - image_distribution_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_hostname: TB4-EDGE-1.autoagni1.com
+        device_mac_address: null
+        device_ip_address: null
+        device_role: ACCESS
+        site_name: Global/Site_India/Tamil_Nadu/Chennai/BLD_1/Floor_1
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+    - image_distribution_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_hostname: TB4-EDGE-2.autoagni1.com
+        device_mac_address: null
+        device_ip_address: null
+        device_role: ACCESS
+        site_name: Global/Site_India/Tamil_Nadu/Chennai/BLD_2/Floor_1
+        device_family_name: Switches and Hubs
+        device_serial_number: null
+    - image_distribution_details:
+        image_name: cat9k_iosxe.17.15.03.SPA.bin
+        device_hostname: TB4-BORDER-1.autoagni1.com
+        device_mac_address: null
+        device_ip_address: null
+        device_role: BORDER ROUTER
+        site_name: Global/Site_India/Tamil_Nadu/Chennai/BLD_1/Floor_1
+        device_family_name: Switches and Hubs
+        device_serial_number: null

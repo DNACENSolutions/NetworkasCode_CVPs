@@ -1,0 +1,25 @@
+---
+#Select Catalyst Cennter version, this one overwrite the default version from host file
+catalyst_center_version: 2.3.7.7
+# Network Settings an IP Pools design.
+network_settings_details: 
+- network_management_details:
+  - site_name: Global
+    settings:
+      # Define DHCP Server address:
+      dhcp_server: 
+          - 100.1.1.10
+      # Define Domain and DNS Server address:
+      dns_server:
+        domain_name: autoagni1.com
+        primary_ip_address: 100.1.1.10
+      # Define NTP Sever Address:
+      ntp_server:
+        - 10.64.58.50
+        - 10.64.58.51
+      # Enable Wired Endpoint Data Collection  
+      timezone: GMT
+      wired_data_collection:
+        enable_wired_data_collection: true
+      wireless_telemetry:
+        enable_wireless_telemetry: true

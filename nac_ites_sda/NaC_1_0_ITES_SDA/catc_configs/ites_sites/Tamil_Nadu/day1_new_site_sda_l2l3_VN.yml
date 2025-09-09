@@ -1,0 +1,214 @@
+---
+#catalyst_center_version: 2.3.7.9
+catalyst_center_debug: false
+sda_fabric_virtual_networks_details:
+  # Add Layer 3 Virtual Networks for sites INFRA_VN
+  - virtual_networks:
+    - vn_name: "Chennai_VN1"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN2"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN3"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN4"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN5"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN6"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN7"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN8"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN9"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+    - vn_name: "Chennai_VN10"
+      fabric_site_locations:
+        - site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+          fabric_type: "fabric_site"
+
+  #Add Anycast Gateways
+  - anycast_gateways:
+    - vn_name: "Chennai_VN1"
+      vlan_name: "Chennai-VN1-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN1-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN1"
+      vlan_name: "Chennai-VN1-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN1-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN2"
+      vlan_name: "Chennai-VN2-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN2-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN2"
+      vlan_name: "Chennai-VN2-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN2-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN3"
+      vlan_name: "Chennai-VN3-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN3-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN3"
+      vlan_name: "Chennai-VN3-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN3-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN4"
+      vlan_name: "Chennai-VN4-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN4-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN4"
+      vlan_name: "Chennai-VN4-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN4-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN5"
+      vlan_name: "Chennai-VN5-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN5-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN5"
+      vlan_name: "Chennai-VN5-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN5-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN6"
+      vlan_name: "Chennai-VN6-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN6-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN6"
+      vlan_name: "Chennai-VN6-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN6-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN7"
+      vlan_name: "Chennai-VN7-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN7-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN7"
+      vlan_name: "Chennai-VN7-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN7-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN8"
+      vlan_name: "Chennai-VN8-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN8-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN8"
+      vlan_name: "Chennai-VN8-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN8-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN9"
+      vlan_name: "Chennai-VN9-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN9-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN9"
+      vlan_name: "Chennai-VN9-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN9-Pool2"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN10"
+      vlan_name: "Chennai-VN10-Pool1"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN10-Pool1"
+      traffic_type: "DATA"
+  - anycast_gateways:
+    - vn_name: "Chennai_VN10"
+      vlan_name: "Chennai-VN10-Pool2"
+      fabric_site_location:
+        site_name_hierarchy: "Global/Site_India/Tamil_Nadu/Chennai"
+        fabric_type: "fabric_site"
+      ip_pool_name: "Chennai-VN10-Pool2"
+      traffic_type: "DATA"
+
+###############################################################################################
+#                              for more details and examples please refer                      #
+# https://github.com/cisco-en-programmability/catalyst-center-ansible-intg/blob/main/plugins/modules/sda_fabric_virtual_networks_workflow_manager.py #
+# https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/vars/sda_virtual_networks_l2_l3_gateways_input.yml #
+###############################################################################################

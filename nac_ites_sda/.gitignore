@@ -1,0 +1,10 @@
+# macOS system files
+.DS_Store
+../.DS_Store
+*/.DS_Store
+
+# Ignore specific directories
+ansible_logs/
+catc_ansible_workflows/
+catc_logs/
+venv-anisible/

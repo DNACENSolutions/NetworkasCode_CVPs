@@ -1,0 +1,20 @@
+#1-Create the Fabric Site 
+Fabric_Site_Creation:
+  schema_file: "sda_fabric_sites_zones/schema/sda_fabric_sites_zones_schema.yml"
+  playbook: "sda_fabric_sites_zones/playbook/sda_fabric_sites_zones_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day1_sda_fabric_site.yml"
+#2-Creating Ip Transit for Layer 3 Handoff
+Creating_L3_IP_Transit:
+  schema_file: "sda_fabric_transits/schema/sda_fabric_transits_workflow_schema.yml"
+  playbook: "sda_fabric_transits/playbook/sda_fabric_transits_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day1_sda_transits.yml"
+#3-Creating L2,L3 Virtual Networks and Anycast Gateways
+Creating_L2_L3_Virtual_Networks:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day1_sda_l2l3_VN.yml"
+#4-Assigning the Device Roles
+Assignment_Device_Roles:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day1_sda_device_role.yml"

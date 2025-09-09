@@ -1,0 +1,70 @@
+---
+catalyst_center_version: 2.3.7.9
+# Define Network Hirarchy (i.e. Area/Building/Floor):
+# Create area under the Global:                                                               
+design_sites:
+  - site:
+      area:
+        name: Site_India
+        parent_name: Global
+    type: area
+  - site:
+      area:
+        name: Karnataka
+        parent_name: Global/Site_India
+    type: area
+  - site:
+      area:
+        name: Bangalore
+        parent_name: Global/Site_India/Karnataka
+    type: area
+
+  - site:
+      building:
+        name: BLD_1
+        parent_name: Global/Site_India/Karnataka/Bangalore
+        address: Bangalore,Karnataka,India
+        latitude: 12.9716
+        longitude: 77.5946
+        country: India
+    type: building
+
+  - site:
+      building:
+        name: BLD_2
+        parent_name: Global/Site_India/Karnataka/Bangalore
+        address: Bangalore,Karnataka,India
+        latitude: 12.9716
+        longitude: 77.5946
+        country: India
+    type: building
+
+  - site:
+      floor:
+        name: Floor_1
+        parent_name: Global/Site_India/Karnataka/Bangalore/BLD_1
+        rfModel: Cubes And Walled Offices
+        width: 100.00
+        length: 100.00
+        height: 10.00
+        floor_number: 1
+        units_of_measure: feet
+        upload_floor_image_path: /Users/apobansa/bitbucket_ansible/sol_cvpac/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/images/Floor-Map-00.png
+        force_upload_floor_image: True
+    type: floor
+
+  - site:
+      floor:
+        name: Floor_1
+        parent_name: Global/Site_India/Karnataka/Bangalore/BLD_2
+        rfModel: Cubes And Walled Offices
+        width: 100.00
+        length: 100.00
+        height: 10.00
+        floor_number: 1
+        units_of_measure: feet
+        upload_floor_image_path: /Users/apobansa/bitbucket_ansible/sol_cvpac/cvp_ac_ites_sda/CVPaC_1_0_ITES_SDA/images/Floor-Map-00.png
+        force_upload_floor_image: True
+    type: floor
+
+  

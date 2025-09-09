@@ -1,0 +1,39 @@
+---
+#catalyst_center_version: 2.3.7.9
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: Global/Site_India/Tamil_Nadu/Chennai
+      device_config:
+        - device_ip: 206.1.2.1
+          device_roles: 
+            - CONTROL_PLANE_NODE
+            - BORDER_NODE
+          route_distribution_protocol: LISP_PUB_SUB 
+          borders_settings:
+            layer3_settings:
+              local_autonomous_system_number: 2001
+              is_default_exit: true
+              import_external_routes: true
+            layer3_handoff_ip_transit:
+              - transit_network_name: Chennai-IP-TRANSIT
+                interface_name: Port-channel112
+                external_connectivity_ip_pool_name: Chennai-IP-Transit-Pool
+                virtual_network_name: Chennai_VN1
+                vlan_id: 1021
+              - transit_network_name: Chennai-IP-TRANSIT
+                interface_name: Port-channel112
+                external_connectivity_ip_pool_name: Chennai-IP-Transit-Pool
+                virtual_network_name: Chennai_VN2
+                vlan_id: 1023
+        - device_ip: 206.1.2.3
+          device_roles: 
+            - EDGE_NODE
+        - device_ip: 206.1.2.4
+          device_roles: 
+            - EDGE_NODE
+                
+###############################################################################################
+#                              for more details and examples please refer                      # #
+# https://github.com/cisco-en-programmability/catalyst-center-ansible-intg/blob/main/plugins/modules/sda_fabric_devices_workflow_manager.py #
+# https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/vars/sda_fabric_device_roles_input.yml #
+###############################################################################################

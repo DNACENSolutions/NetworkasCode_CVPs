@@ -1,0 +1,48 @@
+#1-Performing the lan automation 
+Lan_Automation:
+  schema_file: "lan_automation/schema/lan_automation_workflow_schema.yml"
+  playbook: "lan_automation/playbook/lan_automation_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day1_lan_automation.yml"
+
+#2-Provision the discovered devices through lan automation
+Provision_Discovered_Devices:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/device_provision.yml"
+
+
+#############################################################################################
+#                                      IMPORTANT NOTE 1                                     #
+#############################################################################################
+
+# Day 1 LAN Automation typically involves two key operations:
+
+#   1. **Bringing up a new site (Greenfield deployment)**:
+#      - This includes initializing fabric infrastructure, discovering devices, and
+#        assigning roles (such as border, control plane, edge) as part of site bring-up.
+
+#   2. **Expanding an existing site (Brownfield enhancement)**:
+#      - This refers to adding and provisioning new devices (e.g., an additional switch layer)
+#        into an already established topology (e.g., expanding a 2-tier to a 3-tier architecture).
+#      - The newly added device is integrated with the existing discovered devices during
+#        provisioning.
+
+#############################################################################################
+
+
+#############################################################################################
+#                                       IMPORTANT NOTE 2                                    #
+#############################################################################################
+
+# If you plan to perform provisioning immediately after LAN Automation using this playbook,
+# make sure to assign a **management IP** during the LAN Automation phase itself.
+
+# Otherwise, you will NOT be able to execute Steps 3 and 4 in a single run.
+
+# In such cases, follow these steps:
+#   1. Complete the LAN Automation step first.
+#   2. Identify the management IP assigned from the LAN Automation pool.
+#   3. Update the provisioning playbook with the correct management IP.
+#   4. Run the provisioning step separately.
+
+#############################################################################################

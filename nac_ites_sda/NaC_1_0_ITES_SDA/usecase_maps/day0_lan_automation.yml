@@ -1,0 +1,40 @@
+#1-Discover the seed devices 
+Discover_Seed_Devices:
+  schema_file: "device_discovery/schema/device_discovery_schema.yml"
+  playbook: "device_discovery/playbook/device_discovery_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/device_discovery.yml"
+
+#2-Provision the seed devices 
+Provision_Seed_Devices:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/device_provision.yml"
+
+#3-Performing the lan automation 
+Lan_Automation:
+  schema_file: "lan_automation/schema/lan_automation_workflow_schema.yml"
+  playbook: "lan_automation/playbook/lan_automation_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day0_lan_automation.yml"
+
+#4-Provision the discovered devices through lan automation
+Provision_Discovered_Devices:
+  schema_file: "provision/schema/provision_workflow_schema.yml"
+  playbook: "provision/playbook/provision_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/device_provision.yml"
+
+#############################################################################################
+#                                       IMPORTANT NOTE                                       #
+#############################################################################################
+
+# If you plan to perform provisioning immediately after LAN Automation using this playbook,
+# make sure to assign a **management IP** during the LAN Automation phase itself.
+
+# Otherwise, you will NOT be able to execute Steps 3 and 4 in a single run.
+
+# In such cases, follow these steps:
+#   1. Complete the LAN Automation step first.
+#   2. Identify the management IP assigned from the LAN Automation pool.
+#   3. Update the provisioning playbook with the correct management IP.
+#   4. Run the provisioning step separately.
+
+#############################################################################################

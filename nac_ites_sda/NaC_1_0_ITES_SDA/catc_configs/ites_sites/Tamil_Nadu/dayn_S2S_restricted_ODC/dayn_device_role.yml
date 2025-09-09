@@ -1,0 +1,9 @@
+---
+#catalyst_center_version: 2.3.7.9
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: Global/Site_India/Tamil_Nadu/Chennai/BLD_1/Floor_1
+      device_config:
+        - device_ip: 206.1.2.4
+          device_roles: 
+            - EDGE_NODE

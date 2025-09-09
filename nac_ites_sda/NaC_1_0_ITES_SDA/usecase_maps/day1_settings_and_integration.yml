@@ -1,0 +1,30 @@
+#1-Addition of New Site 
+Day1_Site_Hierarchy:
+  schema_file: "site_hierarchy/schema/sites_schema.yml"
+  playbook: "site_hierarchy/playbook/site_hierarchy_playbook.yml"
+  data_file: "catc_configs/ites_global/day1_site_creation.yml"
+
+#2-Assigning credentials to New site
+Day1_Device_Credentials_Assignment_to_sites:
+  schema_file: "device_credentials/schema/device_credentials_schema.yml"
+  playbook: "device_credentials/playbook/device_credentials_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/day1_device_creds.yml"
+
+
+#3-Creation of Global ip pool
+Day1_IP_Pool_Creation:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_global/day1_ip_pool.yml"
+
+#4-Assignment of Global IP Pool to New Site 
+Day1_IP_Pool_Assignment_To_Sites:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/day1_ip_pool.yml"
+
+#5-Creation of Site Specific Network Settings
+Day1_Network_Settings:
+  schema_file: "network_settings/schema/nw_settings_schema.yml"
+  playbook: "network_settings/playbook/network_settings_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/day1_network_settings.yml"

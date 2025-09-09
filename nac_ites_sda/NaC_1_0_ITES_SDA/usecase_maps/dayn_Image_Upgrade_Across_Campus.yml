@@ -1,0 +1,18 @@
+# SWIM for image distribution on the all the devices
+FV_GlobalSWIMDevicesDistribution:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/ites_global/FV_network_devices_CCO_download_tag_golden_images_distribution.yml"
+
+# SWIM for image Activation on the primary site
+FV_MainHub1SWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/dayn_FV_network_devices_primary_site_images_activation.yml"
+
+# SWIM for image Activation on the secondary site
+FV_MainHub2SWIMDevicesActivation:
+  schema_file: "swim/schema/swim_schema.yml"
+  playbook: "swim/playbook/swim_workflow_playbook.yml"
+  data_file: "catc_configs/ites_sites/Tamil_Nadu/dayn_FV_network_devices_secondary_site_images_activation.yml"
+

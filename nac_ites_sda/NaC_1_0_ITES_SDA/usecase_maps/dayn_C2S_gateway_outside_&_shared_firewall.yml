@@ -1,0 +1,60 @@
+#1-Create the Fabric Site 
+Fabric_Site_Creation:
+  schema_file: "sda_fabric_sites_zones/schema/sda_fabric_sites_zones_schema.yml"
+  playbook: "sda_fabric_sites_zones/playbook/sda_fabric_sites_zones_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/day1_sda_fabric_site.yml"
+#2-Create Multiple L2 VN's
+Creating_L2_Virtual_Networks:
+  schema_file: "sda_virtual_networks_l2l3_gateways/schema/sda_virtual_networks_l2_l3_gateways_schema.yml"
+  playbook: "sda_virtual_networks_l2l3_gateways/playbook/sda_virtual_networks_l2_l3_gateways_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_&_shared_firewall/dayn_L2_Vlan.yml"
+#3-Assigning the Device Roles
+Assignment_Device_Roles:
+  schema_file: "sda_fabric_device_roles/schema/sda_fabric_device_roles_schema.yml"
+  playbook: "sda_fabric_device_roles/playbook/sda_fabric_device_roles_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_&_shared_firewall/dayn_device_role.yml"
+#4-Onboarding the wired clients
+SDA_Wired_Host_Onboarding:
+  schema_file: "sda_hostonboarding/schema/sda_host_onboarding_schema.yml"
+  playbook: "sda_hostonboarding/playbook/sda_host_onboarding_playbook.yml"
+  data_file: "catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_&_shared_firewall/dayn_wired_host_onboarding.yml"
+
+
+# Difference: Client-to-Site VPN with Gateway Outside Fabric — Dedicated vs Shared Firewall
+
+# ➤ Overview:
+# In both setups, the remote user connects to the firewall gateway (located outside the fabric).
+# The VPN tunnel terminates at the firewall, and traffic is then forwarded into the fabric 
+# via handoffs (typically through Layer 2 VLANs extended to the Border node).
+
+# -----------------------------------------------
+# 1. Dedicated Firewall:
+# -----------------------------------------------
+# - One-to-one mapping: One client/IP pool per firewall.
+# - Single VLAN for handoff to Border (e.g., VLAN 100).
+# - Simplified routing and policy control.
+# - Higher isolation and security.
+# - Used by enterprises needing strict separation (e.g., BFSI sector).
+
+# Example:
+# - Remote user → VPN → Dedicated Firewall → VLAN 100 → Border → Fabric → Application.
+
+# -----------------------------------------------
+# 2. Shared Firewall:
+# -----------------------------------------------
+# - Many-to-one mapping: Multiple clients/IP pools share the same firewall.
+# - Multiple VLANs extended to Border (e.g., VLAN 100 for Client A, VLAN 200 for Client B).
+# - Requires logical isolation (VRFs, policies).
+# - More scalable, cost-effective for MSPs or multi-tenant setups.
+# - Each VLAN is mapped to a different VRF or service instance.
+
+# Example:
+# - Remote user A → VPN → Shared Firewall → VLAN 100 → Border → VRF-A → Fabric → App-A
+# - Remote user B → VPN → Shared Firewall → VLAN 200 → Border → VRF-B → Fabric → App-B
+
+# ➤ Key Difference:
+# - Dedicated: Single VLAN, exclusive traffic flow.
+# - Shared: Multiple VLANs, shared hardware, logically isolated flows.
+
+# ➤ Design Note:
+# - In both cases, L2 VLAN(s) are trunked to Border(s), and L3 handoff to fabric happens via SVI interfaces or routed links.
