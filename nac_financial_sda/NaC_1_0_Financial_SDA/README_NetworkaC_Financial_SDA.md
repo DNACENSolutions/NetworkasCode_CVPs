@@ -344,18 +344,16 @@ Install NetworkasCode_CVPs using one of the following methods:
 -  cd nac_financial_sda/NaC_1_0_Financial_SDA
 ```
 
-3. Install the project dependencies:
+3. Install the project dependencies: (**Using `bash`** )
 
 ```sh
-**Using `bash`** 
 -  source setup.sh
 ```
 
 ###  Usage
-Run NetworkasCode_CVPs using the following command:
+Run NetworkasCode_CVPs using the following command: (**Using `Python3`**)
 
 ```sh
-**Using `Python3`** 
 -  python3 scripts/run_playbooks.py
 ```
 ---
