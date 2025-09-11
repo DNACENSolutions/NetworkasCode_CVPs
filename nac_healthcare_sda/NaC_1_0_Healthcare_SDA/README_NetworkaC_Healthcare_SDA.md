@@ -685,27 +685,26 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/ansible_inventory/catalystcenter_inventory/hosts.yml'>hosts.yml</a></b></td>
-						<td><code>
-						-  This is a sample host file to be created for your catalyst center to be able to run the existing playbooks.<br>
-						✏️ sample inventory file <br>
-							---<br>
-							catalyst_center_hosts:<br>
-							&emsp;	hosts:<br>
-							&emsp; &emsp; any_hostname:<br>
-            				&emsp; &emsp;  &emsp;	catalyst_center_password: catalyst center credentials password<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_host: catalyst center host ip address reachable fron ansible server <br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_port: 443<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_timeout: 60 <br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_api_task_timeout: 1200<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_username: catalyst center credentials username<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_version: catalyst center release. (i.e. 2.3.7.9)<br>
-            				&emsp; &emsp; &emsp;	  	  catalyst_center_verify: false<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_debug: true<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_log_level: debug<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_log: true<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_log_append: true<br>
-            				&emsp; &emsp; &emsp;		  catalyst_center_log_file_path: log file location i.e.catc_logs <br><br>
-						</code></td>
+					    <td>
+						<code>- This is a sample Host file to be created for your Catalyst Center to be able to run the existing playbooks.</code><br>
+						<code> ✏️ Sample Inventory file </code><br>
+						<code>catalyst_center_hosts:</code><br>
+						<code>&emsp; hosts:</code><br>
+						<code>&emsp; &emsp; any_hostname:</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_password: Catalyst Center Credentials password</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_host: Catalyst Center Host IP address Reachable fron ansible server</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_port: 443</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_timeout: 60</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_api_task_timeout: 1200</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_username: Catalyst Center Credentials username</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_version: Catalyst Center Release. (i.e. 2.3.7.9)</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_verify: false</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_debug: true</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log_level: DEBUG</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log: true</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log_append: true</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log_file_path: log file location. (i.e.catc_logs)</code>
+						</td>	
 					</tr>
 					</table>
 				</blockquote>
