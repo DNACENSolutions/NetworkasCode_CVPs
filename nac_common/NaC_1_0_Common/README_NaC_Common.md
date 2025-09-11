@@ -607,7 +607,7 @@ This project provides a complete Network as Code (NaC) solution for deploying  a
 						<code>&emsp; &emsp; &emsp; catalyst_center_log_level: DEBUG</code><br>
 						<code>&emsp; &emsp; &emsp; catalyst_center_log: true</code><br>
 						<code>&emsp; &emsp; &emsp; catalyst_center_log_append: true</code><br>
-						<code>&emsp; &emsp; &emsp; catalyst_center_log_file_path: log file location. (i.e.catc_logs)</code><br><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log_file_path: log file location. (i.e.catc_logs)</code>
 						</td>
 					</tr>
 					</table>
