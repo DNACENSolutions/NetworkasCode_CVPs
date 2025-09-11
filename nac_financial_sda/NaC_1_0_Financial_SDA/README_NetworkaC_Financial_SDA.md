@@ -11,19 +11,20 @@
 
 ##  Table of Contents
 
--  [Overview](#Overview )
--  [Compatibility Matrix](#compatibility-matrix )
--  [Network Topology](#network-topology )
--  [ Project Structure](#project-structure)
--  [Compatibility Matrix](#compatibility-matrix )
--  [Project Index](#project-index)
--  [Getting Started](#getting-started)
+- [Overview](#Overview )
+- [Compatibility Matrix](#compatibility-matrix )
+- [Network Topology](#network-topology )
+- [ Project Structure](#project-structure)
+- [Compatibility Matrix](#compatibility-matrix )
+- [Project Index](#project-index)
+- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
--  [Contributing](#contributing)
--  [License](#license)
--  [Acknowledgments](#acknowledgments)
+  - [ Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 ##  Overview
@@ -360,9 +361,6 @@ Run CatC_SD_Access_campus using the following command:
    python3 scripts/run_playbooks.py
 ```
 Follow the prompts. 
----
-##  Project Roadmap
-
 ---
 
 ##  Contributing
