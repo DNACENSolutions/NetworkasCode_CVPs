@@ -288,7 +288,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 				<blockquote>
 					<table>
 					<tr>
-						<td><b><a href='https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/blob/master/ansible_inventory/catalystcenter_inventory_10.195.243.53/hosts.yml'>hosts.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/blob/master/ansible_inventory/catalystcenter_inventory_10.195.243.53/hosts.yml'>hosts.yml</a></b></td>
 						<td><code>- This is a sample Host file to be created for your Catalyst Center to be able to run the existing playbooks.
 						Sample Inventory file
 							---
@@ -362,9 +362,10 @@ Using `Python3`
 
 ##  Contributing
 
-- **💬 [Join the Discussions](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/issues)**: Submit bugs found or log feature requests for the `CatC_SD_Access_campus.git` project.
-- **💡 [Submit Pull Requests](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/issues)**: Submit bugs found or log feature requests for the `NetworkasCode_CVPs.git` project.
+- **💡 [Submit Pull Requests](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -372,7 +373,7 @@ Using `Python3`
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/DNACENSolutions/CatC_SD_Access_campus.git
+   git clone https://github.com/DNACENSolutions/NetworkasCode_CVPs.git
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -395,8 +396,8 @@ Using `Python3`
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/DNACENSolutions/CatC_SD_Access_campus.git/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=DNACENSolutions/CatC_SD_Access_campus.git">
+   <a href="https://github.com{/DNACENSolutions/NetworkasCode_CVPs.git/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=DNACENSolutions/NetworkasCode_CVPs.git">
    </a>
 </p>
 </details>
