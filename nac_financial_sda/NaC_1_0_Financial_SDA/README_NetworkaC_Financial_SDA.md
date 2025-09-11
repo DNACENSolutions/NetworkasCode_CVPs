@@ -321,7 +321,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 
 ###  Prerequisites
 
-Before getting started with CatC_SD_Access_campus.git, ensure your runtime environment meets the following requirements:
+Before getting started with NetworkasCode_CVPs.git, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** Shell
 - **Package Manager:** Pip
@@ -329,21 +329,23 @@ Before getting started with CatC_SD_Access_campus.git, ensure your runtime envir
 
 ###  Installation
 
-Install CatC_SD_Access_campus using one of the following methods:
+Install NetworkasCode_CVPs using one of the following methods:
 
 **Build from source:**
 
-1. Clone the CatC_SD_Access_campus.git repository:
+1. Clone the NetworkasCode_CVPs.git repository:
 ```sh
-   git clone https://github.com/DNACENSolutions/CatC_SD_Access_campus.git
+-  git clone https://github.com/DNACENSolutions/NetworkasCode_CVPs.git
 ```
 
 2. Navigate to the project directory:
 ```sh
-   cd CatC_SD_Access_campus
+-  cd NetworkasCode_CVPs
+-  cd nac_common/NaC_1_0_Common
 ```
 
 3. Install the project dependencies:
+
 
 
 **Using `bash`** &nbsp; [<img align="center" src="" />]()
@@ -353,7 +355,7 @@ Install CatC_SD_Access_campus using one of the following methods:
 ```
 
 ###  Usage
-Run CatC_SD_Access_campus using the following command:
+Run NetworkasCode_CVPs using the following command:
 **Using `Python3`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
