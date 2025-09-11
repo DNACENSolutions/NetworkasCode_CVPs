@@ -347,16 +347,16 @@ Install NetworkasCode_CVPs using one of the following methods:
 3. Install the project dependencies:
 
 ```sh
-   **Using `bash`** 
-   source setup.sh
+**Using `bash`** 
+-  source setup.sh
 ```
 
 ###  Usage
 Run NetworkasCode_CVPs using the following command:
 
 ```sh
-   **Using `Python3`** 
-   python3 scripts/run_playbooks.py
+**Using `Python3`** 
+-  python3 scripts/run_playbooks.py
 ```
 ---
 
