@@ -738,23 +738,22 @@ Install catc_sd_access_campus using one of the following methods:
 
 2. Navigate to the project directory:
 ```sh
--  cd catc_sd_access_campus
+-  cd NetworkasCode_CVPs
+-  cd nac_healthcare_sda/NaC_1_0_Healthcare_SDA
 ```
 
 3. Install the project dependencies:
 
-
-**using `bash`** &nbsp; [<img align="center" src="" />]()
-
 ```sh
+using `bash`
 -  source setup.sh
 ```
 
 ### Usage
 Run catc_sd_access_campus using the following command:
-**using `python3`** &nbsp; [<img align="center" src="" />]()and follw the prompts
 
 ```sh
+using `python3`
 -  python3 scripts/run_playbooks.py
 ```
 ---
