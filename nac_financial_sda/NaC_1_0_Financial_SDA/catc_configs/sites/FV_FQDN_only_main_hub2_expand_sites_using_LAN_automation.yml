@@ -2,9 +2,8 @@
 #Select Catalyst Cennter version, this one overwrite the default version from host file
 catalyst_center_version: 2.3.7.9
 # This file contains the variables for the LAN Automation workflow
-# redistribute_isis_to_bgp is misleading but this actually is Advertise LAN automation pool via BGP
+# redistribute_isis_to_bgp means Advertise LAN automation pool via BGP
 # launch_and_wait should be set to True if there is another task, such as provision is done after this
-# lan automated devices shows credential status failure - CSCwn50614
 lan_automation_details:
   lan_automation_session:
     - lan_automation:

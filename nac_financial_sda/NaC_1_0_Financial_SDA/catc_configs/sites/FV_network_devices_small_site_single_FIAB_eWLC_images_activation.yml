@@ -2,8 +2,6 @@
 #Select Catalyst Cennter version, this one overwrite the default version from host file
 catalyst_center_version: 2.3.7.9
 swim_details:
-  # List of images to be activated on the device
-  # when there are only one type of device role in a site, such as Access, hostname could be leave as null
   activate_images:
     - image_activation_details:
         activate_lower_image_version: false
