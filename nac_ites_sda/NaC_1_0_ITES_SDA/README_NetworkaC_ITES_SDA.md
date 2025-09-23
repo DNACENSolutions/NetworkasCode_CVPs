@@ -202,15 +202,21 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <td>
                 <code>- This use case supports Brownfield site expansion by integrating newly added switches into an already operational SDA fabric. It automates the discovery of new devices via LAN Automation and provisions them to extend the fabric topology.</code><br> 
                 <code>- This use case consists of the following 2 operations:</code><br> 
-                <code>#Step1: Run LAN Automation to discover additional devices connected to existing fabric infrastructure.</code><br> 
-                <code>#Step2: Provision the discovered devices by assigning management IPs, applying configurations, and registering them to the fabric.</code><br>
+                <code>  #Step1: Run LAN Automation to discover additional devices connected to existing fabric infrastructure.</code><br> 
+                <code>  #Step2: Provision the discovered devices by assigning management IPs, applying configurations, and registering them to the fabric.</code><br>
                 <code>⚠️ <b>Note:</b> Ensure management IPs are assigned during LAN Automation to allow seamless provisioning. This is especially critical for executing both steps in a single run without manual intervention.</code>
                 </td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Greenfield.yml'>day1_lan_automation<br>_Greenfield.yml</a></b></td>
-                <td><code>-  This use case brings up a completely new SDA fabric site (Greenfield deployment). It covers the end-to-end flow from discovering seed devices, provisioning them, running LAN Automation to onboard downstream devices, and finally provisioning the newly discovered nodes.<br><br> It consists of the following 4 operations:<br><br> 
-                #Step1: Discover seed devices that serve as anchors for LAN Automation.<br> #Step2: Provision the discovered seed devices with required configurations and credentials.<br> #Step3: Run LAN Automation to discover downstream connected fabric nodes (e.g., Edge or Intermediate nodes).<br> #Step4: Provision and onboard the newly discovered fabric devices into the fabric site topology.<br><br> ⚠️ <b>Note:</b> Assigning management IPs during LAN Automation is crucial for enabling seamless provisioning in the same run.</code></td>
+                <td>
+                <code>- This use case brings up a completely new SDA fabric site (Greenfield deployment). It covers the end-to-end flow from discovering seed devices, provisioning them, running LAN Automation to onboard downstream devices, and finally provisioning the newly discovered nodes.</code><br> 
+                <code>- This use case consists of the following 4 operations:</code><br>
+                <code>  #Step1: Discover seed devices that serve as anchors for LAN Automation.</code><br> 
+                <code>  #Step2: Provision the discovered seed devices with required configurations and credentials.</code><br> 
+                <code>  #Step3: Run LAN Automation to discover downstream connected fabric nodes (e.g., Edge or Intermediate nodes).</code><br> 
+                <code>  #Step4: Provision and onboard the newly discovered fabric devices into the fabric site topology.</code><br><br> 
+                <code>⚠️ <b>Note:</b> Assigning management IPs during LAN Automation is crucial for enabling seamless provisioning in the same run.</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda<br>_fabric_provision.yml</a></b></td>
