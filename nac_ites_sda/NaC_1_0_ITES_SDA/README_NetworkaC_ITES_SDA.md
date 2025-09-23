@@ -188,7 +188,14 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_settings_and_integration.yml'>day1_settings_and_integration.yml</a></b></td>
-                <td><code>-  This use case configures foundational Day 1 settings for onboarding a newly added site into the fabric domain. It involves site addition, IP pool design, and essential network configurations specific to the new site.<br><br> It performs the following 5 operations:<br><br> #Step1: Create a new hierarchical site under the DNAC site tree structure.<br> #Step2: Assign pre-defined device credentials (CLI, SNMP, etc.) to the new site for future provisioning and management.<br> #Step3: Create global IP pools to be consumed by various sites and services.<br> #Step4: Allocate and assign the relevant IP pool slices to the newly added site.<br> #Step5: Configure site-specific network settings such as DNS, DHCP, NTP, and syslog to enable baseline device communication and service resolution.</code></td>
+                <td>
+                <code>- This use case configures foundational Day 1 settings for onboarding a newly added site into the fabric domain. It involves site addition, IP pool design, and essential network configurations specific to the new site.</code><br> 
+                <code>- This use case performs the following 5 operations:</code><br> 
+                <code>  #Step1: Create a new hierarchical site under the DNAC site tree structure.</code><br> 
+                <code>  #Step2: Assign pre-defined device credentials (CLI, SNMP, etc.) to the new site for future provisioning and management.</code><br> 
+                <code>  #Step3: Create global IP pools to be consumed by various sites and services.</code><br> 
+                <code>  #Step4: Allocate and assign the relevant IP pool slices to the newly added site.</code><br> 
+                <code>  #Step5: Configure site-specific network settings such as DNS, DHCP, NTP, and syslog to enable baseline device communication and service resolution.</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Brownfield.yml'>day1_lan_automation_Brownfield.yml</a></b></td>
