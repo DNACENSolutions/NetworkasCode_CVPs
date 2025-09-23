@@ -162,16 +162,18 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_settings_and_integration.yml'>day0_settings_and_integration.yml</a></b></td>
-            <td> <code>-  This usecase performs essential Day0 configurations to prepare the infrastructure for SDA automation by integrating ISE with DNAC, creating the site hierarchy, setting up global device credentials, network settings, and assigning them to the target site (e.g., Karnataka).<br><br>
-            This usecase consists of 8 operations in the following sequence:<br><br>
-            #Step1: Integrate Cisco ISE with Catalyst Center for RADIUS services and TrustSec policies<br>
-            #Step2: Create hierarchical site structure including areas, buildings, and floors<br>
-            #Step3: Define global device credentials in Catalyst Center<br>
-            #Step4: Assign global credentials to the Karnataka site<br>
-            #Step5: Define global IP pools including transit and VN pools<br>
-            #Step6: Define global network settings such as DNS, SNMP, and syslog<br>
-            #Step7: Assign IP pools to the Karnataka site<br>
-            #Step8: Apply global network settings to the Karnataka site<br><br></code></td>
+            <td> 
+            <code>- This usecase performs essential Day0 configurations to prepare the infrastructure for SDA automation by integrating ISE with DNAC, creating the site hierarchy, setting up global device credentials, network settings, and assigning them to the target site (e.g., Karnataka).</code><br>
+            <code>- This usecase consists of 8 operations in the following sequence:</code><br>
+            <code>  #Step1: Integrate Cisco ISE with Catalyst Center for RADIUS services and TrustSec policies</code><br>
+            <code>  #Step2: Create hierarchical site structure including areas, buildings, and floors</code><br>
+            <code>  #Step3: Define global device credentials in Catalyst Center</code><br>
+            <code>  #Step4: Assign global credentials to the Karnataka site</code><br>
+            <code>  #Step5: Define global IP pools including transit and VN pools</code><br>
+            <code>  #Step6: Define global network settings such as DNS, SNMP, and syslog</code><br>
+            <code>  #Step7: Assign IP pools to the Karnataka site</code><br>
+            <code>  #Step8: Apply global network settings to the Karnataka site</code>
+            </td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
