@@ -179,16 +179,18 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase02_day1_clinic_branch_bringup.yml'>healthcare_usecase02_day1_<br>clinic_branch_bringup.yml</a></b><br><br>
 				 <img src="images_healthcare_sda/Branch_small.jpg" width="240">
 				</td>
-                <td><br><br><code>-  This yaml usecase deploys 50 remote branch fiab sites, each with ip transit and sda transit enabled. <br>
-                This usecase consists of 8 operations in below sequence :<br><br>
-                #step1: branch sites devices discovery <br>
-                #step2: branch sites create sda fabric sites <br>
-                #step3: branch sites reserve ip address pools <br>
-                #step4: branch sites assign virtual networks to fabric <br>
-                #step5: branch sites assign l2 and l3 gateways to fabric <br>
-                #step6: branch sites assign devices inventory properties<br>
-                #step7: branch sites assign and provision devices <br>
-                #step8: branch sites add devices to fabric site as fiab (border|cp|edge) with ip transit and sda transit <br><br></code></td>
+                <td><br>
+				<code>- This yaml usecase deploys 50 remote branch fiab sites, each with ip transit and sda transit enabled. </code><br>
+                <code>- This usecase consists of 8 operations in below sequence :</code><br><br>
+                <code>  #step1: branch sites devices discovery </code><br>
+                <code>  #step2: branch sites create sda fabric sites </code><br>
+                <code>  #step3: branch sites reserve ip address pools </code><br>
+                <code>  #step4: branch sites assign virtual networks to fabric </code><br>
+                <code>  #step5: branch sites assign l2 and l3 gateways to fabric </code><br>
+                <code>  #step6: branch sites assign devices inventory properties</code><br>
+                <code>  #step7: branch sites assign and provision devices </code><br>
+                <code>  #step8: branch sites add devices to fabric site as fiab (border|cp|edge) with ip transit and sda transit </code>
+				</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase03_dayN_campus_main_network_upgrade.yml'>healthcare_usecase03_dayn_<br>campus_main_network_upgrade.yml</a></b></td>
