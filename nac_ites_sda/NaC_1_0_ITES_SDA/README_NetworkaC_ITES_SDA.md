@@ -183,7 +183,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <code>  #Step1: Discover seed devices in the network using CLI/SNMP-based discovery methods.</code><br> 
                 <code>  #Step2: Provision the discovered seed devices to prepare them for acting as LAN Automation controllers.</code><br> 
                 <code>  #Step3: Run LAN Automation to dynamically discover access switches connected to the seed devices.</code><br> 
-                <code>  #Step4: Provision the newly discovered downstream devices with appropriate management IPs and configuration.</code><br>
+                <code>  #Step4: Provision the newly discovered downstream devices with appropriate management IPs and configuration.</code><br><br>
                 <code>⚠️ <b>Note:</b> Ensure that management IPs are assigned during LAN Automation if immediate provisioning of discovered devices is planned.</code></td>
 			</tr>
             <tr>
@@ -203,7 +203,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <code>- This use case supports Brownfield site expansion by integrating newly added switches into an already operational SDA fabric. It automates the discovery of new devices via LAN Automation and provisions them to extend the fabric topology.</code><br> 
                 <code>- This use case consists of the following 2 operations:</code><br> 
                 <code>  #Step1: Run LAN Automation to discover additional devices connected to existing fabric infrastructure.</code><br> 
-                <code>  #Step2: Provision the discovered devices by assigning management IPs, applying configurations, and registering them to the fabric.</code><br>
+                <code>  #Step2: Provision the discovered devices by assigning management IPs, applying configurations, and registering them to the fabric.</code><br><br>
                 <code>⚠️ <b>Note:</b> Ensure management IPs are assigned during LAN Automation to allow seamless provisioning. This is especially critical for executing both steps in a single run without manual intervention.</code>
                 </td>
 			</tr>
@@ -220,73 +220,77 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda<br>_fabric_provision.yml</a></b></td>
-                <td><code>-  This use case provisions a newly added site as a Cisco SDA Fabric site. It involves setting up the fabric structure, configuring Layer 3 IP transit for external connectivity, defining virtual networks with Anycast Gateways, and assigning appropriate device roles.<br><br> It includes the following 4 key operations:<br><br> #Step1: Designate the site as an SDA Fabric site to enable fabric-based operations.<br> #Step2: Configure Layer 3 IP Transit for external handoff to upstream networks (e.g., WAN, Data Center).<br> #Step3: Create Layer 2 and Layer 3 Virtual Networks along with Anycast Gateways for host communication.<br> #Step4: Assign fabric roles such as Border, Control Plane, and Edge to the devices within the site.</code></td>
+                <td>
+                <code>- This use case provisions a newly added site as a Cisco SDA Fabric site. It involves setting up the fabric structure, configuring Layer 3 IP transit for external connectivity, defining virtual networks with Anycast Gateways, and assigning appropriate device roles.</code><br>
+                <code>- This use case includes the following 4 key operations:</code><br><br> 
+                <code>  #Step1: Designate the site as an SDA Fabric site to enable fabric-based operations.</code><br> 
+                <code>  #Step2: Configure Layer 3 IP Transit for external handoff to upstream networks (e.g., WAN, Data Center).</code><br> 
+                <code>  #Step3: Create Layer 2 and Layer 3 Virtual Networks along with Anycast Gateways for host communication.</code><br> 
+                <code>  #Step4: Assign fabric roles such as Border, Control Plane, and Edge to the devices within the site.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_sda_fabric_provision.yml'>day1_sda<br>_fabric_provision.yml</a></b></td>
-                <td><code>-  This use case is focused on enabling **SDA Fabric provisioning for an already existing site** on Day 1. Unlike the <b>day1_new_site_sda_fabric_provision.yml</b> flow (which adds a new site and makes it fabric-ready), this workflow assumes that the site has already been onboarded earlier and is now being transitioned into the SDA fabric domain.<br><br>
-                The workflow performs the following key operations:<br><br>
-                #Step1: Convert the existing site into a Fabric Site, establishing SDA fabric boundaries.<br>
-                #Step2: Set up IP Transit configurations to enable L3 handoff between fabric and traditional networks (northbound connectivity).<br>
-                #Step3: Create L2 and L3 Virtual Networks, including anycast gateways, for segmenting user traffic and enabling mobility.<br>
-                #Step4: Assign SDA device roles (Control Plane, Border, Edge) to participating network devices for fabric-based traffic control.<br><br>
-                This use case is typically triggered after Day 0 onboarding or LAN automation is complete and is part of formalizing the site’s transition into an SDA-enabled environment.</code></td>
+                <td>
+                <code>-  This use case is focused on enabling **SDA Fabric provisioning for an already existing site** on Day 1. Unlike the <b>day1_new_site_sda_fabric_provision.yml</b> flow (which adds a new site and makes it fabric-ready), this workflow assumes that the site has already been onboarded earlier and is now being transitioned into the SDA fabric domain.</code><br><br>
+                <code>- The workflow performs the following key operations:</code><br><br>
+                <code>  #Step1: Convert the existing site into a Fabric Site, establishing SDA fabric boundaries.</code><br>
+                <code>  #Step2: Set up IP Transit configurations to enable L3 handoff between fabric and traditional networks (northbound connectivity).</code><br>
+                <code>  #Step3: Create L2 and L3 Virtual Networks, including anycast gateways, for segmenting user traffic and enabling mobility.</code><br>
+                <code>  #Step4: Assign SDA device roles (Control Plane, Border, Edge) to participating network devices for fabric-based traffic control.</code><br><br>
+                <code>⚠️ This use case is typically triggered after Day 0 onboarding or LAN automation is complete and is part of formalizing the site’s transition into an SDA-enabled environment.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_Image_Upgrade_Across_Campus.yml'>dayn_Image_Upgrade_<br>Across_Campus.yml</a></b></td>
-                <td><code>-  This Day-N use case handles **network-wide software image upgrades** across the entire SDA campus using **SWIM (Software Image Management)** via DNAC. It ensures consistent image compliance and eliminates version drifts across fabric devices.<br><br>
-                The process is divided into three steps:<br><br>
-                #Step1: <b>Global Image Distribution</b>
-                All required golden images are downloaded from CCO (Cisco.com) and distributed to targeted devices across the campus, regardless of site or role.<br>
-                #Step2: <b>Image Activation on the Primary Site</b>
-                SWIM activates the distributed images at the main hub site (e.g., Karnataka). This involves image validation, compatibility checks, and reboot orchestration (if necessary).<br>
-                #Step3: <b>Image Activation on the Secondary Site</b>
-                The same activation process is repeated on the secondary hub site (e.g., Tamil Nadu) to maintain uniformity across geographically distributed fabric zones.<br><br>
+                <td>
+                <code>- This Day-N use case handles **network-wide software image upgrades** across the entire SDA campus using **SWIM (Software Image Management)** via DNAC. It ensures consistent image compliance and eliminates version drifts across fabric devices.</code><br><br>
+                <code>- The process is divided into three steps:</code><br><br>
+                <code>  #Step1: <b>Global Image Distribution</b>
+                All required golden images are downloaded from CCO (Cisco.com) and distributed to targeted devices across the campus, regardless of site or role.</code><br>
+                <code>  #Step2: <b>Image Activation on the Primary Site</b>
+                SWIM activates the distributed images at the main hub site (e.g., Karnataka). This involves image validation, compatibility checks, and reboot orchestration (if necessary).</code><br>
+                <code>  #Step3: <b>Image Activation on the Secondary Site</b>
+                The same activation process is repeated on the secondary hub site (e.g., Tamil Nadu) to maintain uniformity across geographically distributed fabric zones.</code><br><br>
                 This ensures all fabric and non-fabric devices across the enterprise operate on validated, secure, and consistent image versions — a critical Day-N activity for lifecycle management and compliance.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_&_dedicated_firewall.yml'>dayn_C2S_gateway_inside_&<br>_dedicated_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case provisions **Client-to-Site (C2S) VPN access** via an **inside gateway with a dedicated firewall**. It facilitates secure, isolated remote access to enterprise resources, with dedicated segmentation at the network and security layer.<br>
+                <td><code>-  This Day-N use case provisions **Client-to-Site (C2S) VPN access** via an **inside gateway with a dedicated firewall**. It facilitates secure, isolated remote access to enterprise resources, with dedicated segmentation at the network and security layer.</code><br>
                 Key Steps:<br><br>
-                #Step1: <b>IP Pool Reservation</b><br>
-                An L3 IP pool is assigned to the site specifically for the dedicated C2S VPN gateway and associated Anycast Gateway. This pool is exclusive to a specific VPN domain and its clients.<br>
-                #Step2: <b>L3 VN + Anycast Gateway Creation</b>
-                A new L3 virtual network is created and bound to the site along with its Anycast Gateway configuration. This forms the data plane for C2S remote clients.<br>
-                #Step3: <b>Device Role Assignment</b><br>
-                Fabric devices (e.g., border/edge) are assigned their roles for this newly created VN. The dedicated firewall is linked as the only upstream security device, enforcing full traffic isolation.<br>
-                #Step4: <b>Wired Host Onboarding</b><br>
-                Wired clients are onboarded into the new virtual network. The path from remote user → VPN → dedicated firewall → onboarded device is validated end-to-end.<br><br>
-                ⚠️ <b>Key Distinction from Shared Firewall:</b><br>
-                In this use case, the firewall is dedicated: only one IP pool and one client context is used, ensuring exclusive traffic segmentation.<br>
-                In a shared firewall setup (as handled in a different use case), multiple pools may route through a single firewall, requiring logical separation via VRFs or ACLs.<br>
-                💡 <b>Use Case Applicability:</b><br>
+                <code>  #Step1: <b>IP Pool Reservation</b><br>
+                An L3 IP pool is assigned to the site specifically for the dedicated C2S VPN gateway and associated Anycast Gateway. This pool is exclusive to a specific VPN domain and its clients.</code><br>
+                <code>  #Step2: <b>L3 VN + Anycast Gateway Creation</b>
+                A new L3 virtual network is created and bound to the site along with its Anycast Gateway configuration. This forms the data plane for C2S remote clients.</code><br>
+                <code>  #Step3: <b>Device Role Assignment</b><br>
+                Fabric devices (e.g., border/edge) are assigned their roles for this newly created VN. The dedicated firewall is linked as the only upstream security device, enforcing full traffic isolation.</code><br>
+                <code>  #Step4: <b>Wired Host Onboarding</b><br>
+                Wired clients are onboarded into the new virtual network. The path from remote user → VPN → dedicated firewall → onboarded device is validated end-to-end.</code><br><br>
+                <code>⚠️ <b>Key Distinction from Shared Firewall:</b></code><br>
+                <code>In this use case, the firewall is dedicated: only one IP pool and one client context is used, ensuring exclusive traffic segmentation.</code><br>
+                <code>In a shared firewall setup (as handled in a different use case), multiple pools may route through a single firewall, requiring logical separation via VRFs or ACLs.</code><br>
+                <code>💡 <b>Use Case Applicability:</b><br>
                 Ideal for high-security organizations (e.g., financial institutions, government) requiring strict separation of VPN access paths without overlap across clients or business units.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_%26_shared_firewall.yml'>dayn_C2S_gateway_inside_&<br>_shared_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case enables Client-to-Site (C2S) VPN access via an internal gateway using a shared firewall.<br>
-                It provisions shared infrastructure to allow remote users, such as support executives or delivery agents,<br>
-                to securely connect to ITES systems without requiring isolated security appliances per client.<br><br>
-                #Step1: IP Pool Assignment<br>
-                Multiple IP pools are reserved and associated with the site to support traffic segregation across different<br>
-                client environments handled by the ITES provider.<br>
-                #Step2: L3 VN and Anycast Gateway Setup<br>
-                Virtual networks and anycast gateways are configured to route traffic from remote client endpoints through<br>
-                the enterprise fabric network, ensuring proper segmentation and reachability.<br>
-                #Step3: Device Role Assignment<br>
-                Fabric devices are assigned roles (such as edge or border) to establish the intended routing and security<br>
-                policies for C2S traffic through the shared firewall.<br>
-                #Step4: Wired Host Onboarding<br>
+                <td>
+                <code>- This Day-N use case enables Client-to-Site (C2S) VPN access via an internal gateway using a shared firewall.</code><br>
+                <code>- It provisions shared infrastructure to allow remote users, such as support executives or delivery agents,
+                to securely connect to ITES systems without requiring isolated security appliances per client.</code><br><br>
+                <code>  #Step1: IP Pool Assignment</code><br>
+                <code>   Multiple IP pools are reserved and associated with the site to support traffic segregation across different client environments handled by the ITES provider.</code><br>
+                <code>  #Step2: L3 VN and Anycast Gateway Setup</code><br>
+                <code>   Virtual networks and anycast gateways are configured to route traffic from remote client endpoints through
+                the enterprise fabric network, ensuring proper segmentation and reachability.</code><br>
+                <code>  #Step3: Device Role Assignment</code><br>
+                Fabric devices are assigned roles (such as edge or border) to establish the intended routing and security</code><br>
+                policies for C2S traffic through the shared firewall.</code><br>
+                <code>  #Step4: Wired Host Onboarding</code><br>
                 Local wired clients (such as branch or on-site support systems) are onboarded to the same VPN network for<br>
-                functional validation and continuous integration.<br><br>
-                Key Difference from Dedicated Firewall:<br>
-                In this shared firewall model, a single firewall instance handles multiple client IP pools with logical isolation<br>
-                enforced through VRFs and access policies. It is ideal for ITES operations managing multiple clients from the same<br>
-                infrastructure, offering operational efficiency with shared security resources.<br><br>
-                Use Case Example:<br>
-                An ITES provider delivering customer service for multiple domains (e.g., telecom, e-commerce, insurance) can use a<br>
-                shared firewall to enable secure C2S VPN access for remote agents, while maintaining separation via VRFs and ACLs<br>
-                instead of physical firewalls.</code></td>
+                functional validation and continuous integration.</code><br><br>
+                <code> Key Difference from Dedicated Firewall:</code><br>
+                <code> In this shared firewall model, a single firewall instance handles multiple client IP pools with logical isolation enforced through VRFs and access policies. It is ideal for ITES operations managing multiple clients from the same infrastructure, offering operational efficiency with shared security resources.</code><br><br>
+                <code> Use Case Example:</code><br>
+                <code> An ITES provider delivering customer service for multiple domains (e.g., telecom, e-commerce, insurance) can use a shared firewall to enable secure C2S VPN access for remote agents, while maintaining separation via VRFs and ACLs instead of physical firewalls.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_dedicated_firewall.yml'>dayn_C2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
