@@ -216,7 +216,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 This ensures all fabric and non-fabric devices across the enterprise operate on validated, secure, and consistent image versions — a critical Day-N activity for lifecycle management and compliance.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_&_dedicated_firewall.yml'>dayn_C2S_gateway_inside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_&_dedicated_firewall.yml'>dayn_C2S_gateway_inside_&<br>_dedicated_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case provisions **Client-to-Site (C2S) VPN access** via an **inside gateway with a dedicated firewall**. It facilitates secure, isolated remote access to enterprise resources, with dedicated segmentation at the network and security layer.<br>
                 Key Steps:<br><br>
                 #Step1: <b>IP Pool Reservation</b><br>
@@ -234,7 +234,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 Ideal for high-security organizations (e.g., financial institutions, government) requiring strict separation of VPN access paths without overlap across clients or business units.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_%26_shared_firewall.yml'>dayn_C2S_gateway_inside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_%26_shared_firewall.yml'>dayn_C2S_gateway_inside_&<br>_shared_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case enables Client-to-Site (C2S) VPN access via an internal gateway using a shared firewall.<br>
                 It provisions shared infrastructure to allow remote users, such as support executives or delivery agents,<br>
                 to securely connect to ITES systems without requiring isolated security appliances per client.<br><br>
@@ -260,7 +260,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 instead of physical firewalls.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_dedicated_firewall.yml'>dayn_C2S_gateway_outside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_dedicated_firewall.yml'>dayn_C2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric,<br>
                 leveraging a dedicated firewall for strict traffic segmentation. The external firewall terminates the VPN,<br>
                 and the traffic is handed off to the SDA fabric via a single L2 VLAN extending to the Border node.<br><br>
@@ -285,7 +285,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 and single VLAN to onboard remote employees via C2S VPN, ensuring exclusive resource access.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_shared_firewall.yml'>dayn_C2S_gateway_outside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_shared_firewall.yml'>dayn_C2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric,<br>
                 utilizing a shared firewall to support multiple client contexts. VPN tunnels terminate at the firewall,<br>
                 and client traffic enters the SDA fabric through dedicated Layer 2 VLANs mapped to different services.<br><br>
@@ -313,7 +313,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 </code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_dedicated_firewall.yml'>dayn_S2S_gateway_inside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_dedicated_firewall.yml'>dayn_S2S_gateway_inside_&<br>_dedicated_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the fabric<br>
                 along with a dedicated firewall. It is designed to establish a permanent, secure VPN tunnel between the ITES site<br>
                 and an external client or remote office.<br><br>
@@ -338,7 +338,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 security isolation and compliance requirements.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_shared_firewall.yml'>ddayn_S2S_gateway_inside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_shared_firewall.yml'>ddayn_S2S_gateway_inside_&<br>_shared_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the SDA fabric<br>
                 along with a shared firewall. The setup enables multiple ITES customer locations to establish encrypted tunnels<br>
                 into a central data center using logically isolated paths through a common firewall infrastructure.<br><br>
