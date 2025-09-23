@@ -177,7 +177,14 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
-                <td><code>-  This use case handles the initial bring-up of a fabric site by automating the discovery and provisioning of seed and downstream devices. It simplifies onboarding by using LAN Automation to detect connected fabric edge nodes.<br><br> It includes the following 4 operations:<br><br> #Step1: Discover seed devices in the network using CLI/SNMP-based discovery methods.<br> #Step2: Provision the discovered seed devices to prepare them for acting as LAN Automation controllers.<br> #Step3: Run LAN Automation to dynamically discover access switches connected to the seed devices.<br> #Step4: Provision the newly discovered downstream devices with appropriate management IPs and configuration.<br><br> ⚠️ <b>Note:</b> Ensure that management IPs are assigned during LAN Automation if immediate provisioning of discovered devices is planned.</code></td>
+                <td>
+                <code>- This use case handles the initial bring-up of a fabric site by automating the discovery and provisioning of seed and downstream devices. It simplifies onboarding by using LAN Automation to detect connected fabric edge nodes.<br>
+                <code>- This use case includes the following 4 operations:</code><br> 
+                <code>  #Step1: Discover seed devices in the network using CLI/SNMP-based discovery methods.</code><br> 
+                <code>  #Step2: Provision the discovered seed devices to prepare them for acting as LAN Automation controllers.</code><br> 
+                <code>  #Step3: Run LAN Automation to dynamically discover access switches connected to the seed devices.</code><br> 
+                <code>  #Step4: Provision the newly discovered downstream devices with appropriate management IPs and configuration.</code><br>
+                <code>⚠️ <b>Note:</b> Ensure that management IPs are assigned during LAN Automation if immediate provisioning of discovered devices is planned.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_settings_and_integration.yml'>day1_settings_and_integration.yml</a></b></td>
