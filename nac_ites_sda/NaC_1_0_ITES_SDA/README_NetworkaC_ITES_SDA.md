@@ -178,7 +178,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
                 <td>
-                <code>- This use case handles the initial bring-up of a fabric site by automating the discovery and provisioning of seed and downstream devices. It simplifies onboarding by using LAN Automation to detect connected fabric edge nodes.<br>
+                <code>- This use case handles the initial bring-up of a fabric site by automating the discovery and provisioning of seed and downstream devices. It simplifies onboarding by using LAN Automation to detect connected fabric edge nodes.</code><br>
                 <code>- This use case includes the following 4 operations:</code><br> 
                 <code>  #Step1: Discover seed devices in the network using CLI/SNMP-based discovery methods.</code><br> 
                 <code>  #Step2: Provision the discovered seed devices to prepare them for acting as LAN Automation controllers.</code><br> 
