@@ -177,7 +177,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase02_day1_clinic_branch_bringup.yml'>healthcare_usecase02_day1_<br>clinic_branch_bringup.yml</a></b><br><br>
-				 <img src="images_healthcare_sda/Branch_small.jpg" width="360">
+				 <img src="images_healthcare_sda/Branch_small.jpg" width="240">
 				</td>
                 <td><br><br><code>-  This yaml usecase deploys 50 remote branch fiab sites, each with ip transit and sda transit enabled. <br>
                 This usecase consists of 8 operations in below sequence :<br><br>
@@ -191,7 +191,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
                 #step8: branch sites add devices to fabric site as fiab (border|cp|edge) with ip transit and sda transit <br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase03_dayN_campus_main_network_upgrade.yml'>healthcare_usecase03_dayn_campus_main_network_upgrade.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase03_dayN_<br>campus_main_network_upgrade.yml'>healthcare_usecase03_dayn_campus_main_network_upgrade.yml</a></b></td>
                 <td><code>-  This yaml usecase performs network upgrade at main campus site: <br>
 				- 2 co-located border/cps;<br>
 				- 1 intermediate node; <br>
@@ -206,7 +206,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
                 #step7: post swim network devices compliance check<br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase04_dayN_clinic_branch_network_upgrade.yml'>healthcare_usecase04_dayn_clinic_branch_network_upgrade.ym</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase04_dayN_<br>clinic_branch_network_upgrade.yml'>healthcare_usecase04_dayn_clinic_branch_network_upgrade.ym</a></b></td>
                 <td><code>-  This yaml usecase performs network ugrade at 5 remote branches, each with fiab.<br>
                 This usecase consists of 5 operations in below sequence : <br><br>
                 #step1: swim upgrade the devices on sites - cco download<br>
@@ -216,7 +216,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
                 #step5: post swim network devices compliance check <br><br></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase05_dayN_campus_fabric_edge_onboarding.yml'>healthcare_usecase05_dayn_campus_fabric_edge_onboarding.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase05_dayN_<br>campus_fabric_edge_onboarding.yml'>healthcare_usecase05_dayn_campus_fabric_edge_onboarding.yml</a></b></td>
                 <td><code>-  This yaml usecase performs network expansion via onboarding a new fabric edge and onboarding all ports on this edge device for wired and wireless applications. <br>
                 This usecase consists of 6 operations in below sequence:<br><br>
                 #step1 : discover new devices for the site<br>
