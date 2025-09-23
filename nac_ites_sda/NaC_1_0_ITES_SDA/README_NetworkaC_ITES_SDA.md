@@ -161,7 +161,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_settings_and_integration.yml'>day0_settings_and_integration.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_settings_and_integration.yml'>day0_settings_<br>and_integration.yml</a></b></td>
             <td> 
             <code>- This usecase performs essential Day0 configurations to prepare the infrastructure for SDA automation by integrating ISE with DNAC, creating the site hierarchy, setting up global device credentials, network settings, and assigning them to the target site (e.g., Karnataka).</code><br>
             <code>- This usecase consists of 8 operations in the following sequence:</code><br>
@@ -187,7 +187,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <code>⚠️ <b>Note:</b> Ensure that management IPs are assigned during LAN Automation if immediate provisioning of discovered devices is planned.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_settings_and_integration.yml'>day1_settings_and_integration.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_settings_and_integration.yml'>day1_settings_<br>and_integration.yml</a></b></td>
                 <td>
                 <code>- This use case configures foundational Day 1 settings for onboarding a newly added site into the fabric domain. It involves site addition, IP pool design, and essential network configurations specific to the new site.</code><br> 
                 <code>- This use case performs the following 5 operations:</code><br> 
@@ -206,7 +206,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <td><code>-  This use case brings up a completely new SDA fabric site (Greenfield deployment). It covers the end-to-end flow from discovering seed devices, provisioning them, running LAN Automation to onboard downstream devices, and finally provisioning the newly discovered nodes.<br><br> It consists of the following 4 operations:<br><br> #Step1: Discover seed devices that serve as anchors for LAN Automation.<br> #Step2: Provision the discovered seed devices with required configurations and credentials.<br> #Step3: Run LAN Automation to discover downstream connected fabric nodes (e.g., Edge or Intermediate nodes).<br> #Step4: Provision and onboard the newly discovered fabric devices into the fabric site topology.<br><br> ⚠️ <b>Note:</b> Assigning management IPs during LAN Automation is crucial for enabling seamless provisioning in the same run.</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda_fabric_provision.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda_<br>fabric_provision.yml</a></b></td>
                 <td><code>-  This use case provisions a newly added site as a Cisco SDA Fabric site. It involves setting up the fabric structure, configuring Layer 3 IP transit for external connectivity, defining virtual networks with Anycast Gateways, and assigning appropriate device roles.<br><br> It includes the following 4 key operations:<br><br> #Step1: Designate the site as an SDA Fabric site to enable fabric-based operations.<br> #Step2: Configure Layer 3 IP Transit for external handoff to upstream networks (e.g., WAN, Data Center).<br> #Step3: Create Layer 2 and Layer 3 Virtual Networks along with Anycast Gateways for host communication.<br> #Step4: Assign fabric roles such as Border, Control Plane, and Edge to the devices within the site.</code></td>
 			</tr>
             <tr>
@@ -220,7 +220,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 This use case is typically triggered after Day 0 onboarding or LAN automation is complete and is part of formalizing the site’s transition into an SDA-enabled environment.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_Image_Upgrade_Across_Campus.yml'>dayn_Image_Upgrade_Across_Campus.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_Image_Upgrade_Across_Campus.yml'>dayn_Image_Upgrade_<br>Across_Campus.yml</a></b></td>
                 <td><code>-  This Day-N use case handles **network-wide software image upgrades** across the entire SDA campus using **SWIM (Software Image Management)** via DNAC. It ensures consistent image compliance and eliminates version drifts across fabric devices.<br><br>
                 The process is divided into three steps:<br><br>
                 #Step1: <b>Global Image Distribution</b>
@@ -429,7 +429,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 extended to the Border node to segregate traffic while optimizing infrastructure reuse.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_site_to_site_roaming_VN.yml'>dayn_site_to_site_roaming_VN.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_site_to_site_roaming_VN.yml'>dayn_site_to_site_<br>roaming_VN.yml</a></b></td>
                 <td><code>-  This Day-N use case enables Site-to-Site (S2S) roaming by provisioning a location-agnostic L3 VN,<br>
                 allowing ODC users in ITES to operate securely from any site while enforcing strict access boundaries.<br><br>
                 #Step1: IP Pool Reservation<br>
