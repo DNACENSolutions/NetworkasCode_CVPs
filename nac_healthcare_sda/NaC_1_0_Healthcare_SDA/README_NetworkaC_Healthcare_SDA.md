@@ -194,39 +194,45 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase03_dayN_campus_main_network_upgrade.yml'>healthcare_usecase03_dayn_<br>campus_main_network_upgrade.yml</a></b></td>
-                <td><code>-  This yaml usecase performs network upgrade at main campus site: <br>
-				- 2 co-located border/cps;<br>
-				- 1 intermediate node; <br>
-				- 10 fabric edges <br>
-                This usecase consists of 7 operations in below sequence :<br><br>
-                #step1: swim upgrade the devices on sites - cco download<br>
-                #step2: swim upgrade the devices on sites - tagging golden images<br>
-                #step3: swim upgrade the devices on sites - image distribution<br>
-                #step4: swim upgrade the devices on sites - image activation on edge nodes<br>
-                #step5: swim upgrade the devices on sites - image activation on intermedia-nodes<br>
-                #step6: swim upgrade the devices on sites - image activation on border-cp-nodes<br>
-                #step7: post swim network devices compliance check<br><br></code></td>
+                <td>
+				<code>- This yaml usecase performs network upgrade at main campus site: </code><br>
+				<code>  2 co-located border/cps;</code><br>
+				<code>  1 intermediate node; </code><br>
+				<code>  10 fabric edges </code><br>
+                <code>- This usecase consists of 7 operations in below sequence :</code><br>
+                <code>  #step1: swim upgrade the devices on sites - cco download</code><br>
+                <code>  #step2: swim upgrade the devices on sites - tagging golden images</code><br>
+                <code>  #step3: swim upgrade the devices on sites - image distribution</code><br>
+                <code>  #step4: swim upgrade the devices on sites - image activation on edge nodes</code><br>
+                <code>  #step5: swim upgrade the devices on sites - image activation on intermedia-nodes</code><br>
+                <code>  #step6: swim upgrade the devices on sites - image activation on border-cp-nodes</code><br>
+                <code>  #step7: post swim network devices compliance check</code>
+				</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase04_dayN_clinic_branch_network_upgrade.yml'>healthcare_usecase04_dayn_<br>clinic_branch_network_upgrade.ym</a></b></td>
-                <td><code>-  This yaml usecase performs network ugrade at 5 remote branches, each with fiab.<br>
-                This usecase consists of 5 operations in below sequence : <br><br>
-                #step1: swim upgrade the devices on sites - cco download<br>
-                #step2: swim upgrade the devices on sites - tagging golden images<br>
-                #step3: swim upgrade the devices on sites - image distribution<br>
-                #step4: swim upgrade the devices on sites - image activation on fiab nodes<br>
-                #step5: post swim network devices compliance check <br><br></code></td>
+                <td>
+				<code>- This yaml usecase performs network ugrade at 5 remote branches, each with fiab.</code><br>
+                <code>- This usecase consists of 5 operations in below sequence : </code><br>
+                <code>  #step1: swim upgrade the devices on sites - cco download</code><br>
+                <code>  #step2: swim upgrade the devices on sites - tagging golden images</code><br>
+                <code>  #step3: swim upgrade the devices on sites - image distribution</code><br>
+                <code>  #step4: swim upgrade the devices on sites - image activation on fiab nodes</code><br>
+                <code>  #step5: post swim network devices compliance check </code>
+				</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase05_dayN_campus_fabric_edge_onboarding.yml'>healthcare_usecase05_dayn_<br>campus_fabric_edge_onboarding.yml</a></b></td>
-                <td><code>-  This yaml usecase performs network expansion via onboarding a new fabric edge and onboarding all ports on this edge device for wired and wireless applications. <br>
-                This usecase consists of 6 operations in below sequence:<br><br>
-                #step1 : discover new devices for the site<br>
-                #step2 : assign new devices inventory properties<br>
-                #step3 : assign new devices to sites and provision new devices on sites<br>
-                #step4 : add new devices to fabric as edge(s) <br>
-                #step5 : manage host port onboarding on new edge devices<br>
-                #step6 : check network compliance on new devices <br><br></code></td>
+                <td>
+				<code>- This yaml usecase performs network expansion via onboarding a new fabric edge and onboarding all ports on this edge device for wired and wireless applications. </code><br>
+                <code>- This usecase consists of 6 operations in below sequence:</code><br>
+                <code>  #step1 : discover new devices for the site</code><br>
+                <code>  #step2 : assign new devices inventory properties</code><br>
+                <code>  #step3 : assign new devices to sites and provision new devices on sites</code><br>
+                <code>  #step4 : add new devices to fabric as edge(s) </code><br>
+                <code>  #step5 : manage host port onboarding on new edge devices</code><br>
+                <code>  #step6 : check network compliance on new devices </code>
+				</td>
 			</tr>
 			</table>
 		</blockquote>
