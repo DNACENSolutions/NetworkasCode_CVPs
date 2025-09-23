@@ -363,7 +363,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 into logically separated VRFs inside the fabric, securely connecting remote offices to hosted platforms.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_dedicated_firewall.yml'>dayn_S2S_gateway_outside_&_dedicated_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_dedicated_firewall.yml'>dayn_S2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a dedicated firewall<br>
                 placed outside the fabric. The decrypted traffic is handed off to the SDA fabric via L2 VLANs extending<br>
                 to the Border node. This setup is ideal for ITES clients needing high security and full tunnel isolation.<br><br>
@@ -388,7 +388,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 into the hosted back-office CRM application, ensuring full tunnel isolation.</code></td>
 			</tr>
             <tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_shared_firewall.yml'>dayn_S2S_gateway_outside_&_shared_firewall.yml</a></b></td>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_shared_firewall.yml'>dayn_S2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
                 <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a shared firewall<br>
                 located outside the SDA fabric. Multiple branch tunnels terminate on a single firewall, and their traffic<br>
                 is logically separated using different VLANs and VRFs before entering the fabric.<br><br>
@@ -567,7 +567,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_shared_firewall'>dayn_C2S_gateway_outside_&_shared_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_shared_firewall'>dayn_C2S_gateway_outside_&<br>_shared_firewall</a></b></td>
 								<td><code>-  This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithasharedfirewallandgatewayoutsideofthefabric'> Refer here for more info on the usecase</a></code></td>
 								<td><code>-  Related Playbooks<br>
@@ -577,7 +577,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                                 </code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_dedicated_firewall'>dayn_C2S_gateway_outside_&_dedicated_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_dedicated_firewall'>dayn_C2S_gateway_outside_&<br>_dedicated_firewall</a></b></td>
 								<td><code>-  This folder contains configurations required for bringing Client to Site ODC with gateway outside and dedicated firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithadedicatedfirewallandgatewayoutsidethefabric'> Refer here for more info on the usecase</a></code></td>
 								<td><code>-  Related Playbooks<br>
@@ -644,7 +644,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_dedicated_firewall'>dayn_C2S_gateway_inside_&_dedicated_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_dedicated_firewall'>dayn_C2S_gateway_inside_&<br>_dedicated_firewall</a></b></td>
 								<td><code>-  This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttoSiteODCwithasharedfirewallandanycastgateway'> Refer here for more info on the usecase</a></code></td>
 								<td><code>-  Related Playbooks<br>
@@ -655,7 +655,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                                 </code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_shared_firewall'>dayn_C2S_gateway_inside_&_shared_firewall</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_shared_firewall'>dayn_C2S_gateway_inside_&<br>_shared_firewall</a></b></td>
 								<td><code>-  This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
                                 <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithadedicatedfirewallconnectedtotheedgeandactingasgateway'> Refer here for more info on the usecase</a></code></td>
 								<td><code>-  Related Playbooks<br>
