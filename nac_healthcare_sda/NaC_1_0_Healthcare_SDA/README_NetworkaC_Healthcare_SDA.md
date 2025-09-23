@@ -490,7 +490,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 								</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_sda_fabric_devices.yml'>campus_new_devices_sda_fabric_devices.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/catc_configs/sites_healthcare/main_campus_healthcare/campus_new_devices_sda_fabric_devices.yml'>campus_new_devices_<br>sda_fabric_devices.yml</a></b></td>
 								<td>
 									<code>- This file contains configurations to add the new device to the fabric as an edge node.</code><br>
 									<code>- This example assigns fabric edge role to the new device.</code><br>
