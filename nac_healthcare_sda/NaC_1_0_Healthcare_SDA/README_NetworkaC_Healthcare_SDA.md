@@ -155,7 +155,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 		<blockquote>
 			<table>
 			<tr>
-			    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase01_day1_campus_branch_bringup.yml'>healthcare_usecase01_day1_campus_branch_bringup.yml</a></b><br><br>
+			    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase01_day1_campus_branch_bringup.yml'>healthcare_usecase01_day1_<wbr>campus_branch_bringup.yml</a></b><br><br>
 				<img src="images_healthcare_sda/Campus_small.jpg" width="240" >
 				</td>
 			<td><br><br>
@@ -176,7 +176,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			</td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase02_day1_clinic_branch_bringup.yml'>healthcare_usecase02_day1_clinic_branch_bringup.yml</a></b><br><br>
+				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase02_day1_clinic_branch_bringup.yml'>healthcare_usecase02_day1_<wbr>clinic_branch_bringup.yml</a></b><br><br>
 				 <img src="images_healthcare_sda/Branch_small.jpg" width="360">
 				</td>
                 <td><br><br><code>-  This yaml usecase deploys 50 remote branch fiab sites, each with ip transit and sda transit enabled. <br>
