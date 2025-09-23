@@ -158,20 +158,22 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 			    <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase01_day1_campus_branch_bringup.yml'>healthcare_usecase01_day1_campus_branch_bringup.yml</a></b><br><br>
 				<img src="images_healthcare_sda/Campus_small.jpg" width="360" >
 				</td>
-			<td><br><br><code> -  This yaml usecase deploys a large main campus fabric with below scale : <br> 
-				 - 2 co-located border/cps, 100 fabric edges; <br> 
-				 - 64 virtual networks, 256 ip pools; <br>
-				 - onboard all 150 ports on a 3-member-stack fabric edge <br>
-                This usecase consists of 9 operations in below sequence :<br><br>
-                #step1: campus site devices discovery <br>
-                #step2: campus site create sda fabric sites fabric zones<br>
-                #step3: campus site reserve ip address pools <br>
-                #step4: campus site assign virtual networks to fabric <br>
-                #step5: campus site assign l2 and l3 gateways to fabric <br>
-                #step6: campus site assign devices inventory properties <br>
-                #step7: campus site assign and provision devices<br>
-                #step8: campus site add devices to fabric site as boder, cp and edge nodes <br>
-                #step9: campus site enable host onboarding in fabric edge devices <br><br></code></td>
+			<td><br><br>
+				<code>- This yaml usecase deploys a large main campus fabric with below scale :</code> <br> 
+				<code>    2 co-located border/cps, 100 fabric edges; </code><br> 
+				<code>    64 virtual networks, 256 ip pools; </code><br>
+				<code>    onboard all 150 ports on a 3-member-stack fabric edge </code><br>
+                <code>- This usecase consists of 9 operations in below sequence :</code><br>
+                <code>  #step1: campus site devices discovery </code><br>
+                <code>  #step2: campus site create sda fabric sites fabric zones</code><br>
+                <code>  #step3: campus site reserve ip address pools </code><br>
+                <code>  #step4: campus site assign virtual networks to fabric </code><br>
+                <code>  #step5: campus site assign l2 and l3 gateways to fabric </code><br>
+                <code>  #step6: campus site assign devices inventory properties </code><br>
+                <code>  #step7: campus site assign and provision devices</code><br>
+                <code>  #step8: campus site add devices to fabric site as boder, cp and edge nodes </code><br>
+                <code>  #step9: campus site enable host onboarding in fabric edge devices </code>
+			</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_healthcare_sda/NaC_1_0_Healthcare_SDA/usecase_maps/healthcare_usecase02_day1_clinic_branch_bringup.yml'>healthcare_usecase02_day1_clinic_branch_bringup.yml</a></b><br><br>
