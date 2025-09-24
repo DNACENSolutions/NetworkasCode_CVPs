@@ -164,7 +164,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_settings_and_integration.yml'>day0_settings_<br>and_integration.yml</a></b></td>
             <td> 
             <code>- This usecase performs essential Day0 configurations to prepare the infrastructure for SDA automation by integrating ISE with DNAC, creating the site hierarchy, setting up global device credentials, network settings, and assigning them to the target site (e.g., Karnataka).</code><br>
-            <code>- This usecase consists of 8 operations in the following sequence:</code><br>
+            <code>- Key Steps:</code><br>
             <code>  #Step1: Integrate Cisco ISE with Catalyst Center for RADIUS services and TrustSec policies</code><br>
             <code>  #Step2: Create hierarchical site structure including areas, buildings, and floors</code><br>
             <code>  #Step3: Define global device credentials in Catalyst Center</code><br>
@@ -179,7 +179,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day0_lan_automation.yml'>day0_lan_automation.yml</a></b></td>
                 <td>
                 <code>- This use case handles the initial bring-up of a fabric site by automating the discovery and provisioning of seed and downstream devices. It simplifies onboarding by using LAN Automation to detect connected fabric edge nodes.</code><br>
-                <code>- This use case includes the following 4 operations:</code><br> 
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: Discover seed devices in the network using CLI/SNMP-based discovery methods.</code><br> 
                 <code>  #Step2: Provision the discovered seed devices to prepare them for acting as LAN Automation controllers.</code><br> 
                 <code>  #Step3: Run LAN Automation to dynamically discover access switches connected to the seed devices.</code><br> 
@@ -190,7 +190,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_settings_and_integration.yml'>day1_settings_<br>and_integration.yml</a></b></td>
                 <td>
                 <code>- This use case configures foundational Day 1 settings for onboarding a newly added site into the fabric domain. It involves site addition, IP pool design, and essential network configurations specific to the new site.</code><br> 
-                <code>- This use case performs the following 5 operations:</code><br> 
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: Create a new hierarchical site under the DNAC site tree structure.</code><br> 
                 <code>  #Step2: Assign pre-defined device credentials (CLI, SNMP, etc.) to the new site for future provisioning and management.</code><br> 
                 <code>  #Step3: Create global IP pools to be consumed by various sites and services.</code><br> 
@@ -201,7 +201,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Brownfield.yml'>day1_lan_automation<br>_Brownfield.yml</a></b></td>
                 <td>
                 <code>- This use case supports Brownfield site expansion by integrating newly added switches into an already operational SDA fabric. It automates the discovery of new devices via LAN Automation and provisions them to extend the fabric topology.</code><br> 
-                <code>- This use case consists of the following 2 operations:</code><br> 
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: Run LAN Automation to discover additional devices connected to existing fabric infrastructure.</code><br> 
                 <code>  #Step2: Provision the discovered devices by assigning management IPs, applying configurations, and registering them to the fabric.</code><br><br>
                 <code>⚠️ <b>Note:</b> Ensure management IPs are assigned during LAN Automation to allow seamless provisioning. This is especially critical for executing both steps in a single run without manual intervention.</code>
@@ -211,7 +211,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_lan_automation_Greenfield.yml'>day1_lan_automation<br>_Greenfield.yml</a></b></td>
                 <td>
                 <code>- This use case brings up a completely new SDA fabric site (Greenfield deployment). It covers the end-to-end flow from discovering seed devices, provisioning them, running LAN Automation to onboard downstream devices, and finally provisioning the newly discovered nodes.</code><br> 
-                <code>- This use case consists of the following 4 operations:</code><br>
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: Discover seed devices that serve as anchors for LAN Automation.</code><br> 
                 <code>  #Step2: Provision the discovered seed devices with required configurations and credentials.</code><br> 
                 <code>  #Step3: Run LAN Automation to discover downstream connected fabric nodes (e.g., Edge or Intermediate nodes).</code><br> 
@@ -222,7 +222,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda<br>_fabric_provision.yml</a></b></td>
                 <td>
                 <code>- This use case provisions a newly added site as a Cisco SDA Fabric site. It involves setting up the fabric structure, configuring Layer 3 IP transit for external connectivity, defining virtual networks with Anycast Gateways, and assigning appropriate device roles.</code><br>
-                <code>- This use case includes the following 4 key operations:</code><br> 
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: Designate the site as an SDA Fabric site to enable fabric-based operations.</code><br> 
                 <code>  #Step2: Configure Layer 3 IP Transit for external handoff to upstream networks (e.g., WAN, Data Center).</code><br> 
                 <code>  #Step3: Create Layer 2 and Layer 3 Virtual Networks along with Anycast Gateways for host communication.</code><br> 
@@ -232,7 +232,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_sda_fabric_provision.yml'>day1_sda<br>_fabric_provision.yml</a></b></td>
                 <td>
                 <code>-  This use case is focused on enabling **SDA Fabric provisioning for an already existing site** on Day 1. Unlike the <b>day1_new_site_sda_fabric_provision.yml</b> flow (which adds a new site and makes it fabric-ready), this workflow assumes that the site has already been onboarded earlier and is now being transitioned into the SDA fabric domain.</code><br>
-                <code>- The workflow performs the following key operations:</code><br>
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: Convert the existing site into a Fabric Site, establishing SDA fabric boundaries.</code><br>
                 <code>  #Step2: Set up IP Transit configurations to enable L3 handoff between fabric and traditional networks (northbound connectivity).</code><br>
                 <code>  #Step3: Create L2 and L3 Virtual Networks, including anycast gateways, for segmenting user traffic and enabling mobility.</code><br>
@@ -243,7 +243,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_Image_Upgrade_Across_Campus.yml'>dayn_Image_Upgrade_<br>Across_Campus.yml</a></b></td>
                 <td>
                 <code>- This Day-N use case handles **network-wide software image upgrades** across the entire SDA campus using **SWIM (Software Image Management)** via DNAC. It ensures consistent image compliance and eliminates version drifts across fabric devices.</code><br>
-                <code>- The process is divided into three steps:</code><br>
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: <b>Global Image Distribution</b>  All required golden images are downloaded from CCO (Cisco.com) and distributed to targeted devices across the campus, regardless of site or role.</code><br>
                 <code>  #Step2: <b>Image Activation on the Primary Site</b>  SWIM activates the distributed images at the main hub site (e.g., Karnataka). This involves image validation, compatibility checks, and reboot orchestration (if necessary).</code><br>
                 <code>  #Step3: <b>Image Activation on the Secondary Site</b>  The same activation process is repeated on the secondary hub site (e.g., Tamil Nadu) to maintain uniformity across geographically distributed fabric zones.</code><br><br>
@@ -346,7 +346,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_shared_firewall.yml'>ddayn_S2S_gateway_inside_&<br>_shared_firewall.yml</a></b></td>
                 <td>
-                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the SDA fabric along with a shared firewall. The setup enables multiple ITES customer locations to establish encrypted tunnels into a central data center using logically isolated paths through a common firewall infrastructure.</code><br><br>
+                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the SDA fabric along with a shared firewall. The setup enables multiple ITES customer locations to establish encrypted tunnels into a central data center using logically isolated paths through a common firewall infrastructure.</code><br>
                 <code>- Key Steps:</code><br>
                 <code> #Step1: IP Pool Reservation</code><br>
                 <code>  Multiple L3 IP pools are reserved for different remote partner/customer sites. These pools allow each tunnel to be isolated via VRFs or security policies even while using a shared firewall.</code><br>
@@ -383,7 +383,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_shared_firewall.yml'>dayn_S2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
                 <td>
-                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a shared firewall located outside the SDA fabric. Multiple branch tunnels terminate on a single firewall, and their traffic is logically separated using different VLANs and VRFs before entering the fabric.</code><br><br>
+                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a shared firewall located outside the SDA fabric. Multiple branch tunnels terminate on a single firewall, and their traffic is logically separated using different VLANs and VRFs before entering the fabric.</code><br>
                 <code>- Key Steps:</code><br>
                 <code>  #Step1: Fabric Site Creation</code><br>
                 <code>   A fabric site is created to provide LAN-level handoff from the external firewall. This allows routed or bridged traffic from all connected branches to flow toward enterprise services inside the SDA domain.</code><br>
@@ -403,7 +403,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_site_to_site_roaming_VN.yml'>dayn_site_to_site_<br>roaming_VN.yml</a></b></td>
                 <td>
-                <code>- This Day-N use case enables Site-to-Site (S2S) roaming by provisioning a location-agnostic L3 VN, allowing ODC users in ITES to operate securely from any site while enforcing strict access boundaries.</code><br><br>
+                <code>- This Day-N use case enables Site-to-Site (S2S) roaming by provisioning a location-agnostic L3 VN, allowing ODC users in ITES to operate securely from any site while enforcing strict access boundaries.</code><br>
                 <code>- Key Steps:</code><br>
                 <code> #Step1: IP Pool Reservation</code><br>
                 <code> A dedicated subnet is reserved for roaming ODC users. This IP pool will be mapped to the roaming VN and advertised only at remote sites (excluding the home site).</code><br>
@@ -423,8 +423,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_restricted_ODC.yml'>dayn_S2S_restricted_ODC.yml</a></b></td>
                 <td>
-                <code>- This Day-N use case provisions a Site-to-Site (S2S) ODC with a dedicated firewall acting as a gateway and directly connected to the fabric edge, ensuring tight traffic control</code><br>
-                and isolation within the ITES environment.<br><br>
+                <code>- This Day-N use case provisions a Site-to-Site (S2S) ODC with a dedicated firewall acting as a gateway and directly connected to the fabric edge, ensuring tight traffic control and isolation within the ITES environment.</code><br>
                 <code>- Key Steps:</code><br>
                 <code> #Step1: Fabric Site Creation</code><br>
                 <code> A new fabric site (zone) is created using Cisco Catalyst Center to enable SD-Access provisioning. This includes zoning and edge/border role designation.</code><br>
