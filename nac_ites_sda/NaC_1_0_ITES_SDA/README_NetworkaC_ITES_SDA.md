@@ -327,53 +327,40 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_dedicated_firewall.yml'>dayn_S2S_gateway_inside_&<br>_dedicated_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the fabric<br>
-                along with a dedicated firewall. It is designed to establish a permanent, secure VPN tunnel between the ITES site<br>
-                and an external client or remote office.<br><br>
-                #Step1: IP Pool Reservation<br>
-                A unique L3 IP pool is assigned to the site for S2S traffic. This pool is mapped exclusively to the VPN domain<br>
-                used for communicating with a specific partner/client location.<br>
-                #Step2: L3 Virtual Network and Anycast Gateway Setup<br>
-                An L3 VN is created to route encrypted S2S traffic via the fabric. The Anycast Gateway ensures consistent<br>
-                reachability for devices receiving VPN-terminated traffic within the ITES network.<br>
-                #Step3: Device Role Assignment<br>
-                Fabric devices (e.g., edge, control, border nodes) are configured to support the VN and direct S2S traffic<br>
-                through a dedicated firewall. This guarantees isolation from other client or internal flows.<br>
-                #Step4: Wired Host Onboarding<br>
-                On-prem ITES systems—like data sync services, partner access nodes, or hosted backend systems—are onboarded<br>
-                into the new VN to validate end-to-end S2S VPN connectivity.<br><br>
-                ⚠️Key Design Note:<br>
-                Unlike shared firewall setups that multiplex VPN tunnels via logical isolation, this model offers physical<br>
-                and routing-level exclusivity. A dedicated firewall ensures no cross-tenant leakage or traffic overlap.<br><br>
-                Use Case Example:<br>
-                An ITES company running a payroll processing service for a state government agency may set up a dedicated<br>
-                S2S tunnel between the data center and the agency’s HQ. This allows real-time data exchange while meeting<br>
-                security isolation and compliance requirements.</code></td>
+                <td>
+                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the fabric along with a dedicated firewall. It is designed to establish a permanent, secure VPN tunnel between the ITES site and an external client or remote office.</code><br> 
+                <code>- Key Steps:</code><br>
+                <code> #Step1: IP Pool Reservation</code><br>
+                <code>  A unique L3 IP pool is assigned to the site for S2S traffic. This pool is mapped exclusively to the VPN domain used for communicating with a specific partner/client location.</code><br>
+                <code> #Step2: L3 Virtual Network and Anycast Gateway Setup</code><br>
+                <code>  An L3 VN is created to route encrypted S2S traffic via the fabric. The Anycast Gateway ensures consistent reachability for devices receiving VPN-terminated traffic within the ITES network.</code><br>
+                <code> #Step3: Device Role Assignment</code><br>
+                <code>  Fabric devices (e.g., edge, control, border nodes) are configured to support the VN and direct S2S traffic through a dedicated firewall. This guarantees isolation from other client or internal flows.</code><br>
+                <code> #Step4: Wired Host Onboarding</code><br>
+                <code>  On-prem ITES systems—like data sync services, partner access nodes, or hosted backend systems—are onboarded into the new VN to validate end-to-end S2S VPN connectivity.</code><br><br>
+                <code>⚠️ Key Design Note:</code><br>
+                <code>  Unlike shared firewall setups that multiplex VPN tunnels via logical isolation, this model offers physical and routing-level exclusivity. A dedicated firewall ensures no cross-tenant leakage or traffic overlap.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
+                <code>  An ITES company running a payroll processing service for a state government agency may set up a dedicated S2S tunnel between the data center and the agency’s HQ. This allows real-time data exchange while meeting security isolation and compliance requirements.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_shared_firewall.yml'>ddayn_S2S_gateway_inside_&<br>_shared_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the SDA fabric<br>
-                along with a shared firewall. The setup enables multiple ITES customer locations to establish encrypted tunnels<br>
-                into a central data center using logically isolated paths through a common firewall infrastructure.<br><br>
-                #Step1: IP Pool Reservation<br>
-                Multiple L3 IP pools are reserved for different remote partner/customer sites. These pools allow<br>
-                each tunnel to be isolated via VRFs or security policies even while using a shared firewall.<br>
-                #Step2: L3 Virtual Network and Anycast Gateway Setup<br>
-                A shared L3 VN is created along with anycast gateway configuration to route encrypted S2S traffic<br>
-                from multiple external locations into the fabric through distinct logical domains.<br>
-                #Step3: Device Role Assignment<br>
-                Fabric devices such as border nodes and edges are assigned proper roles to steer incoming S2S traffic<br>
-                through the shared firewall while maintaining client-specific segmentation.<br>
-                #Step4: Wired Host Onboarding<br>
-                On-prem apps and services (e.g., client-dedicated VMs, database servers) are onboarded to validate<br>
-                connectivity with the respective remote office through the corresponding S2S VPN tunnel.<br><br>
-                ⚠️Key Design Note:<br>
-                Logical isolation via VRFs, ACLs, and per-client IP pools allows multi-tenant support<br>
-                over a common firewall—ideal for ITES operations hosting multiple clients at once.<br><br>
-                Use Case Example:<br>
-                An ITES provider offering infrastructure services to healthcare and telecom clients may set up<br>
-                dedicated tunnels for each client's remote site. Using a shared firewall, both tunnels terminate<br>
-                into logically separated VRFs inside the fabric, securely connecting remote offices to hosted platforms.</code></td>
+                <td>
+                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity using a gateway located inside the SDA fabric along with a shared firewall. The setup enables multiple ITES customer locations to establish encrypted tunnels into a central data center using logically isolated paths through a common firewall infrastructure.</code><br><br>
+                <code>- Key Steps:</code><br>
+                <code> #Step1: IP Pool Reservation</code><br>
+                <code>  Multiple L3 IP pools are reserved for different remote partner/customer sites. These pools allow each tunnel to be isolated via VRFs or security policies even while using a shared firewall.</code><br>
+                <code> #Step2: L3 Virtual Network and Anycast Gateway Setup</code><br>
+                <code>  A shared L3 VN is created along with anycast gateway configuration to route encrypted S2S traffic from multiple external locations into the fabric through distinct logical domains.</code><br>
+                <code> #Step3: Device Role Assignment</code><br>
+                <code>  Fabric devices such as border nodes and edges are assigned proper roles to steer incoming S2S traffic through the shared firewall while maintaining client-specific segmentation.</code><br>
+                <code> #Step4: Wired Host Onboarding</code><br>
+                <code>  On-prem apps and services (e.g., client-dedicated VMs, database servers) are onboarded to validate connectivity with the respective remote office through the corresponding S2S VPN tunnel.</code><br><br>
+                <code>⚠️ Key Design Note:</code><br>
+                <code>  Logical isolation via VRFs, ACLs, and per-client IP pools allows multi-tenant support over a common firewall—ideal for ITES operations hosting multiple clients at once.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
+                <code>  An ITES provider offering infrastructure services to healthcare and telecom clients may set up dedicated tunnels for each client's remote site. Using a shared firewall, both tunnels terminate into logically separated VRFs inside the fabric, securely connecting remote offices to hosted platforms.</code>
+                </td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_dedicated_firewall.yml'>dayn_S2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
