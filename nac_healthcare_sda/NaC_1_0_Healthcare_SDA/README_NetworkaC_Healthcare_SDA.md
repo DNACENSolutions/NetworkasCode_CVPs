@@ -728,7 +728,7 @@ This project provides a complete Network as Code (NaC) solution for deploying Ci
 
 ### Prerequisites
 
-Before getting started with catc_sd_access_campus.git, ensure your runtime environment meets the following requirements:
+Before getting started with NetworkasCode_CVPs.git, ensure your runtime environment meets the following requirements:
 
 - **Programming language:** shell
 - **Package manager:** pip
@@ -736,13 +736,13 @@ Before getting started with catc_sd_access_campus.git, ensure your runtime envir
 
 ### Installation
 
-Install catc_sd_access_campus using one of the following methods:
+Install NetworkasCode_CVPs using one of the following methods:
 
 **Build from source:**
 
-1. Clone the catc_sd_access_campus.git repository:
+1. Clone the NetworkasCode_CVPs.git repository:
 ```sh
--  git clone https://github.com/dnacensolutions/catc_sd_access_campus.git
+-  git clone https://github.com/dnacensolutions/NetworkasCode_CVPs.git
 ```
 
 2. Navigate to the project directory:
@@ -759,7 +759,7 @@ using `bash`
 ```
 
 ### Usage
-Run catc_sd_access_campus using the following command:
+Run NetworkasCode_CVPs using the following command:
 
 ```sh
 using `python3`
@@ -769,9 +769,9 @@ using `python3`
 
 ## Contributing
 
-- **💬 [Join the discussions](https://github.com/dnacensolutions/catc_sd_access_campus.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report issues](https://github.com/dnacensolutions/catc_sd_access_campus.git/issues)**: Submit bugs found or log feature requests for the `catc_sd_access_campus.git` project.
-- **💡 [Submit pull requests](https://github.com/dnacensolutions/catc_sd_access_campus.git/blob/main/contributing.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the discussions](https://github.com/dnacensolutions/NetworkasCode_CVPs.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report issues](https://github.com/dnacensolutions/NetworkasCode_CVPs.git/issues)**: Submit bugs found or log feature requests for the `NetworkasCode_CVPs.git` project.
+- **💡 [Submit pull requests](https://github.com/dnacensolutions/NetworkasCode_CVPs.git/blob/main/contributing.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing guidelines</summary>
@@ -779,7 +779,7 @@ using `python3`
 1. **Fork the repository**: Start by forking the project repository to your GitHub account.
 2. **Clone locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/dnacensolutions/catc_sd_access_campus.git
+   git clone https://github.com/dnacensolutions/NetworkasCode_CVPs.git
    ```
 3. **Create a new branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -798,9 +798,15 @@ using `python3`
 8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
 </details>
 
+
 <details closed>
-<summary>Contributor graph</summary>
+<summary>Contributor Graph</summary>
 <br>
+<p align="left">
+   <a href="https://github.com{/DNACENSolutions/NetworkasCode_CVPs.git/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=DNACENSolutions/NetworkasCode_CVPs.git">
+   </a>
+</p>
 </details>
 
 ---
