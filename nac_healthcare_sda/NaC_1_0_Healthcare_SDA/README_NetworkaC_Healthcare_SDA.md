@@ -1,10 +1,4 @@
-<p align="center">
-	<em><code> Catalyst Center Network as Code with Ansible Playbooks User Guide for Healthcare Vertical</code></em>
-</p>
-<p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
-<br>
+<div align="center"><h1>Catalyst Center Network as Code with Ansible Playbooks User Guide for Healthcare Vertical</h1></div>
 
 ##  Table of Contents
 
