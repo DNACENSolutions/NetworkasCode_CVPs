@@ -1,5 +1,5 @@
 <p align="center">
-	<em><code>-  Catalyst Center Network as Code -  ITES Vertical - With  Ansible Playbooks</code></em>
+	<em><code>  Catalyst Center Network as Code with Ansible Playbooks User Guide for ITES Vertical  </code></em>
 </p>
 <p align="center"><!-- default option, no dependency badges. -->
 </p>
@@ -8,27 +8,51 @@
 </p>
 <br>
 
-![Catalyst Center SDA Fabric](images/ITES_CVPaC_Topology.png)
 
 
 ##  Table of Contents
 
--  [Overview](#Overview )
-- [ Project Structure](#project-structure)
-- [ Project Index](#project-index)
-- [ Getting Started](#getting-started)
-  - [ Prerequisites](#prerequisites)
-  - [ Installation](#installation)
-  - [ Usage](#usage)
-  - [ Testing](#testing)
-- [ Project Roadmap](#project-roadmap)
-- [ Contributing](#contributing)
-- [ License](#license)
-- [ Acknowledgments](#acknowledgments)
+- [Overview](#overview)
+- [Compatibility Matrix](#compatibility-matrix)
+- [Network Topology](#network-topology)  
+- [Project Structure](#project-structure)
+- [Customizable Inputs](#customizable-inputs)
+- [Project Index](#project-index)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 ##  Overview
 This GitHub project provides a comprehensive Ansible automatioin framework for network deployment and operation of on a freshly installed Catalyst center. By leveraging Ansible's automation capabilities, this project streamlines the end-to-end configuration process, reduces manual errors, provides easy cusotomization, and ensures consistency across your network.
+
+---
+## Compatibility Matrix
+The following matrix shows the supported and verified version combinations for the usecases described in this repository.
+			<table>
+			<tr>
+				<td><b>Cisco Catalyst Center version	</b></td>
+				<td><b>2.3.7.9</b></td>
+			</tr>
+			<tr>
+				<td><b>Ansible "cisco.dnac" version</b></td>
+				<td><b>6.31.3</b></td>
+				<td><b><code> ansible-galaxy collection install cisco.dnac:6.31.3 --force --ignore-certs # setup.sh </code></b></td>
+			</tr>
+			<tr>
+				<td><b>Python "dnacentersdk" version </b></td>
+				<td><b>2.9.1</b></td>
+				<td><b><code>python -m pip install dnacentersdk==2.9.1 # setup.sh </code></b></td>
+			</tr>
+			</table>
+
+---
+## Network Topology
+![Catalyst Center SDA Fabric](images/ITES_CVPaC_Topology.png)
 
 ---
 ##  Project Structure
