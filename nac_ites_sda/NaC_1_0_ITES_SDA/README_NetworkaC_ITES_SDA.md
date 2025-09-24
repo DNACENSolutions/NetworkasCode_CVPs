@@ -16,7 +16,6 @@
 - [Compatibility Matrix](#compatibility-matrix)
 - [Network Topology](#network-topology)  
 - [Project Structure](#project-structure)
-- [Customizable Inputs](#customizable-inputs)
 - [Project Index](#project-index)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -717,7 +716,7 @@ The following matrix shows the supported and verified version combinations for t
 				<blockquote>
 					<table>
 					<tr>
-						<td><b><a href='https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/blob/master/ansible_inventory/catalystcenter_inventory_10.195.243.53/hosts.yml'>hosts.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/blob/master/ansible_inventory/catalystcenter_inventory_10.195.243.53/hosts.yml'>hosts.yml</a></b></td>
 						<td><code>-  This is a sample Host file to be created for your Catalyst Center to be able to run the existing playbooks.
 						Sample Inventory file
 							---
@@ -750,55 +749,50 @@ The following matrix shows the supported and verified version combinations for t
 
 ###  Prerequisites
 
-Before getting started with CatC_SD_Access_campus.git, ensure your runtime environment meets the following requirements:
+Before getting started with NetworkasCode_CVPs.git, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** Shell
 - **Package Manager:** Pip
 
 
-###  Installation
+### Installation
 
-Install CatC_SD_Access_campus using one of the following methods:
+Install NetworkasCode_CVPs using one of the following methods:
 
 **Build from source:**
 
-1. Clone the CatC_SD_Access_campus.git repository:
+1. Clone the NetworkasCode_CVPs.git repository:
 ```sh
--  git clone https://github.com/DNACENSolutions/CatC_SD_Access_campus.git
+-  git clone https://github.com/DNACENSolutions/NetworkasCode_CVPs.git
 ```
 
 2. Navigate to the project directory:
 ```sh
--  cd CatC_SD_Access_campus
+-  cd NetworkasCode_CVPs
+-  cd nac_ites_sda/NaC_1_0_ITES_SDA
 ```
 
 3. Install the project dependencies:
 
-
-**Using `bash`** &nbsp; [<img align="center" src="" />]()
-
 ```sh
+Using `bash`
 -  source setup.sh
 ```
 
 ###  Usage
-Run CatC_SD_Access_campus using the following command:
-**Using `Python3`** &nbsp; [<img align="center" src="" />]()
+Run NetworkasCode_CVPs using the following command:
 
 ```sh
+Using `Python3
 -  python3 scripts/run_playbooks.py
 ```
-Follow the prompts. 
----
-##  Project Roadmap
-
 ---
 
 ##  Contributing
 
-- **💬 [Join the Discussions](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/issues)**: Submit bugs found or log feature requests for the `CatC_SD_Access_campus.git` project.
-- **💡 [Submit Pull Requests](https://github.com/DNACENSolutions/CatC_SD_Access_campus.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/issues)**: Submit bugs found or log feature requests for the `CatC_SD_Access_campus.git` project.
+- **💡 [Submit Pull Requests](https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -806,7 +800,7 @@ Follow the prompts.
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/DNACENSolutions/CatC_SD_Access_campus.git
+   git clone https://github.com/DNACENSolutions/NetworkasCode_CVPs.git
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -829,8 +823,8 @@ Follow the prompts.
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/DNACENSolutions/CatC_SD_Access_campus.git/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=DNACENSolutions/CatC_SD_Access_campus.git">
+   <a href="https://github.com{/DNACENSolutions/NetworkasCode_CVPs.git/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=DNACENSolutions/NetworkasCode_CVPs.git">
    </a>
 </p>
 </details>
