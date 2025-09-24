@@ -476,7 +476,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                         <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>IP_pool_reservation_playbook</a></code></td>
 					</tr>
                     <tr>
-						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml</a></b></td>
+						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>dayn_FV_network_devices<br>_CCO_download_tag_golden<br>_images_distribution.yml</a></b></td>
 						<td><code>-  SWIM Upgrade the devices on sites - Tagging Golden Images</code></td>
                         <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 					</tr>
