@@ -269,19 +269,19 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <td>
                 <code>- This Day-N use case enables Client-to-Site (C2S) VPN access via an internal gateway using a shared firewall.</code><br>
                 <code>- It provisions shared infrastructure to allow remote users, such as support executives or delivery agents, to securely connect to ITES systems without requiring isolated security appliances per client.</code><br>
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: IP Pool Assignment</code><br>
                 <code>   Multiple IP pools are reserved and associated with the site to support traffic segregation across different client environments handled by the ITES provider.</code><br>
                 <code>  #Step2: L3 VN and Anycast Gateway Setup</code><br>
                 <code>   Virtual networks and anycast gateways are configured to route traffic from remote client endpoints through the enterprise fabric network, ensuring proper segmentation and reachability.</code><br>
                 <code>  #Step3: Device Role Assignment</code><br>
-                Fabric devices are assigned roles (such as edge or border) to establish the intended routing and security</code><br>
-                policies for C2S traffic through the shared firewall.</code><br>
+                <code>    Fabric devices are assigned roles (such as edge or border) to establish the intended routing and security policies for C2S traffic through the shared firewall.</code><br>
                 <code>  #Step4: Wired Host Onboarding</code><br>
-                Local wired clients (such as branch or on-site support systems) are onboarded to the same VPN network for functional validation and continuous integration.</code><br><br>
+                <code>    Local wired clients (such as branch or on-site support systems) are onboarded to the same VPN network for functional validation and continuous integration.</code><br><br>
                 <code>⚠️ Key Difference from Dedicated Firewall:</code><br>
-                <code> In this shared firewall model, a single firewall instance handles multiple client IP pools with logical isolation enforced through VRFs and access policies. It is ideal for ITES operations managing multiple clients from the same infrastructure, offering operational efficiency with shared security resources.</code><br><br>
+                <code>   In this shared firewall model, a single firewall instance handles multiple client IP pools with logical isolation enforced through VRFs and access policies. It is ideal for ITES operations managing multiple clients from the same infrastructure, offering operational efficiency with shared security resources.</code><br><br>
                 <code>💡 Use Case Example:</code><br>
-                <code> An ITES provider delivering customer service for multiple domains (e.g., telecom, e-commerce, insurance) can use a shared firewall to enable secure C2S VPN access for remote agents, while maintaining separation via VRFs and ACLs instead of physical firewalls.</code></td>
+                <code>   An ITES provider delivering customer service for multiple domains (e.g., telecom, e-commerce, insurance) can use a shared firewall to enable secure C2S VPN access for remote agents, while maintaining separation via VRFs and ACLs instead of physical firewalls.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_dedicated_firewall.yml'>dayn_C2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
