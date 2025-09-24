@@ -244,10 +244,8 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <td>
                 <code>- This Day-N use case handles **network-wide software image upgrades** across the entire SDA campus using **SWIM (Software Image Management)** via DNAC. It ensures consistent image compliance and eliminates version drifts across fabric devices.</code><br><br>
                 <code>- The process is divided into three steps:</code><br>
-                <code>  #Step1: <b>Global Image Distribution</code></b>
-                <code>   All required golden images are downloaded from CCO (Cisco.com) and distributed to targeted devices across the campus, regardless of site or role.</code><br>
-                <code>  #Step2: <b>Image Activation on the Primary Site</b>
-                <code>   SWIM activates the distributed images at the main hub site (e.g., Karnataka). This involves image validation, compatibility checks, and reboot orchestration (if necessary).</code><br>
+                <code>  #Step1: <b>Global Image Distribution</b>  All required golden images are downloaded from CCO (Cisco.com) and distributed to targeted devices across the campus, regardless of site or role.</code><br>
+                <code>  #Step2: <b>Image Activation on the Primary Site</b> SWIM activates the distributed images at the main hub site (e.g., Karnataka). This involves image validation, compatibility checks, and reboot orchestration (if necessary).</code><br>
                 <code>  #Step3: <b>Image Activation on the Secondary Site</code></b>
                 <code>   The same activation process is repeated on the secondary hub site (e.g., Tamil Nadu) to maintain uniformity across geographically distributed fabric zones.</code><br><br>
                 <code>⚠️ This ensures all fabric and non-fabric devices across the enterprise operate on validated, secure, and consistent image versions — a critical Day-N activity for lifecycle management and compliance.</code></td>
