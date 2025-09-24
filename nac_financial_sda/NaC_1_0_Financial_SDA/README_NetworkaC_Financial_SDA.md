@@ -1,4 +1,4 @@
-<div align="center"><h1>Catalyst Center Network as Code with Ansible Playbooks User Guide for Financial Vertical</h1></div><br>
+<div align="center"><h1>Catalyst Center Network as Code with Ansible Playbooks User Guide for Financial Vertical</h1></div>
 
 
 ##  Table of Contents
