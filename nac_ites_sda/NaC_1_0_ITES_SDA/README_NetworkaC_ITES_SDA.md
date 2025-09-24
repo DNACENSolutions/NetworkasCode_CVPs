@@ -222,7 +222,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_new_site_sda_fabric_provision.yml'>day1_new_site_sda<br>_fabric_provision.yml</a></b></td>
                 <td>
                 <code>- This use case provisions a newly added site as a Cisco SDA Fabric site. It involves setting up the fabric structure, configuring Layer 3 IP transit for external connectivity, defining virtual networks with Anycast Gateways, and assigning appropriate device roles.</code><br>
-                <code>- This use case includes the following 4 key operations:</code><br><br> 
+                <code>- This use case includes the following 4 key operations:</code><br> 
                 <code>  #Step1: Designate the site as an SDA Fabric site to enable fabric-based operations.</code><br> 
                 <code>  #Step2: Configure Layer 3 IP Transit for external handoff to upstream networks (e.g., WAN, Data Center).</code><br> 
                 <code>  #Step3: Create Layer 2 and Layer 3 Virtual Networks along with Anycast Gateways for host communication.</code><br> 
@@ -232,7 +232,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/day1_sda_fabric_provision.yml'>day1_sda<br>_fabric_provision.yml</a></b></td>
                 <td>
                 <code>-  This use case is focused on enabling **SDA Fabric provisioning for an already existing site** on Day 1. Unlike the <b>day1_new_site_sda_fabric_provision.yml</b> flow (which adds a new site and makes it fabric-ready), this workflow assumes that the site has already been onboarded earlier and is now being transitioned into the SDA fabric domain.</code><br><br>
-                <code>- The workflow performs the following key operations:</code><br><br>
+                <code>- The workflow performs the following key operations:</code><br>
                 <code>  #Step1: Convert the existing site into a Fabric Site, establishing SDA fabric boundaries.</code><br>
                 <code>  #Step2: Set up IP Transit configurations to enable L3 handoff between fabric and traditional networks (northbound connectivity).</code><br>
                 <code>  #Step3: Create L2 and L3 Virtual Networks, including anycast gateways, for segmenting user traffic and enabling mobility.</code><br>
@@ -243,14 +243,14 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_Image_Upgrade_Across_Campus.yml'>dayn_Image_Upgrade_<br>Across_Campus.yml</a></b></td>
                 <td>
                 <code>- This Day-N use case handles **network-wide software image upgrades** across the entire SDA campus using **SWIM (Software Image Management)** via DNAC. It ensures consistent image compliance and eliminates version drifts across fabric devices.</code><br><br>
-                <code>- The process is divided into three steps:</code><br><br>
-                <code>  #Step1: <b>Global Image Distribution</b>
-                All required golden images are downloaded from CCO (Cisco.com) and distributed to targeted devices across the campus, regardless of site or role.</code><br>
+                <code>- The process is divided into three steps:</code><br>
+                <code>  #Step1: <b>Global Image Distribution</code></b>
+                <code>   All required golden images are downloaded from CCO (Cisco.com) and distributed to targeted devices across the campus, regardless of site or role.</code><br>
                 <code>  #Step2: <b>Image Activation on the Primary Site</b>
-                SWIM activates the distributed images at the main hub site (e.g., Karnataka). This involves image validation, compatibility checks, and reboot orchestration (if necessary).</code><br>
-                <code>  #Step3: <b>Image Activation on the Secondary Site</b>
-                The same activation process is repeated on the secondary hub site (e.g., Tamil Nadu) to maintain uniformity across geographically distributed fabric zones.</code><br><br>
-                This ensures all fabric and non-fabric devices across the enterprise operate on validated, secure, and consistent image versions — a critical Day-N activity for lifecycle management and compliance.</code></td>
+                <code>   SWIM activates the distributed images at the main hub site (e.g., Karnataka). This involves image validation, compatibility checks, and reboot orchestration (if necessary).</code><br>
+                <code>  #Step3: <b>Image Activation on the Secondary Site</code></b>
+                <code>   The same activation process is repeated on the secondary hub site (e.g., Tamil Nadu) to maintain uniformity across geographically distributed fabric zones.</code><br><br>
+                <code>⚠️ This ensures all fabric and non-fabric devices across the enterprise operate on validated, secure, and consistent image versions — a critical Day-N activity for lifecycle management and compliance.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_inside_&_dedicated_firewall.yml'>dayn_C2S_gateway_inside_&<br>_dedicated_firewall.yml</a></b></td>
