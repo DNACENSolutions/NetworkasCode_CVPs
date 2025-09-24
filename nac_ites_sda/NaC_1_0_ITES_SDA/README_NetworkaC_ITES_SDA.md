@@ -285,28 +285,24 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_dedicated_firewall.yml'>dayn_C2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric,<br>
-                leveraging a dedicated firewall for strict traffic segmentation. The external firewall terminates the VPN,<br>
-                and the traffic is handed off to the SDA fabric via a single L2 VLAN extending to the Border node.<br><br>
-                #Step1: Fabric Site Creation<br>
-                The target site is designated and initialized as a fabric site within DNAC.<br>
-                #Step2: L2 Virtual Network (VLAN) Creation<br>
-                A single VLAN is provisioned to establish Layer 2 connectivity between the external firewall and Border node.<br>
-                #Step3: Device Role Assignment<br>
-                Devices in the fabric (e.g., Border, Edge) are assigned appropriate roles to support traffic ingress from<br>
-                the external gateway into the SDA fabric.<br>
-                #Step4: Wired Host Onboarding<br>
-                Client-facing wired hosts are onboarded into the same VLAN-based VN to complete E2E connectivity testing.<br>
-                Key Design Characteristic:<br>
-                The L2 handoff path connects the dedicated firewall to the Border node through a single VLAN<br>
-                (e.g., VLAN 100). Traffic isolation is physical — only one IP pool and one client context are present.<br><br>
-                ⚠️Difference from Shared Firewall Variant:<br>
-                Unlike the shared firewall scenario (where multiple VLANs are trunked to the Border for different clients),<br>
-                this setup uses a single VLAN mapped to one specific service context. Logical isolation is not needed,<br>
-                as traffic is already physically segregated.<br><br>
-                Use Case Example:<br>
-                An ITES provider handling secure backend processing for a banking client can use a dedicated external firewall<br>
-                and single VLAN to onboard remote employees via C2S VPN, ensuring exclusive resource access.</code></td>
+                <td>
+                <code>- This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric, leveraging a dedicated firewall for strict traffic segmentation. The external firewall terminates the VPN, and the traffic is handed off to the SDA fabric via a single L2 VLAN extending to the Border node.</code><br>
+                <code>- Key Steps:</code><br>
+                <code>  #Step1: Fabric Site Creation</code><br>
+                <code>  The target site is designated and initialized as a fabric site within DNAC.</code><br>
+                <code>  #Step2: L2 Virtual Network (VLAN) Creation</code><br>
+                <code>  A single VLAN is provisioned to establish Layer 2 connectivity between the external firewall and Border node.</code><br>
+                <code>  #Step3: Device Role Assignment</code><br>
+                <code>  Devices in the fabric (e.g., Border, Edge) are assigned appropriate roles to support traffic ingress from</code><br>
+                the external gateway into the SDA fabric.</code><br>
+                <code>  #Step4: Wired Host Onboarding</code><br>
+                <code>  Client-facing wired hosts are onboarded into the same VLAN-based VN to complete E2E connectivity testing.</code><br>
+                <code>  Key Design Characteristic:</code><br>
+                <code>  The L2 handoff path connects the dedicated firewall to the Border node through a single VLAN (e.g., VLAN 100). Traffic isolation is physical — only one IP pool and one client context are present.</code><br><br>
+                <code>⚠️ Difference from Shared Firewall Variant:</code><br>
+                <code>   Unlike the shared firewall scenario (where multiple VLANs are trunked to the Border for different clients),this setup uses a single VLAN mapped to one specific service context. Logical isolation is not needed, as traffic is already physically segregated.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
+                <code>   An ITES provider handling secure backend processing for a banking client can use a dedicated external firewall and single VLAN to onboard remote employees via C2S VPN, ensuring exclusive resource access.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_shared_firewall.yml'>dayn_C2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
