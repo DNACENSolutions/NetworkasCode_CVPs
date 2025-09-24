@@ -9,10 +9,7 @@ NetworkasCode_CVPs/
 ├── nac_common/          # Reusable core (global + site) configuration building blocks
 ├── nac_healthcare_sda/  # Healthcare SDA vertical use cases & inputs
 ├── nac_financial_sda/   # Financial SDA vertical use cases & inputs
-├── nac_ites_sda/        # IT/ES (Enterprise Services) SDA vertical (structure similar)
-├── scripts/             # (If present) shared helper scripts
-├── setup.sh             # Environment bootstrap (Python SDK + Ansible collection)
-└── requirements.txt     # Python dependencies
+└── nac_ites_sda/        # IT-Enabled Services SDA vertical use cases & inputs
 ```
 
 ## Verticals Overview
@@ -53,16 +50,6 @@ python3 scripts/run_playbooks.py   # guided execution (validate / execute)
 3. Validate via runner script (syntax + dependency readiness)  
 4. Execute orchestration (parallel + sequential tasks as defined)  
 5. (Optional) Run cleanup mappings for teardown / rollback  
-
-## Technology Coverage (Examples)
-- SDA Fabric sites, zones, VNs, transit, edge onboarding
-- LAN Automation (PnP to fabric readiness)
-- Image lifecycle (download → golden → distribute → activate)
-- Host onboarding (static)
-- Device provisioning & reprovisioning
-- Events & notifications (email destinations)
-- Roles, users, credentials
-- Inventory & compliance (where applicable)
 
 ## Reuse From nac_common
 Leverage `nac_common` to:
