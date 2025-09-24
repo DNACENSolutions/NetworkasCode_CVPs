@@ -289,16 +289,16 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <code>- This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric, leveraging a dedicated firewall for strict traffic segmentation. The external firewall terminates the VPN, and the traffic is handed off to the SDA fabric via a single L2 VLAN extending to the Border node.</code><br>
                 <code>- Key Steps:</code><br>
                 <code>  #Step1: Fabric Site Creation</code><br>
-                <code>  The target site is designated and initialized as a fabric site within DNAC.</code><br>
+                <code>   The target site is designated and initialized as a fabric site within DNAC.</code><br>
                 <code>  #Step2: L2 Virtual Network (VLAN) Creation</code><br>
-                <code>  A single VLAN is provisioned to establish Layer 2 connectivity between the external firewall and Border node.</code><br>
+                <code>   A single VLAN is provisioned to establish Layer 2 connectivity between the external firewall and Border node.</code><br>
                 <code>  #Step3: Device Role Assignment</code><br>
-                <code>  Devices in the fabric (e.g., Border, Edge) are assigned appropriate roles to support traffic ingress from</code><br>
+                <code>   Devices in the fabric (e.g., Border, Edge) are assigned appropriate roles to support traffic ingress from</code><br>
                 the external gateway into the SDA fabric.</code><br>
                 <code>  #Step4: Wired Host Onboarding</code><br>
-                <code>  Client-facing wired hosts are onboarded into the same VLAN-based VN to complete E2E connectivity testing.</code><br>
-                <code>  Key Design Characteristic:</code><br>
-                <code>  The L2 handoff path connects the dedicated firewall to the Border node through a single VLAN (e.g., VLAN 100). Traffic isolation is physical — only one IP pool and one client context are present.</code><br><br>
+                <code>   Client-facing wired hosts are onboarded into the same VLAN-based VN to complete E2E connectivity testing.</code><br>
+                <code>⚠️ Key Design Characteristic:</code><br>
+                <code>   The L2 handoff path connects the dedicated firewall to the Border node through a single VLAN (e.g., VLAN 100). Traffic isolation is physical — only one IP pool and one client context are present.</code><br><br>
                 <code>⚠️ Difference from Shared Firewall Variant:</code><br>
                 <code>   Unlike the shared firewall scenario (where multiple VLANs are trunked to the Border for different clients),this setup uses a single VLAN mapped to one specific service context. Logical isolation is not needed, as traffic is already physically segregated.</code><br><br>
                 <code>💡 Use Case Example:</code><br>
@@ -306,31 +306,24 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_shared_firewall.yml'>dayn_C2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric,<br>
-                utilizing a shared firewall to support multiple client contexts. VPN tunnels terminate at the firewall,<br>
-                and client traffic enters the SDA fabric through dedicated Layer 2 VLANs mapped to different services.<br><br>
-                #Step1: Fabric Site Creation<br>
-                The site is promoted to a fabric site in DNAC to support SDA configurations.<br>
-                #Step2: L2 Virtual Network (VLAN) Creation<br>
-                Multiple VLANs are created and extended from the shared firewall to the Border node,<br>
-                enabling logical segmentation across different clients or services.<br>
-                #Step3: Device Role Assignment<br>
-                Fabric devices such as Border and Edge nodes are assigned roles to ensure correct<br>
-                traffic handling for each VLAN/VRF pair.<br>
-                #Step4: Wired Host Onboarding<br>
-                Local hosts (e.g., service endpoints or agent systems) are connected to corresponding VLANs<br>
-                and validated for end-to-end VPN reachability.<br><br>
-                Key Design Characteristic:<br>
-                Each VLAN from the shared firewall corresponds to a logically isolated context<br>
-                (e.g., VRF-A for Client A, VRF-B for Client B), enabling scalable multi-tenant support.<br><br>
-                ⚠️Difference from Dedicated Firewall Variant:<br>
-                In contrast to the dedicated model (with one VLAN and one client per firewall),<br>
-                this setup allows multiple clients to share infrastructure without compromising logical isolation.<br><br>
-                Use Case Example:<br>
-                An ITES provider supporting multiple clients (e.g., telecom, healthcare, banking)<br>
-                can terminate all remote user VPNs on a single shared firewall and segregate their traffic<br>
-                using separate VLANs and VRFs into the SDA fabric.
-                </code></td>
+                <td>
+                <code>- This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric, utilizing a shared firewall to support multiple client contexts. VPN tunnels terminate at the firewall, and client traffic enters the SDA fabric through dedicated Layer 2 VLANs mapped to different services.<br>
+                <code>- Key Steps:</code><br>
+                <code>  #Step1: Fabric Site Creation</code><br>
+                <code>  The site is promoted to a fabric site in DNAC to support SDA configurations.</code><br>
+                <code>  #Step2: L2 Virtual Network (VLAN) Creation</code><br>
+                <code>  Multiple VLANs are created and extended from the shared firewall to the Border node, enabling logical segmentation across different clients or services.</code><br>
+                <code>  #Step3: Device Role Assignment</code><br>
+                <code>  Fabric devices such as Border and Edge nodes are assigned roles to ensure correct traffic handling for each VLAN/VRF pair.</code><br>
+                <code>  #Step4: Wired Host Onboarding</code><br>
+                <code>  Local hosts (e.g., service endpoints or agent systems) are connected to corresponding VLANs and validated for end-to-end VPN reachability.</code><br><br>
+                <code>⚠️ Key Design Characteristic:</code><br>
+                <code>  Each VLAN from the shared firewall corresponds to a logically isolated context (e.g., VRF-A for Client A, VRF-B for Client B), enabling scalable multi-tenant support.</code><br><br>
+                <code>⚠️ Difference from Dedicated Firewall Variant:</code><br>
+                <code>  In contrast to the dedicated model (with one VLAN and one client per firewall), this setup allows multiple clients to share infrastructure without compromising logical isolation.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
+                <code>  An ITES provider supporting multiple clients (e.g., telecom, healthcare, banking) can terminate all remote user VPNs on a single shared firewall and segregate their traffic using separate VLANs and VRFs into the SDA fabric. </code>
+                </td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_inside_&_dedicated_firewall.yml'>dayn_S2S_gateway_inside_&<br>_dedicated_firewall.yml</a></b></td>
