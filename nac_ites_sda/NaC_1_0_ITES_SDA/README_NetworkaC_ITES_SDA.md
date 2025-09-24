@@ -366,97 +366,80 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_dedicated_firewall.yml'>dayn_S2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
                 <td>
                 <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a dedicated firewall placed outside the fabric. The decrypted traffic is handed off to the SDA fabric via L2 VLANs extendingto the Border node. This setup is ideal for ITES clients needing high security and full tunnel isolation.</code><br>
+                <code>- Key Steps:</code><br>
                 <code>  #Step1: Fabric Site Creation</code><br>
-                <code>  A fabric site is created to onboard all relevant devices, allowing internal forwarding of post-VPN traffic from the dedicated firewall into the enterprise domain.</code><br>
+                <code>   A fabric site is created to onboard all relevant devices, allowing internal forwarding of post-VPN traffic from the dedicated firewall into the enterprise domain.</code><br>
                 <code>  #Step2: L2 Virtual Network Creation</code><br>
-                <code>  A dedicated L2 VN is provisioned to carry S2S traffic into the fabric. Each S2S tunnel is linked to a specific VLAN that terminates at the fabric Border device.</code><br>
+                <code>   A dedicated L2 VN is provisioned to carry S2S traffic into the fabric. Each S2S tunnel is linked to a specific VLAN that terminates at the fabric Border device.</code><br>
                 <code>  #Step3: Device Role Assignment</code><br>
-                <code>  Devices are assigned roles (edge, border, control) to facilitate the traffic path from the VPN endpoint through to the target application segment inside the fabric.</code><br>
+                <code>   Devices are assigned roles (edge, border, control) to facilitate the traffic path from the VPN endpoint through to the target application segment inside the fabric.</code><br>
                 <code>  #Step4: Wired Host Onboarding</code><br>
-                <code>  Target enterprise services (e.g., CRMs, call routing platforms, data warehouses) are onboarded to validate end-to-end reachability for the specific remote site.</code><br><br>
-                <code>  ⚠️Key Design Note:</code><br>
-                <code>  The S2S VPN tunnel terminates at the external dedicated firewall. Post decryption, the data is handed off into the fabric through a dedicated VLAN.</code><br><br>
-                <code>  Use Case Example:</code><br>
+                <code>   Target enterprise services (e.g., CRMs, call routing platforms, data warehouses) are onboarded to validate end-to-end reachability for the specific remote site.</code><br><br>
+                <code>⚠️ Key Design Note:</code><br>
+                <code>   The S2S VPN tunnel terminates at the external dedicated firewall. Post decryption, the data is handed off into the fabric through a dedicated VLAN.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
                 <code>  An ITES provider running support for a financial client may set up a dedicated firewall and VLAN (e.g., VLAN 300) for secure S2S communication from the bank’s branch network into the hosted back-office CRM application, ensuring full tunnel isolation.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_shared_firewall.yml'>dayn_S2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a shared firewall<br>
-                located outside the SDA fabric. Multiple branch tunnels terminate on a single firewall, and their traffic<br>
-                is logically separated using different VLANs and VRFs before entering the fabric.<br><br>
-                #Step1: Fabric Site Creation<br>
-                A fabric site is created to provide LAN-level handoff from the external firewall. This allows routed<br>
-                or bridged traffic from all connected branches to flow toward enterprise services inside the SDA domain.<br>
-                #Step2: Multiple L2 VNs Creation<br>
-                Each remote branch is assigned a unique VLAN and associated L2 virtual network. These VLANs are trunked<br>
-                from the firewall to the Border node, maintaining logical separation via VRFs or access policies.<br>
-                #Step3: Device Role Assignment<br>
-                Border and edge roles are mapped to SDA devices to direct incoming S2S branch traffic through the correct<br>
-                pathways and policy domains inside the ITES fabric.<br>
-                #Step4: Wired Host Onboarding<br>
-                Onboarding ensures that internal services, like backend process servers or reporting tools, are reachable<br>
-                by the correct VRF-mapped VLAN associated with each remote branch site.<br><br>
-                ⚠️Key Design Note:<br>
-                Tunnels from multiple sites (e.g., different client branches) land on a shared firewall.<br>
-                Each decrypted flow is forwarded over its respective VLAN, which maps to an internal VRF.<br><br>
-                Use Case Example:<br>
-                An ITES firm serving multiple clients across regions connects their branch routers to a shared VPN<br>
-                termination firewall in the main data center. VLAN 300 (Client-A), VLAN 301 (Client-B), etc., are<br>
-                extended to the Border node to segregate traffic while optimizing infrastructure reuse.</code></td>
+                <td>
+                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a shared firewall located outside the SDA fabric. Multiple branch tunnels terminate on a single firewall, and their traffic is logically separated using different VLANs and VRFs before entering the fabric.</code><br><br>
+                <code>- Key Steps:</code><br>
+                <code>  #Step1: Fabric Site Creation</code><br>
+                <code>   A fabric site is created to provide LAN-level handoff from the external firewall. This allows routed or bridged traffic from all connected branches to flow toward enterprise services inside the SDA domain.</code><br>
+                <code>  #Step2: Multiple L2 VNs Creation</code><br>
+                <code>   Each remote branch is assigned a unique VLAN and associated L2 virtual network. These VLANs are trunked from the firewall to the Border node, maintaining logical separation via VRFs or access policies.</code><br>
+                <code>  #Step3: Device Role Assignment</code><br>
+                <code>   Border and edge roles are mapped to SDA devices to direct incoming S2S branch traffic through the correct pathways and policy domains inside the ITES fabric.</code><br>
+                <code>  #Step4: Wired Host Onboarding</code><br>
+                <code>   Onboarding ensures that internal services, like backend process servers or reporting tools, are reachable by the correct VRF-mapped VLAN associated with each remote branch site.</code><br><br>
+                <code>⚠️ Key Design Note:</code><br>
+                <code>   Tunnels from multiple sites (e.g., different client branches) land on a shared firewall.</code><br>
+                <code>   Each decrypted flow is forwarded over its respective VLAN, which maps to an internal VRF.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
+                <code>   An ITES firm serving multiple clients across regions connects their branch routers to a shared VPN termination firewall in the main data center. VLAN 300 (Client-A), VLAN 301 (Client-B), etc., are extended to the Border node to segregate traffic while optimizing infrastructure reuse.</code>
+                </td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_site_to_site_roaming_VN.yml'>dayn_site_to_site_<br>roaming_VN.yml</a></b></td>
-                <td><code>-  This Day-N use case enables Site-to-Site (S2S) roaming by provisioning a location-agnostic L3 VN,<br>
-                allowing ODC users in ITES to operate securely from any site while enforcing strict access boundaries.<br><br>
-                #Step1: IP Pool Reservation<br>
-                A dedicated subnet is reserved for roaming ODC users. This IP pool will be mapped to the roaming VN<br>
-                and advertised only at remote sites (excluding the home site).<br>
-                #Step2: L3 VN and Anycast Gateway Setup<br>
-                The roaming VN is created and deployed with Anycast Gateway across all participating ITES sites except<br>
-                the home site. This provides users seamless connectivity from any remote location.<br>
-                #Step3: Device Role Assignment<br>
-                Fabric devices (Border/Edge) are configured at remote sites to onboard ODC users into the roaming VN.<br>
-                The traffic is identified and routed toward the home site using SGT-based Policy-Based Routing (PBR).<br><br>
-                ⚠️Key Design Note:<br>
-                Roaming traffic exits through the home site's dedicated firewall, ensuring centralized security control.<br>
-                ISE is integrated for identity-based access enforcement. Segmentation is applied using Macro (VN) or<br>
-                Micro (SGT) methods to isolate different ODC environments and prevent inter-client access.<br><br>
-                Use Case Example:<br>
-                An ITES employee who normally works from the Chennai ODC can now log in from the Coimbatore site.<br>
-                The roaming VN automatically classifies and forwards their traffic to Chennai's firewall via a secure<br>
-                S2S tunnel, giving them access only to Chennai's ODC applications — maintaining security and compliance.<br><br>
-                Tech Tip:<br>
-                Roaming VNs allow consistent and secure access regardless of user location. They're vital for Return-To-Office<br>
-                (RTO) strategies and distributed ODC models within the ITES sector.</code></td>
+                <td>
+                <code>- This Day-N use case enables Site-to-Site (S2S) roaming by provisioning a location-agnostic L3 VN, allowing ODC users in ITES to operate securely from any site while enforcing strict access boundaries.</code><br><br>
+                <code>- Key Steps:</code><br>
+                <code> #Step1: IP Pool Reservation</code><br>
+                <code> A dedicated subnet is reserved for roaming ODC users. This IP pool will be mapped to the roaming VN and advertised only at remote sites (excluding the home site).</code><br>
+                <code> #Step2: L3 VN and Anycast Gateway Setup</code><br>
+                <code> The roaming VN is created and deployed with Anycast Gateway across all participating ITES sites except the home site. This provides users seamless connectivity from any remote location.</code><br>
+                <code> #Step3: Device Role Assignment</code><br>
+                <code> Fabric devices (Border/Edge) are configured at remote sites to onboard ODC users into the roaming VN. The traffic is identified and routed toward the home site using SGT-based Policy-Based Routing (PBR).</code><br><br>
+                <code>⚠️ Key Design Note:</code><br>
+                <code>    Roaming traffic exits through the home site's dedicated firewall, ensuring centralized security control. ISE is integrated for identity-based access enforcement. Segmentation is applied using Macro (VN) or Micro (SGT) methods to isolate different ODC environments and prevent inter-client access.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
+                <code>   An ITES employee who normally works from the Chennai ODC can now log in from the Coimbatore site. The roaming VN automatically classifies and forwards their traffic to Chennai's firewall via a secure</code><br>
+                S2S tunnel, giving them access only to Chennai's ODC applications — maintaining security and compliance.</code><br><br>
+                <code>💡 Tech Tip:</code><br>
+                <code>   Roaming VNs allow consistent and secure access regardless of user location. They're vital for Return-To-Office (RTO) strategies and distributed ODC models within the ITES sector.</code>
+                </td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_restricted_ODC.yml'>dayn_S2S_restricted_ODC.yml</a></b></td>
-                <td><code>-  This Day-N use case provisions a Site-to-Site (S2S) ODC with a dedicated firewall acting<br>
-                as a gateway and directly connected to the fabric edge, ensuring tight traffic control<br>
+                <td>
+                <code>- This Day-N use case provisions a Site-to-Site (S2S) ODC with a dedicated firewall acting as a gateway and directly connected to the fabric edge, ensuring tight traffic control<br>
                 and isolation within the ITES environment.<br><br>
-                #Step1: Fabric Site Creation<br>
-                A new fabric site (zone) is created using Cisco Catalyst Center to enable SD-Access<br>
-                provisioning. This includes zoning and edge/border role designation.<br>
-                #Step2: L2 VN Creation<br>
-                A Layer 2 Virtual Network is created and added to the site. This VN will carry ODC user<br>
-                traffic and enable VLAN-based segregation.<br>
-                #Step3: Device Role Assignment<br>
-                Edge nodes are assigned device roles. The ODC firewall is connected to the edge node on a<br>
-                trunk port, ensuring it can handle all tagged VLAN traffic from multiple ODC systems.<br>
-                #Step4: Wired Host Onboarding<br>
-                ODC systems and users are onboarded through the configured edge nodes. Firewall policies<br>
-                enforce access control and traffic logging for audit/compliance.<br><br>
-                ⚠️Key Design Note:<br>
-                The dedicated firewall is not upstream but directly part of the fabric zone. It acts as<br>
-                the default gateway for the ODC. VPNs are used for S2S connectivity with the home site or<br>
-                external network. Segmentation is applied using Macro (VN) or Micro (SGT) techniques.<br><br>
-                Use Case Example:<br>
-                An ITES ODC in Karnataka is onboarded into SD-Access. All client systems connect to a Layer 2<br>
-                VN terminating at a dedicated firewall connected to the edge. This firewall acts as both the<br>
-                default gateway and VPN terminator, offering site-to-site secure communication.<br><br>
-                Security Advantage:<br>
-                Since traffic doesn't leave the fabric for policy enforcement, latency is reduced and audit<br>
-                visibility is improved. Each ODC remains isolated at the edge itself.</code></td>
+                <code>- Key Steps:</code><br>
+                <code> #Step1: Fabric Site Creation</code><br>
+                <code> A new fabric site (zone) is created using Cisco Catalyst Center to enable SD-Access provisioning. This includes zoning and edge/border role designation.</code><br>
+                <code> #Step2: L2 VN Creation</code><br>
+                <code> A Layer 2 Virtual Network is created and added to the site. This VN will carry ODC user traffic and enable VLAN-based segregation.</code><br>
+                <code> #Step3: Device Role Assignment</code><br>
+                <code> Edge nodes are assigned device roles. The ODC firewall is connected to the edge node on a trunk port, ensuring it can handle all tagged VLAN traffic from multiple ODC systems.</code><br>
+                <code> #Step4: Wired Host Onboarding</code><br>
+                <code> ODC systems and users are onboarded through the configured edge nodes. Firewall policies enforce access control and traffic logging for audit/compliance.</code><br><br>
+                <code>⚠️ Key Design Note:</code><br>
+                <code>  The dedicated firewall is not upstream but directly part of the fabric zone. It acts as the default gateway for the ODC. VPNs are used for S2S connectivity with the home site or external network. Segmentation is applied using Macro (VN) or Micro (SGT) techniques.</code><br><br>
+                <code>💡 Use Case Example:</code><br>
+                <code>   An ITES ODC in Karnataka is onboarded into SD-Access. All client systems connect to a Layer 2 VN terminating at a dedicated firewall connected to the edge. This firewall acts as both the default gateway and VPN terminator, offering site-to-site secure communication.</code><br><br>
+                <code>⚠️ Security Advantage:</code><br>
+                <code>   Since traffic doesn't leave the fabric for policy enforcement, latency is reduced and audit visibility is improved. Each ODC remains isolated at the edge itself.</code></td>
 			</tr>
 			</table>
 		</blockquote>
