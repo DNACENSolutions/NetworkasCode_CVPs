@@ -597,53 +597,62 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 							<table>
                             <tr>
                                 <td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_network_settings.yml'>day0_ip_pool.yml</a></b></td>
-                                <td><code>-  This files contains configurations required to design and reserve the IP Pools for the site.</code></td>
-                                <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>Network_settings_playbook</a></code></td>
+                                <td>
+                                <code>- This files contains configurations required to design and reserve the IP Pools for the site.</code><br>
+                                <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>Network_settings_playbook</a></code></td>
                             </tr>
                             <tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_device_discovery.yml'>day1_device_discovery.yml</a></b></td>
-								<td><code>-  This files contains configurations required to discover your network  devices and add them to the inventory.</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_discovery/README.md'>Device_discovery_playbook</a></code></td>
+								<td>
+                                <code>- This files contains configurations required to discover your network  devices and add them to the inventory.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_discovery/README.md'>Device_discovery_playbook</a></code></td>
 							</tr>
                             <tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_device_provision.yml'>day1_device_provision.yml</a></b></td>
-								<td><code>-  This files contains configurations required to provision your network  devices.</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>Device_provision_playbook</a></code></td>
+								<td>
+                                <code>- This files contains configurations required to provision your network  devices.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/provision/README.md'>Device_provision_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_fabric_site.yml'>day1_new_site_sda_fabric_site.yml</a></b></td>
-								<td><code>-  Creating Fabric Site and Zones.</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>SDA_fabric_sites_zones_playbook</a></code></td>
+								<td>
+                                <code>- Creating Fabric Site and Zones.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_sites_zones/README.md'>SDA_fabric_sites_zones_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_l2l3_VN.yml'>day1_new_site_sda_l2l3_VN.yml</a></b></td>
-								<td><code>-  This files contains configurations required to assign VNs (virtual networks), L2 gateways and L3 gateways to Fabric sites.</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a></code></td>
+								<td>
+                                <code>- This files contains configurations required to assign VNs (virtual networks), L2 gateways and L3 gateways to Fabric sites.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_transits.yml'>day1_new_site_sda_transits.yml</a></b></td>
-								<td><code>-  This files contains configurations required to create Fabric Transits.</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>SDA_fabric transits_playbook</a></code></td>
+								<td>
+                                <code>- This files contains configurations required to create Fabric Transits.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_transits/README.md'>SDA_fabric transits_playbook</a></code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/day1_new_site_sda_device_role.yml'>day1_new_site_sda_device_role.yml</a></b></td>
-								<td><code>-  This files contains configurations required for creating L3/L2 handoffs and assigning device roles.</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a></code></td>
+								<td>
+                                <code>- This files contains configurations required for creating L3/L2 handoffs and assigning device roles.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a></code></td>
 							</tr>
                             <tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_FV_network_devices_secondary_site_images_activation.yml'>dayn_FV_network_devices<br>_secondary_site_images<br>_activation.yml</a></b></td>
-								<td><code>-  This files contains configurations required for activation of images on the devices.</code></td>
-								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
+								<td>
+                                <code>- This files contains configurations required for activation of images on the devices.</code><br>
+								<code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 							</tr>
                             <tr>
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Tamil_Nadu/dayn_C2S_gateway_inside_%26_dedicated_firewall'>dayn_C2S_gateway_inside_&<br>_dedicated_firewall</a></b></td>
-								<td><code>-  This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall<br>
-                                <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttoSiteODCwithasharedfirewallandanycastgateway'> Refer here for more info on the usecase</a></code></td>
-								<td><code>-  Related Playbooks<br>
-                                <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a><br>
-                                <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a><br>
-                                <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>SDA_host_onboarding_playbook</a><br>
-                                <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>IP_pool_creation_playbook</a>
+								<td>
+                                <code>- This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall</code><br>
+                                <code><a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttoSiteODCwithasharedfirewallandanycastgateway'> Refer here for more info on the usecase</a></code><br>
+								<code>-  Related Playbooks</code><br>
+                                <code><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a></code><br>
+                                <code><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a></code><br>
+                                <code><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>SDA_host_onboarding_playbook</a></code><br>
+                                <code><a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>IP_pool_creation_playbook</a>
                                 </code></td>
 							</tr>
                             <tr>
