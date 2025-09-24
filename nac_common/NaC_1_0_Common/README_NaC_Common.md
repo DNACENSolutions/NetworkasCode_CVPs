@@ -1,5 +1,5 @@
 <p align="center">
-	<em><code>-  Catalyst Center Network as Code With  Ansible Playbooks User Guide for a common SD Access fabric deployment </code></em>
+	<em><code><b>Catalyst Center Network as Code With  Ansible Playbooks User Guide for a common SD Access fabric deployment <b></code></em>
 </p>
 <p align="center"><!-- default option, no dependency badges. -->
 </p>
