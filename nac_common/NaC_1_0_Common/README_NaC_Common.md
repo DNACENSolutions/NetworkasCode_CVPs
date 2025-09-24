@@ -1,12 +1,4 @@
-<p align="center">
-	<em><code><b>Catalyst Center Network as Code With  Ansible Playbooks User Guide for a common SD Access fabric deployment <b></code></em>
-</p>
-<p align="center"><!-- default option, no dependency badges. -->
-</p>
-<p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
-<br>
+<div align="center"><h1>Catalyst Center Network as Code with Ansible Playbooks User Guide for a common SD Access fabric deployment </h1></div>
 
 
 
