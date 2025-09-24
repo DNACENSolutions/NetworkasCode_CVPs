@@ -364,28 +364,20 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_dedicated_firewall.yml'>dayn_S2S_gateway_outside_&<br>_dedicated_firewall.yml</a></b></td>
-                <td><code>-  This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a dedicated firewall<br>
-                placed outside the fabric. The decrypted traffic is handed off to the SDA fabric via L2 VLANs extending<br>
-                to the Border node. This setup is ideal for ITES clients needing high security and full tunnel isolation.<br><br>
-                #Step1: Fabric Site Creation<br>
-                A fabric site is created to onboard all relevant devices, allowing internal forwarding of post-VPN traffic<br>
-                from the dedicated firewall into the enterprise domain.<br>
-                #Step2: L2 Virtual Network Creation<br>
-                A dedicated L2 VN is provisioned to carry S2S traffic into the fabric. Each S2S tunnel is linked to<br>
-                a specific VLAN that terminates at the fabric Border device.<br>
-                #Step3: Device Role Assignment<br>
-                Devices are assigned roles (edge, border, control) to facilitate the traffic path from the VPN endpoint<br>
-                through to the target application segment inside the fabric.<br>
-                #Step4: Wired Host Onboarding<br>
-                Target enterprise services (e.g., CRMs, call routing platforms, data warehouses) are onboarded<br>
-                to validate end-to-end reachability for the specific remote site.<br><br>
-                ⚠️Key Design Note:<br>
-                The S2S VPN tunnel terminates at the external dedicated firewall. Post decryption,<br>
-                the data is handed off into the fabric through a dedicated VLAN.<br><br>
-                Use Case Example:<br>
-                An ITES provider running support for a financial client may set up a dedicated firewall<br>
-                and VLAN (e.g., VLAN 300) for secure S2S communication from the bank’s branch network<br>
-                into the hosted back-office CRM application, ensuring full tunnel isolation.</code></td>
+                <td>
+                <code>- This Day-N use case provisions Site-to-Site (S2S) VPN connectivity through a dedicated firewall placed outside the fabric. The decrypted traffic is handed off to the SDA fabric via L2 VLANs extendingto the Border node. This setup is ideal for ITES clients needing high security and full tunnel isolation.</code><br>
+                <code>  #Step1: Fabric Site Creation</code><br>
+                <code>  A fabric site is created to onboard all relevant devices, allowing internal forwarding of post-VPN traffic from the dedicated firewall into the enterprise domain.</code><br>
+                <code>  #Step2: L2 Virtual Network Creation</code><br>
+                <code>  A dedicated L2 VN is provisioned to carry S2S traffic into the fabric. Each S2S tunnel is linked to a specific VLAN that terminates at the fabric Border device.</code><br>
+                <code>  #Step3: Device Role Assignment</code><br>
+                <code>  Devices are assigned roles (edge, border, control) to facilitate the traffic path from the VPN endpoint through to the target application segment inside the fabric.</code><br>
+                <code>  #Step4: Wired Host Onboarding</code><br>
+                <code>  Target enterprise services (e.g., CRMs, call routing platforms, data warehouses) are onboarded to validate end-to-end reachability for the specific remote site.</code><br><br>
+                <code>  ⚠️Key Design Note:</code><br>
+                <code>  The S2S VPN tunnel terminates at the external dedicated firewall. Post decryption, the data is handed off into the fabric through a dedicated VLAN.</code><br><br>
+                <code>  Use Case Example:</code><br>
+                <code>  An ITES provider running support for a financial client may set up a dedicated firewall and VLAN (e.g., VLAN 300) for secure S2S communication from the bank’s branch network into the hosted back-office CRM application, ensuring full tunnel isolation.</code></td>
 			</tr>
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_gateway_outside_&_shared_firewall.yml'>dayn_S2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
