@@ -536,7 +536,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a></code></td>
 							</tr>
                             <tr>
-								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_FV_network_devices_primary_site_images_activation.yml'>dayn_FV_network_devices_primary_site_images_activation.yml</a></b></td>
+								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_FV_network_devices_primary_site_images_activation.yml'>dayn_FV_network_devices<br>_primary_site_images<br>_activation.yml</a></b></td>
 								<td><code>-  This files contains configurations required for activation of images on the devices.</code></td>
 								<td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 							</tr>
