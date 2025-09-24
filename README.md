@@ -26,6 +26,27 @@ Each vertical README provides:
 - Project index (inputs, playbooks, cleanup)  
 - Use case orchestration maps (ordered automation steps)
 
+// ...existing code...
+## Verticals Overview
+
+| Folder | Primary Purpose | Representative Use Cases | Key Inputs / Artifacts |
+|--------|-----------------|--------------------------|------------------------|
+| `nac_common` | Shared global + site building blocks consumed by all verticals | Global hierarchy, IP pools, servers, credentials, roles/users, image tagging, cleanup orchestration | `catc_configs/`, `catc_delete_configs/`, sample inventories, role/user/image YAML |
+| `nac_healthcare_sda` | Healthcare SDA campus build with patient‑care workflow emphasis | Day0/1 fabric build, site provisioning, host onboarding, fabric VNs/zones, gateway deployment | `usecase_maps/`, healthcare topology diagram, fabric + host YAML bundles |
+| `nac_financial_sda` | Financial sector focus with operational stability & lifecycle | Image lifecycle (download→golden→activate), device (re)provision, static host onboarding, notifications | Upgrade sequencing maps, image policy YAML, provisioning inputs |
+| `nac_ites_sda` | IT / Enterprise Services generalized SDA rollout | Multi‑site fabric enablement, baseline config reuse, expansion & cleanup flows | Standardized SDA site YAML, orchestration maps, cleanup sets |
+
+### When to Use Which
+- Start in `nac_common` to align credentials, roles, image tags, global pools.
+- Pick a vertical (`healthcare`, `financial`, `ites`) matching your domain for tailored topology, sequencing, and examples.
+- Reuse and extend patterns: copy a vertical skeleton and swap its input YAML for a new domain.
+
+### Composition Model
+Global (from `nac_common`) + Vertical-Specific (from chosen folder) → Orchestrated via `usecase_maps` → Optional teardown via vertical or common cleanup sets.
+//
+
+
+
 ## Core Concepts
 - Declarative YAML input files under `catc_configs/`
 - Mapped execution flows under `usecase_maps/`
