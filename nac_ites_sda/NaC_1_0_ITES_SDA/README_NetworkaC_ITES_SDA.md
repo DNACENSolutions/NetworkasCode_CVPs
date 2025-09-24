@@ -561,10 +561,10 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 								<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_sites/Karnataka/dayn_C2S_gateway_outside_%26_shared_firewall'>dayn_C2S_gateway_outside_&<br>_shared_firewall</a></b></td>
 								<td><code>- This folder contains configurations required for bringing Client to Site ODC with gateway outside and shared firewall</code><br>
                                 <code> <a href='https://www-author3.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/catalyst-center/cisco-validated-solution-profiles/validated_profile_ites_vertical.html?wcmmode=disabled#ClienttositeODCwithasharedfirewallandgatewayoutsideofthefabric'> Refer here for more info on the usecase</a></code><br>
-								<code>- Related Playbooks 
-                                <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a><br>
-                                <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a><br>
-                                <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>SDA_host_onboarding_playbook</a>
+								<code>- Related Playbooks </code><br>
+                                <code> <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_fabric_device_roles/README.md'>SDA_fabric_device_roles_playbook</a></code><br>
+                                <code> <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_virtual_networks_l2l3_gateways/README.md'>SDA_virtual_networks_l2_l3_gateways_playbook</a></code><br>
+                               <code> <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/sda_hostonboarding/README.md'>SDA_host_onboarding_playbook</a>
                                 </code></td>
 							</tr>
                             <tr>
