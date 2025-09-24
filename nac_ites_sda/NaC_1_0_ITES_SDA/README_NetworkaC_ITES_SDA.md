@@ -307,7 +307,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_C2S_gateway_outside_&_shared_firewall.yml'>dayn_C2S_gateway_outside_&<br>_shared_firewall.yml</a></b></td>
                 <td>
-                <code>- This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric, utilizing a shared firewall to support multiple client contexts. VPN tunnels terminate at the firewall, and client traffic enters the SDA fabric through dedicated Layer 2 VLANs mapped to different services.<br>
+                <code>- This Day-N use case enables Client-to-Site (C2S) VPN access via a gateway located outside the fabric, utilizing a shared firewall to support multiple client contexts. VPN tunnels terminate at the firewall, and client traffic enters the SDA fabric through dedicated Layer 2 VLANs mapped to different services.</code><br>
                 <code>- Key Steps:</code><br>
                 <code>  #Step1: Fabric Site Creation</code><br>
                 <code>  The site is promoted to a fabric site in DNAC to support SDA configurations.</code><br>
