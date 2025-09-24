@@ -452,33 +452,39 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
 					<table>
                     <tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/catc_and_ise_integration.yml'>catc_and_ise_integration.yml</a></b></td>
-						<td><code>-  Integrate Catalyst Center with ISE for Radius Authentication, and Add AAA Servers</code></td>
-                        <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>ise_radius_integration_playbook</a></code></td>
+						<td>
+                        <code>- Integrate Catalyst Center with ISE for Radius Authentication, and Add AAA Servers</code>
+                        <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/ise_radius_integration/README.md'>ise_radius_integration_playbook</a></code></td>
 					</tr>
                     <tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_site_creation.yml'>day0_site_creation.yml</a></b></td>
-						<td><code>-  Creating Sites which includes areas, buildings and floors with floor images.</code></td>
-                        <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchy/README.md'>Network_design_site_hierarchy_playbook</a></code></td>
+						<td>
+                        <code>- Creating Sites which includes areas, buildings and floors with floor images.</code>
+                        <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/site_hierarchy/README.md'>Network_design_site_hierarchy_playbook</a></code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_network_settings.yml'>day0_network_settings.yml</a></b></td>
-						<td><code>-  These configurations are network setting for Servers like AAA, NTP etc and also telemetry configuration to be configuration at global level.</code></td>
-                        <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>Network_settings_playbook</a></code></td>
+						<td>
+                        <code>- These configurations are network setting for Servers like AAA, NTP etc and also telemetry configuration to be configuration at global level.</code>
+                        <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>Network_settings_playbook</a></code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_device_credentials.yml'>day0_device_credentials.yml</a></b></td>
-						<td><code>-  Create global device credentials can be used across sites</code></td>
-                        <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>Device_credentials_playbook</a></code></td>
+						<td>
+                        <code>- Create global device credentials can be used across sites</code>
+                        <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/device_credentials/README.md'>Device_credentials_playbook</a></code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/day0_ip_pool.yml'>day0_ip_pool.yml</a></b></td>
-						<td><code>-  Add  Network Settings Global IP Pools</code></td>
-                        <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>IP_pool_reservation_playbook</a></code></td>
+						<td>
+                        <code>- Add  Network Settings Global IP Pools</code>
+                        <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/network_settings/README.md'>IP_pool_reservation_playbook</a></code></td>
 					</tr>
                     <tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/catc_configs/ites_global/dayn_FV_network_devices_CCO_download_tag_golden_images_distribution.yml'>dayn_FV_network_devices<br>_CCO_download_tag_golden<br>_images_distribution.yml</a></b></td>
-						<td><code>-  SWIM Upgrade the devices on sites - Tagging Golden Images</code></td>
-                        <td><code>-  Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
+						<td>
+                        <code>- SWIM Upgrade the devices on sites - Tagging Golden Images</code>
+                        <code>- Related Playbook <a href='https://github.com/cisco-en-programmability/catalyst-center-ansible-iac/blob/main/workflows/swim/README.md'>Software_image_management_playbook</a></code></td>
 					</tr>
 					</table>
 				</blockquote>
