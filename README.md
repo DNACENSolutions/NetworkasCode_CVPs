@@ -13,12 +13,12 @@ NetworkasCode_CVPs/
 ```
 
 ## Verticals Overview
-| Folder | Focus | Key Artifacts |
-|--------|-------|---------------|
-| nac_common | Baseline/global config inputs (images, credentials, roles, IP pools), shared cleanup, host inventory patterns | `catc_configs/`, `catc_delete_configs/`, reference samples |
-| nac_healthcare_sda | End-to-end SDA campus build & operations (day‑0/1/2), host onboarding, fabric provisioning | `usecase_maps/`, healthcare topology, staged automation flows |
-| nac_financial_sda | Image lifecycle (download/tag/distribute/activate), fabric device (re)provisioning, static hosts, notifications | Upgrade sequencing, multi‑site patterns |
-| nac_ites_sda | (Similar pattern) SDA fabric rollout & operational tasks for ITES vertical | Standardized YAML inputs & playbook orchestration |
+| Folder | Focus | Representative Use Cases |
+|--------|-------|--------------------------|
+| nac_common | Baseline global + site building blocks consumable by all verticals | Global hierarchy, IP pools, servers, credentials, roles/users, image tagging, cleanup orchestration |
+| nac_healthcare_sda | Healthcare End-to-end SDA campus build and operations with patient‑care workflow emphasis| Day0/1 fabric build, site provisioning, host onboarding, fabric VNs/zones, gateway deployment |
+| nac_financial_sda | Financial sector focus with operational stability & lifecycle | Image lifecycle (download→golden→activate), Upgrade sequencing, multi‑site patterns,device (re)provision, static host onboarding, notificationsi|
+| nac_ites_sda | IT-Enabled Services SDA rollout and opertaion tasks | Multi‑site fabric enablement, baseline config reuse, expansion & cleanup flows|
 
 Each vertical README provides:  
 - Topology diagram  
@@ -26,25 +26,10 @@ Each vertical README provides:
 - Project index (inputs, playbooks, cleanup)  
 - Use case orchestration maps (ordered automation steps)
 
-// ...existing code...
-## Verticals Overview
-
-| Folder | Primary Purpose | Representative Use Cases | Key Inputs / Artifacts |
-|--------|-----------------|--------------------------|------------------------|
-| `nac_common` | Shared global + site building blocks consumed by all verticals | Global hierarchy, IP pools, servers, credentials, roles/users, image tagging, cleanup orchestration | `catc_configs/`, `catc_delete_configs/`, sample inventories, role/user/image YAML |
-| `nac_healthcare_sda` | Healthcare SDA campus build with patient‑care workflow emphasis | Day0/1 fabric build, site provisioning, host onboarding, fabric VNs/zones, gateway deployment | `usecase_maps/`, healthcare topology diagram, fabric + host YAML bundles |
-| `nac_financial_sda` | Financial sector focus with operational stability & lifecycle | Image lifecycle (download→golden→activate), device (re)provision, static host onboarding, notifications | Upgrade sequencing maps, image policy YAML, provisioning inputs |
-| `nac_ites_sda` | IT / Enterprise Services generalized SDA rollout | Multi‑site fabric enablement, baseline config reuse, expansion & cleanup flows | Standardized SDA site YAML, orchestration maps, cleanup sets |
-
 ### When to Use Which
 - Start in `nac_common` to align credentials, roles, image tags, global pools.
 - Pick a vertical (`healthcare`, `financial`, `ites`) matching your domain for tailored topology, sequencing, and examples.
 - Reuse and extend patterns: copy a vertical skeleton and swap its input YAML for a new domain.
-
-### Composition Model
-Global (from `nac_common`) + Vertical-Specific (from chosen folder) → Orchestrated via `usecase_maps` → Optional teardown via vertical or common cleanup sets.
-//
-
 
 
 ## Core Concepts
