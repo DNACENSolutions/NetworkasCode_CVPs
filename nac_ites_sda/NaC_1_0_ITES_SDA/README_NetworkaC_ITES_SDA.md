@@ -717,25 +717,26 @@ The following matrix shows the supported and verified version combinations for t
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs.git/blob/master/ansible_inventory/catalystcenter_inventory_10.195.243.53/hosts.yml'>hosts.yml</a></b></td>
-						<td><code>-  This is a sample Host file to be created for your Catalyst Center to be able to run the existing playbooks.
-						Sample Inventory file
-							---
-							catalyst_center_hosts:
-								hosts:
-									give_any_hostname:
-										dnac_password: Catalyst Center Credentials password
-										dnac_host: Catalyst Center Host IP address Reachable fron ansible server.
-										dnac_port: 443
-										dnac_timeout: 60
-										dnac_username: Catalyst Center Credentials username
-										dnac_verify: false
-										dnac_version: Catalyst Center Release. (i.e. 2.3.7.6)
-										dnac_debug: true
-										dnac_log_level: DEBUG
-										dnac_log: true
-										dnac_log_append: false
-										dnac_log_file_path: log file location i.e.catc_logs
-						</code></td>
+                        <td>
+						<code>- This is a sample Host file to be created for your Catalyst Center to be able to run the existing playbooks.</code><br>
+						<code> ✏️ Sample Inventory file </code><br>
+						<code>catalyst_center_hosts:</code><br>
+						<code>&emsp; hosts:</code><br>
+						<code>&emsp; &emsp; any_hostname:</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_password: Catalyst Center Credentials password</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_host: Catalyst Center Host IP address Reachable fron ansible server</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_port: 443</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_timeout: 60</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_api_task_timeout: 1200</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_username: Catalyst Center Credentials username</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_version: Catalyst Center Release. (i.e. 2.3.7.9)</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_verify: false</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_debug: true</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log_level: DEBUG</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log: true</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log_append: true</code><br>
+						<code>&emsp; &emsp; &emsp; catalyst_center_log_file_path: log file location. (i.e.catc_logs)</code>
+						</td>
 					</tr>
 					</table>
 				</blockquote>
