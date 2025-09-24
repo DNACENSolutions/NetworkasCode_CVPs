@@ -423,7 +423,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
             <tr>
 				<td><b><a href='https://github.com/DNACENSolutions/NetworkasCode_CVPs/tree/main/nac_ites_sda/NaC_1_0_ITES_SDA/usecase_maps/dayn_S2S_restricted_ODC.yml'>dayn_S2S_restricted_ODC.yml</a></b></td>
                 <td>
-                <code>- This Day-N use case provisions a Site-to-Site (S2S) ODC with a dedicated firewall acting as a gateway and directly connected to the fabric edge, ensuring tight traffic control<br>
+                <code>- This Day-N use case provisions a Site-to-Site (S2S) ODC with a dedicated firewall acting as a gateway and directly connected to the fabric edge, ensuring tight traffic control</code><br>
                 and isolation within the ITES environment.<br><br>
                 <code>- Key Steps:</code><br>
                 <code> #Step1: Fabric Site Creation</code><br>
@@ -438,7 +438,7 @@ This GitHub project provides a comprehensive Ansible automatioin framework for n
                 <code>  The dedicated firewall is not upstream but directly part of the fabric zone. It acts as the default gateway for the ODC. VPNs are used for S2S connectivity with the home site or external network. Segmentation is applied using Macro (VN) or Micro (SGT) techniques.</code><br><br>
                 <code>💡 Use Case Example:</code><br>
                 <code>   An ITES ODC in Karnataka is onboarded into SD-Access. All client systems connect to a Layer 2 VN terminating at a dedicated firewall connected to the edge. This firewall acts as both the default gateway and VPN terminator, offering site-to-site secure communication.</code><br><br>
-                <code>⚠️ Security Advantage:</code><br>
+                <code>💡 Security Advantage:</code><br>
                 <code>   Since traffic doesn't leave the fabric for policy enforcement, latency is reduced and audit visibility is improved. Each ODC remains isolated at the edge itself.</code></td>
 			</tr>
 			</table>
