@@ -1,4 +1,3 @@
-# Catalyst Center Network as Code (NaC) – Cisco Validated Vertical(CVP) Automation
 # Network as Code (NaC) for Catalyst Center - Cisco Validated Multi-Vertical Automation 
 
 High-level Network as Code (NaC) framework for automating Cisco Catalyst Center (CatC) workflows using Ansible across multiple vertical solution packs.
